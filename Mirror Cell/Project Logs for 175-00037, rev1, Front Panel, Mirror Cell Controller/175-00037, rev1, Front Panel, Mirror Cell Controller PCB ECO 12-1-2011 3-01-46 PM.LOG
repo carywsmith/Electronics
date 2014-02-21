@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SPD_FANA1 Pin=P1-1
+Removed Pin From Net: NetName=SPD_FANA8 Pin=P1-3
+Added Pin To Net: NetName=SPD_FANA8 Pin=P1-1
+Added Pin To Net: NetName=SPD_FANA1 Pin=P1-3

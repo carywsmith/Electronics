@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00037, rev2, Front Panel, Mirror Cell Controller .PcbDoc   3/26/2012  3:38:22 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : 175-00037, rev2, Front Panel, Mirror Cell Controller -Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          16               0.90 Inch (22.74 mm)
+T2        28mil (0.7112mm)         Round          4                1.60 Inch (40.75 mm)
+T3        35mil (0.889mm)          Round          40               8.12 Inch (206.36 mm)
+T4        47mil (1.1938mm)         Round          88               8.97 Inch (227.94 mm)
+T5        70mil (1.778mm)          Round          3                0.31 Inch (7.92 mm)
+T6        122mil (3.0988mm)        Round          4                4.93 Inch (125.10 mm)
+---------------------------------------------------------------------------
+Totals                                            155              24.84 Inch (630.82 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -1,0 +1,169 @@
+Added Component: Designator=J1(CONN DB44 HD FEM SOCKETS PCB)
+Added Component: Designator=J2(CONN DB44 HD MALE PINS PCB)
+Added Component: Designator=P1(HDR1X8 for IDC)
+Added Component: Designator=P2(HDR1X12 for IDC)
+Added Component: Designator=P3(HDR 1X3 0.156")
+Added Component: Designator=P4(HDR1X8 for IDC)
+Added Component: Designator=P5(HDR1X8 for IDC)
+Added Component: Designator=R1(SMD_0805)
+Added Component: Designator=R2(SMD_0805)
+Added Component: Designator=R3(SMD_0805)
+Added Component: Designator=R4(SMD_0805)
+Added Component: Designator=R5(SMD_0805)
+Added Pin To Net: NetName=+24V Pin=J1-1
+Added Pin To Net: NetName=+24V Pin=J1-2
+Added Pin To Net: NetName=+24V Pin=J1-16
+Added Pin To Net: NetName=+24V Pin=J1-17
+Added Pin To Net: NetName=+24V Pin=J1-31
+Added Pin To Net: NetName=+24V Pin=J1-32
+Added Pin To Net: NetName=+24V Pin=J1-33
+Added Pin To Net: NetName=+24V Pin=J1-34
+Added Pin To Net: NetName=+24V Pin=J1-35
+Added Pin To Net: NetName=+24V Pin=J1-36
+Added Pin To Net: NetName=+24V Pin=J1-37
+Added Pin To Net: NetName=+24V Pin=J2-1
+Added Pin To Net: NetName=+24V Pin=J2-2
+Added Pin To Net: NetName=+24V Pin=J2-16
+Added Pin To Net: NetName=+24V Pin=J2-17
+Added Pin To Net: NetName=+24V Pin=J2-31
+Added Pin To Net: NetName=+24V Pin=J2-32
+Added Pin To Net: NetName=+24V Pin=J2-33
+Added Pin To Net: NetName=+24V Pin=J2-34
+Added Pin To Net: NetName=+24V Pin=J2-35
+Added Pin To Net: NetName=+24V Pin=J2-36
+Added Pin To Net: NetName=+24V Pin=J2-37
+Added Pin To Net: NetName=+24V Pin=P3-3
+Added Net: Name=+24V
+Added Pin To Net: NetName=APANEL_SENSE Pin=J2-23
+Added Pin To Net: NetName=APANEL_SENSE Pin=P5-4
+Added Net: Name=APANEL_SENSE
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=GND Pin=J1-15
+Added Pin To Net: NetName=GND Pin=J1-29
+Added Pin To Net: NetName=GND Pin=J1-30
+Added Pin To Net: NetName=GND Pin=J1-38
+Added Pin To Net: NetName=GND Pin=J1-39
+Added Pin To Net: NetName=GND Pin=J1-40
+Added Pin To Net: NetName=GND Pin=J1-41
+Added Pin To Net: NetName=GND Pin=J1-42
+Added Pin To Net: NetName=GND Pin=J1-43
+Added Pin To Net: NetName=GND Pin=J1-44
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Pin To Net: NetName=GND Pin=J2-6
+Added Pin To Net: NetName=GND Pin=J2-8
+Added Pin To Net: NetName=GND Pin=J2-10
+Added Pin To Net: NetName=GND Pin=J2-12
+Added Pin To Net: NetName=GND Pin=J2-14
+Added Pin To Net: NetName=GND Pin=J2-15
+Added Pin To Net: NetName=GND Pin=J2-19
+Added Pin To Net: NetName=GND Pin=J2-29
+Added Pin To Net: NetName=GND Pin=J2-30
+Added Pin To Net: NetName=GND Pin=J2-38
+Added Pin To Net: NetName=GND Pin=J2-44
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Net: Name=GND
+Added Pin To Net: NetName=IR0_SENSE Pin=J2-26
+Added Pin To Net: NetName=IR0_SENSE Pin=P5-1
+Added Pin To Net: NetName=IR0_SENSE Pin=R3-2
+Added Net: Name=IR0_SENSE
+Added Pin To Net: NetName=IR1_SENSE Pin=J2-27
+Added Pin To Net: NetName=IR1_SENSE Pin=P5-2
+Added Pin To Net: NetName=IR1_SENSE Pin=R4-2
+Added Net: Name=IR1_SENSE
+Added Pin To Net: NetName=IR2_SENSE Pin=J2-28
+Added Pin To Net: NetName=IR2_SENSE Pin=P5-3
+Added Pin To Net: NetName=IR2_SENSE Pin=R5-2
+Added Net: Name=IR2_SENSE
+Added Pin To Net: NetName=P0_SENSE Pin=J2-24
+Added Pin To Net: NetName=P0_SENSE Pin=P4-1
+Added Pin To Net: NetName=P0_SENSE Pin=R1-2
+Added Net: Name=P0_SENSE
+Added Pin To Net: NetName=P1_SENSE Pin=J2-25
+Added Pin To Net: NetName=P1_SENSE Pin=P4-2
+Added Pin To Net: NetName=P1_SENSE Pin=R2-2
+Added Net: Name=P1_SENSE
+Added Pin To Net: NetName=RS485_H Pin=J2-21
+Added Pin To Net: NetName=RS485_H Pin=P5-5
+Added Net: Name=RS485_H
+Added Pin To Net: NetName=RS485_L Pin=J2-22
+Added Pin To Net: NetName=RS485_L Pin=P5-6
+Added Net: Name=RS485_L
+Added Pin To Net: NetName=SPD_FAN1 Pin=J1-3
+Added Pin To Net: NetName=SPD_FAN1 Pin=J1-5
+Added Pin To Net: NetName=SPD_FAN1 Pin=J1-7
+Added Pin To Net: NetName=SPD_FAN1 Pin=J1-9
+Added Pin To Net: NetName=SPD_FAN1 Pin=P1-8
+Added Net: Name=SPD_FAN1
+Added Pin To Net: NetName=SPD_FAN2 Pin=J1-4
+Added Pin To Net: NetName=SPD_FAN2 Pin=J1-6
+Added Pin To Net: NetName=SPD_FAN2 Pin=J1-8
+Added Pin To Net: NetName=SPD_FAN2 Pin=J1-10
+Added Pin To Net: NetName=SPD_FAN2 Pin=P1-7
+Added Net: Name=SPD_FAN2
+Added Pin To Net: NetName=SPD_FANA1 Pin=J1-11
+Added Pin To Net: NetName=SPD_FANA1 Pin=P1-1
+Added Net: Name=SPD_FANA1
+Added Pin To Net: NetName=SPD_FANA4 Pin=J1-12
+Added Pin To Net: NetName=SPD_FANA4 Pin=P1-2
+Added Net: Name=SPD_FANA4
+Added Pin To Net: NetName=SPD_FANA8 Pin=J1-13
+Added Pin To Net: NetName=SPD_FANA8 Pin=P1-3
+Added Net: Name=SPD_FANA8
+Added Pin To Net: NetName=T0+ Pin=J2-3
+Added Pin To Net: NetName=T0+ Pin=P4-3
+Added Net: Name=T0+
+Added Pin To Net: NetName=T1+ Pin=J2-5
+Added Pin To Net: NetName=T1+ Pin=P4-4
+Added Net: Name=T1+
+Added Pin To Net: NetName=T2+ Pin=J2-7
+Added Pin To Net: NetName=T2+ Pin=P4-5
+Added Net: Name=T2+
+Added Pin To Net: NetName=T3+ Pin=J2-9
+Added Pin To Net: NetName=T3+ Pin=P4-6
+Added Net: Name=T3+
+Added Pin To Net: NetName=T4+ Pin=J2-11
+Added Pin To Net: NetName=T4+ Pin=P4-7
+Added Net: Name=T4+
+Added Pin To Net: NetName=T5+ Pin=J2-18
+Added Pin To Net: NetName=T5+ Pin=P4-8
+Added Net: Name=T5+
+Added Pin To Net: NetName=TACH_FAN1 Pin=J1-18
+Added Pin To Net: NetName=TACH_FAN1 Pin=P2-1
+Added Net: Name=TACH_FAN1
+Added Pin To Net: NetName=TACH_FAN2 Pin=J1-19
+Added Pin To Net: NetName=TACH_FAN2 Pin=P2-2
+Added Net: Name=TACH_FAN2
+Added Pin To Net: NetName=TACH_FAN4 Pin=J1-20
+Added Pin To Net: NetName=TACH_FAN4 Pin=P2-3
+Added Net: Name=TACH_FAN4
+Added Pin To Net: NetName=TACH_FAN5 Pin=J1-21
+Added Pin To Net: NetName=TACH_FAN5 Pin=P2-4
+Added Net: Name=TACH_FAN5
+Added Pin To Net: NetName=TACH_FAN7 Pin=J1-22
+Added Pin To Net: NetName=TACH_FAN7 Pin=P2-5
+Added Net: Name=TACH_FAN7
+Added Pin To Net: NetName=TACH_FAN8 Pin=J1-23
+Added Pin To Net: NetName=TACH_FAN8 Pin=P2-6
+Added Net: Name=TACH_FAN8
+Added Pin To Net: NetName=TACH_FAN10 Pin=J1-24
+Added Pin To Net: NetName=TACH_FAN10 Pin=P2-7
+Added Net: Name=TACH_FAN10
+Added Pin To Net: NetName=TACH_FAN11 Pin=J1-25
+Added Pin To Net: NetName=TACH_FAN11 Pin=P2-8
+Added Net: Name=TACH_FAN11
+Added Pin To Net: NetName=TACH_FANA1 Pin=J1-26
+Added Pin To Net: NetName=TACH_FANA1 Pin=P2-10
+Added Net: Name=TACH_FANA1
+Added Pin To Net: NetName=TACH_FANA4 Pin=J1-27
+Added Pin To Net: NetName=TACH_FANA4 Pin=P2-11
+Added Net: Name=TACH_FANA4
+Added Pin To Net: NetName=TACH_FANA8 Pin=J1-28
+Added Pin To Net: NetName=TACH_FANA8 Pin=P2-12
+Added Net: Name=TACH_FANA8
+Added Class: Name=780-00041, rev1, Front Panel, Mirror Cell Controller
+Added Room: Name=780-00041, rev1, Front Panel, Mirror Cell Controller

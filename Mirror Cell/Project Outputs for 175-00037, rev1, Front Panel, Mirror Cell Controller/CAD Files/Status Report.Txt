@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [175-00037, rev1, Front Panel, Mirror Cell Controller.PcbDoc]
+   Generated File[Pick Place for 175-00037, rev1, Front Panel, Mirror Cell Controller.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 5:47:20 PM On 12/1/2011

@@ -1,0 +1,18 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5     -44500mil -34381.102mil   3267.716mil   2716.535mil     -44500mil -34381.102mil  B        180.00 Comment        
+Designator TARGET_MECHANICAL_5     -44500mil -34381.102mil   -787.402mil   2677.165mil     -44500mil -34381.102mil  B        180.00 Comment        
+Designator TARGET_MECHANICAL_5     -44500mil -34381.102mil   -669.291mil  -1259.842mil     -44500mil -34381.102mil  B        180.00 Comment        
+J1         CONN_DB44_HD_FEM_SOCKETS_PCB   1181.102mil    531.496mil   1181.102mil    531.496mil   1787.402mil    609.449mil  T        360.00 DSUB 44 HD FEMALE
+J2         CONN_DB44_HD_MALE_PINS_PCB   1181.102mil   1751.968mil   1181.102mil   1751.968mil    570.276mil   1829.921mil  T        360.00 DSUB 44 HD MALE
+P1         HDR1X8_for_IDC         590mil       1280mil        240mil       1280mil        240mil       1280mil  B        360.00 Header 8       
+P2         HDR1X12_for_IDC       1430mil    198.898mil       1980mil    198.898mil       1980mil    198.898mil  B        180.00 Header 12      
+P3         HDR_1X3_0.156"         304mil    198.898mil        148mil    198.898mil        148mil    198.898mil  B        360.00 Header 3       
+P4         HDR1X8_for_IDC        1170mil   2218.898mil        820mil   2218.898mil        820mil   2218.898mil  B        360.00 Header 8       
+P5         HDR1X8_for_IDC        1710mil       1280mil       1360mil       1280mil       1360mil       1280mil  B        360.00 Header 8       
+R1         SMD_0805               820mil   2018.898mil        820mil   2018.898mil        820mil   1973.898mil  B         90.00 5ppm           
+R2         SMD_0805               920mil   2018.898mil        920mil   2018.898mil        920mil   1973.898mil  B         90.00 5ppm           
+R3         SMD_0805              1660mil   1053.898mil       1660mil   1053.898mil       1660mil   1008.898mil  B         90.00 5ppm           
+R4         SMD_0805              1760mil   1053.898mil       1760mil   1053.898mil       1760mil   1008.898mil  B         90.00 5ppm           
+R5         SMD_0805              1860mil   1053.898mil       1860mil   1053.898mil       1860mil   1008.898mil  B         90.00 5ppm           
+
