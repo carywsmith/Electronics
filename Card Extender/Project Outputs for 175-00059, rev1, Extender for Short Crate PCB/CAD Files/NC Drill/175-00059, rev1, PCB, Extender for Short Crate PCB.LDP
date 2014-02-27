@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: \\Files\users\rlobdill\Altum Projects\Card Extender\175-00059, rev1, PCB, Extender for Short Crate PCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=175-00059, rev1, pcb, extender for short crate pcb-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=175-00059, rev1, pcb, extender for short crate pcb-nonplated.txt|LayerPairs=gtl,gbl

@@ -1,0 +1,8 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5 -15870.276mil      -7700mil   2536.417mil   4757.874mil -15870.276mil      -7700mil  T        360.00 Comment        
+Designator TARGET_MECHANICAL_5 -15870.276mil      -7700mil   -963.583mil   4724.409mil -15870.276mil      -7700mil  T        360.00 Comment        
+Designator TARGET_MECHANICAL_5 -15870.276mil      -7700mil   -569.882mil  -1405.512mil -15870.276mil      -7700mil  T        360.00 Comment        
+P1         PETC-02-12-02-01-RA    1578.74mil   1968.504mil    1578.74mil   1968.504mil    1728.74mil   1868.504mil  T          0.00 PETC-02-12-02--01-S-RA-SD
+J1         PESC-02-12-02-01-RA    324.016mil   1968.504mil    324.016mil   1968.504mil    174.016mil   1868.504mil  T          0.00 PESC-02-12-02--01-S-RA-SD
+

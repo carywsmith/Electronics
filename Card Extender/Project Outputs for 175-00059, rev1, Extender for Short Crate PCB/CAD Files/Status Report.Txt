@@ -1,0 +1,12 @@
+Output: DrillDrawing
+Type  : Gerber
+From  : PCB Document [175-00059, rev1, PCB, Extender for Short Crate PCB.PcbDoc]
+   Generated File[175-00059, rev1, PCB, Extender for Short Crate PCB.GD1]
+   Generated File[175-00059, rev1, PCB, Extender for Short Crate PCB.EXTREP]
+   Generated File[175-00059, rev1, PCB, Extender for Short Crate PCB.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:27:08 PM On 1/3/2013
