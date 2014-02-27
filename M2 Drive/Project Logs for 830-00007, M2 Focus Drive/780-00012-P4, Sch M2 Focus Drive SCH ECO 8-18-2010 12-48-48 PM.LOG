@@ -1,0 +1,32 @@
+Removed Parameter Code_JEDEC:TO-226-AA from Part U19
+Removed Parameter ComponentLink1Description:LM335 Datasheet from Part U19
+Removed Parameter ComponentLink1URL:http://www.national.com/ds/LM/LM335.pdf from Part U19
+Removed Parameter ComponentLink2Description:LM335 Web Page from Part U19
+Removed Parameter ComponentLink2URL:http://www.national.com/pf/LM/LM335.html from Part U19
+Removed Parameter ComponentLink3Description:Z03A Package Page from Part U19
+Removed Parameter ComponentLink3URL:http://www.national.com/packaging/folders/z03a.html from Part U19
+Removed Parameter CompType:Temp Sensor IC from Part U19
+Removed Parameter DatasheetVersion:Dec-2008 from Part U19
+Removed Parameter DigiKeyPartNumber:LM335ZNS-ND from Part U19
+Removed Parameter PackageDescription:TO-92, Molded, 3 Lead from Part U19
+Removed Parameter PackageReference:Z03A from Part U19
+Removed Parameter PackageTopMarking:NSXYTT*LM335*Z from Part U19
+Removed Parameter PackageVersion:revG, Sep-2000 from Part U19
+Removed Parameter PartNumber:LM335Z from Part U19
+Removed Parameter PinCount:3 from Part U19
+Removed Parameter PowerWise:N from Part U19
+Removed Parameter Published:29-May-2009 from Part U19
+Removed Parameter Publisher:Altium Limited from Part U19
+Removed Parameter RoHS:O from Part U19
+Added Parameter Arena Prefix= to Part U19
+Added Parameter Arena Prefix= to Part U20
+Added Parameter Arena Type= to Part U19
+Added Parameter Arena Type= to Part U20
+Added Parameter COST= to Part U19
+Added Parameter LCO p/n= to Part U19
+Added Parameter Manuf p/n= to Part U19
+Added Parameter VALUE= to Part U19
+Added Parameter VALUE= to Part U?
+Added Parameter Vendor= to Part U19
+Added Parameter Vendor Mult.= to Part U19
+Added Parameter Vendor p/n= to Part U19

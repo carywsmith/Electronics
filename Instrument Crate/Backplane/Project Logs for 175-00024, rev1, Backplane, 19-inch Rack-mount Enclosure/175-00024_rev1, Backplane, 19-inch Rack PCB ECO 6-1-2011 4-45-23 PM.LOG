@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=+3.3V Pin=C1-1
+Added Component: Designator=TP6(PAD_80D_052H)
+Added Component: Designator=TP7(PAD_80D_052H)
+Added Component: Designator=TP8(PAD_80D_052H)
+Added Component: Designator=TP9(PAD_80D_052H)
+Added Component: Designator=TP12(SMD_TEST POINT)
+Added Component: Designator=TP13(SMD_TEST POINT)
+Added Pin To Net: NetName=+5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=TP6-1
+Added Pin To Net: NetName=GND Pin=TP7-1
+Added Pin To Net: NetName=GND Pin=TP8-1
+Added Pin To Net: NetName=+24V Pin=TP9-1
+Added Pin To Net: NetName=I2C_SDA Pin=TP12-1
+Added Pin To Net: NetName=I2C_SCL Pin=TP13-1
+Added Member To Class: ClassName=Power Supplies Member=Component TP6 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP7 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP8 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP9 Test point
+Added Member To Class: ClassName=780-00029,rev1,Pg3,Backplane, 19-in Rackmount Enclosure Member=Component TP12 Test Point SMD
+Added Member To Class: ClassName=780-00029,rev1,Pg3,Backplane, 19-in Rackmount Enclosure Member=Component TP13 Test Point SMD

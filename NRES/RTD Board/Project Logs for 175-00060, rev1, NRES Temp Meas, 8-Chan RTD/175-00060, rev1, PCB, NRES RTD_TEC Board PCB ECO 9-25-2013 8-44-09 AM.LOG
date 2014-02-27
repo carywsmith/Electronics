@@ -1,0 +1,18 @@
+Added Component: Designator=TP4(PAD_80D_052H)
+Added Component: Designator=TP7(PAD_80D_052H)
+Added Component: Designator=TP8(PAD_80D_052H)
+Added Component: Designator=TP10(PAD_80D_052H)
+Added Component: Designator=TP11(PAD_80D_052H)
+Added Component: Designator=TP12(PAD_80D_052H)
+Added Pin To Net: NetName=+12V Pin=TP4-1
+Added Pin To Net: NetName=+5ANA Pin=TP7-1
+Added Pin To Net: NetName=A Pin=TP8-1
+Added Pin To Net: NetName=A Pin=TP10-1
+Added Pin To Net: NetName=A Pin=TP11-1
+Added Pin To Net: NetName=A Pin=TP12-1
+Added Member To Class: ClassName=Power Supplies Member=Component TP4 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP7 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP8 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP10 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP11 Test point
+Added Member To Class: ClassName=Power Supplies Member=Component TP12 Test point

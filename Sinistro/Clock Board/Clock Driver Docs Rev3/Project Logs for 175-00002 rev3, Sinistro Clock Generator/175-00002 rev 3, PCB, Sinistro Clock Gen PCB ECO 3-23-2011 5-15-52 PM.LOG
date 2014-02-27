@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetD1A_3 Pin=TP4A-1
+Removed Pin From Net: NetName=NetD1B_3 Pin=TP4B-1
+Removed Pin From Net: NetName=NetD1C_3 Pin=TP4C-1
+Removed Pin From Net: NetName=NetD1D_3 Pin=TP4D-1
+Added Pin To Net: NetName=CDO16 Pin=TP4A-1
+Added Pin To Net: NetName=CDO17 Pin=TP4B-1
+Added Pin To Net: NetName=CDO18 Pin=TP4C-1
+Added Pin To Net: NetName=CDO19 Pin=TP4D-1

@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=A Pin=U5A-3
+Added Pin To Net: NetName=A Pin=U5B-3
+Added Pin To Net: NetName=A Pin=U5C-3
+Added Pin To Net: NetName=A Pin=U5D-3
+Added Pin To Net: NetName=NetR3A_2 Pin=R3A-2
+Added Pin To Net: NetName=NetR3A_2 Pin=U5A-2
+Added Net: Name=NetR3A_2
+Added Pin To Net: NetName=NetR3B_2 Pin=R3B-2
+Added Pin To Net: NetName=NetR3B_2 Pin=U5B-2
+Added Net: Name=NetR3B_2
+Added Pin To Net: NetName=NetR3C_2 Pin=R3C-2
+Added Pin To Net: NetName=NetR3C_2 Pin=U5C-2
+Added Net: Name=NetR3C_2
+Added Pin To Net: NetName=NetR3D_2 Pin=R3D-2
+Added Pin To Net: NetName=NetR3D_2 Pin=U5D-2
+Added Net: Name=NetR3D_2

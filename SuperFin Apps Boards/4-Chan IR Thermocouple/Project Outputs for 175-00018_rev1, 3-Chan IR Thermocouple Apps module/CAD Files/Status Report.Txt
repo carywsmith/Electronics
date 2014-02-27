@@ -1,0 +1,13 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:13:29 AM On 5/4/2011
+
+Output: Test Point Report
+Type  : Test Points
+From  : PCB Document [175-00018_rev1, 3-Chan IR Thermocouple Apps board.PcbDoc]
+
+
+Files Generated   : 0
+Documents Printed : 0
+
+Finished Output Generation At 9:13:37 AM On 5/4/2011

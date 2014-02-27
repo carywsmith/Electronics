@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=C1-NEG
+Removed Pin From Net: NetName=+24V Pin=C1-POS
+Removed Pin From Net: NetName=GND Pin=C2-NEG
+Removed Pin From Net: NetName=20V_ION Pin=C2-POS
+Removed Pin From Net: NetName=20V_ION Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=20V_ION Pin=U2-2
+Removed Pin From Net: NetName=+24V Pin=U2-3
+Removed Member From Class: ClassName=LM335 AND FAN Member=C1
+Removed Member From Class: ClassName=LM335 AND FAN Member=C2
+Removed Member From Class: ClassName=LM335 AND FAN Member=R4
+Removed Member From Class: ClassName=LM335 AND FAN Member=R21
+Removed Member From Class: ClassName=LM335 AND FAN Member=U2

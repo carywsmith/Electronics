@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=P6 Old DesignItemId=Header 4 0.156" New DesignItemId=Header 4
+Change Component DesignItemId : Designator=P7 Old DesignItemId=Header 4 0.156" New DesignItemId=Header 4
+Change Component DesignItemId : Designator=P9 Old DesignItemId=Header 4 0.156" New DesignItemId=Header 4
+Change Component Footprint: Designator=P6 Old Footprint=HDR 1X4 0.156" New Footprint=HDR1X4 for IDC
+Change Component Footprint: Designator=P7 Old Footprint=HDR 1X4 0.156" New Footprint=HDR1X4 for IDC
+Change Component Footprint: Designator=P9 Old Footprint=HDR 1X4 0.156" New Footprint=HDR1X4 for IDC
+Change Component Comment : Designator=P6 Old Comment=Header 4 0.156" New Comment=Header 4
+Change Component Comment : Designator=P7 Old Comment=Header 4 0.156" New Comment=Header 4
+Change Component Comment : Designator=P9 Old Comment=Header 4 0.156" New Comment=Header 4

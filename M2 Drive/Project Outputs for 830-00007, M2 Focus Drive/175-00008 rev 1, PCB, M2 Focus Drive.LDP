@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: \\Files\users\rlobdill\Altum Projects\M2 Drive\175-00008 rev 1, PCB, M2 Focus Drive.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=175-00008 rev 1, pcb, m2 focus drive-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=175-00008 rev 1, pcb, m2 focus drive-nonplated.txt|LayerPairs=gtl,gbl

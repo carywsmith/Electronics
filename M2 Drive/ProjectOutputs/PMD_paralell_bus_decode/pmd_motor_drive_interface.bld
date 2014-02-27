@@ -1,0 +1,238 @@
+Release 9.1i ngdbuild J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx91i\bin\nt\NGDBuild.Exe -p XC2C256-7PQ208 -dd
+c:\documents and settings\rlobdill\my documents\altium briefcase\altum
+projects\m2 drive\projectoutputs\pmd_paralell_bus_decode\_ngo -aul -uc
+C:\Documents and Settings\rlobdill\My Documents\Altium Briefcase\Altum
+Projects\M2
+Drive\ProjectOutputs\PMD_paralell_bus_decode\PMD_Motor_Drive_interface.ucf -nt
+on -a pmd_motor_drive_interface.edf pmd_motor_drive_interface.ngd
+
+Executing edif2ngd -a -aul "pmd_motor_drive_interface.edf" "c:\documents and
+settings\rlobdill\my documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\pmd_motor_drive_interface.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Adding pads to all top level port signals...
+WARNING:NgdBuild:629 - Invalid duplicate LOC property found on root pin
+   'PMD_Motor_Drive_interface.PD195', value is 'P136', and will be ignored.
+   Value 'P29' on network 'n0t' will remain unchanged.
+WARNING:NgdBuild:629 - Invalid duplicate LOC property found on root pin
+   'PMD_Motor_Drive_interface.PD196', value is 'P135', and will be ignored.
+   Value 'P31' on network 'n0s' will remain unchanged.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/pmd_motor_drive_interface.ngo"
+...
+Reading NGO file "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/pmd_motor_drive_interface.ngo"
+...
+Executing edif2ngd -noa -aul "NUM4.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM4.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/NUM4.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM4.ngo"...
+Executing edif2ngd -noa -aul "AND2S.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\AND2S.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/AND2S.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\AND2S.ngo"...
+Executing edif2ngd -noa -aul "COMP2S.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\COMP2S.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/COMP2S.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\COMP2S.ngo"...
+Executing edif2ngd -noa -aul "NUM8.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM8.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/NUM8.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM8.ngo"...
+Executing edif2ngd -noa -aul "OR2S.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\OR2S.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/OR2S.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\OR2S.ngo"...
+Executing edif2ngd -noa -aul "D2_4ES.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\D2_4ES.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/D2_4ES.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\D2_4ES.ngo"...
+Executing edif2ngd -noa -aul "NUM0.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM0.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/NUM0.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM0.ngo"...
+Executing edif2ngd -noa -aul "M16_B4B1.edn" "c:\documents and
+settings\rlobdill\my documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\M16_B4B1.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/M16_B4B1.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\M16_B4B1.ngo"...
+Executing edif2ngd -noa -aul "NUM1.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM1.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/NUM1.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM1.ngo"...
+Executing edif2ngd -noa -aul "NUM2.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM2.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/NUM2.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM2.ngo"...
+Executing edif2ngd -noa -aul "COMP12S.edn" "c:\documents and
+settings\rlobdill\my documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\COMP12S.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/COMP12S.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\COMP12S.ngo"...
+Executing edif2ngd -noa -aul "NUM3.edn" "c:\documents and settings\rlobdill\my
+documents\altium briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM3.ngo"
+Release 9.1i - edif2ngd J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 9.1i edif2ngd J.30
+INFO:NgdBuild - Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Writing module to "c:/documents and settings/rlobdill/my documents/altium
+briefcase/altum projects/m2
+drive/projectoutputs/pmd_paralell_bus_decode/_ngo/NUM3.ngo"...
+Loading design module "c:\documents and settings\rlobdill\my documents\altium
+briefcase\altum projects\m2
+drive\projectoutputs\pmd_paralell_bus_decode\_ngo\NUM3.ngo"...
+
+Applying constraints in "C:/Documents and Settings/rlobdill/My Documents/Altium
+Briefcase/Altum Projects/M2
+Drive/ProjectOutputs/PMD_paralell_bus_decode/PMD_Motor_Drive_interface.ucf" to
+the design...
+INFO:NgdBuild:754 - "C:/Documents and Settings/rlobdill/My Documents/Altium
+   Briefcase/Altum Projects/M2
+   Drive/ProjectOutputs/PMD_paralell_bus_decode/PMD_Motor_Drive_interface.ucf"
+   Line 2: Could not find net(s) 'HA3' in the design. The 'Allow Unmatched LOC
+   Constraints' ISE option is set ( -aul switch ) so this constraint will be
+   ignored.
+INFO:NgdBuild:754 - "C:/Documents and Settings/rlobdill/My Documents/Altium
+   Briefcase/Altum Projects/M2
+   Drive/ProjectOutputs/PMD_paralell_bus_decode/PMD_Motor_Drive_interface.ucf"
+   Line 4: Could not find net(s) 'HA5' in the design. The 'Allow Unmatched LOC
+   Constraints' ISE option is set ( -aul switch ) so this constraint will be
+   ignored.
+INFO:NgdBuild:754 - "C:/Documents and Settings/rlobdill/My Documents/Altium
+   Briefcase/Altum Projects/M2
+   Drive/ProjectOutputs/PMD_paralell_bus_decode/PMD_Motor_Drive_interface.ucf"
+   Line 38: Could not find net(s) 'PD195' in the design. The 'Allow Unmatched
+   LOC Constraints' ISE option is set ( -aul switch ) so this constraint will be
+   ignored.
+INFO:NgdBuild:754 - "C:/Documents and Settings/rlobdill/My Documents/Altium
+   Briefcase/Altum Projects/M2
+   Drive/ProjectOutputs/PMD_paralell_bus_decode/PMD_Motor_Drive_interface.ucf"
+   Line 39: Could not find net(s) 'PD196' in the design. The 'Allow Unmatched
+   LOC Constraints' ISE option is set ( -aul switch ) so this constraint will be
+   ignored.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 65612 kilobytes
+
+Writing NGD file "pmd_motor_drive_interface.ngd" ...
+
+Writing NGDBUILD log file "pmd_motor_drive_interface.bld"...

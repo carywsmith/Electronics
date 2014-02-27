@@ -1,0 +1,12 @@
+Added Component: Designator=TP1A(SMD_TEST POINT)
+Added Component: Designator=TP1B(SMD_TEST POINT)
+Added Component: Designator=TP1C(SMD_TEST POINT)
+Added Component: Designator=TP1D(SMD_TEST POINT)
+Added Pin To Net: NetName=I_PWM1 Pin=TP1A-1
+Added Pin To Net: NetName=I_PWM2 Pin=TP1B-1
+Added Pin To Net: NetName=I_PWM3 Pin=TP1C-1
+Added Pin To Net: NetName=I_PWM4 Pin=TP1D-1
+Added Member To Class: ClassName=I_SOURCE1 Member=Component TP1A (TP1) Test Point SMD
+Added Member To Class: ClassName=I_SOURCE2 Member=Component TP1B (TP1) Test Point SMD
+Added Member To Class: ClassName=I_SOURCE3 Member=Component TP1C (TP1) Test Point SMD
+Added Member To Class: ClassName=I_SOURCE4 Member=Component TP1D (TP1) Test Point SMD

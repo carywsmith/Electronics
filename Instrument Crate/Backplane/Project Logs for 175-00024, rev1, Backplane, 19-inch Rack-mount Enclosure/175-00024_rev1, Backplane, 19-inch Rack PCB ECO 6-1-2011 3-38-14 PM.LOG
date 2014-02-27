@@ -1,0 +1,74 @@
+Change Component DesignItemId : Designator=Q1A Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1B Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1C Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1D Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1E Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1F Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1G Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1H Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1I Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1J Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1K Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q1L Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2A Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2B Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2C Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2D Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2E Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2F Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2G Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2H Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2I Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2J Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2K Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component DesignItemId : Designator=Q2L Old DesignItemId=2N7002 New DesignItemId=MOSFET-N
+Change Component Footprint: Designator=Q1A Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1B Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1C Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1D Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1E Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1F Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1G Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1H Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1I Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1J Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1K Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q1L Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2A Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2B Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2C Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2D Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2E Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2F Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2G Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2H Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2I Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2J Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2K Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Footprint: Designator=Q2L Old Footprint=SOT23A New Footprint=SOT-23B
+Change Component Comment : Designator=Q1A Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1B Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1C Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1D Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1E Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1F Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1G Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1H Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1I Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1J Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1K Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q1L Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2A Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2B Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2C Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2D Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2E Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2F Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2G Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2H Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2I Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2J Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2K Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Change Component Comment : Designator=Q2L Old Comment=2N7002 New Comment=ZXMN3B14FTA
+Added Member To Class: ClassName=BackplaneSlot5 Member=Component J1E (J1) PESC-02-12-02-01-S-VT-LC
+Added Member To Class: ClassName=BackplaneSlot11 Member=Component K1K (K1A) Dual-Latching, 24V

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 2:44:39 PM On 8/31/2011
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [175-00033, rev1, Crate Slot Power Interface.PcbDoc]
+   Generated File[Pick Place for 175-00033, rev1, Crate Slot Power Interface.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:44:40 PM On 8/31/2011

@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=RN1-8
+Added Pin To Net: NetName=NetC4_1 Pin=TP19-1
+Added Pin To Net: NetName=NetC4_1 Pin=U1-A11
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=RN1-4
+Added Pin To Net: NetName=NetC5_1 Pin=TP22-1
+Added Pin To Net: NetName=NetC5_1 Pin=U1-A15
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=RN1-6
+Added Pin To Net: NetName=NetC19_1 Pin=TP20-1
+Added Pin To Net: NetName=NetC19_1 Pin=U1-A13
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC25_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_1 Pin=RN1-2
+Added Pin To Net: NetName=NetC25_1 Pin=TP23-1
+Added Pin To Net: NetName=NetC25_1 Pin=U1-A17
+Added Net: Name=NetC25_1

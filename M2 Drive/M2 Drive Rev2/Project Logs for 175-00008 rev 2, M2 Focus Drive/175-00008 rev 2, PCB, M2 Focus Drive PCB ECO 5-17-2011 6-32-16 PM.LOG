@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=1I- Pin=J7-1
+Removed Pin From Net: NetName=1I+ Pin=J7-2
+Removed Pin From Net: NetName=1B- Pin=J7-3
+Removed Pin From Net: NetName=1B+ Pin=J7-4
+Removed Pin From Net: NetName=1A- Pin=J7-5
+Removed Pin From Net: NetName=1A+ Pin=J7-6
+Removed Pin From Net: NetName=3A+ Pin=J8-1
+Removed Pin From Net: NetName=GND Pin=J8-2
+Removed Pin From Net: NetName=3B+ Pin=J8-3
+Removed Pin From Net: NetName=+5V Pin=J8-4
+Removed Pin From Net: NetName=3I- Pin=J8-7
+Removed Pin From Net: NetName=3A- Pin=J8-9
+Removed Pin From Net: NetName=GND Pin=J8-10
+Removed Pin From Net: NetName=3B- Pin=J8-11
+Removed Pin From Net: NetName=+5V Pin=J8-12
+Removed Pin From Net: NetName=3I+ Pin=J8-14
+Removed Pin From Net: NetName=GND Pin=J8-16
+Removed Pin From Net: NetName=GND Pin=J8-17
+Removed Pin From Net: NetName=2A+ Pin=J9-1
+Removed Pin From Net: NetName=GND Pin=J9-2
+Removed Pin From Net: NetName=2B+ Pin=J9-3
+Removed Pin From Net: NetName=+5V Pin=J9-4
+Removed Pin From Net: NetName=2I- Pin=J9-7
+Removed Pin From Net: NetName=2A- Pin=J9-9
+Removed Pin From Net: NetName=GND Pin=J9-10
+Removed Pin From Net: NetName=2B- Pin=J9-11
+Removed Pin From Net: NetName=+5V Pin=J9-12
+Removed Pin From Net: NetName=2I+ Pin=J9-14
+Removed Pin From Net: NetName=GND Pin=J9-16
+Removed Pin From Net: NetName=GND Pin=J9-17
+Change Component DesignItemId : Designator=J8 Old DesignItemId=DSUB 15 New DesignItemId=Header 8
+Change Component DesignItemId : Designator=J9 Old DesignItemId=DSUB 15 New DesignItemId=Header 8
+Change Component Comment : Designator=J8 Old Comment=DSUB 15 New Comment=Header 8
+Change Component Comment : Designator=J9 Old Comment=DSUB 15 New Comment=Header 8
+Change Component Description : Designator=J8 Old Description=Receptacle Assembly, 15 Position New Description=Header, 8-Pin
+Change Component Description : Designator=J9 Old Description=Receptacle Assembly, 15 Position New Description=Header, 8-Pin
+Added Pin To Net: NetName=2I- Pin=J7-1
+Added Pin To Net: NetName=2I+ Pin=J7-2
+Added Pin To Net: NetName=2B- Pin=J7-3
+Added Pin To Net: NetName=2B+ Pin=J7-4
+Added Pin To Net: NetName=2A- Pin=J7-5
+Added Pin To Net: NetName=2A+ Pin=J7-6
+Added Pin To Net: NetName=1I- Pin=J8-1
+Added Pin To Net: NetName=1I+ Pin=J8-2
+Added Pin To Net: NetName=1B- Pin=J8-3
+Added Pin To Net: NetName=1B+ Pin=J8-4
+Added Pin To Net: NetName=1A- Pin=J8-5
+Added Pin To Net: NetName=1A+ Pin=J8-6
+Added Pin To Net: NetName=+5V Pin=J8-7
+Added Pin To Net: NetName=GND Pin=J8-8
+Added Pin To Net: NetName=3I- Pin=J9-1
+Added Pin To Net: NetName=3I+ Pin=J9-2
+Added Pin To Net: NetName=3B- Pin=J9-3
+Added Pin To Net: NetName=3B+ Pin=J9-4
+Added Pin To Net: NetName=3A- Pin=J9-5
+Added Pin To Net: NetName=3A+ Pin=J9-6
+Added Pin To Net: NetName=+5V Pin=J9-7
+Added Pin To Net: NetName=GND Pin=J9-8

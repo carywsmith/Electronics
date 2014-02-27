@@ -1,0 +1,83 @@
+Protel Design System Design Rule Check
+PCB File : \\Files\users\rlobdill\Altum Projects\Sinistro\Filter Shutter\175-00019 rev1, Proxie Sensor, Sinistro Filter Wheel.PcbDoc
+Date     : 12/6/2010
+Time     : 8:42:10 AM
+
+Processing Rule : Room FilterProxie12 (Bounding Region = (14821.511mil, 10010.11mil, 16256mil, 11142mil) (InComponentClass('FilterProxie12'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie11 (Bounding Region = (14545.921mil, 10010.11mil, 15976mil, 11182mil) (InComponentClass('FilterProxie11'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie10 (Bounding Region = (14248.756mil, 10044.205mil, 15902.299mil, 10989.087mil) (InComponentClass('FilterProxie10'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie9 (Bounding Region = (13996mil, 10042mil, 15976mil, 11162mil) (InComponentClass('FilterProxie9'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie8 (Bounding Region = (14821.511mil, 10600.661mil, 16256mil, 11322mil) (InComponentClass('FilterProxie8'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie7 (Bounding Region = (14556mil, 10642mil, 15976mil, 11362mil) (InComponentClass('FilterProxie7'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie6 (Bounding Region = (14276mil, 10642mil, 15976mil, 11362mil) (InComponentClass('FilterProxie6'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie5 (Bounding Region = (13994.74mil, 10561.291mil, 15696mil, 11382mil) (InComponentClass('FilterProxie5'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie4 (Bounding Region = (14839.307mil, 11191.212mil, 15963.244mil, 11697.748mil) (InComponentClass('FilterProxie4'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie3 (Bounding Region = (14545.921mil, 11191.212mil, 15976mil, 11702mil) (InComponentClass('FilterProxie3'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie2 (Bounding Region = (14288.126mil, 11225.307mil, 16020.409mil, 11697.748mil) (InComponentClass('FilterProxie2'))
+Rule Violations :0
+
+Processing Rule : Room FilterProxie1 (Bounding Region = (14012.535mil, 11225.307mil, 15784.189mil, 11697.748mil) (InComponentClass('FilterProxie1'))
+Rule Violations :0
+
+Processing Rule : Room 780-00024_rev1_Pg1, Proxie Board, Sinistro Filter Wheel (Bounding Region = (13797.889mil, 9931.37mil, 16546mil, 11610mil) (InComponentClass('780-00024_rev1_Pg1, Proxie Board, Sinistro Filter Wheel'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=250mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:02

@@ -1,0 +1,12 @@
+Output: DrillDrawing
+Type  : Gerber
+From  : PCB Document [175-00008 rev 3, PCB, M2 Focus Drive.PcbDoc]
+   Generated File[175-00008 rev 3, PCB, M2 Focus Drive.GD1]
+   Generated File[175-00008 rev 3, PCB, M2 Focus Drive.EXTREP]
+   Generated File[175-00008 rev 3, PCB, M2 Focus Drive.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 2:34:31 PM On 10/31/2011

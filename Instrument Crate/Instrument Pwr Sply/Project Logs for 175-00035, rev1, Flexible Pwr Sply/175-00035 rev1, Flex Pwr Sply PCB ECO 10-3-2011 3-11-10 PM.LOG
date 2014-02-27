@@ -1,0 +1,193 @@
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=+24V Pin=TP2-1
+Change Component DesignItemId : Designator=C4 Old DesignItemId=CAP NP_DOUG New DesignItemId=Cap SMD
+Change Component DesignItemId : Designator=TP1 Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP2 Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component Footprint: Designator=C4 Old Footprint=1812 New Footprint=SMD_0805
+Change Component Footprint: Designator=TP1 Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP2 Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Comment : Designator=TP1 Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP2 Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=C4 Old Comment=Y-RATED New Comment=35V CER
+Added Component: Designator=C21(SMD_0805)
+Added Component: Designator=C22(SMD_0805)
+Added Component: Designator=C23(SMD_0805)
+Added Component: Designator=C24(SMD_0805)
+Added Component: Designator=C25(CAP, Thru Hole 10mm dia)
+Added Component: Designator=C26(SMD_0805)
+Added Component: Designator=C27(SMD_0805)
+Added Component: Designator=C28(SMD_0805)
+Added Component: Designator=C29(SMD_0805)
+Added Component: Designator=C30(CAP, Thru Hole 10mm dia)
+Added Component: Designator=D1(SMC)
+Added Component: Designator=P6(HDR 1X4 0.156")
+Added Component: Designator=P7(HDR 1X4 0.156")
+Added Component: Designator=P8(HDR 1X4 0.156")
+Added Component: Designator=P9(HDR 1X4 0.156")
+Added Component: Designator=R4(SMD_0805)
+Added Component: Designator=R5(SMD_0805)
+Added Component: Designator=R6(SMD_0805)
+Added Component: Designator=R7(SMD_0805)
+Added Component: Designator=TP3(PAD_80D_052H)
+Added Component: Designator=TP4(PAD_80D_052H)
+Added Component: Designator=TP5(PAD_80D_052H)
+Added Component: Designator=TP6(PAD_80D_052H)
+Added Component: Designator=TP7(PAD_80D_052H)
+Added Component: Designator=TP8(PAD_80D_052H)
+Added Component: Designator=TP9(PAD_80D_052H)
+Added Component: Designator=TP10(PAD_80D_052H)
+Added Component: Designator=TP11(PAD_80D_052H)
+Added Component: Designator=TP12(PAD_80D_052H)
+Added Component: Designator=TP13(PAD_80D_052H)
+Added Component: Designator=U2(TO-252(D-PAK)  PowerPAD)
+Added Component: Designator=U3(TEXAS Inst Switching Regulator)
+Added Component: Designator=U4(TEXAS Inst Switching Regulator)
+Added Pin To Net: NetName=+24V_FUSED Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C22-2
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C23-2
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C26-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C26-2
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C27-2
+Added Pin To Net: NetName=GND Pin=C28-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C28-2
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=+24V_FUSED Pin=D1-1
+Added Pin To Net: NetName=GND Pin=P4-3
+Added Pin To Net: NetName=GND Pin=P4-4
+Added Pin To Net: NetName=+24V_FUSED Pin=P6-1
+Added Pin To Net: NetName=+24V_FUSED Pin=P6-2
+Added Pin To Net: NetName=GND Pin=P6-3
+Added Pin To Net: NetName=GND Pin=P6-4
+Added Pin To Net: NetName=GND Pin=P7-3
+Added Pin To Net: NetName=GND Pin=P7-4
+Added Pin To Net: NetName=GND Pin=P8-3
+Added Pin To Net: NetName=GND Pin=P8-4
+Added Pin To Net: NetName=NetC8_2 Pin=P9-1
+Added Pin To Net: NetName=NetC8_2 Pin=P9-2
+Added Pin To Net: NetName=GND Pin=P9-3
+Added Pin To Net: NetName=GND Pin=P9-4
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=PS1-5
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=NetC12_2 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=GND Pin=TP2-1
+Added Pin To Net: NetName=GND Pin=TP3-1
+Added Pin To Net: NetName=GND Pin=TP4-1
+Added Pin To Net: NetName=+24V_FUSED Pin=TP5-1
+Added Pin To Net: NetName=+24V Pin=TP6-1
+Added Pin To Net: NetName=NetC2_1 Pin=TP7-1
+Added Pin To Net: NetName=NetC6_2 Pin=TP10-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP11-1
+Added Pin To Net: NetName=NetC8_2 Pin=TP12-1
+Added Pin To Net: NetName=NetC12_2 Pin=TP13-1
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=NetC12_2 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U3-1
+Added Pin To Net: NetName=+24V_FUSED Pin=U3-2
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U4-1
+Added Pin To Net: NetName=+24V_FUSED Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-7
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=D1-2
+Added Pin To Net: NetName=NetC20_2 Pin=U2-3
+Added Net: Name=NetC20_2
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC21_2 Pin=R4-1
+Added Pin To Net: NetName=NetC21_2 Pin=R5-2
+Added Pin To Net: NetName=NetC21_2 Pin=U2-1
+Added Net: Name=NetC21_2
+Added Pin To Net: NetName=NetC25_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_1 Pin=P7-1
+Added Pin To Net: NetName=NetC25_1 Pin=P7-2
+Added Pin To Net: NetName=NetC25_1 Pin=TP8-1
+Added Pin To Net: NetName=NetC25_1 Pin=U3-6
+Added Net: Name=NetC25_1
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=NetC30_1 Pin=P8-1
+Added Pin To Net: NetName=NetC30_1 Pin=P8-2
+Added Pin To Net: NetName=NetC30_1 Pin=TP9-1
+Added Pin To Net: NetName=NetC30_1 Pin=U4-6
+Added Net: Name=NetC30_1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=U3-4
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=U4-4
+Added Net: Name=NetR7_2
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C21 Cap SMD
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C22 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C23 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C24 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C25 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C26 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C27 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C28 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C29 35V CER
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C30 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component D1 S5BC-13-F
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component P6 Header 4 0.156"
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component P7 Header 4 0.156"
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component P8 Header 4 0.156"
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component P9 Header 4 0.156"
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R4 Res 0805
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R5 Res 0805
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R6 Res 0805
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R7 Res 0805
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP3 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP4 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP5 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP6 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP7 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP8 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP9 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP10 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP11 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP12 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component TP13 Test point
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component U2 Voltage Reg, Adj
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component U3 6A Pos Switching Regulator
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component U4 6A Pos Switching Regulator

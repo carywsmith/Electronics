@@ -1,0 +1,9 @@
+Added Component: Designator=TP27(SMD_TEST POINT)
+Added Component: Designator=TP28(SMD_TEST POINT)
+Added Component: Designator=TP29(SMD_TEST POINT)
+Added Pin To Net: NetName=+3.3V Pin=TP27-1
+Added Pin To Net: NetName=-12V Pin=TP28-1
+Added Pin To Net: NetName=+12V Pin=TP29-1
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP27 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP28 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP29 Test Point SMD

@@ -1,0 +1,22 @@
+Output: ArtworkLayers
+Type  : Gerber
+From  : PCB Document [175-00035 rev1, Flex Pwr Sply.PcbDoc]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GTL]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GP1]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GP2]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GP3]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GBL]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GTO]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GTP]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GTS]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GBS]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GBP]
+   Generated File[175-00035 rev1, Flex Pwr Sply.GBO]
+   Generated File[175-00035 rev1, Flex Pwr Sply.EXTREP]
+   Generated File[175-00035 rev1, Flex Pwr Sply.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 10:23:52 AM On 10/5/2011

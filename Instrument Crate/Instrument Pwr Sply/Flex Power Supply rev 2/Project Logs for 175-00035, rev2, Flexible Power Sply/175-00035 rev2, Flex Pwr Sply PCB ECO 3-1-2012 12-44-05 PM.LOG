@@ -1,0 +1,2 @@
+Change Component DesignItemId : Designator=P5 Old DesignItemId=Header 3, 0.156 New DesignItemId=Header 3, MTA100
+Change Component Footprint: Designator=P5 Old Footprint=HDR 1X3 0.156" New Footprint=HDR1X3 for IDC

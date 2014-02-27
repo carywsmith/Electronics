@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R9
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=P5-2
+Added Pin To Net: NetName=GND Pin=R9-2

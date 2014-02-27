@@ -1,0 +1,31 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00061, rev2, PCB, NRES Crate Slot MotherBoard.PcbDoc   10/30/2013  12:15:49 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer (*.GTL) to Bottom Layer (*GBL)
+ASCII Plated RoundHoles File : 175-00061, rev2, PCB, NRES Crate Slot MotherBoard-Plated.TXT
+ASCII Non-Plated RoundHoles File : 175-00061, rev2, PCB, NRES Crate Slot MotherBoard-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          100              33.18 Inch (842.69 mm)
+T2        28mil (0.7112mm)         Round          18               23.32 Inch (592.40 mm)
+T3        31mil (0.7874mm)         Round          96               12.16 Inch (308.87 mm)
+T4        35mil (0.889mm)          Round          8                0.71 Inch (18.08 mm)
+T5        36mil (0.9144mm)         Round          4                0.32 Inch (8.20 mm)
+T6        39mil (0.9906mm)         Round          3                0.20 Inch (5.08 mm)
+T7        40mil (1.016mm)          Round          80               30.16 Inch (766.14 mm)
+T8        47mil (1.1938mm)         Round          4                1.09 Inch (27.70 mm)
+T9        52mil (1.3208mm)         Round          41               20.69 Inch (525.64 mm)
+T10       63mil (1.6002mm)         Round          2                0.62 Inch (15.75 mm)
+T11       78mil (1.9812mm)         Round          13               7.88 Inch (200.17 mm)
+T12       91mil (2.3114mm)         Round          2                0.47 Inch (12.04 mm)
+T13       166mil (4.2164mm)        Round          3                5.00 Inch (127.00 mm)
+T14       40mil (1.016mm)          Round          4         NPTH   3.10 Inch (78.62 mm)
+T15       128mil (3.2512mm)        Round          2         NPTH   0.45 Inch (11.43 mm)
+T16       150mil (3.81mm)          Round          2         NPTH   1.75 Inch (44.45 mm)
+T17       166mil (4.2164mm)        Round          2         NPTH   3.50 Inch (88.90 mm)
+---------------------------------------------------------------------------
+Totals                                            384              144.61 Inch (3673.15 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

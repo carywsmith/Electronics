@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=~BRD_PRESENT_3 Pin=RN1-1
+Removed Pin From Net: NetName=~BRD_PRESENT_2 Pin=RN1-3
+Removed Pin From Net: NetName=~BRD_PRESENT_1 Pin=RN1-5
+Removed Pin From Net: NetName=~BRD_PRESENT_0 Pin=RN1-7
+Removed Pin From Net: NetName=NetRN1_8 Pin=U6-B57
+Removed Pin From Net: NetName=NetRN1_6 Pin=U6-B59
+Removed Pin From Net: NetName=NetRN1_4 Pin=U6-B61
+Removed Pin From Net: NetName=NetRN1_2 Pin=U6-B63
+Added Pin To Net: NetName=~BRD_PRESENT_0 Pin=RN1-1
+Added Pin To Net: NetName=~BRD_PRESENT_1 Pin=RN1-3
+Added Pin To Net: NetName=~BRD_PRESENT_2 Pin=RN1-5
+Added Pin To Net: NetName=~BRD_PRESENT_3 Pin=RN1-7
+Added Pin To Net: NetName=NetRN1_2 Pin=U6-B57
+Added Pin To Net: NetName=NetRN1_4 Pin=U6-B59
+Added Pin To Net: NetName=NetRN1_6 Pin=U6-B61
+Added Pin To Net: NetName=NetRN1_8 Pin=U6-B63

@@ -1,0 +1,29 @@
+Added Pin To Net: NetName=+5ANA_IMON Pin=J1-148
+Added Pin To Net: NetName=+5ANA_IMON Pin=P1-148
+Added Pin To Net: NetName=+5ANA_IMON Pin=U1-A27
+Added Net: Name=+5ANA_IMON
+Added Pin To Net: NetName=+12V_IMON Pin=U1-A29
+Added Net: Name=+12V_IMON
+Added Pin To Net: NetName=+12V_MON Pin=J1-144
+Added Pin To Net: NetName=+12V_MON Pin=P1-144
+Added Net: Name=+12V_MON
+Added Pin To Net: NetName=+24V_IMON Pin=J1-154
+Added Pin To Net: NetName=+24V_IMON Pin=P1-154
+Added Pin To Net: NetName=+24V_IMON Pin=U1-A37
+Added Net: Name=+24V_IMON
+Added Pin To Net: NetName=+28V_IMON Pin=J1-150
+Added Pin To Net: NetName=+28V_IMON Pin=P1-150
+Added Pin To Net: NetName=+28V_IMON Pin=U1-A25
+Added Net: Name=+28V_IMON
+Added Pin To Net: NetName=-5ANA_IMON Pin=J1-142
+Added Pin To Net: NetName=-5ANA_IMON Pin=P1-142
+Added Pin To Net: NetName=-5ANA_IMON Pin=U1-A7
+Added Net: Name=-5ANA_IMON
+Added Pin To Net: NetName=-12V_IMON Pin=J1-140
+Added Pin To Net: NetName=-12V_IMON Pin=P1-140
+Added Pin To Net: NetName=-12V_IMON Pin=U1-A9
+Added Net: Name=-12V_IMON
+Added Pin To Net: NetName=VCC_IMON Pin=J1-152
+Added Pin To Net: NetName=VCC_IMON Pin=P1-152
+Added Pin To Net: NetName=VCC_IMON Pin=U1-A23
+Added Net: Name=VCC_IMON

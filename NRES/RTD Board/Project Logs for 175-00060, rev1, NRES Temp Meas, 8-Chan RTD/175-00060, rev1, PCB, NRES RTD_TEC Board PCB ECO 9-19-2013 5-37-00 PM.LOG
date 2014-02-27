@@ -1,0 +1,112 @@
+Removed Pin From Net: NetName=VCC Pin=J1-S21
+Removed Pin From Net: NetName=VCC Pin=J1-S22
+Removed Pin From Net: NetName=D Pin=J1-S23
+Removed Pin From Net: NetName=DOUT Pin=U6A-18
+Removed Pin From Net: NetName=DOUT Pin=U6B-18
+Removed Pin From Net: NetName=DOUT Pin=U6C-18
+Removed Pin From Net: NetName=DOUT Pin=U6D-18
+Removed Pin From Net: NetName=DOUT Pin=U6E-18
+Removed Pin From Net: NetName=DOUT Pin=U6F-18
+Removed Pin From Net: NetName=DOUT Pin=U6G-18
+Removed Pin From Net: NetName=DOUT Pin=U6H-18
+Added Component: Designator=C35(SMD_0805)
+Added Component: Designator=C36(SMD_0805)
+Added Component: Designator=Q1(SMD_SOT23_3)
+Added Component: Designator=S1(CAS-120B)
+Added Component: Designator=U10(PW008_N)
+Added Component: Designator=U11(SOP8_N)
+Added Component: Designator=U12(SMD_SOT23_3)
+Added Pin To Net: NetName=VCC Pin=C35-1
+Added Pin To Net: NetName=D Pin=C35-2
+Added Pin To Net: NetName=VCC Pin=C36-1
+Added Pin To Net: NetName=D Pin=C36-2
+Added Pin To Net: NetName=D Pin=J1-S14
+Added Pin To Net: NetName=VCC Pin=J1-S23
+Added Pin To Net: NetName=VCC Pin=Q1-2
+Added Pin To Net: NetName=D Pin=S1-1
+Added Pin To Net: NetName=VCC Pin=S1-3
+Added Pin To Net: NetName=~CS8 Pin=U1-24
+Added Pin To Net: NetName=~CS7 Pin=U1-25
+Added Pin To Net: NetName=~CS6 Pin=U1-27
+Added Pin To Net: NetName=~CS5 Pin=U1-28
+Added Pin To Net: NetName=~CS4 Pin=U1-29
+Added Pin To Net: NetName=~CS3 Pin=U1-30
+Added Pin To Net: NetName=~CS2 Pin=U1-31
+Added Pin To Net: NetName=~CS1 Pin=U1-32
+Added Pin To Net: NetName=~CS0 Pin=U1-33
+Added Pin To Net: NetName=DOUT Pin=U1-55
+Added Pin To Net: NetName=D Pin=U10-4
+Added Pin To Net: NetName=VCC Pin=U10-8
+Added Pin To Net: NetName=D Pin=U11-1
+Added Pin To Net: NetName=D Pin=U11-2
+Added Pin To Net: NetName=D Pin=U11-3
+Added Pin To Net: NetName=D Pin=U11-4
+Added Pin To Net: NetName=VCC Pin=U11-8
+Added Pin To Net: NetName=DOUT_0 Pin=U1-54
+Added Pin To Net: NetName=DOUT_0 Pin=U6A-18
+Added Net: Name=DOUT_0
+Added Pin To Net: NetName=DOUT_1 Pin=U1-53
+Added Pin To Net: NetName=DOUT_1 Pin=U6B-18
+Added Net: Name=DOUT_1
+Added Pin To Net: NetName=DOUT_2 Pin=U1-52
+Added Pin To Net: NetName=DOUT_2 Pin=U6C-18
+Added Net: Name=DOUT_2
+Added Pin To Net: NetName=DOUT_3 Pin=U1-50
+Added Pin To Net: NetName=DOUT_3 Pin=U6D-18
+Added Net: Name=DOUT_3
+Added Pin To Net: NetName=DOUT_4 Pin=U1-5
+Added Pin To Net: NetName=DOUT_4 Pin=U6E-18
+Added Net: Name=DOUT_4
+Added Pin To Net: NetName=DOUT_5 Pin=U1-49
+Added Pin To Net: NetName=DOUT_5 Pin=U6F-18
+Added Net: Name=DOUT_5
+Added Pin To Net: NetName=DOUT_6 Pin=U1-48
+Added Pin To Net: NetName=DOUT_6 Pin=U6G-18
+Added Net: Name=DOUT_6
+Added Pin To Net: NetName=DOUT_7 Pin=U1-47
+Added Pin To Net: NetName=DOUT_7 Pin=U6H-18
+Added Net: Name=DOUT_7
+Added Pin To Net: NetName=GND Pin=U12-3
+Added Net: Name=GND
+Added Pin To Net: NetName=I2C_SCL Pin=J1-S22
+Added Pin To Net: NetName=I2C_SCL Pin=U10-5
+Added Pin To Net: NetName=I2C_SCL Pin=U10-6
+Added Pin To Net: NetName=I2C_SCL Pin=U11-6
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=J1-S21
+Added Pin To Net: NetName=I2C_SDA Pin=U10-2
+Added Pin To Net: NetName=I2C_SDA Pin=U10-3
+Added Pin To Net: NetName=I2C_SDA Pin=U11-5
+Added Net: Name=I2C_SDA
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=U12-2
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=NetS1_2 Pin=S1-2
+Added Pin To Net: NetName=NetS1_2 Pin=U11-7
+Added Net: Name=NetS1_2
+Added Pin To Net: NetName=SILICON_SN Pin=J1-S17
+Added Pin To Net: NetName=SILICON_SN Pin=U12-1
+Added Net: Name=SILICON_SN
+Added Pin To Net: NetName=WSTRB Pin=J1-S13
+Added Pin To Net: NetName=WSTRB Pin=U1-46
+Added Net: Name=WSTRB
+Added Pin To Net: NetName=~CS9 Pin=U1-58
+Added Pin To Net: NetName=~CS9 Pin=U10-1
+Added Pin To Net: NetName=~CS9 Pin=U10-7
+Added Net: Name=~CS9
+Added Pin To Net: NetName=~CS10 Pin=Q1-1
+Added Pin To Net: NetName=~CS10 Pin=U1-57
+Added Net: Name=~CS10
+Added Pin To Net: NetName=~CS11 Pin=U1-56
+Added Net: Name=~CS11
+Change Class Name : Old Net Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD New Net Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Class: Name=780-00055, rev1, Pg2, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Class: Name=780-00055, rev1, Pg3, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Member To Class: ClassName=Power Supplies Member=Component C35 Cap SMD
+Added Member To Class: ClassName=Power Supplies Member=Component C36 Cap SMD
+Added Member To Class: ClassName=Power Supplies Member=Component Q1 FDV304P
+Added Member To Class: ClassName=Power Supplies Member=Component S1 CJS-1200TB
+Added Member To Class: ClassName=Power Supplies Member=Component U10 SN74CBT3306PWLE
+Added Member To Class: ClassName=Power Supplies Member=Component U11 M24C32RMN1
+Added Member To Class: ClassName=Power Supplies Member=Component U12 DS2411
+Change Room Name: Old Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD New Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD 

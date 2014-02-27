@@ -1,0 +1,4 @@
+Added Component: Designator=U20(TO-252(D-PAK)  PowerPAD)
+Added Pin To Net: NetName=+12V Pin=U20-1
+Added Pin To Net: NetName=+5V Pin=U20-3
+Added Member To Class: ClassName=Power Supplies Member=Component U20 Voltage Reg, Fixed

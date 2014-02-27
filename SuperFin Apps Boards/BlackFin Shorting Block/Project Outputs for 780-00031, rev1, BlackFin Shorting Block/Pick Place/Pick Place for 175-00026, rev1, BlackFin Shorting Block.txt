@@ -1,0 +1,7 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+2          TARGET_MECHANICAL_5 -15293.528mil     -10082mil       -928mil       -330mil -15293.528mil     -10082mil  T          0.00 Comment        
+1          TARGET_MECHANICAL_5 -15293.528mil     -10082mil       1806mil       1964mil -15293.528mil     -10082mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -15293.528mil     -10082mil       -914mil       1901mil -15293.528mil     -10082mil  T          0.00 Comment        
+U1         CM-BF5xx_-_Shorting_Block    610.708mil    720.472mil    610.708mil    720.472mil    890.236mil   1062.992mil  T          0.00 BlackFin Jumper
+

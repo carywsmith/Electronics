@@ -1,0 +1,27 @@
+Change Value of Parameter Code_JEDEC in Part U? Old=MO-153 New=
+Change Value of Parameter ComponentAvailability in Part U? Old=Obsolete New=
+Change Value of Parameter ComponentLink1Description in Part U? Old=Manufacturer Link New=
+Change Value of Parameter ComponentLink1URL in Part U? Old=http://www.ti.com/ New=
+Change Value of Parameter ComponentLink2Description in Part U? Old=Datasheet New=
+Change Value of Parameter ComponentLink2URL in Part U? Old=http://www-s.ti.com/sc/ds/sn74cbt3306.pdf New=
+Change Value of Parameter DatasheetVersion in Part U? Old=May-1998 New=
+Change Value of Parameter LatestRevisionDate in Part U? Old=16-Oct-2006 New=
+Change Value of Parameter LatestRevisionNote in Part U? Old=IPC-7351 Footprint Added. New=
+Change Value of Parameter PackageDescription in Part U? Old=8-Pin Small Outline Package 0.65 mm Pitch New=
+Change Value of Parameter PackageReference in Part U? Old=PW008 New=
+Change Value of Parameter PackageVersion in Part U? Old=Feb-1999 New=
+Change Value of Parameter Published in Part U? Old=8-Jun-2000 New=
+Change Value of Parameter Publisher in Part U? Old=Altium Limited New=
+Added Parameter Arena Prefix= to Part U5
+Added Parameter Arena Prefix= to Part U?
+Added Parameter Arena Type= to Part U5
+Added Parameter Arena Type= to Part U?
+Added Parameter COST= to Part U?
+Added Parameter LCO p/n= to Part U?
+Added Parameter Manufacturer= to Part U?
+Added Parameter Manuf p/n= to Part U?
+Added Parameter To Do list= to Part U?
+Added Parameter VALUE= to Part U?
+Added Parameter Vendor= to Part U?
+Added Parameter Vendor Mult.= to Part U?
+Added Parameter Vendor p/n= to Part U?

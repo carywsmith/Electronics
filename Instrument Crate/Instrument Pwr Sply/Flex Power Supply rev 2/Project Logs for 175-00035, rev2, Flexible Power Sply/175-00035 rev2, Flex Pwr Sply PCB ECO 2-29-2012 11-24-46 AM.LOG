@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=+24V_FUSED Pin=F1-2
+Change Component Comment : Designator=R8 Old Comment=Res 0805 New Comment=DNS
+Change Component Comment : Designator=R10 Old Comment=Res 0805 New Comment=DNS
+Added Component: Designator=C5(SMD_0805)
+Added Component: Designator=Q2(TO-252(D-PAK)  PowerPAD)
+Added Component: Designator=R11(SMD_0805)
+Added Component: Designator=R12(SMD_0805)
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=Q2-1
+Added Pin To Net: NetName=NetC5_1 Pin=R11-1
+Added Pin To Net: NetName=NetC5_1 Pin=R12-2
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=F1-2
+Added Pin To Net: NetName=NetC5_2 Pin=Q2-3
+Added Pin To Net: NetName=NetC5_2 Pin=R11-2
+Added Net: Name=NetC5_2
+Change Class Name : Old Net Name=780-00038 rev1, Pg1, SCH, Flex Pwr Sply New Net Name=780-00038 rev2, Pg1, SCH, Flex Pwr Sply
+Added Member To Class: ClassName=780-00038 rev2, Pg1, SCH, Flex Pwr Sply Member=Component C5 Cap SMD
+Added Member To Class: ClassName=780-00038 rev2, Pg1, SCH, Flex Pwr Sply Member=Component Q2 IRF5303P
+Added Member To Class: ClassName=780-00038 rev2, Pg1, SCH, Flex Pwr Sply Member=Component R11 Res 0805
+Added Member To Class: ClassName=780-00038 rev2, Pg1, SCH, Flex Pwr Sply Member=Component R12 Res 0805
+Change Room Name: Old Name=780-00038 rev1, Pg1, SCH, Flex Pwr Sply New Name=780-00038 rev2, Pg1, SCH, Flex Pwr Sply
+Change Room Scope: Old Scope=InComponentClass('780-00038 rev1, Pg1, SCH, Flex Pwr Sply') New Scope=InComponentClass('780-00038 rev2, Pg1, SCH, Flex Pwr Sply')

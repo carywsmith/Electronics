@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:20:23 AM On 12/23/2013
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [175-00060, rev1, PCB, NRES RTD_TEC Board.PcbDoc]
+   Generated File[Pick Place for 175-00060, rev1, PCB, NRES RTD_TEC Board.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:20:26 AM On 12/23/2013

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=DIN Pin=J1-S12
+Removed Pin From Net: NetName=~RESET Pin=J1-S20
+Added Pin To Net: NetName=~RESET Pin=U1-63
+Added Pin To Net: NetName=DIN Pin=U1-65
+Added Pin To Net: NetName=DIN_FPGA Pin=J1-S12
+Added Pin To Net: NetName=DIN_FPGA Pin=U1-64
+Added Net: Name=DIN_FPGA
+Added Pin To Net: NetName=~RESET_FPGA Pin=J1-S20
+Added Pin To Net: NetName=~RESET_FPGA Pin=U1-61
+Added Net: Name=~RESET_FPGA

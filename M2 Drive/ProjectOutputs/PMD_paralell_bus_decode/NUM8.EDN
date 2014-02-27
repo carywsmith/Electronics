@@ -1,0 +1,57 @@
+(edif (rename num8 "NUM8")
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2003 11 29 1 32 25)
+      (author "Synplicity, Inc.")
+      (program "Synplify" (version "7.3.3, Build 024R"))
+     )
+   )
+  (library UNILIB
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell GND (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port G (direction OUTPUT))
+         )
+       )
+    )
+    (cell VCC (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port P (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell (rename num8 "NUM8") (cellType GENERIC)
+       (view structure (viewType NETLIST)
+         (interface
+           (port (array (rename o "O(3:0)") 4) (direction OUTPUT))
+         )
+         (contents
+          (instance VCC (viewRef PRIM (cellRef VCC (libraryRef UNILIB)))          )
+          (instance GND (viewRef PRIM (cellRef GND (libraryRef UNILIB)))          )
+          (net (rename o_2 "O(2)") (joined
+           (portRef G (instanceRef GND))
+           (portRef (member o 1))
+           (portRef (member o 2))
+           (portRef (member o 3))
+          ))
+          (net (rename o_3 "O(3)") (joined
+           (portRef P (instanceRef VCC))
+           (portRef (member o 0))
+          ))
+         )
+       )
+    )
+  )
+  (design (rename num8 "NUM8") (cellRef num8 (libraryRef work))
+	(property PART (string "xc2c256-5-vq100") (owner "Xilinx")))
+)

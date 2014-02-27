@@ -1,0 +1,33 @@
+Field=LCO P/N~String~LCO P/N~89|Field=Designator~String~Designator~219|Field=Quantity~Integer~Quantity~219|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~175-00061, rev1, NRES, Crate Slot MotherBoard.PrjPcb|ReportField=ProjectFullPath~\\Files\users\rlobdill\Altum Projects\NRES\Crate Slot MotherBoard\175-00061, rev1, NRES, Crate Slot MotherBoard.PrjPcb|ReportField=Title~Bill of Materials For Project [175-00061, rev1, NRES, Crate Slot MotherBoard.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~56|ReportField=ReportTime~5:35:30 PM|ReportField=ReportDate~9/30/2013|ReportField=ReportDateTime~9/30/2013 5:35:30 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~9/30/2013|ReportField=CurrentTime~5:32:43 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~\\Files\users\rlobdill\Altum Projects\NRES\Crate Slot MotherBoard\780-00057, rev1, Pg1, SCH, NRES, Crate Slot MotherBoard.SchDoc|ReportField=DocumentName~780-00057, rev1, Pg1, SCH, NRES, Crate Slot MotherBoard.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~9/30/2013|ReportField=Organization~|ReportField=ProjectName~175-00061, rev1, NRES, Crate Slot MotherBoard.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~175-00061, rev1, NRES, Crate Slot MotherBoard.PrjPcb|ReportField=DataSourceFullPath~\\Files\users\rlobdill\Altum Projects\NRES\Crate Slot MotherBoard\175-00061, rev1, NRES, Crate Slot MotherBoard.PrjPcb
+120-00002|C1, C2|2
+120-00051|C3, C4, C5, C6|4
+120-00053|C7|1
+120-00010|C8, C9, C12, C13, C16, C17|6
+120-00046|C10, C11|2
+120-00002|C14|1
+120-00033|C15|1
+140-00001|D1|1
+145-00003|F1|1
+155-00018|FB1, FB2|2
+125-00039|J1|1
+125-00052|J2|1
+125-00370|J3, J4, J5, J6|4
+155-00015|L1|1
+125-00087|P1|1
+170-00003|PS1|1
+195-00004|Q1|1
+181-06982|R1|1
+181-01211|R2|1
+181-03651|R3|1
+181-04020|R4, R5|2
+180-00033|R6, R7|2
+180-00043|RN1|1
+185-00010|S1|1
+125-00013|TP1, TP4, TP5, TP6, TP7, TP9, TP13, TP14, TP15|9
+150-00083|U1|1
+150-00031|U2|1
+150-00076|U3|1
+150-00088|U4|1
+150-00099|U5|1
+830-00010|U6|1
+810-00003|XU6|1

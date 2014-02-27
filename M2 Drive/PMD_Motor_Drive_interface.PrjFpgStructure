@@ -1,0 +1,2 @@
+Record=TopLevelDocument|FileName=ParallelReadDecode.SchDoc
+Record=Configuration|Name=PMD_paralell_bus_decode|DeviceName=XC2C256-7PQ208C

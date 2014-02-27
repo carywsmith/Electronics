@@ -1,0 +1,8 @@
+Added Component: Designator=R6(smd_0805)
+Added Component: Designator=R7(smd_0805)
+Added Pin To Net: NetName=A Pin=R6-1
+Added Pin To Net: NetName=T Pin=R6-2
+Added Pin To Net: NetName=T Pin=R7-1
+Added Pin To Net: NetName=D Pin=R7-2
+Added Member To Class: ClassName=780-00057, rev1, Pg1, SCH, NRES, Crate Slot MotherBoard Member=Component R6 Res 0805
+Added Member To Class: ClassName=780-00057, rev1, Pg1, SCH, NRES, Crate Slot MotherBoard Member=Component R7 Res 0805

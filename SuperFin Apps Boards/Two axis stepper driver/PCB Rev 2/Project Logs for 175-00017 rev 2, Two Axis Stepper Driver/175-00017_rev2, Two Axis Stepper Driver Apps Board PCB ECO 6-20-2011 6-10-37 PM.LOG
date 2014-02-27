@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+48V Pin=P3-PC03
+Added Component: Designator=D2(SMC)
+Added Pin To Net: NetName=+48V Pin=D2-2
+Change Net Name : Old Net Name=+48V New Net Name=+24/48V
+Added Pin To Net: NetName=+48V Pin=D2-1
+Added Pin To Net: NetName=+48V Pin=P3-PC03
+Added Net: Name=+48V
+Added Member To Class: ClassName=780-00020, rev 2, pg1, Two Axis Stepper Driver Member=Component D2 S5BC-13-F

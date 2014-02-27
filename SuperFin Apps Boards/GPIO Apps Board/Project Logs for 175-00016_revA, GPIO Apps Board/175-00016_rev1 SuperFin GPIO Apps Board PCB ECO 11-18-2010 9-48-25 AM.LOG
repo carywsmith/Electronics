@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GP_I/OSPARE0 Pin=P2-1
+Removed Pin From Net: NetName=GND Pin=P2-6
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GP_I/OSPARE0 Pin=P2-6

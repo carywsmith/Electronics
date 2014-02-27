@@ -1,0 +1,95 @@
+###############################################################################
+### Altium HDL Synthesizer 1.0.0.1
+### Copyright (C) 2005, Altium Limited. All Rights Reserved
+###############################################################################
+### Timestamp: 10/6/2009 2:32:54 PM
+###############################################################################
+### Options:
+###
+### Synthesizing PMD_Motor_Drive_interface for CoolRunner2
+### Entity                  : PMD_Motor_Drive_interface
+### Verilog95               : False
+### VHDL87                  : False
+### Insert Toplevel Buffers : True
+### RAM Inference           : Block
+
+###############################################################################
+### Compilation Report
+###############################################################################
+
+analyzing entity j4b_4s
+analyzing architecture structure
+analyzing entity bufe16b
+analyzing architecture behav
+analyzing entity j4b4_16b
+analyzing architecture structure
+analyzing entity j16b_16s
+analyzing architecture structure
+analyzing entity j16s_16b
+analyzing architecture structure
+analyzing entity pmd_motor_drive_interface
+analyzing architecture structure
+###############################################################################
+### Elaboration Report
+###############################################################################
+
+executing J4B_4S(STRUCTURE)
+executing BUFE16B(behav)
+executing J4B4_16B(STRUCTURE)
+executing J16B_16S(STRUCTURE)
+executing J16S_16B(STRUCTURE)
+executing PMD_Motor_Drive_interface(structure)
+
+###############################################################################
+### Synthesis Report
+###############################################################################
+
+##O|ParallelReadDecode.VHD|408|Dissolving instance U35(J16B_16S)
+##O|ParallelReadDecode.VHD|416|Dissolving instance U34(J16S_16B)
+##O|ParallelReadDecode.VHD|438|Dissolving instance U33(J16B_16S)
+##O|ParallelReadDecode.VHD|491|Dissolving instance U28(J4B4_16B)
+##O|ParallelReadDecode.VHD|507|Dissolving instance U26(J4B4_16B)
+##O|ParallelReadDecode.VHD|523|Dissolving instance U24(J4B4_16B)
+##O|ParallelReadDecode.VHD|539|Dissolving instance U22(J4B4_16B)
+##O|ParallelReadDecode.VHD|610|Dissolving instance U14(J4B_4S)
+##O|ParallelReadDecode.VHD|620|Dissolving instance U13(J4B_4S)
+##O|ParallelReadDecode.VHD|642|Dissolving instance U10(J4B_4S)
+##O|ParallelReadDecode.VHD|652|Dissolving instance U9(J4B_4S)
+##O|ParallelReadDecode.VHD|674|Dissolving instance U6(J4B_4S)
+##O|ParallelReadDecode.VHD|684|Dissolving instance U5(J4B_4S)
+###############################################################################
+### Optimization Report
+
+optimizing "PMD_Motor_Drive_interface"
+optimizing "BUFE16B"
+ 
+###############################################################################
+### Design Statistics
+###############################################################################
+ 
+Tristates       : 16
+                
+MacroCells:     
+    NUM4        : 1
+    AND2S       : 2
+    COMP2S      : 1
+    NUM8        : 1
+    OR2S        : 1
+    D2_4ES      : 1
+    NUM0        : 4
+    INV         : 3
+    M16_B4B1    : 1
+    NUM1        : 2
+    NUM2        : 1
+    COMP12S     : 2
+    NUM3        : 1
+                
+Area Estimates: 
+ 
+###############################################################################
+ 
+formating EDIF....                            
+
+###############################################################################
+Synthesis successful
+###############################################################################

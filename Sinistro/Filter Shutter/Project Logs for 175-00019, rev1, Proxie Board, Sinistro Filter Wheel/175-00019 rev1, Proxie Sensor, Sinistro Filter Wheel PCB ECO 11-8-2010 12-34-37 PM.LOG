@@ -1,0 +1,6 @@
+Added Component: Designator=TP1(SMD_TEST POINT)
+Added Component: Designator=TP2(SMD_TEST POINT)
+Added Pin To Net: NetName=+5V Pin=TP1-1
+Added Pin To Net: NetName=GND Pin=TP2-1
+Added Member To Class: ClassName=780-00024_rev1_Pg1, Proxie Board, Sinistro Filter Wheel Member=Component TP1 Test Point SMD
+Added Member To Class: ClassName=780-00024_rev1_Pg1, Proxie Board, Sinistro Filter Wheel Member=Component TP2 Test Point SMD

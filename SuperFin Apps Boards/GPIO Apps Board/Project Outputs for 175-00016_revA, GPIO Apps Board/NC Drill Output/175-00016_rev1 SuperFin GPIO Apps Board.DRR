@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00016_rev1 SuperFin GPIO Apps Board.PcbDoc   11/29/2010  4:16:30 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer (*.GTL) to Bottom Layer (GBL)
+ASCII Plated RoundHoles File : 175-00016_rev1 SuperFin GPIO Apps Board-Plated.TXT
+EIA File   : 175-00016_rev1 SuperFin GPIO Apps Board.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          93               10.23 Inch (259.81 mm)
+T2        33mil (0.8382mm)         Round          5                0.37 Inch (9.42 mm)
+T3        35mil (0.889mm)          Round          38               4.39 Inch (111.43 mm)
+T4        166mil (4.2164mm)        Round          1                0.00 Inch (0.00 mm)
+---------------------------------------------------------------------------
+Totals                                            137              14.99 Inch (380.66 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

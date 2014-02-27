@@ -1,0 +1,27 @@
+Added Pin To Net: NetName=I2C_SCL Pin=J1A-3
+Added Pin To Net: NetName=~CS_SLOT1 Pin=J1A-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1B-3
+Added Pin To Net: NetName=~CS_SLOT2 Pin=J1B-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1C-3
+Added Pin To Net: NetName=~CS_SLOT3 Pin=J1C-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1D-3
+Added Pin To Net: NetName=~CS_SLOT4 Pin=J1D-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1E-3
+Added Pin To Net: NetName=~CS_SLOT5 Pin=J1E-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1F-3
+Added Pin To Net: NetName=~CS_SLOT6 Pin=J1F-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1G-3
+Added Pin To Net: NetName=~CS_SLOT7 Pin=J1G-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1H-3
+Added Pin To Net: NetName=~CS_SLOT8 Pin=J1H-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1I-3
+Added Pin To Net: NetName=~CS_SLOT9 Pin=J1I-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1J-3
+Added Pin To Net: NetName=~CS_SLOT10 Pin=J1J-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1K-3
+Added Pin To Net: NetName=~CS_SLOT11 Pin=J1K-4
+Added Pin To Net: NetName=I2C_SCL Pin=J1L-3
+Added Pin To Net: NetName=~CS_SLOT12 Pin=J1L-4
+Change Class Name : Old Net Name=780-00029,rev1,Pg3,Backplane, Instrument Crate New Net Name=780-00029,rev2,Pg3,Backplane, Instrument Crate
+Added Class: Name=780-00029,rev2,Pg2,Backplane, Instrument Crate
+Added Room: Name=780-00029,rev2,Pg3,Backplane, Instrument Crate

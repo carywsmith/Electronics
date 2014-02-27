@@ -1,0 +1,6 @@
+Change Room Name: Old Name=BackplaneSlot9 New Name=LM335 AND FAN
+Change Room Scope: Old Scope=InComponentClass('BackplaneSlot9') New Scope=InComponentClass('LM335 AND FAN')
+Added Room: Name=175-00053, rev1, Pg1, Sinistro Temp Telemetry Board
+Added Room: Name=HEATCHAN1
+Added Room: Name=HEATCHAN2
+Added Room: Name=SF CONNECTIONS

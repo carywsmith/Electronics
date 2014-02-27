@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [175-00017_rev2, Two Axis Stepper Driver Apps Board.PcbDoc]
+   Generated File[Pick Place for 175-00017_rev2, Two Axis Stepper Driver Apps Board.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:00:06 PM On 6/21/2011

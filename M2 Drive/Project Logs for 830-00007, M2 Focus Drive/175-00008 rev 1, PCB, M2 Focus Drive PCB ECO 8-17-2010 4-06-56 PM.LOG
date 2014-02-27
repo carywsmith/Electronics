@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=+24V Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Member From Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=C2
+Change Component DesignItemId : Designator=C2 Old DesignItemId=Cap 220uF, 63V New DesignItemId=Cap SMD
+Change Component Comment : Designator=C2 Old Comment=63V New Comment=25V
+Change Component Description : Designator=C2 Old Description=CAP 220UF 63V ELECT MVH SMD New Description=Capacitor
+Added Component: Designator=C11(SMD_0805)
+Added Component: Designator=C13(SMD_0805)
+Added Component: Designator=C14(SMD_0805)
+Added Component: Designator=D1(SMC)
+Added Component: Designator=L2(Inductor TDC SLF)
+Added Component: Designator=R29(SMD_0805)
+Added Component: Designator=R30(SMD_0805)
+Added Component: Designator=R31(SMD_0805)
+Added Component: Designator=R32(SMD_0805)
+Added Component: Designator=R33(SMD_0805)
+Added Component: Designator=R34(SMD_0805)
+Added Component: Designator=U21(DD12/DFN12)
+Added Pin To Net: NetName=+24V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+24V Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=+3.3V Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=+3.3V Pin=L2-2
+Added Pin To Net: NetName=+24V Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=GND Pin=R31-1
+Added Pin To Net: NetName=+3.3V Pin=R32-2
+Added Pin To Net: NetName=GND Pin=R34-1
+Added Pin To Net: NetName=GND Pin=U21-4
+Added Pin To Net: NetName=+3.3V Pin=U21-5
+Added Pin To Net: NetName=+24V Pin=U21-12
+Added Pin To Net: NetName=GND Pin=U21-13
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=D1-2
+Added Pin To Net: NetName=NetC11_1 Pin=L2-1
+Added Pin To Net: NetName=NetC11_1 Pin=U21-8
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=NetC11_2 Pin=U21-6
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=R33-1
+Added Net: Name=NetC14_2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=U21-7
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR29_2 Pin=R30-2
+Added Pin To Net: NetName=NetR29_2 Pin=U21-9
+Added Net: Name=NetR29_2
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Pin To Net: NetName=NetR31_2 Pin=U21-10
+Added Net: Name=NetR31_2
+Added Pin To Net: NetName=NetR32_1 Pin=R32-1
+Added Pin To Net: NetName=NetR32_1 Pin=R34-2
+Added Pin To Net: NetName=NetR32_1 Pin=U21-2
+Added Net: Name=NetR32_1
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=U21-1
+Added Net: Name=NetR33_2
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component C2 25V
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component C11 Cap SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component C13 16V
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component C14 Cap SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component D1 SL43-E3/57T
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component L2 445-3869-1-ND
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component R29 Res 0805
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component R30 Res 0805
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component R31 Res 0805
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component R32 Res 0805
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component R33 Res 0805
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component R34 Res 0805
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component U21 LT3682

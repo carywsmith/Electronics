@@ -1,0 +1,4 @@
+Added Component: Designator=C?(SMD_CAP_6032)
+Added Pin To Net: NetName=T Pin=C?-NEG
+Added Pin To Net: NetName=+24V Pin=C?-POS
+Added Member To Class: ClassName=Power Supplies Member=Component C? 50V

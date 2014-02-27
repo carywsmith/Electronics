@@ -1,0 +1,63 @@
+Added Component: Designator=TP1(SMD_TEST POINT)
+Added Component: Designator=TP2(SMD_TEST POINT)
+Added Component: Designator=TP3(SMD_TEST POINT)
+Added Component: Designator=TP4(SMD_TEST POINT)
+Added Component: Designator=TP5(SMD_TEST POINT)
+Added Component: Designator=TP6(SMD_TEST POINT)
+Added Component: Designator=TP7(SMD_TEST POINT)
+Added Component: Designator=TP8(SMD_TEST POINT)
+Added Component: Designator=TP9(SMD_TEST POINT)
+Added Component: Designator=TP10(SMD_TEST POINT)
+Added Component: Designator=TP11(SMD_TEST POINT)
+Added Component: Designator=TP12(SMD_TEST POINT)
+Added Component: Designator=TP13(SMD_TEST POINT)
+Added Component: Designator=TP14(SMD_TEST POINT)
+Added Component: Designator=TP15(SMD_TEST POINT)
+Added Component: Designator=TP16(SMD_TEST POINT)
+Added Component: Designator=TP17(SMD_TEST POINT)
+Added Component: Designator=TP18(SMD_TEST POINT)
+Added Component: Designator=TP19(SMD_TEST POINT)
+Added Component: Designator=TP20(SMD_TEST POINT)
+Added Pin To Net: NetName=CURRENT_AX1 Pin=TP1-1
+Added Pin To Net: NetName=CURRENT_AX2 Pin=TP2-1
+Added Pin To Net: NetName=CURRENT_AX3 Pin=TP3-1
+Added Pin To Net: NetName=STEP1 Pin=TP4-1
+Added Pin To Net: NetName=STEP2 Pin=TP5-1
+Added Pin To Net: NetName=STEP3 Pin=TP6-1
+Added Pin To Net: NetName=DIRECTION1 Pin=TP7-1
+Added Pin To Net: NetName=DIRECTION2 Pin=TP8-1
+Added Pin To Net: NetName=DIRECTION3 Pin=TP9-1
+Added Pin To Net: NetName=IR_TEMP2 Pin=TP10-1
+Added Pin To Net: NetName=IR_TEMP1 Pin=TP11-1
+Added Pin To Net: NetName=NetU12_8 Pin=TP12-1
+Added Pin To Net: NetName=NetU13_8 Pin=TP13-1
+Added Pin To Net: NetName=IR_TEMP3 Pin=TP14-1
+Added Pin To Net: NetName=NetU16_8 Pin=TP15-1
+Added Pin To Net: NetName=+24V Pin=TP16-1
+Added Pin To Net: NetName=+5V Pin=TP17-1
+Added Pin To Net: NetName=PCB_TEMP Pin=TP18-1
+Added Pin To Net: NetName=TRUSS_TEMP1 Pin=TP19-1
+Added Pin To Net: NetName=TRUSS_TEMP2 Pin=TP20-1
+Change Net Name : Old Net Name=NetU12_8 New Net Name=NetTP12_1
+Change Net Name : Old Net Name=NetU13_8 New Net Name=NetTP13_1
+Change Net Name : Old Net Name=NetU16_8 New Net Name=NetTP15_1
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP1 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP2 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP3 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP4 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP5 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP6 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP7 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP8 Test Point SMD
+Added Member To Class: ClassName=780-00012-P1, Sch M2 Focus Drive Member=Component TP9 Test Point SMD
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component TP10 Test Point SMD
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component TP11 Test Point SMD
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component TP12 Test Point SMD
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component TP13 Test Point SMD
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component TP14 Test Point SMD
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component TP15 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP16 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP17 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP18 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP19 Test Point SMD
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component TP20 Test Point SMD

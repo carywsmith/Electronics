@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (LVTTL|SSTL3_I|LVCMOS33|LVCMOS25|SSTL2_I|LVCMOS18|LVCMOS15|HSTL_I|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xbr" device="XC2C256" pkg="PQ208" spg="-7"/><pin dir="input" iostd="LVCMOS18" nm="HA10" no="37"/><pin dir="input" iostd="LVCMOS18" nm="HA34" no="77"/><pin dir="input" iostd="LVCMOS18" nm="HA12" no="39"/><pin dir="input" iostd="LVCMOS18" nm="HA16" no="58"/><pin dir="input" iostd="LVCMOS18" nm="HA14" no="56"/><pin dir="input" iostd="LVCMOS18" nm="HA20" no="63"/><pin dir="input" iostd="LVCMOS18" nm="HA18" no="61"/><pin dir="input" iostd="LVCMOS18" nm="HA24" no="66"/><pin dir="input" iostd="LVCMOS18" nm="HA22" no="64"/><pin dir="input" iostd="LVCMOS18" nm="HA28" no="71"/><pin dir="input" iostd="LVCMOS18" nm="HA26" no="69"/><pin dir="input" iostd="LVCMOS18" nm="HA32" no="75"/><pin dir="input" iostd="LVCMOS18" nm="HA30" no="73"/><pin dir="input" iostd="LVCMOS18" nm="HA2" no="28"/><pin dir="input" iostd="LVCMOS18" nm="HA4" no="30"/><pin dir="output" iostd="LVCMOS18" nm="HA11" no="38" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA13" no="54" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA15" no="57" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA17" no="60" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA19" no="62" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA21" no="65" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA23" no="67" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA25" no="70" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA27" no="72" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA29" no="74" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA31" no="76" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA33" no="78" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA7" no="34" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="HA9" no="36" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="LEDS0" no="185" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="LEDS1" no="184" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PD193" no="138" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PD194" no="137" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PD197" no="134" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PD198" no="131" sr="fast"/><pin dir="bidir" iostd="LVCMOS18" nm="n0s" no="31" sr="fast"/><pin dir="bidir" iostd="LVCMOS18" nm="n0t" no="29" sr="fast"/></ibis>

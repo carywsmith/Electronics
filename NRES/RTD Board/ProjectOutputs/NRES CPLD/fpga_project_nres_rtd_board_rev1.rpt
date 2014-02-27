@@ -1,0 +1,691 @@
+ 
+cpldfit:  version L.33                              Xilinx Inc.
+                                  Fitter Report
+Design Name: FPGA_Project_NRES_RTD_board_rev1      Date:  2-18-2014,  9:12AM
+Device Used: XCR3128XL-10-VQ100
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+29 /128 ( 23%) 45  /384  ( 12%) 52  /320  ( 16%) 4  /128 (  3%) 50 /80  ( 62%)
+
+** Function Block Resources **
+
+Function  Mcells    FB Inps   Pterms    IO        GCK       
+Block     Used/Tot  Used/Tot  Used/Tot  Used/Tot  Used/Tot  
+FB1         6/16     18/40     16/48     5/ 9      0/2
+FB2         7/16      6/40      7/48     7/10      0/2
+FB3         3/16      3/40      3/48     3/ 9      0/2
+FB4         3/16      6/40      3/48     3/10      0/2
+FB5         6/16      8/40     12/48     6/10      0/2
+FB6         0/16      0/40      0/48     0/ 9      0/2
+FB7         3/16      6/40      3/48     3/10      0/2
+FB8         1/16      5/40      1/48     1/ 9      0/2
+           -----    -------   -------    -----
+Total      29/128    52/320    45/384   28/76 
+
+* - Resource is exhausted
+
+** Local Control Term Resources **
+
+        LCT0     LCT1     LCT2     LCT3     LCT4     LCT5     LCT6     LCT7
+FB1                                                                             
+FB2                                                                             
+FB3                                                                             
+FB4                                                                             
+FB5     sr                                  ce       clk                        
+FB6                                                                             
+FB7                                                                             
+FB8                                                                             
+
+Legend:
+ce   - clock enable
+clk  - clock
+oe   - output enable
+sr   - set/reset
+uct1 - universal control term clock
+uct2 - universal control term output enable
+uct3 - universal control term preset
+uct4 - universal control term reset
+LCT0 - oe and/or sr can be mapped to this local control term
+LCT1 - oe and/or sr can be mapped to this local control term
+LCT2 - oe and/or sr can be mapped to this local control term
+LCT3 - sr can be mapped to this local control term
+LCT4 - ce and/or clk and/or sr can be mapped to this local control term
+LCT5 - clk and/or sr can be mapped to this local control term
+LCT6 - clk and/or oe can be mapped to this local control term
+LCT7 - clk can be mapped to this local control term
+
+** Global Control Resources **
+
+GCK         UCLK        UOE         UPST        URST        
+Used/Tot    Used/Tot    Used/Tot    Used/Tot    Used/Tot
+0/4         0/1         0/1         0/1         0/1
+
+GCK  - Global Clock
+UCLK - Universal Control Term Clock
+UOE  - Universal Control Term Output Enable
+UPST - Universal Control Term Preset
+URST - Universal Control Term Reset
+
+Global clock net(s) unused.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used     Total 
+------------------------------------|-------------------------------------
+Input         :   22          22    |  I/O              :    50       76
+Output        :   28          28    |  GCK/I            :     0        4
+Bidirectional :    0           0    |  
+GCK           :    0           0    |  
+                 ----        ----
+        Total    50           50 
+
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'FPGA_Project_NRES_RTD_board_rev1.ise'.
+WARNING:Cpld:1007 - Removing unused input(s) 'TCK'.  The input(s) are unused
+   after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'TDI'.  The input(s) are unused
+   after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'TDO'.  The input(s) are unused
+   after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'TMS'.  The input(s) are unused
+   after optimization. Please verify functionality via simulation.
+*************************  Summary of Mapped Logic  ************************
+
+** 28 Outputs **
+
+Signal              Total Total Loc     Pin   Pin       Pin     Slew Reg Init
+Name                Pts   Inps          No.   Type      Use     Rate State
+START_4             1     1     FB1_4   71    I/O       O       FAST 
+X_CS_4              1     5     FB1_5   70    I/O       O       FAST 
+DOUT                8     12    FB1_11  67    I/O       O       FAST 
+START_3             1     1     FB1_14  64    I/O       O       FAST 
+X_CS_3              1     5     FB1_15  63    I/O       O       FAST 
+X_CS_5              1     5     FB2_1   75    I/O       O       FAST 
+START_5             1     1     FB2_2   76    I/O       O       FAST 
+X_CS_6              1     5     FB2_4   78    I/O       O       FAST 
+START_6             1     1     FB2_5   79    I/O       O       FAST 
+X_CS_7              1     5     FB2_7   81    I/O       O       FAST 
+START_7             1     1     FB2_11  83    I/O       O       FAST 
+X_CS_8              1     5     FB2_13  85    I/O       O       FAST 
+SCLK                1     1     FB3_3   61    I/O       O       FAST 
+DIN                 1     1     FB3_4   60    I/O       O       FAST 
+X_RESET             1     1     FB3_7   57    I/O       O       FAST 
+START_1             1     1     FB4_2   40    I/O       O       FAST 
+X_CS_2              1     5     FB4_5   44    I/O       O       FAST 
+START_2             1     1     FB4_7   46    I/O       O       FAST 
+X_CS_10             1     5     FB5_2   1     I/O       O       FAST 
+X_CS_9              1     5     FB5_5   98    I/O       O       FAST 
+X_LVSHDN_0          4     8     FB5_7   96    I/O       O       FAST RESET
+X_LVSHDN_1          4     8     FB5_13  94    I/O       O       FAST RESET
+X_LVSHDN_2          4     8     FB5_14  93    I/O       O       FAST RESET
+X_LVSHDN_3          4     8     FB5_15  92    I/O       O       FAST RESET
+X_CS_1              1     5     FB7_2   37    I/O       O       FAST 
+START_0             1     1     FB7_4   35    I/O       O       FAST 
+X_CS_0              1     5     FB7_5   33    I/O       O       FAST 
+X_CS_11             1     5     FB8_11  21    I/O       O       FAST 
+
+** 1 Buried Nodes **
+
+Signal              Total Total Loc     Reg Init
+Name                Pts   Inps          State
+U8/eq_NE            4     4     FB1_2   
+
+** 22 Inputs **
+
+Signal              Loc     Pin   Pin       Pin     
+Name                        No.   Type      Use     
+DOUT_4              FB1_3   72    I/O       I       PU       
+DOUT_3              FB1_6   69    I/O       I       PU       
+X_RESET_FPGA        FB1_7   68    I/O       I       PU       
+WSTRB               FB1_13  65    I/O       I       PU       
+DOUT_5              FB2_3   77    I/O       I       PU       
+DOUT_6              FB2_6   80    I/O       I       PU       
+DOUT_7              FB2_12  84    I/O       I       PU       
+DOUT_2              FB3_6   58    I/O       I       PU       
+B1                  FB3_11  56    I/O       I       PU       
+START               FB3_12  55    I/O       I       PU       
+X_SHDN              FB3_13  54    I/O       I       PU       
+SCLK_FPGA           FB3_14  53    I/O       I       PU       
+DIN_FPGA            FB3_15  52    I/O       I       PU       
+A5                  FB4_3   41    I/O       I       PU       
+DOUT_1              FB4_4   42    I/O       I       PU       
+A4                  FB4_6   45    I/O       I       PU       
+A0                  FB4_11  47    I/O       I       PU       
+A1                  FB4_12  48    I/O       I       PU       
+A2                  FB4_13  49    I/O       I       PU       
+A3                  FB4_14  50    I/O       I       PU       
+B0                  FB6_3   5     I/O       I       PU       
+DOUT_0              FB7_3   36    I/O       I       PU       
+
+Legend:
+Pin No. - ~ - User Assigned
+PU          - Pull Up
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input            GCK - Global clock
+               O  - Output           (b) - Buried macrocell
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               18/22
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   16/32
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB1_1        (b)           
+U8/eq_NE                      4     FB1_2   73   TDO/I/O (b)   
+(unused)                      0     FB1_3   72   I/O     I     
+START_4                       1     FB1_4   71   I/O     O     
+X_CS_4                        1     FB1_5   70   I/O     O     
+(unused)                      0     FB1_6   69   I/O     I     
+(unused)                      0     FB1_7   68   I/O     I     
+(unused)                      0     FB1_8        (b)           
+(unused)                      0     FB1_9        (b)           
+(unused)                      0     FB1_10       (b)           
+DOUT                          8     FB1_11  67   I/O     O     
+(unused)                      0     FB1_12       (b)           
+(unused)                      0     FB1_13  65   I/O     I     
+START_3                       1     FB1_14  64   I/O     O     
+X_CS_3                        1     FB1_15  63   I/O     O     
+(unused)                      0     FB1_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: A0                 7: B0                13: DOUT_4 
+  2: A1                 8: B1                14: DOUT_5 
+  3: A2                 9: DOUT_0            15: DOUT_6 
+  4: A3                10: DOUT_1            16: DOUT_7 
+  5: A4                11: DOUT_2            17: START 
+  6: A5                12: DOUT_3            18: U8/eq_NE 
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+U8/eq_NE          ....XXXX................................ 4       
+START_4           ................X....................... 1       
+X_CS_4            XXXX.............X...................... 5       
+DOUT              XXX.....XXXXXXXX.X...................... 12      
+START_3           ................X....................... 1       
+X_CS_3            XXXX.............X...................... 5       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               6/34
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   7/41
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+X_CS_5                        1     FB2_1   75   I/O     O     
+START_5                       1     FB2_2   76   I/O     O     
+(unused)                      0     FB2_3   77   I/O     I     
+X_CS_6                        1     FB2_4   78   I/O     O     
+START_6                       1     FB2_5   79   I/O     O     
+(unused)                      0     FB2_6   80   I/O     I     
+X_CS_7                        1     FB2_7   81   I/O     O     
+(unused)                      0     FB2_8        (b)           
+(unused)                      0     FB2_9        (b)           
+(unused)                      0     FB2_10       (b)           
+START_7                       1     FB2_11  83   I/O     O     
+(unused)                      0     FB2_12  84   I/O     I     
+X_CS_8                        1     FB2_13  85   I/O     O     
+(unused)                      0     FB2_14       (b)           
+(unused)                      0     FB2_15       (b)           
+(unused)                      0     FB2_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: A0                 3: A2                 5: START 
+  2: A1                 4: A3                 6: U8/eq_NE 
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+X_CS_5            XXXX.X.................................. 5       
+START_5           ....X................................... 1       
+X_CS_6            XXXX.X.................................. 5       
+START_6           ....X................................... 1       
+X_CS_7            XXXX.X.................................. 5       
+START_7           ....X................................... 1       
+X_CS_8            XXXX.X.................................. 5       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB3  ***********************************
+Number of function block inputs used/remaining:               3/37
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   3/45
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB3_1        (b)           
+(unused)                      0     FB3_2   62   TCK/I/O       
+SCLK                          1     FB3_3   61   I/O     O     
+DIN                           1     FB3_4   60   I/O     O     
+(unused)                      0     FB3_5        (b)           
+(unused)                      0     FB3_6   58   I/O     I     
+X_RESET                       1     FB3_7   57   I/O     O     
+(unused)                      0     FB3_8        (b)           
+(unused)                      0     FB3_9        (b)           
+(unused)                      0     FB3_10       (b)           
+(unused)                      0     FB3_11  56   I/O     I     
+(unused)                      0     FB3_12  55   I/O     I     
+(unused)                      0     FB3_13  54   I/O     I     
+(unused)                      0     FB3_14  53   I/O     I     
+(unused)                      0     FB3_15  52   I/O     I     
+(unused)                      0     FB3_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: DIN_FPGA           2: SCLK_FPGA          3: X_RESET_FPGA 
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+SCLK              .X...................................... 1       
+DIN               X....................................... 1       
+X_RESET           ..X..................................... 1       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB4  ***********************************
+Number of function block inputs used/remaining:               6/34
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   3/45
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB4_1        (b)           
+START_1                       1     FB4_2   40   I/O     O     
+(unused)                      0     FB4_3   41   I/O     I     
+(unused)                      0     FB4_4   42   I/O     I     
+X_CS_2                        1     FB4_5   44   I/O     O     
+(unused)                      0     FB4_6   45   I/O     I     
+START_2                       1     FB4_7   46   I/O     O     
+(unused)                      0     FB4_8        (b)           
+(unused)                      0     FB4_9        (b)           
+(unused)                      0     FB4_10       (b)           
+(unused)                      0     FB4_11  47   I/O     I     
+(unused)                      0     FB4_12  48   I/O     I     
+(unused)                      0     FB4_13  49   I/O     I     
+(unused)                      0     FB4_14  50   I/O     I     
+(unused)                      0     FB4_15       (b)           
+(unused)                      0     FB4_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: A0                 3: A2                 5: START 
+  2: A1                 4: A3                 6: U8/eq_NE 
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+START_1           ....X................................... 1       
+X_CS_2            XXXX.X.................................. 5       
+START_2           ....X................................... 1       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB5  ***********************************
+Number of function block inputs used/remaining:               8/32
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  3/5
+Number of PLA product terms used/remaining:                   12/36
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB5_1   2    I/O           
+X_CS_10                       1     FB5_2   1    I/O     O     
+(unused)                      0     FB5_3   100  I/O           
+(unused)                      0     FB5_4   99   I/O           
+X_CS_9                        1     FB5_5   98   I/O     O     
+(unused)                      0     FB5_6   97   I/O           
+X_LVSHDN_0                    4     FB5_7   96   I/O     O     
+(unused)                      0     FB5_8        (b)           
+(unused)                      0     FB5_9        (b)           
+(unused)                      0     FB5_10       (b)           
+(unused)                      0     FB5_11       (b)           
+(unused)                      0     FB5_12       (b)           
+X_LVSHDN_1                    4     FB5_13  94   I/O     O     
+X_LVSHDN_2                    4     FB5_14  93   I/O     O     
+X_LVSHDN_3                    4     FB5_15  92   I/O     O     
+(unused)                      0     FB5_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: A0                 4: A3                 7: X_RESET_FPGA 
+  2: A1                 5: U8/eq_NE           8: X_SHDN 
+  3: A2                 6: WSTRB            
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+X_CS_10           XXXXX................................... 5       
+X_CS_9            XXXXX................................... 5       
+X_LVSHDN_0        XXXXXXXX................................ 8       
+X_LVSHDN_1        XXXXXXXX................................ 8       
+X_LVSHDN_2        XXXXXXXX................................ 8       
+X_LVSHDN_3        XXXXXXXX................................ 8       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB6  ***********************************
+Number of function block inputs used/remaining:               0/40
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   0/48
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB6_1        (b)           
+(unused)                      0     FB6_2   4    TDI/I/O       
+(unused)                      0     FB6_3   5    I/O     I     
+(unused)                      0     FB6_4   6    I/O           
+(unused)                      0     FB6_5   7    I/O           
+(unused)                      0     FB6_6   8    I/O           
+(unused)                      0     FB6_7   9    I/O           
+(unused)                      0     FB6_8        (b)           
+(unused)                      0     FB6_9        (b)           
+(unused)                      0     FB6_10       (b)           
+(unused)                      0     FB6_11  10   I/O           
+(unused)                      0     FB6_12       (b)           
+(unused)                      0     FB6_13       (b)           
+(unused)                      0     FB6_14  12   I/O           
+(unused)                      0     FB6_15  13   I/O           
+(unused)                      0     FB6_16  14   I/O           
+*********************************** FB7  ***********************************
+Number of function block inputs used/remaining:               6/34
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   3/45
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB7_1        (b)           
+X_CS_1                        1     FB7_2   37   I/O     O     
+(unused)                      0     FB7_3   36   I/O     I     
+START_0                       1     FB7_4   35   I/O     O     
+X_CS_0                        1     FB7_5   33   I/O     O     
+(unused)                      0     FB7_6   32   I/O           
+(unused)                      0     FB7_7   31   I/O           
+(unused)                      0     FB7_8        (b)           
+(unused)                      0     FB7_9        (b)           
+(unused)                      0     FB7_10       (b)           
+(unused)                      0     FB7_11  30   I/O           
+(unused)                      0     FB7_12  29   I/O           
+(unused)                      0     FB7_13  28   I/O           
+(unused)                      0     FB7_14  27   I/O           
+(unused)                      0     FB7_15       (b)           
+(unused)                      0     FB7_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: A0                 3: A2                 5: START 
+  2: A1                 4: A3                 6: U8/eq_NE 
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+X_CS_1            XXXX.X.................................. 5       
+START_0           ....X................................... 1       
+X_CS_0            XXXX.X.................................. 5       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB8  ***********************************
+Number of function block inputs used/remaining:               5/35
+Number of foldback NANDs used/remaining:                      0/8
+Number of function block local control terms used/remaining:  0/8
+Number of PLA product terms used/remaining:                   1/47
+Number of function block global clocks used/remaining:  0/2
+Signal                        Total Loc     Pin  Pin     Pin   GCK 
+Name                          Pt            No.  Type    Use       
+(unused)                      0     FB8_1        (b)           
+(unused)                      0     FB8_2   15   TMS/I/O       
+(unused)                      0     FB8_3   16   I/O           
+(unused)                      0     FB8_4   17   I/O           
+(unused)                      0     FB8_5        (b)           
+(unused)                      0     FB8_6   19   I/O           
+(unused)                      0     FB8_7   20   I/O           
+(unused)                      0     FB8_8        (b)           
+(unused)                      0     FB8_9        (b)           
+(unused)                      0     FB8_10       (b)           
+X_CS_11                       1     FB8_11  21   I/O     O     
+(unused)                      0     FB8_12  22   I/O           
+(unused)                      0     FB8_13  23   I/O           
+(unused)                      0     FB8_14  24   I/O           
+(unused)                      0     FB8_15  25   I/O           
+(unused)                      0     FB8_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: A0                 3: A2                 5: U8/eq_NE 
+  2: A1                 4: A3               
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+X_CS_11           XXXXX................................... 5       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+DIN = DIN_FPGA;	// (1 pt, 1 inp)
+
+DOUT = A2 & A1 & A0 & U8/eq_NE & DOUT_7
+	# A2 & A1 & !A0 & U8/eq_NE & DOUT_6
+	# A2 & !A1 & A0 & U8/eq_NE & DOUT_5
+	# A2 & !A1 & !A0 & U8/eq_NE & DOUT_4
+	# !A2 & A1 & A0 & U8/eq_NE & DOUT_3
+	# !A2 & A1 & !A0 & U8/eq_NE & DOUT_2
+	# !A2 & !A1 & A0 & U8/eq_NE & DOUT_1
+	# !A2 & !A1 & !A0 & DOUT_0 & U8/eq_NE;	// (8 pt, 12 inp)
+
+SCLK = SCLK_FPGA;	// (1 pt, 1 inp)
+
+START_0 = START;	// (1 pt, 1 inp)
+
+START_1 = START;	// (1 pt, 1 inp)
+
+START_2 = START;	// (1 pt, 1 inp)
+
+START_3 = START;	// (1 pt, 1 inp)
+
+START_4 = START;	// (1 pt, 1 inp)
+
+START_5 = START;	// (1 pt, 1 inp)
+
+START_6 = START;	// (1 pt, 1 inp)
+
+START_7 = START;	// (1 pt, 1 inp)
+
+U8/eq_NE = A4 & B0 & A5 & B1
+	# A4 & B0 & !A5 & !B1
+	# !A4 & !B0 & A5 & B1
+	# !A4 & !B0 & !A5 & !B1;	// (4 pt, 4 inp)
+
+!X_CS_0 = !A2 & !A1 & !A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_10 = !A2 & A1 & !A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+
+!X_CS_11 = !A2 & A1 & A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+
+!X_CS_1 = !A2 & !A1 & A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_2 = !A2 & A1 & !A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_3 = !A2 & A1 & A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_4 = A2 & !A1 & !A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_5 = A2 & !A1 & A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_6 = A2 & A1 & !A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_7 = A2 & A1 & A0 & U8/eq_NE & !A3;	// (1 pt, 5 inp)
+
+!X_CS_8 = !A2 & !A1 & !A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+
+!X_CS_9 = !A2 & !A1 & A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+
+X_LVSHDN_0 := X_SHDN;	// (1 pt, 1 inp)
+    X_LVSHDN_0.CLK = WSTRB;	// LCLK	(1 pt, 1 inp)
+    X_LVSHDN_0.CE = A2 & !A1 & !A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+    X_LVSHDN_0.AR = !X_RESET_FPGA;	// LRST	(1 pt, 1 inp)
+
+X_LVSHDN_1 := X_SHDN;	// (1 pt, 1 inp)
+    X_LVSHDN_1.CLK = WSTRB;	// LCLK	(1 pt, 1 inp)
+    X_LVSHDN_1.CE = A2 & !A1 & A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+    X_LVSHDN_1.AR = !X_RESET_FPGA;	// LRST	(1 pt, 1 inp)
+
+X_LVSHDN_2 := X_SHDN;	// (1 pt, 1 inp)
+    X_LVSHDN_2.CLK = WSTRB;	// LCLK	(1 pt, 1 inp)
+    X_LVSHDN_2.CE = A2 & A1 & !A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+    X_LVSHDN_2.AR = !X_RESET_FPGA;	// LRST	(1 pt, 1 inp)
+
+X_LVSHDN_3 := X_SHDN;	// (1 pt, 1 inp)
+    X_LVSHDN_3.CLK = WSTRB;	// LCLK	(1 pt, 1 inp)
+    X_LVSHDN_3.CE = A2 & A1 & A0 & U8/eq_NE & A3;	// (1 pt, 5 inp)
+    X_LVSHDN_3.AR = !X_RESET_FPGA;	// LRST	(1 pt, 1 inp)
+
+X_RESET = X_RESET_FPGA;	// (1 pt, 1 inp)
+
+Control Term Legend:
+Clock         - GCK   - Global Clock
+                UCLK  - Universal Control Term Clock
+                LCLK  - Local Control Term Clock
+                PTCLK - Product Term Clock
+Preset        - UPST  - Universal Control Term Preset
+                LPST  - Local Control Term Preset
+                PTPST - Product Term Preset
+Reset         - URST  - Universal Control Term Reset
+                LRST  - Local Control Term Reset
+                PTRST - Product Term Reset
+Output Enable - UOE   - Universal Control Term Output Enable
+                LOE   - Local Control Term Output Enable
+                PTOE  - Product Term Output Enable
+
+Legend:  <signame>.COMB = combinational node mapped to the same physical macrocell
+                          as the FastInput "signal" (not logically related)
+******************************  Device Pin Out *****************************
+
+Device : XCR3128XL-10-VQ100
+
+
+   --------------------------------------------------  
+  /100 98  96  94  92  90  88  86  84  82  80  78  76  \
+ |   99  97  95  93  91  89  87  85  83  81  79  77    |
+ | 1                                               75  | 
+ | 2                                               74  | 
+ | 3                                               73  | 
+ | 4                                               72  | 
+ | 5                                               71  | 
+ | 6                                               70  | 
+ | 7                                               69  | 
+ | 8                                               68  | 
+ | 9                                               67  | 
+ | 10                                              66  | 
+ | 11                                              65  | 
+ | 12                                              64  | 
+ | 13              XCR3128XL-10-VQ100              63  | 
+ | 14                                              62  | 
+ | 15                                              61  | 
+ | 16                                              60  | 
+ | 17                                              59  | 
+ | 18                                              58  | 
+ | 19                                              57  | 
+ | 20                                              56  | 
+ | 21                                              55  | 
+ | 22                                              54  | 
+ | 23                                              53  | 
+ | 24                                              52  | 
+ | 25                                              51  | 
+ |   27  29  31  33  35  37  39  41  43  45  47  49    |
+  \26  28  30  32  34  36  38  40  42  44  46  48  50  /
+   --------------------------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 X_CS_10                          51 VCC                           
+  2 WPU                              52 DIN_FPGA                      
+  3 VCC                              53 SCLK_FPGA                     
+  4 TDI                              54 X_SHDN                        
+  5 B0                               55 START                         
+  6 WPU                              56 B1                            
+  7 WPU                              57 X_RESET                       
+  8 WPU                              58 DOUT_2                        
+  9 WPU                              59 GND                           
+ 10 WPU                              60 DIN                           
+ 11 PE                               61 SCLK                          
+ 12 WPU                              62 TCK                           
+ 13 WPU                              63 X_CS_3                        
+ 14 WPU                              64 START_3                       
+ 15 TMS                              65 WSTRB                         
+ 16 WPU                              66 VCC                           
+ 17 WPU                              67 DOUT                          
+ 18 VCC                              68 X_RESET_FPGA                  
+ 19 WPU                              69 DOUT_3                        
+ 20 WPU                              70 X_CS_4                        
+ 21 X_CS_11                          71 START_4                       
+ 22 WPU                              72 DOUT_4                        
+ 23 WPU                              73 TDO                           
+ 24 WPU                              74 GND                           
+ 25 WPU                              75 X_CS_5                        
+ 26 GND                              76 START_5                       
+ 27 WPU                              77 DOUT_5                        
+ 28 WPU                              78 X_CS_6                        
+ 29 WPU                              79 START_6                       
+ 30 WPU                              80 DOUT_6                        
+ 31 WPU                              81 X_CS_7                        
+ 32 WPU                              82 VCC                           
+ 33 X_CS_0                           83 START_7                       
+ 34 VCC                              84 DOUT_7                        
+ 35 START_0                          85 X_CS_8                        
+ 36 DOUT_0                           86 GND                           
+ 37 X_CS_1                           87 TIE                           
+ 38 GND                              88 TIE                           
+ 39 VCC                              89 TIE                           
+ 40 START_1                          90 TIE                           
+ 41 A5                               91 VCC                           
+ 42 DOUT_1                           92 X_LVSHDN_3                    
+ 43 GND                              93 X_LVSHDN_2                    
+ 44 X_CS_2                           94 X_LVSHDN_1                    
+ 45 A4                               95 GND                           
+ 46 START_2                          96 X_LVSHDN_0                    
+ 47 A0                               97 WPU                           
+ 48 A1                               98 X_CS_9                        
+ 49 A2                               99 WPU                           
+ 50 A3                              100 WPU                           
+
+
+Legend :  NC  = Not Connected, unbonded pin
+          PE  = Port Enable pin
+         WPU  = Unused with Internal Weak Pull Up
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : XCR3128XL-10-VQ100
+Optimization Method                         : DENSITY
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Set Unused I/O Pin Termination              : PULLUP
+Set Input-Only Termination                  : PULLUP
+Set Universal Control Term Optimization     : OFF
+Enable Foldback NANDs                       : ON
+Reserve ISP Pins                            : ON
+Enable Input Registers                      : ON
+Function Block Fan-in Limit                 : 38
+Input Limit                                 : 32
+Pterm Limit                                 : 36

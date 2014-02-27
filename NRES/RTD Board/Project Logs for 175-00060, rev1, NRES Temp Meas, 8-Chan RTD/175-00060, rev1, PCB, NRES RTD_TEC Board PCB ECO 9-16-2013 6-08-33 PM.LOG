@@ -1,0 +1,48 @@
+Change Component DesignItemId : Designator=TP5A Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5B Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5C Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5D Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5E Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5F Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5G Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP5H Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6A Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6B Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6C Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6D Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6E Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6F Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6G Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP6H Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component Footprint: Designator=TP5A Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5B Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5C Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5D Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5E Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5F Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5G Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP5H Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6A Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6B Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6C Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6D Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6E Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6F Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6G Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP6H Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Comment : Designator=TP5A Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5B Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5C Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5D Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5E Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5F Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5G Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP5H Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6A Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6B Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6C Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6D Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6E Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6F Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6G Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP6H Old Comment=Test Point SMD New Comment=Test point

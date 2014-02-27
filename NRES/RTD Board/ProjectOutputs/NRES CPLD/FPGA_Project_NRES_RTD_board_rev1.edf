@@ -1,0 +1,675 @@
+(EDIF FPGA_Project_NRES_RTD_board_rev1
+ (EDIFVersion 2 0 0)
+ (EDIFLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status(Written
+   (TimeStamp 2014 2 18 9 12 13)
+   (Program "Altium Synthesis" (version "1.0.0.0"))
+   (Comment "Copyright (c) 2002-2007 Altium Limited")))
+ (library Xilinx (EDIFLevel 0) (technology (numberdefinition))
+
+  (cell OBUF (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port O (direction OUTPUT))
+     (port I (direction INPUT)))))
+  (cell IBUF (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port O (direction OUTPUT))
+     (port I (direction INPUT)))))
+  (cell M1_S8S1E (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port D0 (direction INPUT))
+     (port D1 (direction INPUT))
+     (port D2 (direction INPUT))
+     (port D3 (direction INPUT))
+     (port D4 (direction INPUT))
+     (port D5 (direction INPUT))
+     (port D6 (direction INPUT))
+     (port D7 (direction INPUT))
+     (port E (direction INPUT))
+     (port O (direction OUTPUT))
+     (port S0 (direction INPUT))
+     (port S1 (direction INPUT))
+     (port S2 (direction INPUT)))))
+  (cell BUF3S (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port I0 (direction INPUT))
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O0 (direction OUTPUT))
+     (port O1 (direction OUTPUT))
+     (port O2 (direction OUTPUT)))))
+  (cell COMP2S (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port A0 (direction INPUT))
+     (port A1 (direction INPUT))
+     (port B0 (direction INPUT))
+     (port B1 (direction INPUT))
+     (port EQ (direction OUTPUT)))))
+  (cell INV16S (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port I0 (direction INPUT))
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port I6 (direction INPUT))
+     (port I7 (direction INPUT))
+     (port I8 (direction INPUT))
+     (port I9 (direction INPUT))
+     (port I10 (direction INPUT))
+     (port I11 (direction INPUT))
+     (port I12 (direction INPUT))
+     (port I13 (direction INPUT))
+     (port I14 (direction INPUT))
+     (port I15 (direction INPUT))
+     (port O0 (direction OUTPUT))
+     (port O1 (direction OUTPUT))
+     (port O2 (direction OUTPUT))
+     (port O3 (direction OUTPUT))
+     (port O4 (direction OUTPUT))
+     (port O5 (direction OUTPUT))
+     (port O6 (direction OUTPUT))
+     (port O7 (direction OUTPUT))
+     (port O8 (direction OUTPUT))
+     (port O9 (direction OUTPUT))
+     (port O10 (direction OUTPUT))
+     (port O11 (direction OUTPUT))
+     (port O12 (direction OUTPUT))
+     (port O13 (direction OUTPUT))
+     (port O14 (direction OUTPUT))
+     (port O15 (direction OUTPUT)))))
+  (cell D4_16ES (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port A0 (direction INPUT))
+     (port A1 (direction INPUT))
+     (port A2 (direction INPUT))
+     (port A3 (direction INPUT))
+     (port D0 (direction OUTPUT))
+     (port D1 (direction OUTPUT))
+     (port D2 (direction OUTPUT))
+     (port D3 (direction OUTPUT))
+     (port D4 (direction OUTPUT))
+     (port D5 (direction OUTPUT))
+     (port D6 (direction OUTPUT))
+     (port D7 (direction OUTPUT))
+     (port D8 (direction OUTPUT))
+     (port D9 (direction OUTPUT))
+     (port D10 (direction OUTPUT))
+     (port D11 (direction OUTPUT))
+     (port D12 (direction OUTPUT))
+     (port D13 (direction OUTPUT))
+     (port D14 (direction OUTPUT))
+     (port D15 (direction OUTPUT))
+     (port E (direction INPUT)))))
+  (cell INV (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port I (direction INPUT))
+     (port O (direction OUTPUT)))))
+  (cell INV4S (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port I0 (direction INPUT))
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O0 (direction OUTPUT))
+     (port O1 (direction OUTPUT))
+     (port O2 (direction OUTPUT))
+     (port O3 (direction OUTPUT)))))
+  (cell FDCE (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port C (direction INPUT))
+     (port CE (direction INPUT))
+     (port CLR (direction INPUT))
+     (port D (direction INPUT))
+     (port Q (direction OUTPUT)))))
+  (cell BUF8S (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface 
+     (port I0 (direction INPUT))
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port I6 (direction INPUT))
+     (port I7 (direction INPUT))
+     (port O0 (direction OUTPUT))
+     (port O1 (direction OUTPUT))
+     (port O2 (direction OUTPUT))
+     (port O3 (direction OUTPUT))
+     (port O4 (direction OUTPUT))
+     (port O5 (direction OUTPUT))
+     (port O6 (direction OUTPUT))
+     (port O7 (direction OUTPUT)))))
+  (cell FPGA_Project_NRES_RTD_board_rev1 (celltype GENERIC) (view view_1 (viewType NETLIST)
+    (interface
+     (port A0 (direction INPUT))
+     (port A1 (direction INPUT))
+     (port A2 (direction INPUT))
+     (port A3 (direction INPUT))
+     (port A4 (direction INPUT))
+     (port A5 (direction INPUT))
+     (port B0 (direction INPUT))
+     (port B1 (direction INPUT))
+     (port DIN_FPGA (direction INPUT))
+     (port DOUT_0 (direction INPUT))
+     (port DOUT_1 (direction INPUT))
+     (port DOUT_2 (direction INPUT))
+     (port DOUT_3 (direction INPUT))
+     (port DOUT_4 (direction INPUT))
+     (port DOUT_5 (direction INPUT))
+     (port DOUT_6 (direction INPUT))
+     (port DOUT_7 (direction INPUT))
+     (port SCLK_FPGA (direction INPUT))
+     (port START (direction INPUT))
+     (port TCK (direction INPUT))
+     (port TDI (direction INPUT))
+     (port TDO (direction INPUT))
+     (port TMS (direction INPUT))
+     (port WSTRB (direction INPUT))
+     (port X_RESET_FPGA (direction INPUT))
+     (port X_SHDN (direction INPUT))
+     (port DIN (direction OUTPUT))
+     (port DOUT (direction OUTPUT))
+     (port SCLK (direction OUTPUT))
+     (port START_0 (direction OUTPUT))
+     (port START_1 (direction OUTPUT))
+     (port START_2 (direction OUTPUT))
+     (port START_3 (direction OUTPUT))
+     (port START_4 (direction OUTPUT))
+     (port START_5 (direction OUTPUT))
+     (port START_6 (direction OUTPUT))
+     (port START_7 (direction OUTPUT))
+     (port X_CS_0 (direction OUTPUT))
+     (port X_CS_1 (direction OUTPUT))
+     (port X_CS_2 (direction OUTPUT))
+     (port X_CS_3 (direction OUTPUT))
+     (port X_CS_4 (direction OUTPUT))
+     (port X_CS_5 (direction OUTPUT))
+     (port X_CS_6 (direction OUTPUT))
+     (port X_CS_7 (direction OUTPUT))
+     (port X_CS_8 (direction OUTPUT))
+     (port X_CS_9 (direction OUTPUT))
+     (port X_CS_10 (direction OUTPUT))
+     (port X_CS_11 (direction OUTPUT))
+     (port X_LVSHDN_0 (direction OUTPUT))
+     (port X_LVSHDN_1 (direction OUTPUT))
+     (port X_LVSHDN_2 (direction OUTPUT))
+     (port X_LVSHDN_3 (direction OUTPUT))
+     (port X_RESET (direction OUTPUT)))
+    (contents
+     (instance A_ibuf_0 (viewref view_1 (cellRef IBUF)))
+     (instance A_ibuf_1 (viewref view_1 (cellRef IBUF)))
+     (instance A_ibuf_2 (viewref view_1 (cellRef IBUF)))
+     (instance A_ibuf_3 (viewref view_1 (cellRef IBUF)))
+     (instance A_ibuf_4 (viewref view_1 (cellRef IBUF)))
+     (instance A_ibuf_5 (viewref view_1 (cellRef IBUF)))
+     (instance B_ibuf_0 (viewref view_1 (cellRef IBUF)))
+     (instance B_ibuf_1 (viewref view_1 (cellRef IBUF)))
+     (instance DIN_FPGA_ibuf (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_0 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_1 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_2 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_3 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_4 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_5 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_6 (viewref view_1 (cellRef IBUF)))
+     (instance DOUT__ibuf_7 (viewref view_1 (cellRef IBUF)))
+     (instance SCLK_FPGA_ibuf (viewref view_1 (cellRef IBUF)))
+     (instance START_ibuf (viewref view_1 (cellRef IBUF)))
+     (instance WSTRB_ibuf (viewref view_1 (cellRef IBUF)))
+     (instance X_RESET_FPGA_ibuf (viewref view_1 (cellRef IBUF)))
+     (instance X_SHDN_ibuf (viewref view_1 (cellRef IBUF)))
+     (instance DIN_obuf (viewref view_1 (cellRef OBUF)))
+     (instance DOUT_obuf (viewref view_1 (cellRef OBUF)))
+     (instance SCLK_obuf (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_0 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_1 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_2 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_3 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_4 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_5 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_6 (viewref view_1 (cellRef OBUF)))
+     (instance START__obuf_7 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_0 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_1 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_2 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_3 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_4 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_5 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_6 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_7 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_8 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_9 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_10 (viewref view_1 (cellRef OBUF)))
+     (instance X_CS__obuf_11 (viewref view_1 (cellRef OBUF)))
+     (instance X_LVSHDN__obuf_0 (viewref view_1 (cellRef OBUF)))
+     (instance X_LVSHDN__obuf_1 (viewref view_1 (cellRef OBUF)))
+     (instance X_LVSHDN__obuf_2 (viewref view_1 (cellRef OBUF)))
+     (instance X_LVSHDN__obuf_3 (viewref view_1 (cellRef OBUF)))
+     (instance X_RESET_obuf (viewref view_1 (cellRef OBUF)))
+     (instance U10 (viewref view_1 (cellRef M1_S8S1E))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 326")))
+     (instance U11 (viewref view_1 (cellRef BUF3S))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 315")))
+     (instance U8 (viewref view_1 (cellRef COMP2S))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 354")))
+     (instance U5 (viewref view_1 (cellRef D4_16ES))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 422")))
+     (instance U6 (viewref view_1 (cellRef INV16S))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 385")))
+     (instance U2 (viewref view_1 (cellRef INV4S))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 468")))
+     (instance U12 (viewref view_1 (cellRef INV))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 308")))
+     (instance U9 (viewref view_1 (cellRef FDCE))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 344")))
+     (instance U4 (viewref view_1 (cellRef FDCE))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 448")))
+     (instance U3 (viewref view_1 (cellRef FDCE))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 458")))
+     (instance U1 (viewref view_1 (cellRef FDCE))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 481")))
+     (instance U7 (viewref view_1 (cellRef BUF8S))
+      (property HDL_SOURCE (string "780-00055, rev1B, CPLD SCH, NRES RTD board.VHD : 364")))
+     (net A_ibuf_0 (joined
+       (portRef O  (instanceRef A_ibuf_0))
+       (portRef S0  (instanceRef U10))
+       (portRef A0  (instanceRef U5))))
+     (net A_ibuf_1 (joined
+       (portRef O  (instanceRef A_ibuf_1))
+       (portRef S1  (instanceRef U10))
+       (portRef A1  (instanceRef U5))))
+     (net A_ibuf_2 (joined
+       (portRef O  (instanceRef A_ibuf_2))
+       (portRef S2  (instanceRef U10))
+       (portRef A2  (instanceRef U5))))
+     (net A_ibuf_3 (joined
+       (portRef O  (instanceRef A_ibuf_3))
+       (portRef A3  (instanceRef U5))))
+     (net A_ibuf_4 (joined
+       (portRef O  (instanceRef A_ibuf_4))
+       (portRef A0  (instanceRef U8))))
+     (net A_ibuf_5 (joined
+       (portRef O  (instanceRef A_ibuf_5))
+       (portRef A1  (instanceRef U8))))
+     (net B_ibuf_0 (joined
+       (portRef O  (instanceRef B_ibuf_0))
+       (portRef B0  (instanceRef U8))))
+     (net B_ibuf_1 (joined
+       (portRef O  (instanceRef B_ibuf_1))
+       (portRef B1  (instanceRef U8))))
+     (net DIN_FPGA_ibuf (joined
+       (portRef O  (instanceRef DIN_FPGA_ibuf))
+       (portRef I1  (instanceRef U11))))
+     (net DOUT__ibuf_0 (joined
+       (portRef O  (instanceRef DOUT__ibuf_0))
+       (portRef D0  (instanceRef U10))))
+     (net DOUT__ibuf_1 (joined
+       (portRef O  (instanceRef DOUT__ibuf_1))
+       (portRef D1  (instanceRef U10))))
+     (net DOUT__ibuf_2 (joined
+       (portRef O  (instanceRef DOUT__ibuf_2))
+       (portRef D2  (instanceRef U10))))
+     (net DOUT__ibuf_3 (joined
+       (portRef O  (instanceRef DOUT__ibuf_3))
+       (portRef D3  (instanceRef U10))))
+     (net DOUT__ibuf_4 (joined
+       (portRef O  (instanceRef DOUT__ibuf_4))
+       (portRef D4  (instanceRef U10))))
+     (net DOUT__ibuf_5 (joined
+       (portRef O  (instanceRef DOUT__ibuf_5))
+       (portRef D5  (instanceRef U10))))
+     (net DOUT__ibuf_6 (joined
+       (portRef O  (instanceRef DOUT__ibuf_6))
+       (portRef D6  (instanceRef U10))))
+     (net DOUT__ibuf_7 (joined
+       (portRef O  (instanceRef DOUT__ibuf_7))
+       (portRef D7  (instanceRef U10))))
+     (net SCLK_FPGA_ibuf (joined
+       (portRef O  (instanceRef SCLK_FPGA_ibuf))
+       (portRef I0  (instanceRef U11))))
+     (net START_ibuf (joined
+       (portRef O  (instanceRef START_ibuf))
+       (portRef I0  (instanceRef U7))
+       (portRef I1  (instanceRef U7))
+       (portRef I2  (instanceRef U7))
+       (portRef I3  (instanceRef U7))
+       (portRef I4  (instanceRef U7))
+       (portRef I5  (instanceRef U7))
+       (portRef I6  (instanceRef U7))
+       (portRef I7  (instanceRef U7))))
+     (net WSTRB_ibuf (joined
+       (portRef O  (instanceRef WSTRB_ibuf))
+       (portRef C  (instanceRef U9))
+       (portRef C  (instanceRef U4))
+       (portRef C  (instanceRef U3))
+       (portRef C  (instanceRef U1))))
+     (net X_RESET_FPGA_ibuf (joined
+       (portRef O  (instanceRef X_RESET_FPGA_ibuf))
+       (portRef I2  (instanceRef U11))))
+     (net X_SHDN_ibuf (joined
+       (portRef O  (instanceRef X_SHDN_ibuf))
+       (portRef D  (instanceRef U9))
+       (portRef D  (instanceRef U4))
+       (portRef D  (instanceRef U3))
+       (portRef D  (instanceRef U1))))
+     (net X_RESET_int (joined
+       (portRef O2  (instanceRef U11))
+       (portRef I  (instanceRef U12))
+       (portRef I  (instanceRef X_RESET_obuf))))
+     (net NamedSignal_BRD_EN (joined
+       (portRef EQ  (instanceRef U8))
+       (portRef E  (instanceRef U10))
+       (portRef E  (instanceRef U5))))
+     (net PinSignal_U2_O3 (joined
+       (portRef O3  (instanceRef U2))
+       (portRef CE  (instanceRef U9))))
+     (net PinSignal_U12_O (joined
+       (portRef O  (instanceRef U12))
+       (portRef CLR  (instanceRef U9))
+       (portRef CLR  (instanceRef U4))
+       (portRef CLR  (instanceRef U3))
+       (portRef CLR  (instanceRef U1))))
+     (net PinSignal_U5_D0 (joined
+       (portRef D0  (instanceRef U5))
+       (portRef I0  (instanceRef U6))))
+     (net PinSignal_U5_D1 (joined
+       (portRef D1  (instanceRef U5))
+       (portRef I1  (instanceRef U6))))
+     (net PinSignal_U5_D2 (joined
+       (portRef D2  (instanceRef U5))
+       (portRef I2  (instanceRef U6))))
+     (net PinSignal_U5_D3 (joined
+       (portRef D3  (instanceRef U5))
+       (portRef I3  (instanceRef U6))))
+     (net PinSignal_U5_D4 (joined
+       (portRef D4  (instanceRef U5))
+       (portRef I4  (instanceRef U6))))
+     (net PinSignal_U5_D5 (joined
+       (portRef D5  (instanceRef U5))
+       (portRef I5  (instanceRef U6))))
+     (net PinSignal_U5_D6 (joined
+       (portRef D6  (instanceRef U5))
+       (portRef I6  (instanceRef U6))))
+     (net PinSignal_U5_D7 (joined
+       (portRef D7  (instanceRef U5))
+       (portRef I7  (instanceRef U6))))
+     (net PinSignal_U5_D8 (joined
+       (portRef D8  (instanceRef U5))
+       (portRef I8  (instanceRef U6))))
+     (net PinSignal_U5_D9 (joined
+       (portRef D9  (instanceRef U5))
+       (portRef I9  (instanceRef U6))))
+     (net PinSignal_U5_D10 (joined
+       (portRef D10  (instanceRef U5))
+       (portRef I10  (instanceRef U6))))
+     (net PinSignal_U5_D11 (joined
+       (portRef D11  (instanceRef U5))
+       (portRef I11  (instanceRef U6))))
+     (net PinSignal_U5_D12 (joined
+       (portRef D12  (instanceRef U5))
+       (portRef I12  (instanceRef U6))))
+     (net PinSignal_U5_D13 (joined
+       (portRef D13  (instanceRef U5))
+       (portRef I13  (instanceRef U6))))
+     (net PinSignal_U5_D14 (joined
+       (portRef D14  (instanceRef U5))
+       (portRef I14  (instanceRef U6))))
+     (net PinSignal_U5_D15 (joined
+       (portRef D15  (instanceRef U5))
+       (portRef I15  (instanceRef U6))))
+     (net PinSignal_U2_O2 (joined
+       (portRef O2  (instanceRef U2))
+       (portRef CE  (instanceRef U4))))
+     (net PinSignal_U2_O1 (joined
+       (portRef O1  (instanceRef U2))
+       (portRef CE  (instanceRef U3))))
+     (net NamedSignal_CS_12 (joined
+       (portRef O12  (instanceRef U6))
+       (portRef I0  (instanceRef U2))))
+     (net NamedSignal_CS_13 (joined
+       (portRef O13  (instanceRef U6))
+       (portRef I1  (instanceRef U2))))
+     (net NamedSignal_CS_14 (joined
+       (portRef O14  (instanceRef U6))
+       (portRef I2  (instanceRef U2))))
+     (net NamedSignal_CS_15 (joined
+       (portRef O15  (instanceRef U6))
+       (portRef I3  (instanceRef U2))))
+     (net PinSignal_U2_O0 (joined
+       (portRef O0  (instanceRef U2))
+       (portRef CE  (instanceRef U1))))
+     (net DIN_int (joined
+       (portRef O1  (instanceRef U11))
+       (portRef I  (instanceRef DIN_obuf))))
+     (net DOUT_int (joined
+       (portRef O  (instanceRef U10))
+       (portRef I  (instanceRef DOUT_obuf))))
+     (net SCLK_int (joined
+       (portRef O0  (instanceRef U11))
+       (portRef I  (instanceRef SCLK_obuf))))
+     (net START__int_0 (joined
+       (portRef O7  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_0))))
+     (net START__int_1 (joined
+       (portRef O6  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_1))))
+     (net START__int_2 (joined
+       (portRef O5  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_2))))
+     (net START__int_3 (joined
+       (portRef O4  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_3))))
+     (net START__int_4 (joined
+       (portRef O3  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_4))))
+     (net START__int_5 (joined
+       (portRef O2  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_5))))
+     (net START__int_6 (joined
+       (portRef O1  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_6))))
+     (net START__int_7 (joined
+       (portRef O0  (instanceRef U7))
+       (portRef I  (instanceRef START__obuf_7))))
+     (net X_CS__int_0 (joined
+       (portRef O0  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_0))))
+     (net X_CS__int_1 (joined
+       (portRef O1  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_1))))
+     (net X_CS__int_2 (joined
+       (portRef O2  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_2))))
+     (net X_CS__int_3 (joined
+       (portRef O3  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_3))))
+     (net X_CS__int_4 (joined
+       (portRef O4  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_4))))
+     (net X_CS__int_5 (joined
+       (portRef O5  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_5))))
+     (net X_CS__int_6 (joined
+       (portRef O6  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_6))))
+     (net X_CS__int_7 (joined
+       (portRef O7  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_7))))
+     (net X_CS__int_8 (joined
+       (portRef O8  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_8))))
+     (net X_CS__int_9 (joined
+       (portRef O9  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_9))))
+     (net X_CS__int_10 (joined
+       (portRef O10  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_10))))
+     (net X_CS__int_11 (joined
+       (portRef O11  (instanceRef U6))
+       (portRef I  (instanceRef X_CS__obuf_11))))
+     (net X_LVSHDN__int_0 (joined
+       (portRef Q  (instanceRef U1))
+       (portRef I  (instanceRef X_LVSHDN__obuf_0))))
+     (net X_LVSHDN__int_1 (joined
+       (portRef Q  (instanceRef U3))
+       (portRef I  (instanceRef X_LVSHDN__obuf_1))))
+     (net X_LVSHDN__int_2 (joined
+       (portRef Q  (instanceRef U4))
+       (portRef I  (instanceRef X_LVSHDN__obuf_2))))
+     (net X_LVSHDN__int_3 (joined
+       (portRef Q  (instanceRef U9))
+       (portRef I  (instanceRef X_LVSHDN__obuf_3))))
+     (net DIN (joined
+       (portRef O  (instanceRef DIN_obuf))
+       (portRef DIN)))
+     (net DOUT (joined
+       (portRef O  (instanceRef DOUT_obuf))
+       (portRef DOUT)))
+     (net SCLK (joined
+       (portRef O  (instanceRef SCLK_obuf))
+       (portRef SCLK)))
+     (net START_0 (joined
+       (portRef O  (instanceRef START__obuf_0))
+       (portRef START_0)))
+     (net START_1 (joined
+       (portRef O  (instanceRef START__obuf_1))
+       (portRef START_1)))
+     (net START_2 (joined
+       (portRef O  (instanceRef START__obuf_2))
+       (portRef START_2)))
+     (net START_3 (joined
+       (portRef O  (instanceRef START__obuf_3))
+       (portRef START_3)))
+     (net START_4 (joined
+       (portRef O  (instanceRef START__obuf_4))
+       (portRef START_4)))
+     (net START_5 (joined
+       (portRef O  (instanceRef START__obuf_5))
+       (portRef START_5)))
+     (net START_6 (joined
+       (portRef O  (instanceRef START__obuf_6))
+       (portRef START_6)))
+     (net START_7 (joined
+       (portRef O  (instanceRef START__obuf_7))
+       (portRef START_7)))
+     (net X_CS_0 (joined
+       (portRef O  (instanceRef X_CS__obuf_0))
+       (portRef X_CS_0)))
+     (net X_CS_1 (joined
+       (portRef O  (instanceRef X_CS__obuf_1))
+       (portRef X_CS_1)))
+     (net X_CS_2 (joined
+       (portRef O  (instanceRef X_CS__obuf_2))
+       (portRef X_CS_2)))
+     (net X_CS_3 (joined
+       (portRef O  (instanceRef X_CS__obuf_3))
+       (portRef X_CS_3)))
+     (net X_CS_4 (joined
+       (portRef O  (instanceRef X_CS__obuf_4))
+       (portRef X_CS_4)))
+     (net X_CS_5 (joined
+       (portRef O  (instanceRef X_CS__obuf_5))
+       (portRef X_CS_5)))
+     (net X_CS_6 (joined
+       (portRef O  (instanceRef X_CS__obuf_6))
+       (portRef X_CS_6)))
+     (net X_CS_7 (joined
+       (portRef O  (instanceRef X_CS__obuf_7))
+       (portRef X_CS_7)))
+     (net X_CS_8 (joined
+       (portRef O  (instanceRef X_CS__obuf_8))
+       (portRef X_CS_8)))
+     (net X_CS_9 (joined
+       (portRef O  (instanceRef X_CS__obuf_9))
+       (portRef X_CS_9)))
+     (net X_CS_10 (joined
+       (portRef O  (instanceRef X_CS__obuf_10))
+       (portRef X_CS_10)))
+     (net X_CS_11 (joined
+       (portRef O  (instanceRef X_CS__obuf_11))
+       (portRef X_CS_11)))
+     (net X_LVSHDN_0 (joined
+       (portRef O  (instanceRef X_LVSHDN__obuf_0))
+       (portRef X_LVSHDN_0)))
+     (net X_LVSHDN_1 (joined
+       (portRef O  (instanceRef X_LVSHDN__obuf_1))
+       (portRef X_LVSHDN_1)))
+     (net X_LVSHDN_2 (joined
+       (portRef O  (instanceRef X_LVSHDN__obuf_2))
+       (portRef X_LVSHDN_2)))
+     (net X_LVSHDN_3 (joined
+       (portRef O  (instanceRef X_LVSHDN__obuf_3))
+       (portRef X_LVSHDN_3)))
+     (net X_RESET (joined
+       (portRef O  (instanceRef X_RESET_obuf))
+       (portRef X_RESET)))
+     (net A0 (joined
+       (portRef A0)
+       (portRef I  (instanceRef A_ibuf_0))))
+     (net A1 (joined
+       (portRef A1)
+       (portRef I  (instanceRef A_ibuf_1))))
+     (net A2 (joined
+       (portRef A2)
+       (portRef I  (instanceRef A_ibuf_2))))
+     (net A3 (joined
+       (portRef A3)
+       (portRef I  (instanceRef A_ibuf_3))))
+     (net A4 (joined
+       (portRef A4)
+       (portRef I  (instanceRef A_ibuf_4))))
+     (net A5 (joined
+       (portRef A5)
+       (portRef I  (instanceRef A_ibuf_5))))
+     (net B0 (joined
+       (portRef B0)
+       (portRef I  (instanceRef B_ibuf_0))))
+     (net B1 (joined
+       (portRef B1)
+       (portRef I  (instanceRef B_ibuf_1))))
+     (net DIN_FPGA (joined
+       (portRef DIN_FPGA)
+       (portRef I  (instanceRef DIN_FPGA_ibuf))))
+     (net DOUT_0 (joined
+       (portRef DOUT_0)
+       (portRef I  (instanceRef DOUT__ibuf_0))))
+     (net DOUT_1 (joined
+       (portRef DOUT_1)
+       (portRef I  (instanceRef DOUT__ibuf_1))))
+     (net DOUT_2 (joined
+       (portRef DOUT_2)
+       (portRef I  (instanceRef DOUT__ibuf_2))))
+     (net DOUT_3 (joined
+       (portRef DOUT_3)
+       (portRef I  (instanceRef DOUT__ibuf_3))))
+     (net DOUT_4 (joined
+       (portRef DOUT_4)
+       (portRef I  (instanceRef DOUT__ibuf_4))))
+     (net DOUT_5 (joined
+       (portRef DOUT_5)
+       (portRef I  (instanceRef DOUT__ibuf_5))))
+     (net DOUT_6 (joined
+       (portRef DOUT_6)
+       (portRef I  (instanceRef DOUT__ibuf_6))))
+     (net DOUT_7 (joined
+       (portRef DOUT_7)
+       (portRef I  (instanceRef DOUT__ibuf_7))))
+     (net SCLK_FPGA (joined
+       (portRef SCLK_FPGA)
+       (portRef I  (instanceRef SCLK_FPGA_ibuf))))
+     (net START (joined
+       (portRef START)
+       (portRef I  (instanceRef START_ibuf))))
+     (net WSTRB (joined
+       (portRef WSTRB)
+       (portRef I  (instanceRef WSTRB_ibuf))))
+     (net X_RESET_FPGA (joined
+       (portRef X_RESET_FPGA)
+       (portRef I  (instanceRef X_RESET_FPGA_ibuf))))
+     (net X_SHDN (joined
+       (portRef X_SHDN)
+       (portRef I  (instanceRef X_SHDN_ibuf))))))))
+ (design FPGA_Project_NRES_RTD_board_rev1 (cellRef FPGA_Project_NRES_RTD_board_rev1 (libraryRef Xilinx))))

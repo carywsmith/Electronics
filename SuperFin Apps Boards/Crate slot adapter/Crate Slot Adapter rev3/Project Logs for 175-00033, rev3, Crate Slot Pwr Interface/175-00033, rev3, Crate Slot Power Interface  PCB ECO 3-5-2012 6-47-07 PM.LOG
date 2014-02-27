@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+24V_FUSED Pin=F1-2
+Added Component: Designator=C1(SMD_0805)
+Added Component: Designator=Q2(TO-252(D-PAK)  PowerPAD)
+Added Component: Designator=R1(SMD_0805)
+Added Component: Designator=R2(SMD_0805)
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=+24V_FUSED Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=Q2-1
+Added Pin To Net: NetName=NetC1_1 Pin=R1-1
+Added Pin To Net: NetName=NetC1_1 Pin=R2-2
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=F1-2
+Added Pin To Net: NetName=NetC1_2 Pin=Q2-3
+Added Pin To Net: NetName=NetC1_2 Pin=R1-2
+Added Net: Name=NetC1_2
+Change Class Name : Old Net Name=780-00036, rev2, Sch, Crate Slot Power Interface New Net Name=780-00036, rev3, Sch, Crate Slot Power Interface
+Added Member To Class: ClassName=780-00036, rev3, Sch, Crate Slot Power Interface Member=Component C1 Cap SMD
+Added Member To Class: ClassName=780-00036, rev3, Sch, Crate Slot Power Interface Member=Component Q2 IRF5303P
+Added Member To Class: ClassName=780-00036, rev3, Sch, Crate Slot Power Interface Member=Component R1 Res 0805
+Added Member To Class: ClassName=780-00036, rev3, Sch, Crate Slot Power Interface Member=Component R2 Res 0805
+Added Room: Name=780-00036, rev3, Sch, Crate Slot Power Interface

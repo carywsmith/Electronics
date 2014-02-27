@@ -1,0 +1,39 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+C9         SMD_0805           786.063mil    2203.74mil    786.063mil    2203.74mil    831.063mil    2203.74mil  B        180.00 Cap SMD        
+C8         SMD_0805               319mil       2203mil        319mil       2203mil        274mil       2203mil  B        360.00 Cap SMD        
+C6         SMD_0805               785mil       1240mil        785mil       1240mil        830mil       1240mil  B        180.00 Cap SMD        
+C5         SMD_0805               305mil       1235mil        305mil       1235mil        260mil       1235mil  B        360.00 Cap SMD        
+U8         SOP8_N                 180mil       1540mil        180mil       1540mil        105mil   1441.575mil  T         90.00 M24C32RMN1     
+U5         Q-14_A             541.063mil    2128.74mil    541.063mil    2128.74mil    241.063mil    1978.74mil  T        360.00 AD595AQ        
+U4         Q-14_A                 540mil       1160mil        540mil       1160mil        240mil       1010mil  T        360.00 AD595AQ        
+U1         Q-14_A             544.921mil     691.89mil    544.921mil     691.89mil    244.921mil     541.89mil  T        360.00 AD595AQ        
+U6         S8_N               551.063mil    2128.74mil    551.063mil    2128.74mil    645.551mil    2203.74mil  B        180.00 LT1124CS8#PBF  
+U3         S8_N                   540mil       1165mil        540mil       1165mil    634.488mil       1240mil  B        180.00 LT1124CS8#PBF  
+U2         S8_N               589.921mil     691.89mil    589.921mil     691.89mil    684.409mil     766.89mil  B        180.00 LT1124CS8#PBF  
+TP3        SMD_TEST_POINT          80mil       2130mil         80mil       2130mil         80mil       2130mil  T         90.00 Test Point SMD 
+TP2        SMD_TEST_POINT          70mil       1160mil         70mil       1160mil         70mil       1160mil  T        270.00 Test Point SMD 
+TP1        SMD_TEST_POINT          70mil        690mil         70mil        690mil         70mil        690mil  T        270.00 Test Point SMD 
+S1         CAS-120B               170mil       1810mil        170mil       1810mil    238.898mil   1886.772mil  T        180.00 CJS-1200TB     
+R9         SMD_0805               321mil       2059mil        321mil       2059mil        366mil       2059mil  B        180.00 Res 0805       
+R8         SMD_0805           786.063mil    2128.74mil    786.063mil    2128.74mil    741.063mil    2128.74mil  B        360.00 Res 0805       
+R7         SMD_0805           786.063mil    2053.74mil    786.063mil    2053.74mil    831.063mil    2053.74mil  B        180.00 Res 0805       
+R6         SMD_0805               305mil       1090mil        305mil       1090mil        350mil       1090mil  B        180.00 Res 0805       
+R5         SMD_0805               790mil       1165mil        790mil       1165mil        745mil       1165mil  B        360.00 Res 0805       
+R4         SMD_0805               790mil       1090mil        790mil       1090mil        835mil       1090mil  B        180.00 Res 0805       
+R3         SMD_0805           349.921mil     611.89mil    349.921mil     611.89mil    394.921mil     611.89mil  B        180.00 Res 0805       
+R2         SMD_0805           814.921mil     691.89mil    814.921mil     691.89mil    769.921mil     691.89mil  B        360.00 Res 0805       
+R1         SMD_0805           814.921mil     611.89mil    814.921mil     611.89mil    859.921mil     611.89mil  B        180.00 Res 0805       
+C10        SMD_0805               319mil       2130mil        319mil       2130mil        274mil       2130mil  B        360.00 Cap SMD        
+C7         SMD_0805               305mil       1165mil        305mil       1165mil        260mil       1165mil  B        360.00 Cap SMD        
+C4         SMD_0805           814.921mil     766.89mil    814.921mil     766.89mil    859.921mil     766.89mil  B        180.00 Cap SMD        
+C3         SMD_0805           349.921mil     686.89mil    349.921mil     686.89mil    304.921mil     686.89mil  B        360.00 Cap SMD        
+C1         SMD_0805           349.921mil     761.89mil    349.921mil     761.89mil    304.921mil     761.89mil  B        360.00 Cap SMD        
+J1         THERMOCOUPLE,_Vertical    628.937mil    239.016mil   1003.937mil    374.016mil    503.937mil    312.016mil  T        180.00 PCC-SMP-V-K    
+J2         THERMOCOUPLE,_Vertical        626mil       2536mil       1001mil       2671mil        501mil       2609mil  T        180.00 PCC-SMP-V-K    
+J3         THERMOCOUPLE,_Vertical        625mil       2935mil       1000mil       3070mil        500mil       3008mil  T        180.00 PCC-SMP-V-K    
+P1         QMS_SMD_PWR_PINS_-_104PIN   1187.992mil   1574.803mil   1187.992mil   1574.803mil   1060.433mil    842.047mil  B         90.00 QMSS-052-06.75-L-D-PC4
+           TARGET_MECHANICAL_5 -24673.055mil -16501.102mil       -970mil       -247mil -24673.055mil -16501.102mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -24673.055mil -16501.102mil       -871mil       3453mil -24673.055mil -16501.102mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -24673.055mil -16501.102mil       2540mil       3312mil -24673.055mil -16501.102mil  T          0.00 Comment        
+

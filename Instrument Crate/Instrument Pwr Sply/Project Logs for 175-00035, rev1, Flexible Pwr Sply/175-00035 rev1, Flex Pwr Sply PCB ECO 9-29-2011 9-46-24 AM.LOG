@@ -1,0 +1,25 @@
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=C8
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=C9
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=C12
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=C13
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=C16
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=FB1
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=FB2
+Added Component: Designator=C6(SMD_0805)
+Added Component: Designator=C7(SMD_0805)
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=C7-2
+Added Pin To Net: NetName=NetC6_1 Pin=C14-2
+Added Pin To Net: NetName=NetC6_1 Pin=P5-2
+Added Pin To Net: NetName=NetC6_1 Pin=PS3-5
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=P5-1
+Added Pin To Net: NetName=NetC6_2 Pin=PS3-4
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=P5-3
+Added Pin To Net: NetName=NetC7_1 Pin=PS3-6
+Added Net: Name=NetC7_1
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C6 Cap SMD
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C7 Cap SMD

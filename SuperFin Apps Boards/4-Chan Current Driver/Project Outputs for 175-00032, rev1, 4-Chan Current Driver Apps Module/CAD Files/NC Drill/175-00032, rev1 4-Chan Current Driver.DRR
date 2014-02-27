@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00032, rev1 4-Chan Current Driver.PcbDoc   8/18/2011  10:40:56 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer  (*GTL) to Bottom Layer  (*GBL)
+ASCII Plated RoundHoles File : 175-00032, rev1 4-Chan Current Driver-Plated.TXT
+EIA File   : 175-00032, rev1 4-Chan Current Driver.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          81               12.94 Inch (328.60 mm)
+T2        13mil (0.3302mm)         Round          4                2.49 Inch (63.28 mm)
+T3        28mil (0.7112mm)         Round          38               13.68 Inch (347.49 mm)
+T4        35mil (0.889mm)          Round          8                0.70 Inch (17.78 mm)
+T5        166mil (4.2164mm)        Round          1                0.00 Inch (0.00 mm)
+---------------------------------------------------------------------------
+Totals                                            132              29.81 Inch (757.16 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

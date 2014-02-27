@@ -1,0 +1,102 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5 -17615.158mil -15629.921mil       8530mil       4905mil -17615.158mil -15629.921mil  T        360.00 Comment        
+Designator TARGET_MECHANICAL_5 -17615.158mil -15629.921mil      -1260mil       4905mil -17615.158mil -15629.921mil  T        360.00 Comment        
+Designator TARGET_MECHANICAL_5 -17615.158mil -15629.921mil       -783mil      -1825mil -17615.158mil -15629.921mil  T        360.00 Comment        
+F7         SMD_2920__PolySwitch       6576mil        737mil       6576mil        737mil       6576mil    866.921mil  B         90.00 Res 0805       
+TP13       PAD_80D_052H          7822mil       3638mil       7822mil       3638mil       7822mil       3638mil  T         90.00 Test point     
+TP8        PAD_80D_052H          7561mil       3636mil       7561mil       3636mil       7561mil       3636mil  T         90.00 Test point     
+P2         HDR1X2                7086mil       1550mil       7086mil       1500mil       7086mil       1500mil  T         90.00 Header 2       
+P1         PETC-02-12-02-01-RA    7696.85mil   1968.504mil    7696.85mil   1968.504mil    7846.85mil   1868.504mil  T          0.00 PETC-02-12-02--01-S-RA-SD
+C3         CAP,_Thru_Hole_12.5_mm_dia       5298mil       3408mil       5298mil       3408mil   5396.425mil       3408mil  T          0.00 10V            
+C6         CAP,_Thru_Hole_12.5_mm_dia   6094.575mil       3421mil   6094.575mil       3421mil       6193mil       3421mil  T          0.00 25V            
+C9         CAP,_Thru_Hole_12.5_mm_dia   6758.425mil       3447mil   6758.425mil       3447mil    6856.85mil       3447mil  T          0.00 25V            
+P5         HDR1X2                7092mil        744mil       7092mil        794mil       7092mil        794mil  T        270.00 Header 2       
+Q4         TO-252(D-PAK)__PowerPAD   6817.685mil   3086.638mil   6817.685mil    3103.37mil   6907.449mil    2932.11mil  B         90.00 STD30NF03L     
+T3         XFRMR_TRIAD_FS28-700_(20VA)   6024.299mil       1391mil   6024.299mil       1391mil   5224.299mil       1891mil  T        360.00 20VA           
+TP1        PAD_80D_052H          8004mil        701mil       8004mil        701mil       8004mil        701mil  T         90.00 Test point     
+TP9        PAD_80D_052H      7081.299mil       1833mil   7081.299mil       1833mil   7081.299mil       1833mil  T         90.00 Test point     
+TP11       PAD_80D_052H          7268mil       3256mil       7268mil       3256mil       7268mil       3256mil  T         90.00 Test point     
+TP15       PAD_80D_052H          7132mil        382mil       7132mil        382mil       7132mil        382mil  T         90.00 Test point     
+U4         TO-220_w/Heatsink_7136DG       5324mil   2784.787mil       5324mil   2640.575mil       5424mil       2739mil  T        360.00 Voltage Reg, Pos Fixed
+U5         TO-220_w/Heatsink_7136DG       6080mil   2793.787mil       6080mil   2649.575mil       6180mil       2748mil  T          0.00 Voltage Reg, Pos Fixed
+U6         TO-220_w/Heatsink_7136DG       6784mil   2810.787mil       6784mil   2666.575mil       6884mil       2765mil  T        360.00 Voltage Reg, Neg Fixed
+FER3       ACM1513-551-2PL       6402mil       1883mil       6402mil       1883mil       6122mil       1755mil  B        360.00 ACM1513-551-2PL-TL
+F6         SMD_2920__PolySwitch       1100mil    684.331mil       1100mil    684.331mil   1229.921mil    684.331mil  B        360.00 Res 0805       
+F5         SMD_2920__PolySwitch       1025mil        975mil       1025mil        975mil   1154.921mil        975mil  B        360.00 Res 0805       
+F4         SMD_1206               602mil        338mil        602mil        338mil        657mil        338mil  B        180.00 Res 0805       
+F3         SMD_2920__PolySwitch    721.299mil       1325mil    721.299mil       1325mil    721.299mil   1454.921mil  T         90.00 Res 0805       
+F2         SMD_2920__PolySwitch        328mil       1278mil        328mil       1278mil        328mil   1407.921mil  B         90.00 Res 0805       
+F1         SMD_2920__PolySwitch        264mil       1329mil        264mil       1329mil        264mil   1458.921mil  T         90.00 Res 0805       
+C25        SMD_CAP_7343      6569.276mil       1505mil   6569.276mil       1505mil   6443.276mil       1505mil  B        360.00 35V            
+T4         XFRMR_TRIAD_FS10-1200_(12VA)   3998.425mil       1045mil   3998.425mil       1045mil   4498.425mil       1750mil  T        270.00 12 VA          
+T2         XFRMR_TRIAD_FS10-600_(6_VA)       4275mil       2845mil       4275mil       2845mil       3650mil       3270mil  T          0.00 6VA            
+T1         XFRMR_TRIAD_FS10-1200_(12VA)       2000mil       1045mil       2000mil       1045mil       2500mil       1750mil  T        270.00 12 VA          
+C24        SMD_0805               521mil        245mil        521mil        245mil        521mil        200mil  T         90.00 1u             
+R4         SMD_0805              5752mil       1306mil       5752mil       1306mil       5752mil       1261mil  B         90.00 Res 0805       
+R3         SMD_0805              6822mil       2846mil       6822mil       2846mil       6777mil       2846mil  B        360.00 Res 0805       
+C4         SMD_CAP_6032          5307mil       3571mil       5307mil       3571mil       5422mil       3571mil  B        360.00 35V            
+P3         LEMO_SIZE_3_18-PIN_PCB    506.299mil    734.331mil    506.299mil    734.331mil    706.299mil    784.331mil  T        180.00 LEMO 3S 18p RT PCB
+C5         SMD_CAP_6032          5324mil       2546mil       5324mil       2546mil       5209mil       2546mil  B        180.00 35V            
+C1         SMD_0805          7376.299mil        720mil   7376.299mil        720mil   7376.299mil        765mil  T        270.00 Cap SMD        
+C2         SMD_0805          7366.299mil        330mil   7366.299mil        330mil   7366.299mil        375mil  T        270.00 Cap SMD        
+Q1         SMD_SOT23_3       7106.299mil       2310mil   7106.299mil       2310mil   7149.299mil       2273mil  T         90.00 FDV304P        
+S1         CAS-120B          7846.299mil        360mil   7846.299mil        360mil   7923.071mil    291.102mil  T         90.00 CJS-1200TB     
+U1         PW008_N           7506.299mil        650mil   7506.299mil        650mil   7467.913mil    537.795mil  T         90.00 SN74CBT3306PWLE
+U3         SMD_SOT23_3       7106.299mil       2130mil   7106.299mil       2130mil   7149.299mil       2093mil  T         90.00 DS2411         
+U2         SOP8_N            7546.299mil        280mil   7546.299mil        280mil   7471.299mil    181.575mil  T         90.00 M24C32RMN1     
+C7         SMD_CAP_6032          6089mil       3588mil       6089mil       3588mil       6204mil       3588mil  B        360.00 35V            
+C8         SMD_CAP_6032          6061mil       2546mil       6061mil       2546mil       5946mil       2546mil  B        180.00 35V            
+C10        SMD_CAP_6032          6765mil       3588mil       6765mil       3588mil       6880mil       3588mil  B        360.00 35V            
+C11        SMD_CAP_6032      6783.987mil       2563mil   6783.987mil       2563mil   6898.987mil       2563mil  B        360.00 35V            
+C12        SMD_0805              5685mil       1306mil       5685mil       1306mil       5685mil       1351mil  B        270.00 1u             
+C13        CAP,_Thru_Hole_12.5_mm_dia       2800mil   2967.575mil       2800mil   2967.575mil       2800mil       3066mil  T         90.00 10V            
+C14        SMD_CAP_6032          2641mil       2956mil       2641mil       2956mil       2641mil       3071mil  B         90.00 35V            
+C15        SMD_CAP_6032          3527mil       2963mil       3527mil       2963mil       3527mil       3078mil  B         90.00 35V            
+C16        smd_0805              5701mil       1807mil       5701mil       1807mil       5701mil       1852mil  B        270.00 1u             
+C17        SMD_0805              5576mil       1550mil       5576mil       1550mil       5576mil       1595mil  B        270.00 Cap SMD        
+C18        CAP,_Thru_Hole_12.5_mm_dia       2770mil   2287.425mil       2770mil   2287.425mil       2770mil    2385.85mil  T         90.00 50V            
+C19        SMD_CAP_6032          2634mil       2284mil       2634mil       2284mil       2634mil       2399mil  B         90.00 35V            
+C20        SMD_CAP_6032          3614mil       2156mil       3614mil       2156mil       3614mil       2271mil  B         90.00 35V            
+C21        CAP,_Thru_Hole_12.5_mm_dia    931.299mil   2428.425mil    931.299mil   2428.425mil    931.299mil       2330mil  T        270.00 10V            
+C22        SMD_CAP_6032          2917mil        573mil       2917mil        573mil       2917mil        688mil  B         90.00 35V            
+C23        SMD_CAP_6032       771.299mil       2415mil    771.299mil       2415mil    771.299mil       2300mil  B        270.00 35V            
+D1         DIODE_BRIDGE,_MBS-2       2631mil        571mil       2631mil        571mil   2751.079mil    621.197mil  B        270.00 Diode Bridge   
+D2         DIODE_BRIDGE,_MBS-2       4609mil       2821mil       4609mil       2821mil   4488.921mil   2770.803mil  B         90.00 Diode Bridge   
+D3         SOT-23                2109mil       2294mil       2109mil       2294mil   2146.402mil   2244.787mil  B        180.00 Diode BAS16    
+D5         DIODE_BRIDGE,_MBS-2       4001mil        597mil       4001mil        597mil   3950.803mil    717.079mil  B        360.00 Diode Bridge   
+D6         DIODE_BRIDGE,_MBS-2       6554mil       1062mil       6554mil       1062mil   6433.921mil   1011.803mil  B         90.00 Diode Bridge   
+K1         RELAY_OMRON_G4W-2212P   2106.299mil       2770mil   1906.299mil       3220mil   1906.299mil       3220mil  T         90.00 G4W-2212P      
+P4         HDR_1X8_0.156"    2344.299mil   3571.065mil   1798.299mil   3571.065mil   1798.299mil   3571.065mil  T        360.00 Header 8 0.156"
+Q2         TO-252(D-PAK)__PowerPAD   5357.764mil   3032.528mil   5357.764mil    3049.26mil   5447.528mil       2878mil  B         90.00 I              
+Q3         TO-252(D-PAK)__PowerPAD    6105.63mil   3052.638mil    6105.63mil    3069.37mil   6195.394mil    2898.11mil  B         90.00 I              
+Q5         TO-252(D-PAK)__PowerPAD   3141.472mil    3000.63mil    3124.74mil    3000.63mil       3296mil   3090.394mil  B        180.00 STD30NF03L     
+Q6         TO-252(D-PAK)__PowerPAD   3142.417mil   2308.425mil   3125.685mil   2308.425mil   3296.945mil   2398.189mil  B        180.00 I              
+Q7         SOT-23B           5690.892mil   2243.504mil   5690.892mil   2243.504mil   5728.293mil   2194.291mil  B        180.00 ZXMN3B14FTA    
+Q8         SOT-23B               5725mil       2005mil       5725mil       2005mil   5762.402mil   1955.787mil  B        180.00 ZXMN3B14FTA    
+Q9         SOT-23B               5880mil       2005mil       5880mil       2005mil   5917.402mil   1955.787mil  B        180.00 MOSFET-P       
+R1         SMD_0805              5570mil       2976mil       5570mil       2976mil       5570mil       2931mil  B         90.00 Res 0805       
+R2         SMD_0805              6341mil       2983mil       6341mil       2983mil       6341mil       2938mil  B         90.00 Res 0805       
+R5         SMD_0805              3198mil       3248mil       3198mil       3248mil       3198mil       3203mil  B         90.00 Res 0805       
+R6         SMD_0805              5768mil       1806mil       5768mil       1806mil       5768mil       1851mil  B        270.00 Res 0805       
+R7         SMD_0805              5635mil       1807mil       5635mil       1807mil       5635mil       1762mil  B         90.00 Res 0805       
+R8         SMD_0805              3144mil       2534mil       3144mil       2534mil       3144mil       2489mil  B         90.00 Res 0805       
+R9         SMD_0805              3754mil       2317mil       3754mil       2317mil       3754mil       2362mil  B        270.00 Res 0805       
+R10        SMD_0805          3231.966mil       2533mil   3231.966mil       2533mil   3231.966mil       2578mil  B        270.00 Res 0805       
+R11        SMD_0805          5682.693mil       2125mil   5682.693mil       2125mil   5727.693mil       2125mil  B        180.00 Res 0805       
+R12        SMD_0805              3755mil       2495mil       3755mil       2495mil       3755mil       2540mil  B        270.00 Res 0805       
+R13        SMD_0805          1381.414mil       2426mil   1381.414mil       2426mil   1426.414mil       2426mil  B        180.00 Res 0805       
+R14        SMD_0805              1380mil       2520mil       1380mil       2520mil       1335mil       2520mil  B        360.00 Res 0805       
+TP2        PAD_80D_052H          5711mil       3606mil       5711mil       3606mil       5711mil       3606mil  T         90.00 Test point     
+TP3        PAD_80D_052H          6404mil       3607mil       6404mil       3607mil       6404mil       3607mil  T         90.00 Test point     
+TP5        PAD_80D_052H          7264mil       3597mil       7264mil       3597mil       7264mil       3597mil  T         90.00 Test point     
+TP6        PAD_80D_052H          3115mil       3541mil       3115mil       3541mil       3115mil       3541mil  T         90.00 Test point     
+TP7        PAD_80D_052H          3378mil       3537mil       3378mil       3537mil       3378mil       3537mil  T         90.00 Test point     
+TP10       PAD_80D_052H          7635mil       3292mil       7635mil       3292mil       7635mil       3292mil  T         90.00 Test point     
+TP12       PAD_80D_052H           330mil        276mil        330mil        276mil        330mil        276mil  T         90.00 Test point     
+TP14       PAD_80D_052H          1338mil       3393mil       1338mil       3393mil       1338mil       3393mil  T         90.00 Test point     
+U7         M08A_M                5726mil       1559mil       5726mil       1559mil       5651mil   1655.457mil  B        270.00 LM555CMX       
+U8         TO-220_w/Heatsink_7136DG   3355.213mil       2960mil   3499.425mil       2960mil       3401mil       3060mil  T         90.00 Voltage Reg, Neg Fixed
+U9         TO-220_w/Heatsink_7136DG   3357.753mil       2273mil   3501.966mil       2273mil   3403.541mil       2373mil  T         90.00 LM350T         
+U10        TO-220_w/Heatsink_7136DG   1505.512mil       2420mil   1649.724mil       2420mil   1551.299mil       2520mil  T         90.00 LM350T         
+

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+12V_ION Pin=TP1-1
+Removed Pin From Net: NetName=+24V Pin=TP2-1
+Removed Member From Class: ClassName=LM335 AND FAN Member=TP1
+Removed Member From Class: ClassName=LM335 AND FAN Member=TP2

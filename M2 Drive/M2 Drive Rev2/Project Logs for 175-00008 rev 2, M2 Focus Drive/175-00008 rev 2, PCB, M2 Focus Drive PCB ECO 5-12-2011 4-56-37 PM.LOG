@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND Pin=J7-2
+Removed Pin From Net: NetName=+5V Pin=J7-4
+Removed Pin From Net: NetName=1I- Pin=J7-7
+Removed Pin From Net: NetName=1A- Pin=J7-9
+Removed Pin From Net: NetName=GND Pin=J7-10
+Removed Pin From Net: NetName=1B- Pin=J7-11
+Removed Pin From Net: NetName=+5V Pin=J7-12
+Removed Pin From Net: NetName=1I+ Pin=J7-14
+Removed Pin From Net: NetName=GND Pin=J7-16
+Removed Pin From Net: NetName=GND Pin=J7-17
+Change Component DesignItemId : Designator=J7 Old DesignItemId=DSUB 15 New DesignItemId=Header 8
+Change Component Footprint: Designator=J7 Old Footprint=DSUB15 PCB VERT Female New Footprint=HDR1X8 for IDC
+Change Component Comment : Designator=J7 Old Comment=DSUB 15 New Comment=Header 8
+Added Pin To Net: NetName=1A- Pin=J7-2
+Added Pin To Net: NetName=1B- Pin=J7-4
+Added Pin To Net: NetName=1I+ Pin=J7-5
+Added Pin To Net: NetName=1I- Pin=J7-6
+Added Pin To Net: NetName=+5V Pin=J7-7
+Added Pin To Net: NetName=GND Pin=J7-8

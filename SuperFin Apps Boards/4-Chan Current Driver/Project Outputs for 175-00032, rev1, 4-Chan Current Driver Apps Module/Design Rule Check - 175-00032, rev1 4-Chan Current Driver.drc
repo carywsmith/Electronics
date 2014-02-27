@@ -1,0 +1,62 @@
+Protel Design System Design Rule Check
+PCB File : \\Files\users\rlobdill\Altum Projects\SuperFin Apps Boards\4-Chan Current Driver\175-00032, rev1 4-Chan Current Driver.PcbDoc
+Date     : 8/18/2011
+Time     : 8:26:29 AM
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((InNet('NetD1A_1') OR InNet('NetD1B_1')or(InNet('NetD1c_1') OR InNet('NetD1d_1')) or InNet('I_OUT1')or InNet('I_OUT2')or InNet('I_OUT3')or InNet('I_OUT4') or InNet('I_RTN1')or InNet('I_RTN2')or InNet('I_RTN3')or InNet('I_RTN4')))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=250mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room 780-00035, rev1, Pg1, SCH, 4-Chan Current Driver Apps Module (Bounding Region = (30279.26mil, 17531.787mil, 35689.26mil, 21015.787mil) (InComponentClass('780-00035, rev1, Pg1, SCH, 4-Chan Current Driver Apps Module'))
+Rule Violations :0
+
+Processing Rule : Room I_SOURCE1 (Bounding Region = (31058.26mil, 18801.787mil, 31890.26mil, 19442.787mil) (InComponentClass('I_SOURCE1'))
+Rule Violations :0
+
+Processing Rule : Room I_SOURCE2 (Bounding Region = (31859.26mil, 18700.787mil, 32691.26mil, 19341.787mil) (InComponentClass('I_SOURCE2'))
+Rule Violations :0
+
+Processing Rule : Room I_SOURCE3 (Bounding Region = (32718.26mil, 18699.787mil, 33550.26mil, 19340.787mil) (InComponentClass('I_SOURCE3'))
+Rule Violations :0
+
+Processing Rule : Room I_SOURCE4 (Bounding Region = (33538.26mil, 18791.787mil, 34370.26mil, 19432.787mil) (InComponentClass('I_SOURCE4'))
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:01

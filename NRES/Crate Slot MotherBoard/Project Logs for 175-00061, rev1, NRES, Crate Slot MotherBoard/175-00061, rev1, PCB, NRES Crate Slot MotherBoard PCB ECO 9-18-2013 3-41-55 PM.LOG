@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=USB_VBUS Pin=U6-A31
+Added Pin To Net: NetName=USB_D- Pin=U6-A33
+Added Pin To Net: NetName=USB_D+ Pin=U6-A35

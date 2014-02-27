@@ -1,0 +1,12 @@
+Output: DrillDrawing
+Type  : Gerber
+From  : PCB Document [175-00016_rev2 SuperFin GPIO Apps Board.PcbDoc]
+   Generated File[175-00016_rev2 SuperFin GPIO Apps Board.GD1]
+   Generated File[175-00016_rev2 SuperFin GPIO Apps Board.EXTREP]
+   Generated File[175-00016_rev2 SuperFin GPIO Apps Board.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:08:55 AM On 3/31/2011

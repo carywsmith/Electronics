@@ -1,0 +1,3 @@
+Added Component: Designator=TP1(SMD_TEST POINT)
+Added Pin To Net: NetName=GND Pin=TP1-1
+Added Member To Class: ClassName=780-00036, rev1, Sch, Crate Slot Power Interface Member=Component TP1 Test Point SMD

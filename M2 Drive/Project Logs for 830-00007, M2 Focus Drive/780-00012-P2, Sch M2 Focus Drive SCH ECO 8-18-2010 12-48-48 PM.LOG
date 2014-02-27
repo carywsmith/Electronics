@@ -1,0 +1,168 @@
+Removed Parameter ComponentLink1Description:Manufacturer Link from Part U12
+Removed Parameter ComponentLink1Description:Manufacturer Link from Part U13
+Removed Parameter ComponentLink1Description:Manufacturer Link from Part U16
+Removed Parameter ComponentLink1URL:http://www.analog.com/en/prod/0%2C2877%2CAD594%2C00.html from Part U12
+Removed Parameter ComponentLink1URL:http://www.analog.com/en/prod/0%2C2877%2CAD594%2C00.html from Part U13
+Removed Parameter ComponentLink1URL:http://www.analog.com/en/prod/0%2C2877%2CAD594%2C00.html from Part U16
+Removed Parameter ComponentLink2Description:Datasheet from Part U12
+Removed Parameter ComponentLink2Description:Datasheet from Part U13
+Removed Parameter ComponentLink2Description:Datasheet from Part U16
+Removed Parameter ComponentLink2URL:http://www.analog.com/UploadedFiles/Data_Sheets/421725987AD594_5_c.pdf from Part U12
+Removed Parameter ComponentLink2URL:http://www.analog.com/UploadedFiles/Data_Sheets/421725987AD594_5_c.pdf from Part U13
+Removed Parameter ComponentLink2URL:http://www.analog.com/UploadedFiles/Data_Sheets/421725987AD594_5_c.pdf from Part U16
+Removed Parameter DatasheetVersion:REV.B 1997 from Part U12
+Removed Parameter DatasheetVersion:REV.B 1997 from Part U13
+Removed Parameter DatasheetVersion:REV.B 1997 from Part U16
+Removed Parameter LatestRevisionDate:04-Mar-2005 from Part U12
+Removed Parameter LatestRevisionDate:04-Mar-2005 from Part U13
+Removed Parameter LatestRevisionDate:04-Mar-2005 from Part U16
+Removed Parameter LatestRevisionNote:Stylized 3D Model Added. from Part U12
+Removed Parameter LatestRevisionNote:Stylized 3D Model Added. from Part U13
+Removed Parameter LatestRevisionNote:Stylized 3D Model Added. from Part U16
+Removed Parameter Note: from Part U14
+Removed Parameter Note: from Part U15
+Removed Parameter Note: from Part U17
+Removed Parameter Note:Pins 2 & 6 must not be connected to low impedance or GND from Part U12
+Removed Parameter Note:Pins 2 & 6 must not be connected to low impedance or GND from Part U13
+Removed Parameter Note:Pins 2 & 6 must not be connected to low impedance or GND from Part U16
+Removed Parameter PackageDescription:DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm from Part U12
+Removed Parameter PackageDescription:DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm from Part U13
+Removed Parameter PackageDescription:DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm from Part U16
+Removed Parameter PackageReference:Q-14_A from Part U12
+Removed Parameter PackageReference:Q-14_A from Part U13
+Removed Parameter PackageReference:Q-14_A from Part U16
+Removed Parameter PackageVersion:revC from Part U12
+Removed Parameter PackageVersion:revC from Part U13
+Removed Parameter PackageVersion:revC from Part U16
+Removed Parameter Published:8-Jun-2000 from Part U12
+Removed Parameter Published:8-Jun-2000 from Part U13
+Removed Parameter Published:8-Jun-2000 from Part U16
+Removed Parameter Publisher:Altium Limited from Part U12
+Removed Parameter Publisher:Altium Limited from Part U13
+Removed Parameter Publisher:Altium Limited from Part U16
+Added Parameter Arena Prefix= to Part J2
+Added Parameter Arena Prefix= to Part J3
+Added Parameter Arena Prefix= to Part J4
+Added Parameter Arena Prefix= to Part U6
+Added Parameter Arena Prefix= to Part U7
+Added Parameter Arena Prefix= to Part U8
+Added Parameter Arena Prefix= to Part U9
+Added Parameter Arena Prefix= to Part U10
+Added Parameter Arena Prefix= to Part U11
+Added Parameter Arena Prefix= to Part U12
+Added Parameter Arena Prefix= to Part U13
+Added Parameter Arena Prefix= to Part U14
+Added Parameter Arena Prefix= to Part U15
+Added Parameter Arena Prefix= to Part U16
+Added Parameter Arena Prefix= to Part U17
+Added Parameter Arena Type= to Part J2
+Added Parameter Arena Type= to Part J3
+Added Parameter Arena Type= to Part J4
+Added Parameter Arena Type= to Part U6
+Added Parameter Arena Type= to Part U7
+Added Parameter Arena Type= to Part U8
+Added Parameter Arena Type= to Part U9
+Added Parameter Arena Type= to Part U10
+Added Parameter Arena Type= to Part U11
+Added Parameter Arena Type= to Part U12
+Added Parameter Arena Type= to Part U13
+Added Parameter Arena Type= to Part U14
+Added Parameter Arena Type= to Part U15
+Added Parameter Arena Type= to Part U16
+Added Parameter Arena Type= to Part U17
+Added Parameter COST= to Part J2
+Added Parameter COST= to Part J3
+Added Parameter COST= to Part J4
+Added Parameter COST= to Part U6
+Added Parameter COST= to Part U7
+Added Parameter COST= to Part U8
+Added Parameter COST= to Part U9
+Added Parameter COST= to Part U10
+Added Parameter COST= to Part U11
+Added Parameter COST= to Part U12
+Added Parameter COST= to Part U13
+Added Parameter COST= to Part U16
+Added Parameter LCO p/n= to Part J2
+Added Parameter LCO p/n= to Part J3
+Added Parameter LCO p/n= to Part J4
+Added Parameter LCO p/n= to Part U6
+Added Parameter LCO p/n= to Part U7
+Added Parameter LCO p/n= to Part U8
+Added Parameter LCO p/n= to Part U9
+Added Parameter LCO p/n= to Part U10
+Added Parameter LCO p/n= to Part U11
+Added Parameter LCO p/n= to Part U12
+Added Parameter LCO p/n= to Part U13
+Added Parameter LCO p/n= to Part U16
+Added Parameter Manufacturer= to Part J2
+Added Parameter Manufacturer= to Part J3
+Added Parameter Manufacturer= to Part J4
+Added Parameter Manufacturer= to Part U6
+Added Parameter Manufacturer= to Part U7
+Added Parameter Manufacturer= to Part U8
+Added Parameter Manufacturer= to Part U9
+Added Parameter Manufacturer= to Part U10
+Added Parameter Manufacturer= to Part U11
+Added Parameter Manufacturer= to Part U12
+Added Parameter Manufacturer= to Part U13
+Added Parameter Manufacturer= to Part U16
+Added Parameter Manuf p/n= to Part J2
+Added Parameter Manuf p/n= to Part J3
+Added Parameter Manuf p/n= to Part J4
+Added Parameter Manuf p/n= to Part U6
+Added Parameter Manuf p/n= to Part U7
+Added Parameter Manuf p/n= to Part U8
+Added Parameter Manuf p/n= to Part U9
+Added Parameter Manuf p/n= to Part U10
+Added Parameter Manuf p/n= to Part U11
+Added Parameter Manuf p/n= to Part U12
+Added Parameter Manuf p/n= to Part U13
+Added Parameter Manuf p/n= to Part U16
+Added Parameter VALUE= to Part J2
+Added Parameter VALUE= to Part J3
+Added Parameter VALUE= to Part J4
+Added Parameter VALUE= to Part U6
+Added Parameter VALUE= to Part U7
+Added Parameter VALUE= to Part U8
+Added Parameter VALUE= to Part U9
+Added Parameter VALUE= to Part U10
+Added Parameter VALUE= to Part U11
+Added Parameter VALUE= to Part U12
+Added Parameter VALUE= to Part U13
+Added Parameter VALUE= to Part U16
+Added Parameter Vendor= to Part J2
+Added Parameter Vendor= to Part J3
+Added Parameter Vendor= to Part J4
+Added Parameter Vendor= to Part U6
+Added Parameter Vendor= to Part U7
+Added Parameter Vendor= to Part U8
+Added Parameter Vendor= to Part U9
+Added Parameter Vendor= to Part U10
+Added Parameter Vendor= to Part U11
+Added Parameter Vendor= to Part U12
+Added Parameter Vendor= to Part U13
+Added Parameter Vendor= to Part U16
+Added Parameter Vendor Mult.= to Part J2
+Added Parameter Vendor Mult.= to Part J3
+Added Parameter Vendor Mult.= to Part J4
+Added Parameter Vendor Mult.= to Part U6
+Added Parameter Vendor Mult.= to Part U7
+Added Parameter Vendor Mult.= to Part U8
+Added Parameter Vendor Mult.= to Part U9
+Added Parameter Vendor Mult.= to Part U10
+Added Parameter Vendor Mult.= to Part U11
+Added Parameter Vendor Mult.= to Part U12
+Added Parameter Vendor Mult.= to Part U13
+Added Parameter Vendor Mult.= to Part U16
+Added Parameter Vendor p/n= to Part J2
+Added Parameter Vendor p/n= to Part J3
+Added Parameter Vendor p/n= to Part J4
+Added Parameter Vendor p/n= to Part U6
+Added Parameter Vendor p/n= to Part U7
+Added Parameter Vendor p/n= to Part U8
+Added Parameter Vendor p/n= to Part U9
+Added Parameter Vendor p/n= to Part U10
+Added Parameter Vendor p/n= to Part U11
+Added Parameter Vendor p/n= to Part U12
+Added Parameter Vendor p/n= to Part U13
+Added Parameter Vendor p/n= to Part U16

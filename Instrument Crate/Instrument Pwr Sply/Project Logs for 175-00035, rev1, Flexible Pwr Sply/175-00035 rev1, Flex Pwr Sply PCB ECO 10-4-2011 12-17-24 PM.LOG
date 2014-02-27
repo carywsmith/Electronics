@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetC6_1 Pin=PS2-5
+Added Component: Designator=R11(SMD_0805)
+Added Pin To Net: NetName=NetC6_1 Pin=R11-2
+Added Pin To Net: NetName=NetPS2_5 Pin=PS2-5
+Added Pin To Net: NetName=NetPS2_5 Pin=R11-1
+Added Net: Name=NetPS2_5
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R11 Res 0805

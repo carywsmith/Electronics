@@ -1,0 +1,389 @@
+.model PMD_Motor_Drive_interface
+.inputs HA2
+.outputs HA3
+.inputs HA4
+.outputs HA5
+.inputs HA6
+.outputs HA7
+.inputs HA8
+.outputs HA9
+.inputs HA10
+.outputs HA11
+.inputs HA12
+.outputs HA13
+.inputs HA14
+.outputs HA15
+.inputs HA16
+.outputs HA17
+.inputs HA18
+.outputs HA19
+.inputs HA20
+.outputs HA21
+.inputs HA22
+.outputs HA23
+.inputs HA24
+.outputs HA25
+.inputs HA26
+.outputs HA27
+.inputs HA28
+.outputs HA29
+.inputs HA30
+.outputs HA31
+.inputs HA32
+.outputs HA33
+.inputs HA34
+.outputs LEDS0
+.outputs LEDS1
+.outputs PD193
+.outputs PD194
+.outputs PD195
+.outputs PD196
+.outputs PD197
+.outputs PD198
+.names PD195 HA3
+1 1
+.names PD196 HA5
+1 1
+.names HA2 PD194
+1 1
+.names HA4 PD198
+1 1
+.names PowerSignal_GND
+.loc ParallelReadDecode.VHD 460
+.subckt INV U32 I=-U32/I O=+LEDS1
+.names PD196 U32/I
+1 1
+.loc ParallelReadDecode.VHD 467
+.subckt INV U31 I=-U31/I O=+LEDS0
+.names PD195 U31/I
+1 1
+.loc ParallelReadDecode.VHD 474
+.subckt COMP2S U30 A0=-U30/A0 A1=-U30/A1 B0=-U30/B0 B1=-U30/B1 EQ=+PinSignal_U30_EQ
+.names PowerSignal_GND U30/A0
+1 1
+.names PowerSignal_GND U30/A1
+1 1
+.names HA6 U30/B0
+1 1
+.names HA8 U30/B1
+1 1
+.loc ParallelReadDecode.VHD 484
+.subckt AND2S U29 I0=-U29/I0 I1=-U29/I1 O=+$$COND0
+.names PinSignal_U4_EQ U29/I0
+1 1
+.names PinSignal_U30_EQ U29/I1
+1 1
+.loc ParallelReadDecode.VHD 501
+.subckt NUM4 U27 O<3>=+PinSignal_U27_O<3> O<2>=+PinSignal_U27_O<2> O<1>=+PinSignal_U27_O<1> O<0>=+PinSignal_U27_O<0>
+.loc ParallelReadDecode.VHD 517
+.subckt NUM3 U25 O<3>=+PinSignal_U25_O<3> O<2>=+PinSignal_U25_O<2> O<1>=+PinSignal_U25_O<1> O<0>=+PinSignal_U25_O<0>
+.loc ParallelReadDecode.VHD 533
+.subckt NUM2 U23 O<3>=+PinSignal_U23_O<3> O<2>=+PinSignal_U23_O<2> O<1>=+PinSignal_U23_O<1> O<0>=+PinSignal_U23_O<0>
+.loc ParallelReadDecode.VHD 549
+.subckt NUM1 U21 O<3>=+PinSignal_U21_O<3> O<2>=+PinSignal_U21_O<2> O<1>=+PinSignal_U21_O<1> O<0>=+PinSignal_U21_O<0>
+.loc ParallelReadDecode.VHD 555
+.subckt D2_4ES U20 A0=-U20/A0 A1=-U20/A1 D0=+PinSignal_U20_D0 D1=+PinSignal_U20_D1 D2=+PinSignal_U20_D2 D3=+PinSignal_U20_D3 E=-U20/E
+.names HA2 U20/A0
+1 1
+.names HA4 U20/A1
+1 1
+.names PD197 U20/E
+1 1
+.loc ParallelReadDecode.VHD 567
+.subckt BUFE16B U19 E=-U19/E I<15>=-U19/I<15> I<14>=-U19/I<14> I<13>=-U19/I<13> I<12>=-U19/I<12> I<11>=-U19/I<11> I<10>=-U19/I<10> I<9>=-U19/I<9> I<8>=-U19/I<8> I<7>=-U19/I<7> I<6>=-U19/I<6> I<5>=-U19/I<5> I<4>=-U19/I<4> I<3>=-U19/I<3> I<2>=-U19/I<2> I<1>=-U19/I<1> I<0>=-U19/I<0> O<15>=+HA33 O<14>=+HA31 O<13>=+HA29 O<12>=+HA27 O<11>=+HA25 O<10>=+HA23 O<9>=+HA21 O<8>=+HA19 O<7>=+HA17 O<6>=+HA15 O<5>=+HA13 O<4>=+HA11 O<3>=+HA9 O<2>=+HA7 O<1>=+PD196 O<0>=+PD195
+.names PD197 U19/E
+1 1
+.names PinSignal_U18_Y<15> U19/I<15>
+1 1
+.names PinSignal_U18_Y<14> U19/I<14>
+1 1
+.names PinSignal_U18_Y<13> U19/I<13>
+1 1
+.names PinSignal_U18_Y<12> U19/I<12>
+1 1
+.names PinSignal_U18_Y<11> U19/I<11>
+1 1
+.names PinSignal_U18_Y<10> U19/I<10>
+1 1
+.names PinSignal_U18_Y<9> U19/I<9>
+1 1
+.names PinSignal_U18_Y<8> U19/I<8>
+1 1
+.names PinSignal_U18_Y<7> U19/I<7>
+1 1
+.names PinSignal_U18_Y<6> U19/I<6>
+1 1
+.names PinSignal_U18_Y<5> U19/I<5>
+1 1
+.names PinSignal_U18_Y<4> U19/I<4>
+1 1
+.names PinSignal_U18_Y<3> U19/I<3>
+1 1
+.names PinSignal_U18_Y<2> U19/I<2>
+1 1
+.names PinSignal_U18_Y<1> U19/I<1>
+1 1
+.names PinSignal_U18_Y<0> U19/I<0>
+1 1
+.loc ParallelReadDecode.VHD 575
+.subckt M16_B4B1 U18 A<15>=-U18/A<15> A<14>=-U18/A<14> A<13>=-U18/A<13> A<12>=-U18/A<12> A<11>=-U18/A<11> A<10>=-U18/A<10> A<9>=-U18/A<9> A<8>=-U18/A<8> A<7>=-U18/A<7> A<6>=-U18/A<6> A<5>=-U18/A<5> A<4>=-U18/A<4> A<3>=-U18/A<3> A<2>=-U18/A<2> A<1>=-U18/A<1> A<0>=-U18/A<0> B<15>=-U18/B<15> B<14>=-U18/B<14> B<13>=-U18/B<13> B<12>=-U18/B<12> B<11>=-U18/B<11> B<10>=-U18/B<10> B<9>=-U18/B<9> B<8>=-U18/B<8> B<7>=-U18/B<7> B<6>=-U18/B<6> B<5>=-U18/B<5> B<4>=-U18/B<4> B<3>=-U18/B<3> B<2>=-U18/B<2> B<1>=-U18/B<1> B<0>=-U18/B<0> C<15>=-U18/C<15> C<14>=-U18/C<14> C<13>=-U18/C<13> C<12>=-U18/C<12> C<11>=-U18/C<11> C<10>=-U18/C<10> C<9>=-U18/C<9> C<8>=-U18/C<8> C<7>=-U18/C<7> C<6>=-U18/C<6> C<5>=-U18/C<5> C<4>=-U18/C<4> C<3>=-U18/C<3> C<2>=-U18/C<2> C<1>=-U18/C<1> C<0>=-U18/C<0> D<15>=-U18/D<15> D<14>=-U18/D<14> D<13>=-U18/D<13> D<12>=-U18/D<12> D<11>=-U18/D<11> D<10>=-U18/D<10> D<9>=-U18/D<9> D<8>=-U18/D<8> D<7>=-U18/D<7> D<6>=-U18/D<6> D<5>=-U18/D<5> D<4>=-U18/D<4> D<3>=-U18/D<3> D<2>=-U18/D<2> D<1>=-U18/D<1> D<0>=-U18/D<0> S0=-U18/S0 S1=-U18/S1 Y<15>=+PinSignal_U18_Y<15> Y<14>=+PinSignal_U18_Y<14> Y<13>=+PinSignal_U18_Y<13> Y<12>=+PinSignal_U18_Y<12> Y<11>=+PinSignal_U18_Y<11> Y<10>=+PinSignal_U18_Y<10> Y<9>=+PinSignal_U18_Y<9> Y<8>=+PinSignal_U18_Y<8> Y<7>=+PinSignal_U18_Y<7> Y<6>=+PinSignal_U18_Y<6> Y<5>=+PinSignal_U18_Y<5> Y<4>=+PinSignal_U18_Y<4> Y<3>=+PinSignal_U18_Y<3> Y<2>=+PinSignal_U18_Y<2> Y<1>=+PinSignal_U18_Y<1> Y<0>=+PinSignal_U18_Y<0>
+.names PowerSignal_GND U18/A<15>
+1 1
+.names PowerSignal_GND U18/A<14>
+1 1
+.names PowerSignal_GND U18/A<13>
+1 1
+.names PowerSignal_GND U18/A<12>
+1 1
+.names PowerSignal_GND U18/A<11>
+1 1
+.names PowerSignal_GND U18/A<10>
+1 1
+.names PowerSignal_GND U18/A<9>
+1 1
+.names PowerSignal_GND U18/A<8>
+1 1
+.names PowerSignal_GND U18/A<7>
+1 1
+.names PowerSignal_GND U18/A<6>
+1 1
+.names PowerSignal_GND U18/A<5>
+1 1
+.names PowerSignal_GND U18/A<4>
+1 1
+.names PinSignal_U21_O<3> U18/A<3>
+1 1
+.names PinSignal_U21_O<2> U18/A<2>
+1 1
+.names PinSignal_U21_O<1> U18/A<1>
+1 1
+.names PinSignal_U21_O<0> U18/A<0>
+1 1
+.names PowerSignal_GND U18/B<15>
+1 1
+.names PowerSignal_GND U18/B<14>
+1 1
+.names PowerSignal_GND U18/B<13>
+1 1
+.names PowerSignal_GND U18/B<12>
+1 1
+.names PowerSignal_GND U18/B<11>
+1 1
+.names PowerSignal_GND U18/B<10>
+1 1
+.names PowerSignal_GND U18/B<9>
+1 1
+.names PowerSignal_GND U18/B<8>
+1 1
+.names PowerSignal_GND U18/B<7>
+1 1
+.names PowerSignal_GND U18/B<6>
+1 1
+.names PowerSignal_GND U18/B<5>
+1 1
+.names PowerSignal_GND U18/B<4>
+1 1
+.names PinSignal_U23_O<3> U18/B<3>
+1 1
+.names PinSignal_U23_O<2> U18/B<2>
+1 1
+.names PinSignal_U23_O<1> U18/B<1>
+1 1
+.names PinSignal_U23_O<0> U18/B<0>
+1 1
+.names PowerSignal_GND U18/C<15>
+1 1
+.names PowerSignal_GND U18/C<14>
+1 1
+.names PowerSignal_GND U18/C<13>
+1 1
+.names PowerSignal_GND U18/C<12>
+1 1
+.names PowerSignal_GND U18/C<11>
+1 1
+.names PowerSignal_GND U18/C<10>
+1 1
+.names PowerSignal_GND U18/C<9>
+1 1
+.names PowerSignal_GND U18/C<8>
+1 1
+.names PowerSignal_GND U18/C<7>
+1 1
+.names PowerSignal_GND U18/C<6>
+1 1
+.names PowerSignal_GND U18/C<5>
+1 1
+.names PowerSignal_GND U18/C<4>
+1 1
+.names PinSignal_U25_O<3> U18/C<3>
+1 1
+.names PinSignal_U25_O<2> U18/C<2>
+1 1
+.names PinSignal_U25_O<1> U18/C<1>
+1 1
+.names PinSignal_U25_O<0> U18/C<0>
+1 1
+.names PowerSignal_GND U18/D<15>
+1 1
+.names PowerSignal_GND U18/D<14>
+1 1
+.names PowerSignal_GND U18/D<13>
+1 1
+.names PowerSignal_GND U18/D<12>
+1 1
+.names PowerSignal_GND U18/D<11>
+1 1
+.names PowerSignal_GND U18/D<10>
+1 1
+.names PowerSignal_GND U18/D<9>
+1 1
+.names PowerSignal_GND U18/D<8>
+1 1
+.names PowerSignal_GND U18/D<7>
+1 1
+.names PowerSignal_GND U18/D<6>
+1 1
+.names PowerSignal_GND U18/D<5>
+1 1
+.names PowerSignal_GND U18/D<4>
+1 1
+.names PinSignal_U27_O<3> U18/D<3>
+1 1
+.names PinSignal_U27_O<2> U18/D<2>
+1 1
+.names PinSignal_U27_O<1> U18/D<1>
+1 1
+.names PinSignal_U27_O<0> U18/D<0>
+1 1
+.names HA2 U18/S0
+1 1
+.names HA4 U18/S1
+1 1
+.loc ParallelReadDecode.VHD 587
+.subckt INV U17 I=-U17/I O=+PinSignal_U17_O
+.names HA34 U17/I
+1 1
+.loc ParallelReadDecode.VHD 594
+.subckt AND2S U16 I0=-U16/I0 I1=-U16/I1 O=+PD197
+.names PinSignal_U15_O U16/I0
+1 1
+.names PinSignal_U17_O U16/I1
+1 1
+.loc ParallelReadDecode.VHD 602
+.subckt OR2S U15 I0=-U15/I0 I1=-U15/I1 O=+PinSignal_U15_O
+.names PD193 U15/I0
+1 1
+.names PowerSignal_GND U15/I1
+1 1
+.loc ParallelReadDecode.VHD 630
+.subckt NUM0 U12 O<3>=+PinSignal_U12_O<3> O<2>=+PinSignal_U12_O<2> O<1>=+PinSignal_U12_O<1> O<0>=+PinSignal_U12_O<0>
+.loc ParallelReadDecode.VHD 636
+.subckt NUM1 U11 O<3>=+PinSignal_U11_O<3> O<2>=+PinSignal_U11_O<2> O<1>=+PinSignal_U11_O<1> O<0>=+PinSignal_U11_O<0>
+.loc ParallelReadDecode.VHD 662
+.subckt NUM8 U8 O<3>=+PinSignal_U8_O<3> O<2>=+PinSignal_U8_O<2> O<1>=+PinSignal_U8_O<1> O<0>=+PinSignal_U8_O<0>
+.loc ParallelReadDecode.VHD 668
+.subckt NUM0 U7 O<3>=+PinSignal_U7_O<3> O<2>=+PinSignal_U7_O<2> O<1>=+PinSignal_U7_O<1> O<0>=+PinSignal_U7_O<0>
+.loc ParallelReadDecode.VHD 694
+.subckt COMP12S U4 A0=-U4/A0 A1=-U4/A1 A2=-U4/A2 A3=-U4/A3 A4=-U4/A4 A5=-U4/A5 A6=-U4/A6 A7=-U4/A7 A8=-U4/A8 A9=-U4/A9 A10=-U4/A10 A11=-U4/A11 B0=-U4/B0 B1=-U4/B1 B2=-U4/B2 B3=-U4/B3 B4=-U4/B4 B5=-U4/B5 B6=-U4/B6 B7=-U4/B7 B8=-U4/B8 B9=-U4/B9 B10=-U4/B10 B11=-U4/B11 EQ=+PinSignal_U4_EQ
+.names PinSignal_U3_O<0> U4/A0
+1 1
+.names PinSignal_U3_O<1> U4/A1
+1 1
+.names PinSignal_U3_O<2> U4/A2
+1 1
+.names PinSignal_U3_O<3> U4/A3
+1 1
+.names PinSignal_U8_O<0> U4/A4
+1 1
+.names PinSignal_U8_O<1> U4/A5
+1 1
+.names PinSignal_U8_O<2> U4/A6
+1 1
+.names PinSignal_U8_O<3> U4/A7
+1 1
+.names PinSignal_U12_O<0> U4/A8
+1 1
+.names PinSignal_U12_O<1> U4/A9
+1 1
+.names PinSignal_U12_O<2> U4/A10
+1 1
+.names PinSignal_U12_O<3> U4/A11
+1 1
+.names HA10 U4/B0
+1 1
+.names HA12 U4/B1
+1 1
+.names HA14 U4/B2
+1 1
+.names HA16 U4/B3
+1 1
+.names HA18 U4/B4
+1 1
+.names HA20 U4/B5
+1 1
+.names HA22 U4/B6
+1 1
+.names HA24 U4/B7
+1 1
+.names HA26 U4/B8
+1 1
+.names HA28 U4/B9
+1 1
+.names HA30 U4/B10
+1 1
+.names HA32 U4/B11
+1 1
+.loc ParallelReadDecode.VHD 724
+.subckt NUM0 U3 O<3>=+PinSignal_U3_O<3> O<2>=+PinSignal_U3_O<2> O<1>=+PinSignal_U3_O<1> O<0>=+PinSignal_U3_O<0>
+.loc ParallelReadDecode.VHD 730
+.subckt COMP12S U2 A0=-U2/A0 A1=-U2/A1 A2=-U2/A2 A3=-U2/A3 A4=-U2/A4 A5=-U2/A5 A6=-U2/A6 A7=-U2/A7 A8=-U2/A8 A9=-U2/A9 A10=-U2/A10 A11=-U2/A11 B0=-U2/B0 B1=-U2/B1 B2=-U2/B2 B3=-U2/B3 B4=-U2/B4 B5=-U2/B5 B6=-U2/B6 B7=-U2/B7 B8=-U2/B8 B9=-U2/B9 B10=-U2/B10 B11=-U2/B11 EQ=+PD193
+.names PinSignal_U1_O<0> U2/A0
+1 1
+.names PinSignal_U1_O<1> U2/A1
+1 1
+.names PinSignal_U1_O<2> U2/A2
+1 1
+.names PinSignal_U1_O<3> U2/A3
+1 1
+.names PinSignal_U7_O<0> U2/A4
+1 1
+.names PinSignal_U7_O<1> U2/A5
+1 1
+.names PinSignal_U7_O<2> U2/A6
+1 1
+.names PinSignal_U7_O<3> U2/A7
+1 1
+.names PinSignal_U11_O<0> U2/A8
+1 1
+.names PinSignal_U11_O<1> U2/A9
+1 1
+.names PinSignal_U11_O<2> U2/A10
+1 1
+.names PinSignal_U11_O<3> U2/A11
+1 1
+.names HA10 U2/B0
+1 1
+.names HA12 U2/B1
+1 1
+.names HA14 U2/B2
+1 1
+.names HA16 U2/B3
+1 1
+.names HA18 U2/B4
+1 1
+.names HA20 U2/B5
+1 1
+.names HA22 U2/B6
+1 1
+.names HA24 U2/B7
+1 1
+.names HA26 U2/B8
+1 1
+.names HA28 U2/B9
+1 1
+.names HA30 U2/B10
+1 1
+.names HA32 U2/B11
+1 1
+.loc ParallelReadDecode.VHD 760
+.subckt NUM0 U1 O<3>=+PinSignal_U1_O<3> O<2>=+PinSignal_U1_O<2> O<1>=+PinSignal_U1_O<1> O<0>=+PinSignal_U1_O<0>

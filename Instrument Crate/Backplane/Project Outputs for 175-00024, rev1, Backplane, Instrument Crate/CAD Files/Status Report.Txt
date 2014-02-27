@@ -1,0 +1,12 @@
+Output: DrillDrawing
+Type  : Gerber
+From  : PCB Document [175-00024_rev1, Backplane, Instrument Crate.PcbDoc]
+   Generated File[175-00024_rev1, Backplane, Instrument Crate.GD1]
+   Generated File[175-00024_rev1, Backplane, Instrument Crate.EXTREP]
+   Generated File[175-00024_rev1, Backplane, Instrument Crate.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:15:05 PM On 6/2/2011

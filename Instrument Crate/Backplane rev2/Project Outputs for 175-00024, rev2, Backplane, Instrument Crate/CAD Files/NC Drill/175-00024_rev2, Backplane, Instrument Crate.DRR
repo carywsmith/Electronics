@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00024_rev2, Backplane, Instrument Crate.PcbDoc   11/1/2011  4:12:41 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer (*.GTL) to Bottom Layer (*.GBL)
+ASCII Plated RoundHoles File : 175-00024_rev2, Backplane, Instrument Crate-Plated.TXT
+ASCII Non-Plated RoundHoles File : 175-00024_rev2, Backplane, Instrument Crate-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          462              118.88 Inch (3019.55 mm)
+T2        13mil (0.3302mm)         Round          4                1.55 Inch (39.30 mm)
+T3        28mil (0.7112mm)         Round          26               24.31 Inch (617.51 mm)
+T4        33mil (0.8382mm)         Round          5                0.37 Inch (9.42 mm)
+T5        35mil (0.889mm)          Round          30               8.04 Inch (204.28 mm)
+T6        36mil (0.9144mm)         Round          4                0.32 Inch (8.20 mm)
+T7        40mil (1.016mm)          Round          148              40.19 Inch (1020.84 mm)
+T8        51mil (1.2954mm)         Round          108              43.77 Inch (1111.78 mm)
+T9        52mil (1.3208mm)         Round          414              105.96 Inch (2691.33 mm)
+T10       59mil (1.4986mm)         Round          4                0.60 Inch (15.24 mm)
+T11       62mil (1.5748mm)         Round          2                0.64 Inch (16.26 mm)
+T12       70mil (1.778mm)          Round          30               42.88 Inch (1089.06 mm)
+T13       91mil (2.3114mm)         Round          2                0.47 Inch (12.04 mm)
+T14       128mil (3.2512mm)        Round          27               36.75 Inch (933.57 mm)
+T15       166mil (4.2164mm)        Round          3                5.00 Inch (127.00 mm)
+T16       40mil (1.016mm)          Round          6         NPTH   8.08 Inch (205.33 mm)
+T17       98mil (2.4892mm)         Round          24        NPTH   39.33 Inch (998.90 mm)
+T18       128mil (3.2512mm)        Round          2         NPTH   0.50 Inch (12.70 mm)
+---------------------------------------------------------------------------
+Totals                                            1301             477.65 Inch (12132.30 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

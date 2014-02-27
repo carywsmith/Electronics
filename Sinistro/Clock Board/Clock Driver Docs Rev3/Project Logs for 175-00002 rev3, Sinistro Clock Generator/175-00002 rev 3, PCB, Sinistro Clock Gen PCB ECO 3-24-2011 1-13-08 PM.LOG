@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=VDD_K1 Pin=K1-9
+Removed Pin From Net: NetName=VDD Pin=K1-10
+Removed Pin From Net: NetName=VRD_K1 Pin=K1-13
+Removed Pin From Net: NetName=VRD Pin=K1-14
+Removed Pin From Net: NetName=VOD_K1 Pin=K1-15
+Removed Pin From Net: NetName=VOD Pin=K1-16
+Added Pin To Net: NetName=VRD_K1 Pin=K1-9
+Added Pin To Net: NetName=VRD Pin=K1-10
+Added Pin To Net: NetName=VOD_K1 Pin=K1-13
+Added Pin To Net: NetName=VOD Pin=K1-14
+Added Pin To Net: NetName=VDD_K1 Pin=K1-15
+Added Pin To Net: NetName=VDD Pin=K1-16

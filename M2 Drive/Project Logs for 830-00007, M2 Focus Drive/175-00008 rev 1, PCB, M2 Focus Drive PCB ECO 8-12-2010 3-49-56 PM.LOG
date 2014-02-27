@@ -1,0 +1,6 @@
+Added Component: Designator=C11(SMD_CAP_7343)
+Added Component: Designator=C12(SMD_CAP_7343)
+Added Pin To Net: NetName=GND Pin=C12-NEG
+Added Pin To Net: NetName=+5V Pin=C12-POS
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component C11 35V
+Added Member To Class: ClassName=780-00012-P4, Sch M2 Focus Drive Member=Component C12 10V

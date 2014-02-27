@@ -1,0 +1,97 @@
+Added Component: Designator=C1(1812)
+Added Component: Designator=C2(SMD_0805)
+Added Component: Designator=C3(1812)
+Added Component: Designator=C4(1812)
+Added Component: Designator=C5(SMD_0805)
+Added Component: Designator=P4(HDR 1X4 0.156")
+Added Component: Designator=PS1(Vicor Micro SurfMate)
+Added Component: Designator=R1(SMD_0805)
+Added Component: Designator=R2(SMD_0805)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+24V_FUSED Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=+24V_FUSED Pin=PS1-1
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=GND Pin=PS1-4
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=P4-1
+Added Pin To Net: NetName=NetC2_1 Pin=P4-2
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=PS1-7
+Added Pin To Net: NetName=NetC2_1 Pin=R1-2
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=P4-3
+Added Pin To Net: NetName=NetC5_2 Pin=P4-4
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=PS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=R2-2
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetPS1_6 Pin=PS1-6
+Added Pin To Net: NetName=NetPS1_6 Pin=PS1-6
+Added Pin To Net: NetName=NetPS1_6 Pin=PS1-6
+Added Pin To Net: NetName=NetPS1_6 Pin=PS1-6
+Added Pin To Net: NetName=NetPS1_6 Pin=R1-1
+Added Pin To Net: NetName=NetPS1_6 Pin=R2-1
+Added Net: Name=NetPS1_6
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C1 Y-RATED
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C2 100V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C3 0.22uF
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C4 Y-RATED
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C5 100V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component P4 Header 4 0.156"
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component PS1 Vicor Micro
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R1 Res 0805
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component R2 Res 0805

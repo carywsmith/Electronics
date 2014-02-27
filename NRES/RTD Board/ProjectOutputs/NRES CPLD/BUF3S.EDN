@@ -1,0 +1,47 @@
+(edif (rename buf3s "BUF3S")
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2003 12 6 15 10 16)
+      (author "Synplicity, Inc.")
+      (program "Synplify" (version "7.3.3, Build 024R"))
+     )
+   )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell (rename buf3s "BUF3S") (cellType GENERIC)
+       (view structure (viewType NETLIST)
+         (interface
+           (port I0 (direction INPUT)
+ )
+           (port I1 (direction INPUT)
+ )
+           (port I2 (direction INPUT)
+ )
+           (port O0 (direction OUTPUT))
+           (port O1 (direction OUTPUT))
+           (port O2 (direction OUTPUT))
+         )
+         (contents
+          (net (rename o0 "O0") (joined
+           (portRef I0)
+           (portRef O0)
+          ))
+          (net (rename o1 "O1") (joined
+           (portRef I1)
+           (portRef O1)
+          ))
+          (net (rename o2 "O2") (joined
+           (portRef I2)
+           (portRef O2)
+          ))
+         )
+       )
+    )
+  )
+  (design (rename buf3s "BUF3S") (cellRef buf3s (libraryRef work))
+	(property PART (string "xcr3032xl-5-vq44") (owner "Xilinx")))
+)

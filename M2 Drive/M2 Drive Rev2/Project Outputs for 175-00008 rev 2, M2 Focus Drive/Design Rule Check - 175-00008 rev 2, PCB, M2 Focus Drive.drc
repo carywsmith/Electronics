@@ -1,0 +1,63 @@
+Protel Design System Design Rule Check
+PCB File : \\Files\users\rlobdill\Altum Projects\M2 Drive\M2 Drive Rev2\175-00008 rev 2, PCB, M2 Focus Drive.PcbDoc
+Date     : 6/9/2011
+Time     : 10:45:31 AM
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+   Violation between Starved Thermal on GND (*.GP2): Via (-744.979mil,374.997mil) Top Layer (*.GTL) to Bottom Layer (*.GBL)
+   Violation between Starved Thermal on GND (*.GP2): Via (-504.979mil,129.997mil) Top Layer (*.GTL) to Bottom Layer (*.GBL)
+Rule Violations :2
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((InNet('NetF1_1') OR InNet('EARTH') OR InComponent('F1') or InComponent('P2')))
+Rule Violations :0
+
+Processing Rule : Room 780-00012-P4, rev2 Sch M2 Focus Drive (Bounding Region = (28747.861mil, 27948.81mil, 34618mil, 34277mil) (InComponentClass('780-00012-P4, rev2 Sch M2 Focus Drive'))
+Rule Violations :0
+
+Processing Rule : Room 780-00012-P3, rev2 Sch M2 Focus Drive (Bounding Region = (28461.861mil, 28274.81mil, 35297.861mil, 33834.81mil) (InComponentClass('780-00012-P3, rev2 Sch M2 Focus Drive'))
+Rule Violations :0
+
+Processing Rule : Room 780-00012-P2, rev2 Sch M2 Focus Drive (Bounding Region = (28035mil, 28725mil, 34820mil, 34716mil) (InComponentClass('780-00012-P2, rev2 Sch M2 Focus Drive'))
+Rule Violations :0
+
+Processing Rule : Room 780-00012-P1, rev2 Sch M2 Focus Drive (Bounding Region = (28230mil, 27775.81mil, 34745mil, 34475mil) (InComponentClass('780-00012-P1, rev2 Sch M2 Focus Drive'))
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=600mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=200mil) (Preferred=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Isolated copper: Split Plane  (+24V)  on +24V (*.GP1). Dead copper detected. Copper area is : 1.2E2 sq. mils
+   Violation between Isolated copper: Split Plane  (+12V)  on +12V (*.GP4). Dead copper detected. Copper area is : 1.3E2 sq. mils
+Rule Violations :2
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Time Elapsed        : 00:00:03

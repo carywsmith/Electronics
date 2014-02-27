@@ -1,0 +1,52 @@
+Added Component: Designator=TP5A(SMD_TEST POINT)
+Added Component: Designator=TP5B(SMD_TEST POINT)
+Added Component: Designator=TP5C(SMD_TEST POINT)
+Added Component: Designator=TP5D(SMD_TEST POINT)
+Added Component: Designator=TP5E(SMD_TEST POINT)
+Added Component: Designator=TP5F(SMD_TEST POINT)
+Added Component: Designator=TP5G(SMD_TEST POINT)
+Added Component: Designator=TP5H(SMD_TEST POINT)
+Added Component: Designator=TP6A(SMD_TEST POINT)
+Added Component: Designator=TP6B(SMD_TEST POINT)
+Added Component: Designator=TP6C(SMD_TEST POINT)
+Added Component: Designator=TP6D(SMD_TEST POINT)
+Added Component: Designator=TP6E(SMD_TEST POINT)
+Added Component: Designator=TP6F(SMD_TEST POINT)
+Added Component: Designator=TP6G(SMD_TEST POINT)
+Added Component: Designator=TP6H(SMD_TEST POINT)
+Added Pin To Net: NetName=NetJ2A_1 Pin=TP5A-1
+Added Pin To Net: NetName=NetJ2B_1 Pin=TP5B-1
+Added Pin To Net: NetName=NetJ2C_1 Pin=TP5C-1
+Added Pin To Net: NetName=NetJ2D_1 Pin=TP5D-1
+Added Pin To Net: NetName=NetJ2E_1 Pin=TP5E-1
+Added Pin To Net: NetName=NetJ2F_1 Pin=TP5F-1
+Added Pin To Net: NetName=NetJ2G_1 Pin=TP5G-1
+Added Pin To Net: NetName=NetJ2H_1 Pin=TP5H-1
+Added Pin To Net: NetName=NetJ2A_4 Pin=TP6A-1
+Added Pin To Net: NetName=NetJ2B_4 Pin=TP6B-1
+Added Pin To Net: NetName=NetJ2C_4 Pin=TP6C-1
+Added Pin To Net: NetName=NetJ2D_4 Pin=TP6D-1
+Added Pin To Net: NetName=NetJ2E_4 Pin=TP6E-1
+Added Pin To Net: NetName=NetJ2F_4 Pin=TP6F-1
+Added Pin To Net: NetName=NetJ2G_4 Pin=TP6G-1
+Added Pin To Net: NetName=NetJ2H_4 Pin=TP6H-1
+Change Class Name : Old Net Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD New Net Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Class: Name=780-00055, rev1, Pg2, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Class: Name=780-00055, rev1, Pg3, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Member To Class: ClassName=ADC_Ch0 Member=Component TP5A (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch1 Member=Component TP5B (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch2 Member=Component TP5C (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch3 Member=Component TP5D (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch4 Member=Component TP5E (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch5 Member=Component TP5F (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch6 Member=Component TP5G (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch7 Member=Component TP5H (TP5) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch0 Member=Component TP6A (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch1 Member=Component TP6B (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch2 Member=Component TP6C (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch3 Member=Component TP6D (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch4 Member=Component TP6E (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch5 Member=Component TP6F (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch6 Member=Component TP6G (TP6) Test Point SMD
+Added Member To Class: ClassName=ADC_Ch7 Member=Component TP6H (TP6) Test Point SMD
+Change Room Name: Old Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD New Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD 

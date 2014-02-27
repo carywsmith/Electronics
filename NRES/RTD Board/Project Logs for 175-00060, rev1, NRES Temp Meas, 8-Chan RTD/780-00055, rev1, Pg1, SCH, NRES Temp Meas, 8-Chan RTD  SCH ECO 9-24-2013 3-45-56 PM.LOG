@@ -1,0 +1,98 @@
+Remove Pin=U1E-1 From Net=~SHDN
+Remove Pin=U1E-2 From Net=~DRDY_3
+Remove Pin=U1F-5 From Net=DOUT_4
+Remove Pin=U1F-6 From Net=SCLK_FPGA
+Remove Pin=U1F-10 From Net=~LVSHDN_3
+Remove Pin=U1F-12 From Net=~LVSHDN_1
+Remove Pin=U1F-13 From Net=~LVSHDN_0
+Remove Pin=U1F-14 From Net=~DRDY_7
+Remove Pin=U1H-16 From Net=~DRDY_6
+Remove Pin=U1H-17 From Net=~DRDY_5
+Remove Pin=U1H-19 From Net=~DRDY_4
+Remove Pin=U1H-20 From Net=~DRDY_2
+Remove Pin=U1H-21 From Net=~DRDY_1
+Remove Pin=U1H-22 From Net=~DRDY_0
+Remove Pin=U1H-23 From Net=~DRDY
+Remove Pin=U1H-24 From Net=~CS_8
+Remove Pin=U1H-25 From Net=~CS_7
+Remove Pin=U1G-27 From Net=~CS_6
+Remove Pin=U1G-28 From Net=~CS_5
+Remove Pin=U1G-29 From Net=~CS_4
+Remove Pin=U1G-30 From Net=~CS_3
+Remove Pin=U1G-31 From Net=~CS_2
+Remove Pin=U1G-32 From Net=~CS_1
+Remove Pin=U1G-35 From Net=B1
+Remove Pin=U1G-36 From Net=B0
+Remove Pin=U1G-37 From Net=A5
+Remove Pin=U1D-40 From Net=A4
+Remove Pin=U1D-41 From Net=A3
+Remove Pin=U1D-42 From Net=A2
+Remove Pin=U1D-44 From Net=A1
+Remove Pin=U1D-45 From Net=A0
+Remove Pin=U1D-46 From Net=WSTRB
+Remove Pin=U1D-47 From Net=DOUT_7
+Remove Pin=U1D-48 From Net=DOUT_6
+Remove Pin=U1D-49 From Net=DOUT_5
+Remove Pin=U1D-50 From Net=DOUT_3
+Remove Pin=U1C-52 From Net=DOUT_2
+Remove Pin=U1C-53 From Net=DOUT_1
+Remove Pin=U1C-54 From Net=DOUT_0
+Remove Pin=U1C-55 From Net=DOUT
+Remove Pin=U1C-56 From Net=~CS_11
+Remove Pin=U1C-57 From Net=~CS_10
+Remove Pin=U1C-58 From Net=~CS_9
+Remove Pin=U1C-60 From Net=SCLK
+Remove Pin=U1C-61 From Net=~RESET_FPGA
+Remove Pin=U1A-63 From Net=~RESET
+Remove Pin=U1A-64 From Net=DIN_FPGA
+Remove Pin=U1A-65 From Net=DIN
+Remove Pin=U1E-100 From Net=~LVSHDN_2
+Add Pin To Net: Pin=U1E-1 Old Net=~SHDN New Net=~CS_10
+Add Pin To Net: Pin=U1H-21 Old Net=~DRDY_1 New Net=~CS_11
+Add Pin To Net: Pin=U1G-32 Old Net=~CS_1 New Net=B0
+Add Pin To Net: Pin=U1G-35 Old Net=B1 New Net=~DRDY_0
+Add Pin To Net: Pin=U1G-36 Old Net=B0 New Net=DOUT_0
+Add Pin To Net: Pin=U1G-37 Old Net=A5 New Net=~CS_1
+Add Pin To Net: Pin=U1D-40 Old Net=A4 New Net=~DRDY_1
+Add Pin To Net: Pin=U1D-41 Old Net=A3 New Net=A5
+Add Pin To Net: Pin=U1D-42 Old Net=A2 New Net=DOUT_1
+Add Pin To Net: Pin=U1D-44 Old Net=A1 New Net=~CS_2
+Add Pin To Net: Pin=U1D-45 Old Net=A0 New Net=A4
+Add Pin To Net: Pin=U1D-46 Old Net=WSTRB New Net=~DRDY_2
+Add Pin To Net: Pin=U1D-47 Old Net=DOUT_7 New Net=A0
+Add Pin To Net: Pin=U1D-48 Old Net=DOUT_6 New Net=A1
+Add Pin To Net: Pin=U1D-49 Old Net=DOUT_5 New Net=A2
+Add Pin To Net: Pin=U1D-50 Old Net=DOUT_3 New Net=A3
+Add Pin To Net: Pin=U1C-52 Old Net=DOUT_2 New Net=DIN_FPGA
+Add Pin To Net: Pin=U1C-53 Old Net=DOUT_1 New Net=SCLK_FPGA
+Add Pin To Net: Pin=U1C-54 Old Net=DOUT_0 New Net=~SHDN
+Add Pin To Net: Pin=U1C-55 Old Net=DOUT New Net=~DRDY
+Add Pin To Net: Pin=U1C-56 Old Net=~CS_11 New Net=B1
+Add Pin To Net: Pin=U1C-57 Old Net=~CS_10 New Net=~RESET
+Add Pin To Net: Pin=U1C-58 Old Net=~CS_9 New Net=DOUT_2
+Add Pin To Net: Pin=U1C-60 Old Net=SCLK New Net=DIN
+Add Pin To Net: Pin=U1C-61 Old Net=~RESET_FPGA New Net=SCLK
+Add Pin To Net: Pin=U1A-63 Old Net=~RESET New Net=~CS_3
+Add Pin To Net: Pin=U1A-64 Old Net=DIN_FPGA New Net=~DRDY_3
+Add Pin To Net: Pin=U1A-65 Old Net=DIN New Net=WSTRB
+Add Pin To Net: Pin=U1A-67 Old Net=NetU1_67 New Net=DOUT
+Add Pin To Net: Pin=U1A-68 Old Net=NetU1_68 New Net=~RESET_FPGA
+Add Pin To Net: Pin=U1A-69 Old Net=NetU1_69 New Net=DOUT_3
+Add Pin To Net: Pin=U1A-70 Old Net=NetU1_70 New Net=~CS_4
+Add Pin To Net: Pin=U1A-71 Old Net=NetU1_71 New Net=~DRDY_4
+Add Pin To Net: Pin=U1A-72 Old Net=NetU1_72 New Net=DOUT_4
+Add Pin To Net: Pin=U1B-75 Old Net=NetU1_75 New Net=~CS_5
+Add Pin To Net: Pin=U1B-76 Old Net=NetU1_76 New Net=~DRDY_5
+Add Pin To Net: Pin=U1B-77 Old Net=NetU1_77 New Net=DOUT_5
+Add Pin To Net: Pin=U1B-78 Old Net=NetU1_78 New Net=~CS_6
+Add Pin To Net: Pin=U1B-79 Old Net=NetU1_79 New Net=~DRDY_6
+Add Pin To Net: Pin=U1B-80 Old Net=NetU1_80 New Net=DOUT_6
+Add Pin To Net: Pin=U1B-81 Old Net=NetU1_81 New Net=~CS_7
+Add Pin To Net: Pin=U1B-83 Old Net=NetU1_83 New Net=~DRDY_7
+Add Pin To Net: Pin=U1B-84 Old Net=NetU1_84 New Net=DOUT_7
+Add Pin To Net: Pin=U1B-85 Old Net=NetU1_85 New Net=~CS_8
+Add Pin To Net: Pin=U1E-92 Old Net=NetU1_92 New Net=~LVSHDN_3
+Add Pin To Net: Pin=U1E-93 Old Net=NetU1_93 New Net=~LVSHDN_2
+Add Pin To Net: Pin=U1E-94 Old Net=NetU1_94 New Net=~LVSHDN_1
+Add Pin To Net: Pin=U1E-96 Old Net=NetU1_96 New Net=~LVSHDN_0
+Add Pin To Net: Pin=U1E-98 Old Net=NetU1_98 New Net=~CS_9

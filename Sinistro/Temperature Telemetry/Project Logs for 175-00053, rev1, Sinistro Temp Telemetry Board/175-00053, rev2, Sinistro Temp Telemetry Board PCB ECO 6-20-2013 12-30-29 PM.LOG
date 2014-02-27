@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=SF CONNECTIONS Member=TP24
+Added Pin To Net: NetName=24RTN Pin=J1-77
+Added Pin To Net: NetName=+24V Pin=U1-A80
+Added Pin To Net: NetName=CRYO_ENABLE Pin=J1-79
+Added Pin To Net: NetName=CRYO_ENABLE Pin=P1-79
+Added Pin To Net: NetName=CRYO_ENABLE Pin=R1-1
+Added Net: Name=CRYO_ENABLE
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-A82
+Added Net: Name=NetR1_2

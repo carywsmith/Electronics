@@ -1,0 +1,220 @@
+*************************************************************
+FileName = 175-00008 rev 1, PCB, M2 Focus Drive.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\matrix\matrix
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\profile
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\stephdr
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\topoverlay\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\topoverlay\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\toppaste\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\toppaste\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\topsolder\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\topsolder\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\top\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\top\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mid1\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mid1\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane1\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane1\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane2\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane2\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane3\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane3\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane4\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane4\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane5\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane5\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane6\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\plane6\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottom\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottom\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottomsolder\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottomsolder\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottompaste\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottompaste\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottomoverlay\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\bottomoverlay\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\drill\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\drill\tools
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\keepout\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\keepout\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical1\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical1\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical2\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical2\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical3\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical3\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical6\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical6\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical13\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical13\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical15\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\mechanical15\attrlist
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\rout\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\layers\rout\tools
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\steps\pcb\eda\data
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect78x48_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect78x48_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect135x70_330\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect135x70_210\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect135x70_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect78.7402x236.2205_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect78.7402x236.2205_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\oval27.5591x98.4252_150\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s50_60\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s50_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\oval27.5591x98.4252_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s50_300\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s50_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect25x68_60\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect25x68_300\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s55_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s60_300\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s60_60\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s59.0551_210\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s59.0551_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s59.0551_150\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s59.055_150\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s59.055_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s59.0551_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s70_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s70_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect86x56_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect86x56_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect143x78_330\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect143x78_210\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect143x78_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s63_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s68_300\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s68_60\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s67.0551_210\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s67.0551_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s67.0551_150\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s67.055_150\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s67.055_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s67.0551_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s78_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s78_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect86.7402x244.2205_120\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\rect86.7402x244.2205_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\oval35.5591x106.4252_150\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s58_60\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s58_240\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\oval35.5591x106.4252_30\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s58_300\features
+
+Generated File : \\Files\users\rlobdill\Altum Projects\M2 Drive\Project Outputs for 830-00007, M2 Focus Drive\odb\symbols\s58_120\features
+

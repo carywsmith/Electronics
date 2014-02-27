@@ -1,0 +1,134 @@
+Removed Pin From Net: NetName=VCC Pin=J3-21
+Removed Pin From Net: NetName=VCC Pin=J3-22
+Removed Pin From Net: NetName=D Pin=J3-23
+Removed Pin From Net: NetName=+24V Pin=J3-P1
+Removed Pin From Net: NetName=+24V Pin=J3-P1
+Removed Pin From Net: NetName=+24V Pin=J3-P1
+Removed Pin From Net: NetName=+24V Pin=J3-P1
+Removed Pin From Net: NetName=A Pin=J3-P4
+Removed Pin From Net: NetName=A Pin=J3-P4
+Removed Pin From Net: NetName=A Pin=J3-P4
+Removed Pin From Net: NetName=A Pin=J3-P4
+Removed Pin From Net: NetName=VCC Pin=J4-21
+Removed Pin From Net: NetName=VCC Pin=J4-22
+Removed Pin From Net: NetName=D Pin=J4-23
+Removed Pin From Net: NetName=+24V Pin=J4-P1
+Removed Pin From Net: NetName=+24V Pin=J4-P1
+Removed Pin From Net: NetName=+24V Pin=J4-P1
+Removed Pin From Net: NetName=+24V Pin=J4-P1
+Removed Pin From Net: NetName=A Pin=J4-P4
+Removed Pin From Net: NetName=A Pin=J4-P4
+Removed Pin From Net: NetName=A Pin=J4-P4
+Removed Pin From Net: NetName=A Pin=J4-P4
+Removed Pin From Net: NetName=VCC Pin=J5-21
+Removed Pin From Net: NetName=VCC Pin=J5-22
+Removed Pin From Net: NetName=D Pin=J5-23
+Removed Pin From Net: NetName=+24V Pin=J5-P1
+Removed Pin From Net: NetName=+24V Pin=J5-P1
+Removed Pin From Net: NetName=+24V Pin=J5-P1
+Removed Pin From Net: NetName=+24V Pin=J5-P1
+Removed Pin From Net: NetName=A Pin=J5-P4
+Removed Pin From Net: NetName=A Pin=J5-P4
+Removed Pin From Net: NetName=A Pin=J5-P4
+Removed Pin From Net: NetName=A Pin=J5-P4
+Removed Pin From Net: NetName=VCC Pin=J6-21
+Removed Pin From Net: NetName=VCC Pin=J6-22
+Removed Pin From Net: NetName=D Pin=J6-23
+Removed Pin From Net: NetName=+24V Pin=J6-P1
+Removed Pin From Net: NetName=+24V Pin=J6-P1
+Removed Pin From Net: NetName=+24V Pin=J6-P1
+Removed Pin From Net: NetName=+24V Pin=J6-P1
+Removed Pin From Net: NetName=A Pin=J6-P4
+Removed Pin From Net: NetName=A Pin=J6-P4
+Removed Pin From Net: NetName=A Pin=J6-P4
+Removed Pin From Net: NetName=A Pin=J6-P4
+Added Component: Designator=RN1(RES ARRAY 0603 x 4)
+Added Pin To Net: NetName=VCC Pin=J3-23
+Added Pin To Net: NetName=A Pin=J3-P1
+Added Pin To Net: NetName=A Pin=J3-P1
+Added Pin To Net: NetName=A Pin=J3-P1
+Added Pin To Net: NetName=A Pin=J3-P1
+Added Pin To Net: NetName=+24V Pin=J3-P4
+Added Pin To Net: NetName=+24V Pin=J3-P4
+Added Pin To Net: NetName=+24V Pin=J3-P4
+Added Pin To Net: NetName=+24V Pin=J3-P4
+Added Pin To Net: NetName=VCC Pin=J4-23
+Added Pin To Net: NetName=A Pin=J4-P1
+Added Pin To Net: NetName=A Pin=J4-P1
+Added Pin To Net: NetName=A Pin=J4-P1
+Added Pin To Net: NetName=A Pin=J4-P1
+Added Pin To Net: NetName=+24V Pin=J4-P4
+Added Pin To Net: NetName=+24V Pin=J4-P4
+Added Pin To Net: NetName=+24V Pin=J4-P4
+Added Pin To Net: NetName=+24V Pin=J4-P4
+Added Pin To Net: NetName=VCC Pin=J5-23
+Added Pin To Net: NetName=A Pin=J5-P1
+Added Pin To Net: NetName=A Pin=J5-P1
+Added Pin To Net: NetName=A Pin=J5-P1
+Added Pin To Net: NetName=A Pin=J5-P1
+Added Pin To Net: NetName=+24V Pin=J5-P4
+Added Pin To Net: NetName=+24V Pin=J5-P4
+Added Pin To Net: NetName=+24V Pin=J5-P4
+Added Pin To Net: NetName=+24V Pin=J5-P4
+Added Pin To Net: NetName=VCC Pin=J6-23
+Added Pin To Net: NetName=A Pin=J6-P1
+Added Pin To Net: NetName=A Pin=J6-P1
+Added Pin To Net: NetName=A Pin=J6-P1
+Added Pin To Net: NetName=A Pin=J6-P1
+Added Pin To Net: NetName=+24V Pin=J6-P4
+Added Pin To Net: NetName=+24V Pin=J6-P4
+Added Pin To Net: NetName=+24V Pin=J6-P4
+Added Pin To Net: NetName=+24V Pin=J6-P4
+Added Pin To Net: NetName=+24V Pin=U6-B55
+Change Net Name : Old Net Name=I2C_SCL New Net Name=CR_I2C_SCL
+Change Net Name : Old Net Name=I2C_SDA New Net Name=CR_I2C_SDA
+Change Net Name : Old Net Name=SILICON_SN New Net Name=CR_SILICON_SN
+Added Pin To Net: NetName=I2C_SCL Pin=J3-22
+Added Pin To Net: NetName=I2C_SCL Pin=J4-22
+Added Pin To Net: NetName=I2C_SCL Pin=J5-22
+Added Pin To Net: NetName=I2C_SCL Pin=J6-22
+Added Pin To Net: NetName=I2C_SCL Pin=U6-A111
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=J3-21
+Added Pin To Net: NetName=I2C_SDA Pin=J4-21
+Added Pin To Net: NetName=I2C_SDA Pin=J5-21
+Added Pin To Net: NetName=I2C_SDA Pin=J6-21
+Added Pin To Net: NetName=I2C_SDA Pin=U6-A109
+Added Net: Name=I2C_SDA
+Added Pin To Net: NetName=NetRN1_2 Pin=RN1-2
+Added Pin To Net: NetName=NetRN1_2 Pin=U6-B63
+Added Net: Name=NetRN1_2
+Added Pin To Net: NetName=NetRN1_4 Pin=RN1-4
+Added Pin To Net: NetName=NetRN1_4 Pin=U6-B61
+Added Net: Name=NetRN1_4
+Added Pin To Net: NetName=NetRN1_6 Pin=RN1-6
+Added Pin To Net: NetName=NetRN1_6 Pin=U6-B59
+Added Net: Name=NetRN1_6
+Added Pin To Net: NetName=NetRN1_8 Pin=RN1-8
+Added Pin To Net: NetName=NetRN1_8 Pin=U6-B57
+Added Net: Name=NetRN1_8
+Added Pin To Net: NetName=SILICON_SN Pin=J3-17
+Added Pin To Net: NetName=SILICON_SN Pin=J4-17
+Added Pin To Net: NetName=SILICON_SN Pin=J5-17
+Added Pin To Net: NetName=SILICON_SN Pin=J6-17
+Added Pin To Net: NetName=SILICON_SN Pin=U6-A99
+Added Net: Name=SILICON_SN
+Added Pin To Net: NetName=WSTRB Pin=J3-13
+Added Pin To Net: NetName=WSTRB Pin=J4-13
+Added Pin To Net: NetName=WSTRB Pin=J5-13
+Added Pin To Net: NetName=WSTRB Pin=J6-13
+Added Pin To Net: NetName=WSTRB Pin=U6-A97
+Added Net: Name=WSTRB
+Added Pin To Net: NetName=~BRD_PRESENT_0 Pin=J3-14
+Added Pin To Net: NetName=~BRD_PRESENT_0 Pin=RN1-7
+Added Net: Name=~BRD_PRESENT_0
+Added Pin To Net: NetName=~BRD_PRESENT_1 Pin=J4-14
+Added Pin To Net: NetName=~BRD_PRESENT_1 Pin=RN1-5
+Added Net: Name=~BRD_PRESENT_1
+Added Pin To Net: NetName=~BRD_PRESENT_2 Pin=J5-14
+Added Pin To Net: NetName=~BRD_PRESENT_2 Pin=RN1-3
+Added Net: Name=~BRD_PRESENT_2
+Added Pin To Net: NetName=~BRD_PRESENT_3 Pin=J6-14
+Added Pin To Net: NetName=~BRD_PRESENT_3 Pin=RN1-1
+Added Net: Name=~BRD_PRESENT_3
+Added Member To Class: ClassName=780-00057, rev1, Pg2, SCH, NRES, Crate Slot MotherBoard Member=Component RN1 RES ARRAY  x4 10K

@@ -1,0 +1,12 @@
+Added Component: Designator=TP2A(SMD_TEST POINT)
+Added Component: Designator=TP2B(SMD_TEST POINT)
+Added Component: Designator=TP2C(SMD_TEST POINT)
+Added Component: Designator=TP2D(SMD_TEST POINT)
+Added Pin To Net: NetName=V_IMON1 Pin=TP2A-1
+Added Pin To Net: NetName=V_IMON2 Pin=TP2B-1
+Added Pin To Net: NetName=V_IMON3 Pin=TP2C-1
+Added Pin To Net: NetName=V_IMON4 Pin=TP2D-1
+Added Member To Class: ClassName=I_SOURCE1 Member=Component TP2A (TP2) Test Point SMD
+Added Member To Class: ClassName=I_SOURCE2 Member=Component TP2B (TP2) Test Point SMD
+Added Member To Class: ClassName=I_SOURCE3 Member=Component TP2C (TP2) Test Point SMD
+Added Member To Class: ClassName=I_SOURCE4 Member=Component TP2D (TP2) Test Point SMD

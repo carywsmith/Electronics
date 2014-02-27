@@ -1,0 +1,79 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+           TARGET_MECHANICAL_5 -47014.299mil     -31866mil   6968.504mil   4409.449mil -47014.299mil     -31866mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -47014.299mil     -31866mil  -1338.583mil   4291.339mil -47014.299mil     -31866mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -47014.299mil     -31866mil  -1267.004mil  -1496.063mil -47014.299mil     -31866mil  T          0.00 Comment        
+R9         SMD_0805          3346.457mil    678.335mil   3346.457mil    678.335mil   3301.457mil    678.335mil  B        360.00 Res 0805       
+R10        SMD_0805              3315mil    949.225mil       3315mil    949.225mil       3315mil    904.225mil  B         90.00 Res 0805       
+R8         SMD_0805          3316.414mil    433.071mil   3316.414mil    433.071mil   3316.414mil    388.071mil  B         90.00 Res 0805       
+U4         TEXAS_Inst_Switching_Regulator   2107.284mil     2616.5mil   2482.284mil       1929mil   1732.284mil       1929mil  T         90.00 6A Pos Switching Regulator
+U3         TEXAS_Inst_Switching_Regulator    648.622mil   2618.106mil   1023.622mil   1930.606mil    273.622mil   1930.606mil  T         90.00 6A Pos Switching Regulator
+U2         TO-252(D-PAK)__PowerPAD       2315mil   1533.268mil       2315mil       1550mil   2404.764mil    1378.74mil  B         90.00 Voltage Reg, Adj
+TP13       PAD_80D_052H          1630mil       1250mil       1630mil       1250mil       1630mil       1250mil  T         90.00 Test point     
+TP12       PAD_80D_052H          3230mil       1985mil       3230mil       1985mil       3230mil       1985mil  T         90.00 Test point     
+TP11       PAD_80D_052H          4665mil        665mil       4665mil        665mil       4665mil        665mil  T         90.00 Test point     
+TP10       PAD_80D_052H          4670mil        350mil       4670mil        350mil       4670mil        350mil  T         90.00 Test point     
+TP9        PAD_80D_052H      2677.165mil       3619mil   2677.165mil       3619mil   2677.165mil       3619mil  T         90.00 Test point     
+TP8        PAD_80D_052H      1210.472mil       3619mil   1210.472mil       3619mil   1210.472mil       3619mil  T         90.00 Test point     
+TP7        PAD_80D_052H          5095mil       2235mil       5095mil       2235mil       5095mil       2235mil  T         90.00 Test point     
+TP6        PAD_80D_052H      6078.346mil    574.019mil   6078.346mil    574.019mil   6078.346mil    574.019mil  T         90.00 Test point     
+TP5        PAD_80D_052H          5280mil       3670mil       5280mil       3670mil       5280mil       3670mil  T         90.00 Test point     
+TP4        PAD_80D_052H          1380mil       2290mil       1380mil       2290mil       1380mil       2290mil  T         90.00 Test point     
+TP3        PAD_80D_052H          3185mil       3550mil       3185mil       3550mil       3185mil       3550mil  T         90.00 Test point     
+R7         SMD_0805          2283.465mil   2559.055mil   2283.465mil   2559.055mil   2238.465mil   2559.055mil  B        360.00 Res 0805       
+R6         SMD_0805           826.772mil   2555.606mil    826.772mil   2555.606mil    781.772mil   2555.606mil  B        360.00 Res 0805       
+R5         SMD_0805              2560mil    1378.74mil       2560mil    1378.74mil       2605mil    1378.74mil  B        180.00 Res 0805       
+R4         SMD_0805          2071.414mil   1451.575mil   2071.414mil   1451.575mil   2116.414mil   1451.575mil  B        180.00 Res 0805       
+P9         HDR_1X4_0.156"    2927.736mil       2144mil   2927.736mil       1910mil   2927.736mil       1910mil  T         90.00 Header 4 0.156"
+P8         HDR_1X4_0.156"    2164.614mil   3575.087mil   2398.614mil   3575.087mil   2398.614mil   3575.087mil  T        180.00 Header 4 0.156"
+P7         HDR_1X4_0.156"     670.032mil   3579.702mil    904.032mil   3579.702mil    904.032mil   3579.702mil  T        180.00 Header 4 0.156"
+P6         HDR_1X4_0.156"        5730mil       3383mil       5730mil       3149mil       5730mil       3149mil  T         90.00 Header 4 0.156"
+D1         SMC               2361.575mil       1220mil   2361.575mil       1220mil   2498.386mil       1220mil  B        180.00 S5BC-13-F      
+C30        CAP,_Thru_Hole_10mm_dia   2834.646mil   3208.661mil   2834.646mil   3208.661mil   2834.646mil   3307.087mil  T         90.00 35V            
+C29        SMD_0805          2564.685mil   2063.004mil   2564.685mil   2063.004mil   2609.685mil   2063.004mil  B        180.00 35V CER        
+C28        SMD_0805          2566.099mil       2144mil   2566.099mil       2144mil   2611.099mil       2144mil  B        180.00 35V CER        
+C27        SMD_0805          2401.575mil   2063.004mil   2401.575mil   2063.004mil   2356.575mil   2063.004mil  B        360.00 35V CER        
+C26        SMD_0805          2401.575mil       2144mil   2401.575mil       2144mil   2356.575mil       2144mil  B        360.00 35V CER        
+C25        CAP,_Thru_Hole_10mm_dia   1377.953mil   3208.661mil   1377.953mil   3208.661mil   1377.953mil   3307.087mil  T         90.00 35V            
+C24        SMD_0805              1105mil     2120.5mil       1105mil     2120.5mil       1150mil     2120.5mil  B        180.00 35V CER        
+C23        SMD_0805           946.039mil     2120.5mil    946.039mil     2120.5mil    901.039mil     2120.5mil  B        360.00 35V CER        
+C22        SMD_0805           946.039mil       2050mil    946.039mil       2050mil    901.039mil       2050mil  B        360.00 35V CER        
+C21        SMD_0805              2560mil       1455mil       2560mil       1455mil       2605mil       1455mil  B        180.00 Cap SMD        
+C7         SMD_0805              3360mil       1085mil       3360mil       1085mil       3315mil       1085mil  B        360.00 Cap SMD        
+C6         SMD_0805              3360mil        285mil       3360mil        285mil       3405mil        285mil  B        180.00 Cap SMD        
+PS2        BetaDyne_LNB15,_DC/DC       2785mil        685mil       3785mil       1185mil       2385mil       1085mil  T        180.00 BetaDyne LMB15 
+P5         HDR_1X3_0.156"    4330.709mil    510.918mil   4330.709mil    354.918mil   4330.709mil    354.918mil  T         90.00 Header 3       
+L1         Inductor_TDC_SLF       2660mil        585mil       2660mil        585mil   2785.984mil        585mil  B         90.00 445-3869-1-ND  
+C11        SMD_CAP_7343      2206.414mil      456.5mil   2206.414mil      456.5mil   2206.414mil      330.5mil  B         90.00 35V            
+C10        SMD_CAP_7343          2980mil        710mil       2980mil        710mil       2980mil        836mil  B        270.00 35V            
+R2         SMD_0805              4035mil       1909mil       4035mil       1909mil       4080mil       1909mil  B        180.00 Res 0805       
+R1         SMD_0805              4395mil       1910mil       4395mil       1910mil       4350mil       1910mil  B        360.00 Res 0805       
+PS1        VICOR_MICRO_SURFMATE       4115mil   2523.068mil       4740mil   1447.568mil       4600mil   3675.568mil  T        360.00 Vicor Micro    
+P4         HDR_1X6_0.156"    4329.968mil       1040mil   4719.968mil       1040mil   4719.968mil       1040mil  T        180.00 Header 6 0.156"
+C4         SMD_0805              1105mil       2050mil       1105mil       2050mil       1150mil       2050mil  B        180.00 35V CER        
+C3         1812              4350.315mil   3186.179mil   4350.315mil   3186.179mil   4275.512mil   3186.179mil  B        360.00 0.22uF         
+C2         SMD_0805              4555mil       1955mil       4555mil       1955mil       4555mil       1910mil  B         90.00 100V           
+C1         1812              4350.315mil       3020mil   4350.315mil       3020mil   4275.512mil       3020mil  B        360.00 Y-RATED        
+TP1        PAD_80D_052H      5748.032mil    765.453mil   5748.032mil    765.453mil   5748.032mil    765.453mil  T        180.00 Test point     
+U9         SOP8_N            5143.346mil    554.225mil   5143.346mil    554.225mil   5068.346mil      455.8mil  T         90.00 M24C32RMN1     
+U10        SMD_SOT23_3       5137.795mil   1559.568mil   5137.795mil   1559.568mil   5180.795mil   1522.568mil  T         90.00 DS2411         
+U8         PW008_N           5103.346mil    924.225mil   5103.346mil    924.225mil   5064.961mil     812.02mil  T         90.00 SN74CBT3306PWLE
+S1         CAS-120B          5443.346mil    634.225mil   5443.346mil    634.225mil   5520.118mil    565.327mil  T         90.00 CJS-1200TB     
+Q1         SMD_SOT23_3       5137.795mil   1739.568mil   5137.795mil   1739.568mil   5180.795mil   1702.568mil  T         90.00 FDV304P        
+C19        SMD_0805          4963.346mil    604.225mil   4963.346mil    604.225mil   4963.346mil    649.225mil  T        270.00 Cap SMD        
+C18        SMD_0805          4973.346mil    994.225mil   4973.346mil    994.225mil   4973.346mil   1039.225mil  T        270.00 Cap SMD        
+P1         PETC-02-12-02-01-RA   5728.346mil   1968.504mil   5728.346mil   1968.504mil   5878.346mil   1868.504mil  T          0.00 PETC-02-12-02--01-S-RA-SD
+F1         PolySwitch_Radial_0.2   5275.591mil   2677.756mil   5275.591mil   2677.756mil   5275.591mil   2577.756mil  T         90.00 RUEF400        
+TP2        PAD_80D_052H          1555mil        695mil       1555mil        695mil       1555mil        695mil  T         90.00 Test point     
+P3         MMCX2.54-V5       5213.386mil   1231.102mil   5213.386mil   1231.102mil   5213.386mil   1231.102mil  T         90.00 COAX MMCX      
+C8         SMD_0805              3240mil    1527.67mil       3240mil    1527.67mil       3240mil    1482.67mil  B         90.00 35V CER        
+C9         CAP,_Thru_Hole_8mm_dia   3110.236mil    1527.67mil   3110.236mil    1527.67mil   3110.236mil   1596.568mil  T         90.00 35V            
+C12        SMD_0805              1610mil   1512.504mil       1610mil   1512.504mil       1610mil   1467.504mil  B         90.00 35V CER        
+C13        SMD_0805              1535mil   1512.087mil       1535mil   1512.087mil       1535mil   1467.087mil  B         90.00 35V CER        
+C15        SMD_0805              1535mil       1675mil       1535mil       1675mil       1535mil       1720mil  B        270.00 35V CER        
+C16        SMD_0805              1610mil       1675mil       1610mil       1675mil       1610mil       1720mil  B        270.00 35V CER        
+C17        CAP,_Thru_Hole_8mm_dia   1757.284mil       1545mil   1757.284mil       1545mil   1757.284mil   1613.898mil  T         90.00 35V            
+C20        SMD_0805              2070mil    1378.74mil       2070mil    1378.74mil       2025mil    1378.74mil  B        360.00 Cap SMD        
+R3         SMD_0805              2205mil        970mil       2205mil        970mil       2205mil       1015mil  B        270.00 Res 0805       
+U1         TEXAS_INST_SWITCHING_REGULATOR   2422.244mil    954.232mil   2047.244mil   1641.732mil   2797.244mil   1641.732mil  T        270.00 4A Neg Adj Switching Regulator
+

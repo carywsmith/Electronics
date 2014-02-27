@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=+12V Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=+12V Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=-12V Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=-12V Pin=C6-2
+Removed Member From Class: ClassName=780-00030,rev1,Pg1,Extended GPIO Apps board Member=C1
+Removed Member From Class: ClassName=780-00030,rev1,Pg1,Extended GPIO Apps board Member=C3
+Removed Member From Class: ClassName=780-00030,rev1,Pg1,Extended GPIO Apps board Member=C5
+Removed Member From Class: ClassName=780-00030,rev1,Pg1,Extended GPIO Apps board Member=C6

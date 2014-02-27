@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=FAN_PWM Pin=P1-2
+Added Component: Designator=C21(2012[0805])
+Added Component: Designator=R41(SMD_0805)
+Added Component: Designator=R42(SMD_0805)
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=FAN_PWM Pin=R41-1
+Added Pin To Net: NetName=+24V Pin=R41-2
+Added Pin To Net: NetName=FAN_PWM Pin=R42-1
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Pin To Net: NetName=NetC21_1 Pin=P1-2
+Added Pin To Net: NetName=NetC21_1 Pin=R42-2
+Added Net: Name=NetC21_1
+Added Member To Class: ClassName=780-00012-P4, rev2 Sch M2 Focus Drive Member=Component C21 1u
+Added Member To Class: ClassName=780-00012-P4, rev2 Sch M2 Focus Drive Member=Component R41 Res 0805
+Added Member To Class: ClassName=780-00012-P4, rev2 Sch M2 Focus Drive Member=Component R42 Res 0805

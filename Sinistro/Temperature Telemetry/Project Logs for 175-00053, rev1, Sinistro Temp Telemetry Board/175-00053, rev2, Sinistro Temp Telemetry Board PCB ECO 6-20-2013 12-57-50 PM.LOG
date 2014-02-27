@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=FAN_SPEED_OUT Pin=R5-2
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=U3-6
+Added Net: Name=NetR7_2

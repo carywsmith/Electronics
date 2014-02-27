@@ -1,0 +1,61 @@
+Added Component: Designator=D1(SOT-143)
+Added Component: Designator=J2(61729-0010BLF)
+Added Component: Designator=J10(RJ-45 w/magnetics)
+Added Component: Designator=R2(SMD_0805)
+Added Component: Designator=R20(SMD_0805)
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Pin To Net: NetName=GND Pin=J2-6
+Added Pin To Net: NetName=GND Pin=J10-10
+Added Pin To Net: NetName=GND Pin=J10-11
+Added Pin To Net: NetName=GND Pin=J10-13
+Added Pin To Net: NetName=GND Pin=J10-14
+Added Pin To Net: NetName=ETHERGND Pin=J10-8
+Added Pin To Net: NetName=ETHERGND Pin=U1-B69
+Added Net: Name=ETHERGND
+Added Pin To Net: NetName=ETHERLED_ACT Pin=R20-1
+Added Pin To Net: NetName=ETHERLED_ACT Pin=U1-A103
+Added Net: Name=ETHERLED_ACT
+Added Pin To Net: NetName=ETHERLED_FD Pin=R2-1
+Added Pin To Net: NetName=ETHERLED_FD Pin=U1-A105
+Added Net: Name=ETHERLED_FD
+Added Pin To Net: NetName=ETHERRX+ Pin=J10-3
+Added Pin To Net: NetName=ETHERRX+ Pin=U1-B67
+Added Net: Name=ETHERRX+
+Added Pin To Net: NetName=ETHERRX- Pin=J10-6
+Added Pin To Net: NetName=ETHERRX- Pin=U1-B65
+Added Net: Name=ETHERRX-
+Added Pin To Net: NetName=ETHERTX+ Pin=J10-1
+Added Pin To Net: NetName=ETHERTX+ Pin=U1-A70
+Added Net: Name=ETHERTX+
+Added Pin To Net: NetName=ETHERTX- Pin=J10-2
+Added Pin To Net: NetName=ETHERTX- Pin=U1-A68
+Added Net: Name=ETHERTX-
+Added Pin To Net: NetName=NetJ10_9 Pin=J10-9
+Added Pin To Net: NetName=NetJ10_9 Pin=R2-2
+Added Net: Name=NetJ10_9
+Added Pin To Net: NetName=NetJ10_12 Pin=J10-12
+Added Pin To Net: NetName=NetJ10_12 Pin=R20-2
+Added Net: Name=NetJ10_12
+Added Pin To Net: NetName=USBD+ Pin=D1-4
+Added Pin To Net: NetName=USBD+ Pin=J2-3
+Added Pin To Net: NetName=USBD+ Pin=U1-A35
+Added Net: Name=USBD+
+Added Pin To Net: NetName=USBD- Pin=D1-3
+Added Pin To Net: NetName=USBD- Pin=J2-2
+Added Pin To Net: NetName=USBD- Pin=U1-A33
+Added Net: Name=USBD-
+Added Pin To Net: NetName=VA25 Pin=J10-4
+Added Pin To Net: NetName=VA25 Pin=J10-5
+Added Pin To Net: NetName=VA25 Pin=U1-A66
+Added Net: Name=VA25
+Added Pin To Net: NetName=VBUS Pin=D1-2
+Added Pin To Net: NetName=VBUS Pin=J2-1
+Added Pin To Net: NetName=VBUS Pin=U1-A31
+Added Net: Name=VBUS
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component D1 SP0503BAHT
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component J2 61729-0010BLF
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component J10 CONN RJ-45
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component R2 Res 0805
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component R20 Res 0805

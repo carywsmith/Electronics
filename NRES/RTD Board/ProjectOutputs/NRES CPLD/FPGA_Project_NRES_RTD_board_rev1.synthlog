@@ -1,0 +1,66 @@
+###############################################################################
+### Altium HDL Synthesizer 1.1.0.1
+### Copyright (C) 2005-2009, Altium Limited. All Rights Reserved
+###############################################################################
+### Timestamp: 2/18/2014 9:12:12 AM
+###############################################################################
+### Commandline: AltiumSynthesizer.exe "-o" "FPGA_Project_NRES_RTD_board_rev1.mof" "-p" "FPGA_Project_NRES_RTD_board_rev1.mpf"
+###
+### Options:
+###
+### Synthesizing FPGA_Project_NRES_RTD_board_rev1 for CoolRunnerXPLA3
+### Entity                  : FPGA_Project_NRES_RTD_board_rev1
+### VerilogMode             : 1 (0=Verilog95, 1=Verilog2001, 2=VerilogSystem, 3=Ams)
+### VHDL87                  : False
+### Insert Toplevel Buffers : True
+### Combinational Logic Opt : 3 (1=Low, 3=Normal, 5=High)
+###############################################################################
+### Compilation Report
+###############################################################################
+
+analyzing entity fpga_project_nres_rtd_board_rev1
+analyzing architecture structure
+###############################################################################
+### Elaboration Report
+###############################################################################
+
+executing FPGA_Project_NRES_RTD_board_rev1(structure)
+
+###############################################################################
+### Synthesis Report
+###############################################################################
+
+###############################################################################
+### Optimization Report
+###  command: mmHDLtoEDIF -f xilinx -n coolrunnerxpla3 -p coolrunnerxpla3 -z 3 -o "\\Files\users\rlobdill\Altum Projects\NRES\RTD Board\ProjectOutputs\NRES CPLD\FPGA_Project_NRES_RTD_board_rev1.edf" -b "\\Files\users\rlobdill\Altum Projects\NRES\RTD Board\ProjectOutputs\NRES CPLD\FPGA_Project_NRES_RTD_board_rev1.bfl" -e FPGA_Project_NRES_RTD_board_rev1 -L "C:\Users\Public\Documents\Altium\AD 10\Library/" 
+
+INFO LibDir:  "C:\Users\Public\Documents\Altium\AD 10\Library/"
+
+INFO ConstraintsMap:  "C:\Users\Public\Documents\Altium\AD 10\Library/vhdl_lib/VendorConstraints.map"
+
+optimizing "_blf/cell0001"
+ 
+###############################################################################
+### Design Statistics
+###############################################################################
+ 
+MacroCells:     
+    M1_S8S1E    : 1
+    BUF3S       : 1
+    COMP2S      : 1
+    D4_16ES     : 1
+    INV16S      : 1
+    INV4S       : 1
+    INV         : 1
+    FDCE        : 4
+    BUF8S       : 1
+                
+Area Estimates: 
+ 
+###############################################################################
+ 
+formating EDIF....                            
+
+###############################################################################
+Synthesis successful
+###############################################################################

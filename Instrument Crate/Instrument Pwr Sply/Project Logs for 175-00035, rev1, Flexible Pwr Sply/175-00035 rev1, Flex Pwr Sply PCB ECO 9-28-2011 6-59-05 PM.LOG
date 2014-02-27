@@ -1,0 +1,67 @@
+Removed Pin From Net: NetName=GND Pin=PS1-0
+Removed Pin From Net: NetName=GND Pin=PS1-0
+Removed Pin From Net: NetName=GND Pin=PS1-0
+Removed Pin From Net: NetName=GND Pin=PS1-0
+Added Component: Designator=C8(SMD_CAP_6032)
+Added Component: Designator=C9(SMD_CAP_6032)
+Added Component: Designator=C10(SMD_CAP_7343)
+Added Component: Designator=C11(SMD_CAP_7343)
+Added Component: Designator=C12(SMD_CAP_6032)
+Added Component: Designator=C13(SMD_CAP_6032)
+Added Component: Designator=C14(SMD_0805)
+Added Component: Designator=C16(SMD_0805)
+Added Component: Designator=FB1(SMD_1210_INDUCT)
+Added Component: Designator=FB2(SMD_1210_INDUCT)
+Added Component: Designator=L1(Inductor TDC SLF)
+Added Component: Designator=P5(HDR 1X3 0.156")
+Added Component: Designator=PS3(BetaDyne LNB15, DC/DC)
+Added Pin To Net: NetName=GND Pin=C10-NEG
+Added Pin To Net: NetName=+24V_FUSED Pin=C10-POS
+Added Pin To Net: NetName=GND Pin=C11-NEG
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=+24V_FUSED Pin=L1-1
+Added Pin To Net: NetName=GND Pin=PS3-2
+Added Pin To Net: NetName=A Pin=C16-1
+Added Net: Name=A
+Added Pin To Net: NetName=NetC8_neg Pin=C8-NEG
+Added Pin To Net: NetName=NetC8_neg Pin=C9-NEG
+Added Pin To Net: NetName=NetC8_neg Pin=C12-POS
+Added Pin To Net: NetName=NetC8_neg Pin=C13-POS
+Added Pin To Net: NetName=NetC8_neg Pin=C14-2
+Added Pin To Net: NetName=NetC8_neg Pin=C16-2
+Added Pin To Net: NetName=NetC8_neg Pin=P5-2
+Added Pin To Net: NetName=NetC8_neg Pin=PS3-5
+Added Net: Name=NetC8_neg
+Added Pin To Net: NetName=NetC8_pos Pin=C8-POS
+Added Pin To Net: NetName=NetC8_pos Pin=FB1-1
+Added Pin To Net: NetName=NetC8_pos Pin=PS3-4
+Added Net: Name=NetC8_pos
+Added Pin To Net: NetName=NetC9_pos Pin=C9-POS
+Added Pin To Net: NetName=NetC9_pos Pin=FB1-2
+Added Pin To Net: NetName=NetC9_pos Pin=P5-1
+Added Net: Name=NetC9_pos
+Added Pin To Net: NetName=NetC11_pos Pin=C11-POS
+Added Pin To Net: NetName=NetC11_pos Pin=L1-2
+Added Pin To Net: NetName=NetC11_pos Pin=PS3-3
+Added Net: Name=NetC11_pos
+Added Pin To Net: NetName=NetC12_neg Pin=C12-NEG
+Added Pin To Net: NetName=NetC12_neg Pin=FB2-1
+Added Pin To Net: NetName=NetC12_neg Pin=PS3-6
+Added Net: Name=NetC12_neg
+Added Pin To Net: NetName=NetC13_neg Pin=C13-NEG
+Added Pin To Net: NetName=NetC13_neg Pin=FB2-2
+Added Pin To Net: NetName=NetC13_neg Pin=P5-3
+Added Net: Name=NetC13_neg
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C8 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C9 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C10 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C11 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C12 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C13 35V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C14 50V
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component C16 Cap SMD
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component FB1 Bead
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component FB2 Bead
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component L1 445-3869-1-ND
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component P5 Header 3
+Added Member To Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=Component PS3 BetaDyne LMB15

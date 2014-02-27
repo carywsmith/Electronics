@@ -1,0 +1,122 @@
+Protel Design System Design Rule Check
+PCB File : \\Files\users\rlobdill\Altum Projects\Instrument Crate\Backplane rev3\175-00024_rev3, Backplane, Instrument Crate.PcbDoc
+Date     : 4/9/2012
+Time     : 12:48:30 PM
+
+Processing Rule : Room 780-00029,rev3,Pg3,Backplane, Instrument Crate (Bounding Region = (29759mil, 20499mil, 36007mil, 27900mil) (InComponentClass('780-00029,rev3,Pg3,Backplane, Instrument Crate'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) ((OnLayer('+24V (*.GP1)'))),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=0mil) (All),(All)
+   Violation between Pad BB4-1(5700mil,8450mil)  Multi-Layer and 
+                     Arc (5758.228mil,8452.48mil)  Top Overlay
+   Violation between Track (5810mil,6910mil)(7110mil,6910mil)  Bottom Overlay and 
+                     Pad J1E-0(6278.512mil,6842.323mil)  Multi-Layer
+   Violation between Track (3895.126mil,9467.055mil)(3895.126mil,9610.756mil)  Bottom Overlay and 
+                     Pad J5-0(3916.78mil,9563.118mil)  Multi-Layer
+   Violation between Track (4292.764mil,9323.354mil)(4292.764mil,9610.756mil)  Bottom Overlay and 
+                     Pad J5-0(4271.11mil,9563.118mil)  Multi-Layer
+   Violation between Track (5810mil,1660mil)(7110mil,1660mil)  Bottom Overlay and 
+                     Pad J1K-0(6278.5mil,1591.142mil)  Multi-Layer
+   Violation between Track (4310mil,1660mil)(5610mil,1660mil)  Bottom Overlay and 
+                     Pad J1J-0(4878.5mil,1591.142mil)  Multi-Layer
+   Violation between Track (2810mil,1660mil)(4110mil,1660mil)  Bottom Overlay and 
+                     Pad J1I-0(3478.5mil,1591.142mil)  Multi-Layer
+   Violation between Track (2447.705mil,3313.032mil)(4416.209mil,3313.032mil)  Bottom Overlay and 
+                     Pad J1I-0(3478.5mil,3341.142mil)  Multi-Layer
+   Violation between Track (1310mil,1660mil)(2610mil,1660mil)  Bottom Overlay and 
+                     Pad J1H-0(2078.5mil,1591.142mil)  Multi-Layer
+   Violation between Track (4310mil,6910mil)(5610mil,6910mil)  Bottom Overlay and 
+                     Pad J1D-0(4878.512mil,6842.323mil)  Multi-Layer
+   Violation between Track (2447.705mil,6856.339mil)(4416.209mil,6856.339mil)  Bottom Overlay and 
+                     Pad J1C-0(3478.512mil,6842.323mil)  Multi-Layer
+   Violation between Track (2810mil,6910mil)(4110mil,6910mil)  Bottom Overlay and 
+                     Pad J1C-0(3478.512mil,6842.323mil)  Multi-Layer
+   Violation between Track (1310mil,6910mil)(2610mil,6910mil)  Bottom Overlay and 
+                     Pad J1B-0(2078.512mil,6842.323mil)  Multi-Layer
+   Violation between Track (1639.575mil,939.11mil)(1659.26mil,939.11mil)  Bottom Overlay and 
+                     Pad U20-2(1797.055mil,1071mil)  Bottom Layer (*.GBL)
+   Violation between Track (1639.575mil,1202.89mil)(1659.26mil,1202.89mil)  Bottom Overlay and 
+                     Pad U20-2(1797.055mil,1071mil)  Bottom Layer (*.GBL)
+Rule Violations :15
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=300mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=200mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot1 (Bounding Region = (29310mil, 24569mil, 30510mil, 26719mil) (InComponentClass('BackplaneSlot1'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot2 (Bounding Region = (30710mil, 24569mil, 31910mil, 26719mil) (InComponentClass('BackplaneSlot2'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot3 (Bounding Region = (31934mil, 24569mil, 33310mil, 26719mil) (InComponentClass('BackplaneSlot3'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot4 (Bounding Region = (33510mil, 24569mil, 34710mil, 26719mil) (InComponentClass('BackplaneSlot4'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot5 (Bounding Region = (34910mil, 24569mil, 36110mil, 26719mil) (InComponentClass('BackplaneSlot5'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot6 (Bounding Region = (36310mil, 24569mil, 37510mil, 26719mil) (InComponentClass('BackplaneSlot6'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot7 (Bounding Region = (29309.988mil, 19317.819mil, 30509.988mil, 21467.819mil) (InComponentClass('BackplaneSlot7'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot8 (Bounding Region = (30709.988mil, 19317.819mil, 31909.988mil, 21467.819mil) (InComponentClass('BackplaneSlot8'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot9 (Bounding Region = (31966.5mil, 19317.819mil, 33309.988mil, 21467.819mil) (InComponentClass('BackplaneSlot9'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot10 (Bounding Region = (33358.5mil, 19317.819mil, 34711.5mil, 21532.142mil) (InComponentClass('BackplaneSlot10'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot11 (Bounding Region = (34909.988mil, 19317.819mil, 36109.988mil, 21467.819mil) (InComponentClass('BackplaneSlot11'))
+Rule Violations :0
+
+Processing Rule : Room BackplaneSlot12 (Bounding Region = (36309.988mil, 19317.819mil, 37509.988mil, 21467.819mil) (InComponentClass('BackplaneSlot12'))
+Rule Violations :0
+
+Processing Rule : Room Power Supplies (Bounding Region = (28435mil, 17441.598mil, 40860mil, 28619mil) (InComponentClass('Power Supplies'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=30mil) (Air Gap=10mil) (Entries=4) ((InNet('NetJ1A_13')OR InNet('NetJ1B_13')OR InNet('NetJ1C_13')OR InNet('NetJ1D_13')OR InNet('NetJ1E_13')OR InNet('NetJ1F_13')OR InNet('NetJ1G_13')OR InNet('NetJ1H_13')OR InNet('NetJ1I_13')OR InNet('NetJ1J_13')OR InNet('NetJ1K_13')OR InNet('NetJ1L_13') OR InNet('NetK1A_11')OR InNet('NetK1B_11')OR InNet('NetK1C_11')OR InNet('NetK1D_11')OR InNet('NetK1E_11')OR InNet('NetK1F_11')OR InNet('NetK1G_11')OR InNet('NetK1H_11')OR InNet('NetK1I_11')OR InNet('NetK1J_11')OR InNet('NetK1K_11')OR InNet('NetK1L_11')or InNet('+24V')or InNet('RTN')))
+Rule Violations :0
+
+
+Violations Detected : 15
+Time Elapsed        : 00:00:04

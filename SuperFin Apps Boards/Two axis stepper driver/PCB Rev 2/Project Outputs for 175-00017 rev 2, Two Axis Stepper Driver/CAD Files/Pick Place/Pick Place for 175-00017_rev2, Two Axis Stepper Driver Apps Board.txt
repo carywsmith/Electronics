@@ -1,0 +1,19 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+D2         SMC                    867mil       2814mil        867mil       2814mil   1003.811mil       2814mil  B        180.00 S5BC-13-F      
+C1         CAP_220uF_63V          500mil       1060mil        500mil       1060mil        500mil   1236.181mil  T        360.00 63V            
+C2         CAP_220uF_63V          500mil       2125mil        500mil       2125mil        500mil   1948.819mil  T        180.00 63V            
+C3         SMD_0805               815mil       1675mil        815mil       1675mil        770mil       1675mil  B        360.00 100V           
+C4         SMD_0805               230mil       1475mil        230mil       1475mil        275mil       1475mil  B        180.00 100V           
+C5         SMD_CAP_3216           750mil       1995mil        750mil       1995mil        805mil       1995mil  B        360.00 10V            
+C6         SMD_CAP_3216           285mil       1270mil        285mil       1270mil        230mil       1270mil  B        180.00 10V            
+D1         SMC                   1050mil        250mil       1050mil        250mil       1050mil    386.811mil  B        270.00 S5BC-13-F      
+P3         QMS_SMD_PWR_PINS_-_104PIN   1187.992mil   1575.165mil   1187.992mil   1575.165mil   1315.551mil   2307.921mil  B        270.00 QMSS-052-06.75-L-D-PC4
+P1         HDR1X4_for_IDC        1240mil        255mil       1240mil        405mil       1240mil        405mil  T        270.00 Header 4       
+P2         HDR1X4_for_IDC        1240mil       2895mil       1240mil       3045mil       1240mil       3045mil  T        270.00 Header 4       
+R1         SMD_0805               275mil       2263mil        275mil       2263mil        275mil       2308mil  B        270.00 Res 0805       
+S1         CAS-120B               420mil       1850mil        420mil       1850mil    343.228mil   1781.102mil  B         90.00 CJS-1200TB     
+U1         IM481H_VERTICAL    777.559mil   1462.598mil    944.882mil   1574.803mil    944.882mil    574.803mil  T         90.00 IM481H Plus    
+U2         IM481H_VERTICAL    246.063mil   1687.008mil      78.74mil   1574.803mil      78.74mil   2574.803mil  T        270.00 IM481H Plus    
+U3         SOP8_N                 700mil       1825mil        700mil       1825mil    798.425mil       1900mil  B        180.00 M24C32RMN1     
+

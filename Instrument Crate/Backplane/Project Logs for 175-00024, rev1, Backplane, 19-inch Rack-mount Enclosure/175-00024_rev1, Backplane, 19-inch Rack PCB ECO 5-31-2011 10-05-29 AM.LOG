@@ -1,0 +1,131 @@
+Added Pin To Net: NetName=~CARD_PRESENT3 Pin=RN1-1
+Added Pin To Net: NetName=~CARD_PRESENT2 Pin=RN1-3
+Added Pin To Net: NetName=~CARD_PRESENT1 Pin=RN1-5
+Added Pin To Net: NetName=~CARD_PRESENT7 Pin=RN2-1
+Added Pin To Net: NetName=~CARD_PRESENT6 Pin=RN2-3
+Added Pin To Net: NetName=~CARD_PRESENT5 Pin=RN2-5
+Added Pin To Net: NetName=~CARD_PRESENT4 Pin=RN2-7
+Added Pin To Net: NetName=~CARD_PRESENT11 Pin=RN3-1
+Added Pin To Net: NetName=~CARD_PRESENT10 Pin=RN3-3
+Added Pin To Net: NetName=~CARD_PRESENT9 Pin=RN3-5
+Added Pin To Net: NetName=~CARD_PRESENT8 Pin=RN3-7
+Added Pin To Net: NetName=IMON_SLOT7 Pin=U5-A7
+Added Pin To Net: NetName=IMON_SLOT6 Pin=U5-A9
+Added Pin To Net: NetName=IMON_SLOT5 Pin=U5-A11
+Added Pin To Net: NetName=IMON_SLOT4 Pin=U5-A13
+Added Pin To Net: NetName=IMON_SLOT3 Pin=U5-A15
+Added Pin To Net: NetName=IMON_SLOT2 Pin=U5-A17
+Added Pin To Net: NetName=IMON_SLOT1 Pin=U5-A19
+Added Pin To Net: NetName=IMON_SLOT11 Pin=U5-A23
+Added Pin To Net: NetName=IMON_SLOT10 Pin=U5-A25
+Added Pin To Net: NetName=IMON_SLOT9 Pin=U5-A27
+Added Pin To Net: NetName=IMON_SLOT8 Pin=U5-A29
+Added Pin To Net: NetName=~CS_SLOT1 Pin=U5-A73
+Added Pin To Net: NetName=~CS_SLOT2 Pin=U5-A75
+Added Pin To Net: NetName=~CS_SLOT3 Pin=U5-A77
+Added Pin To Net: NetName=~CS_SLOT4 Pin=U5-A79
+Added Pin To Net: NetName=~CS_SLOT5 Pin=U5-A81
+Added Pin To Net: NetName=~CS_SLOT6 Pin=U5-A83
+Added Pin To Net: NetName=~CS_SLOT7 Pin=U5-A85
+Added Pin To Net: NetName=~CS_SLOT8 Pin=U5-A87
+Added Pin To Net: NetName=~CS_SLOT9 Pin=U5-A89
+Added Pin To Net: NetName=~CS_SLOT10 Pin=U5-A91
+Added Pin To Net: NetName=~CS_SLOT11 Pin=U5-A93
+Change Net Name : Old Net Name=ANALOG_IN0 New Net Name=IMON_SLOT0
+Change Net Name : Old Net Name=ANALOG_IN12 New Net Name=TEMP_INLET
+Change Net Name : Old Net Name=ANALOG_IN13 New Net Name=TEMP_OUTLET
+Change Net Name : Old Net Name=GP_I/OSPARE0 New Net Name=~CS_SLOT0
+Change Net Name : Old Net Name=GP_I/OSPARE12 New Net Name=SILICON_SN
+Change Net Name : Old Net Name=GP_OUT_D0 New Net Name=PWR_ON0
+Change Net Name : Old Net Name=GP_OUT_D12 New Net Name=PWR_OFF0
+Change Net Name : Old Net Name=OPTO_INPUT0 New Net Name=~CARD_PRESENT0
+Change Net Name : Old Net Name=PWR_OFF_12 New Net Name=PWR_OFF12
+Change Net Name : Old Net Name=PWR_ON_8 New Net Name=PWR_ON8
+Change Net Name : Old Net Name=PWR_ON_12 New Net Name=PWR_ON12
+Added Pin To Net: NetName=PWR_OFF1 Pin=K1A-1
+Added Pin To Net: NetName=PWR_OFF1 Pin=Q1A-3
+Added Pin To Net: NetName=PWR_OFF1 Pin=U5-B46
+Added Net: Name=PWR_OFF1
+Added Pin To Net: NetName=PWR_OFF2 Pin=K1B-1
+Added Pin To Net: NetName=PWR_OFF2 Pin=Q1B-3
+Added Pin To Net: NetName=PWR_OFF2 Pin=U5-B50
+Added Net: Name=PWR_OFF2
+Added Pin To Net: NetName=PWR_OFF3 Pin=K1C-1
+Added Pin To Net: NetName=PWR_OFF3 Pin=Q1C-3
+Added Pin To Net: NetName=PWR_OFF3 Pin=U5-B54
+Added Net: Name=PWR_OFF3
+Added Pin To Net: NetName=PWR_OFF4 Pin=K1D-1
+Added Pin To Net: NetName=PWR_OFF4 Pin=Q1D-3
+Added Pin To Net: NetName=PWR_OFF4 Pin=U5-B58
+Added Net: Name=PWR_OFF4
+Added Pin To Net: NetName=PWR_OFF5 Pin=K1E-1
+Added Pin To Net: NetName=PWR_OFF5 Pin=Q1E-3
+Added Pin To Net: NetName=PWR_OFF5 Pin=U5-B62
+Added Net: Name=PWR_OFF5
+Added Pin To Net: NetName=PWR_OFF6 Pin=K1F-1
+Added Pin To Net: NetName=PWR_OFF6 Pin=Q1F-3
+Added Pin To Net: NetName=PWR_OFF6 Pin=U5-B66
+Added Net: Name=PWR_OFF6
+Added Pin To Net: NetName=PWR_OFF7 Pin=K1G-1
+Added Pin To Net: NetName=PWR_OFF7 Pin=Q1G-3
+Added Pin To Net: NetName=PWR_OFF7 Pin=U5-B70
+Added Net: Name=PWR_OFF7
+Added Pin To Net: NetName=PWR_OFF8 Pin=K1H-1
+Added Pin To Net: NetName=PWR_OFF8 Pin=Q1H-3
+Added Pin To Net: NetName=PWR_OFF8 Pin=U5-B74
+Added Net: Name=PWR_OFF8
+Added Pin To Net: NetName=PWR_OFF9 Pin=K1I-1
+Added Pin To Net: NetName=PWR_OFF9 Pin=Q1I-3
+Added Pin To Net: NetName=PWR_OFF9 Pin=U5-B78
+Added Net: Name=PWR_OFF9
+Added Pin To Net: NetName=PWR_OFF10 Pin=K1J-1
+Added Pin To Net: NetName=PWR_OFF10 Pin=Q1J-3
+Added Pin To Net: NetName=PWR_OFF10 Pin=U5-B82
+Added Net: Name=PWR_OFF10
+Added Pin To Net: NetName=PWR_OFF11 Pin=K1K-1
+Added Pin To Net: NetName=PWR_OFF11 Pin=Q1K-3
+Added Pin To Net: NetName=PWR_OFF11 Pin=U5-B86
+Added Net: Name=PWR_OFF11
+Added Pin To Net: NetName=PWR_ON1 Pin=K1A-2
+Added Pin To Net: NetName=PWR_ON1 Pin=Q2A-3
+Added Pin To Net: NetName=PWR_ON1 Pin=U5-B51
+Added Net: Name=PWR_ON1
+Added Pin To Net: NetName=PWR_ON2 Pin=K1B-2
+Added Pin To Net: NetName=PWR_ON2 Pin=Q2B-3
+Added Pin To Net: NetName=PWR_ON2 Pin=U5-B2
+Added Net: Name=PWR_ON2
+Added Pin To Net: NetName=PWR_ON3 Pin=K1C-2
+Added Pin To Net: NetName=PWR_ON3 Pin=Q2C-3
+Added Pin To Net: NetName=PWR_ON3 Pin=U5-B6
+Added Net: Name=PWR_ON3
+Added Pin To Net: NetName=PWR_ON4 Pin=K1D-2
+Added Pin To Net: NetName=PWR_ON4 Pin=Q2D-3
+Added Pin To Net: NetName=PWR_ON4 Pin=U5-B10
+Added Net: Name=PWR_ON4
+Added Pin To Net: NetName=PWR_ON5 Pin=K1E-2
+Added Pin To Net: NetName=PWR_ON5 Pin=Q2E-3
+Added Pin To Net: NetName=PWR_ON5 Pin=U5-B14
+Added Net: Name=PWR_ON5
+Added Pin To Net: NetName=PWR_ON6 Pin=K1F-2
+Added Pin To Net: NetName=PWR_ON6 Pin=Q2F-3
+Added Pin To Net: NetName=PWR_ON6 Pin=U5-B18
+Added Net: Name=PWR_ON6
+Added Pin To Net: NetName=PWR_ON7 Pin=K1G-2
+Added Pin To Net: NetName=PWR_ON7 Pin=Q2G-3
+Added Pin To Net: NetName=PWR_ON7 Pin=U5-B22
+Added Net: Name=PWR_ON7
+Added Pin To Net: NetName=PWR_ON9 Pin=K1I-2
+Added Pin To Net: NetName=PWR_ON9 Pin=Q2I-3
+Added Pin To Net: NetName=PWR_ON9 Pin=U5-B30
+Added Net: Name=PWR_ON9
+Added Pin To Net: NetName=PWR_ON10 Pin=K1J-2
+Added Pin To Net: NetName=PWR_ON10 Pin=Q2J-3
+Added Pin To Net: NetName=PWR_ON10 Pin=U5-B34
+Added Net: Name=PWR_ON10
+Added Pin To Net: NetName=PWR_ON11 Pin=K1K-2
+Added Pin To Net: NetName=PWR_ON11 Pin=Q2K-3
+Added Pin To Net: NetName=PWR_ON11 Pin=U5-B38
+Added Net: Name=PWR_ON11
+Added Class: Name=IMON_SLOT[0..11]
+Added Class: Name=PWR_OFF[0..11]
+Added Class: Name=PWR_ON[0..11]

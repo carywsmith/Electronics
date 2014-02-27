@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+24V Pin=C10-1
+Removed Pin From Net: NetName=+24V Pin=U20-1
+Change Component DesignItemId : Designator=U20 Old DesignItemId=Volt Reg New DesignItemId=Voltage Reg, Fixed
+Change Component Comment : Designator=U20 Old Comment=PT78ST105S New Comment=Voltage Reg, Fixed
+Change Component Description : Designator=U20 Old Description=Voltage Regulator New Description=MC78M05
+Change Component Library : Designator=U20 Old Library=Miscellaneous Devices.IntLib New Library=Richs Schematic Components.SchLib
+Added Pin To Net: NetName=+12V Pin=C10-1
+Added Pin To Net: NetName=+12V Pin=U20-1

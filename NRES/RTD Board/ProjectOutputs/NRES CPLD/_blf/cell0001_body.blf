@@ -1,0 +1,223 @@
+.model FPGA_Project_NRES_RTD_board_rev1
+.inputs A0
+.inputs A1
+.inputs A2
+.inputs A3
+.inputs A4
+.inputs A5
+.inputs B0
+.inputs B1
+.outputs DIN
+.inputs DIN_FPGA
+.outputs DOUT
+.inputs DOUT_0
+.inputs DOUT_1
+.inputs DOUT_2
+.inputs DOUT_3
+.inputs DOUT_4
+.inputs DOUT_5
+.inputs DOUT_6
+.inputs DOUT_7
+.outputs SCLK
+.inputs SCLK_FPGA
+.inputs START
+.outputs START_0
+.outputs START_1
+.outputs START_2
+.outputs START_3
+.outputs START_4
+.outputs START_5
+.outputs START_6
+.outputs START_7
+.inputs TCK
+.inputs TDI
+.inputs TDO
+.inputs TMS
+.inputs WSTRB
+.outputs X_CS_0
+.outputs X_CS_1
+.outputs X_CS_2
+.outputs X_CS_3
+.outputs X_CS_4
+.outputs X_CS_5
+.outputs X_CS_6
+.outputs X_CS_7
+.outputs X_CS_8
+.outputs X_CS_9
+.outputs X_CS_10
+.outputs X_CS_11
+.outputs X_LVSHDN_0
+.outputs X_LVSHDN_1
+.outputs X_LVSHDN_2
+.outputs X_LVSHDN_3
+.outputs X_RESET
+.inputs X_RESET_FPGA
+.inputs X_SHDN
+.names A0 NamedSignal_A0
+1 1
+.names A1 NamedSignal_A1
+1 1
+.names A2 NamedSignal_A2
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 308
+.subckt INV U12 I=-U12/I O=+PinSignal_U12_O
+.names X_RESET U12/I
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 315
+.subckt BUF3S U11 I0=-U11/I0 I1=-U11/I1 I2=-U11/I2 O0=+SCLK O1=+DIN O2=+X_RESET
+.names SCLK_FPGA U11/I0
+1 1
+.names DIN_FPGA U11/I1
+1 1
+.names X_RESET_FPGA U11/I2
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 326
+.subckt M1_S8S1E U10 D0=-U10/D0 D1=-U10/D1 D2=-U10/D2 D3=-U10/D3 D4=-U10/D4 D5=-U10/D5 D6=-U10/D6 D7=-U10/D7 E=-U10/E O=+DOUT S0=-U10/S0 S1=-U10/S1 S2=-U10/S2
+.names DOUT_0 U10/D0
+1 1
+.names DOUT_1 U10/D1
+1 1
+.names DOUT_2 U10/D2
+1 1
+.names DOUT_3 U10/D3
+1 1
+.names DOUT_4 U10/D4
+1 1
+.names DOUT_5 U10/D5
+1 1
+.names DOUT_6 U10/D6
+1 1
+.names DOUT_7 U10/D7
+1 1
+.names NamedSignal_BRD_EN U10/E
+1 1
+.names NamedSignal_A0 U10/S0
+1 1
+.names NamedSignal_A1 U10/S1
+1 1
+.names NamedSignal_A2 U10/S2
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 344
+.subckt FDCE U9 C=-U9/C CE=-U9/CE CLR=-U9/CLR D=-U9/D Q=+X_LVSHDN_3
+.names WSTRB U9/C
+1 1
+.names PinSignal_U2_O3 U9/CE
+1 1
+.names PinSignal_U12_O U9/CLR
+1 1
+.names X_SHDN U9/D
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 354
+.subckt COMP2S U8 A0=-U8/A0 A1=-U8/A1 B0=-U8/B0 B1=-U8/B1 EQ=+NamedSignal_BRD_EN
+.names A4 U8/A0
+1 1
+.names A5 U8/A1
+1 1
+.names B0 U8/B0
+1 1
+.names B1 U8/B1
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 364
+.subckt BUF8S U7 I0=-U7/I0 I1=-U7/I1 I2=-U7/I2 I3=-U7/I3 I4=-U7/I4 I5=-U7/I5 I6=-U7/I6 I7=-U7/I7 O0=+START_7 O1=+START_6 O2=+START_5 O3=+START_4 O4=+START_3 O5=+START_2 O6=+START_1 O7=+START_0
+.names START U7/I0
+1 1
+.names START U7/I1
+1 1
+.names START U7/I2
+1 1
+.names START U7/I3
+1 1
+.names START U7/I4
+1 1
+.names START U7/I5
+1 1
+.names START U7/I6
+1 1
+.names START U7/I7
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 385
+.subckt INV16S U6 I0=-U6/I0 I1=-U6/I1 I2=-U6/I2 I3=-U6/I3 I4=-U6/I4 I5=-U6/I5 I6=-U6/I6 I7=-U6/I7 I8=-U6/I8 I9=-U6/I9 I10=-U6/I10 I11=-U6/I11 I12=-U6/I12 I13=-U6/I13 I14=-U6/I14 I15=-U6/I15 O0=+X_CS_0 O1=+X_CS_1 O2=+X_CS_2 O3=+X_CS_3 O4=+X_CS_4 O5=+X_CS_5 O6=+X_CS_6 O7=+X_CS_7 O8=+X_CS_8 O9=+X_CS_9 O10=+X_CS_10 O11=+X_CS_11 O12=+NamedSignal_CS_12 O13=+NamedSignal_CS_13 O14=+NamedSignal_CS_14 O15=+NamedSignal_CS_15
+.names PinSignal_U5_D0 U6/I0
+1 1
+.names PinSignal_U5_D1 U6/I1
+1 1
+.names PinSignal_U5_D2 U6/I2
+1 1
+.names PinSignal_U5_D3 U6/I3
+1 1
+.names PinSignal_U5_D4 U6/I4
+1 1
+.names PinSignal_U5_D5 U6/I5
+1 1
+.names PinSignal_U5_D6 U6/I6
+1 1
+.names PinSignal_U5_D7 U6/I7
+1 1
+.names PinSignal_U5_D8 U6/I8
+1 1
+.names PinSignal_U5_D9 U6/I9
+1 1
+.names PinSignal_U5_D10 U6/I10
+1 1
+.names PinSignal_U5_D11 U6/I11
+1 1
+.names PinSignal_U5_D12 U6/I12
+1 1
+.names PinSignal_U5_D13 U6/I13
+1 1
+.names PinSignal_U5_D14 U6/I14
+1 1
+.names PinSignal_U5_D15 U6/I15
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 422
+.subckt D4_16ES U5 A0=-U5/A0 A1=-U5/A1 A2=-U5/A2 A3=-U5/A3 D0=+PinSignal_U5_D0 D1=+PinSignal_U5_D1 D2=+PinSignal_U5_D2 D3=+PinSignal_U5_D3 D4=+PinSignal_U5_D4 D5=+PinSignal_U5_D5 D6=+PinSignal_U5_D6 D7=+PinSignal_U5_D7 D8=+PinSignal_U5_D8 D9=+PinSignal_U5_D9 D10=+PinSignal_U5_D10 D11=+PinSignal_U5_D11 D12=+PinSignal_U5_D12 D13=+PinSignal_U5_D13 D14=+PinSignal_U5_D14 D15=+PinSignal_U5_D15 E=-U5/E
+.names NamedSignal_A0 U5/A0
+1 1
+.names NamedSignal_A1 U5/A1
+1 1
+.names NamedSignal_A2 U5/A2
+1 1
+.names A3 U5/A3
+1 1
+.names NamedSignal_BRD_EN U5/E
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 448
+.subckt FDCE U4 C=-U4/C CE=-U4/CE CLR=-U4/CLR D=-U4/D Q=+X_LVSHDN_2
+.names WSTRB U4/C
+1 1
+.names PinSignal_U2_O2 U4/CE
+1 1
+.names PinSignal_U12_O U4/CLR
+1 1
+.names X_SHDN U4/D
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 458
+.subckt FDCE U3 C=-U3/C CE=-U3/CE CLR=-U3/CLR D=-U3/D Q=+X_LVSHDN_1
+.names WSTRB U3/C
+1 1
+.names PinSignal_U2_O1 U3/CE
+1 1
+.names PinSignal_U12_O U3/CLR
+1 1
+.names X_SHDN U3/D
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 468
+.subckt INV4S U2 I0=-U2/I0 I1=-U2/I1 I2=-U2/I2 I3=-U2/I3 O0=+PinSignal_U2_O0 O1=+PinSignal_U2_O1 O2=+PinSignal_U2_O2 O3=+PinSignal_U2_O3
+.names NamedSignal_CS_12 U2/I0
+1 1
+.names NamedSignal_CS_13 U2/I1
+1 1
+.names NamedSignal_CS_14 U2/I2
+1 1
+.names NamedSignal_CS_15 U2/I3
+1 1
+.loc 780-00055, rev1B, CPLD SCH, NRES RTD board.VHD 481
+.subckt FDCE U1 C=-U1/C CE=-U1/CE CLR=-U1/CLR D=-U1/D Q=+X_LVSHDN_0
+.names WSTRB U1/C
+1 1
+.names PinSignal_U2_O0 U1/CE
+1 1
+.names PinSignal_U12_O U1/CLR
+1 1
+.names X_SHDN U1/D
+1 1

@@ -1,0 +1,83 @@
+.model PMD_Motor_Drive_interface
+.attrib fpga_pinnum 1 P28
+.inputs HA2
+.attrib fpga_pinnum 1 P29
+.outputs HA3
+.attrib fpga_pinnum 1 P30
+.inputs HA4
+.attrib fpga_pinnum 1 P31
+.outputs HA5
+.attrib fpga_pinnum 1 P32
+.inputs HA6
+.attrib fpga_pinnum 1 P34
+.outputs HA7
+.attrib fpga_pinnum 1 P35
+.inputs HA8
+.attrib fpga_pinnum 1 P36
+.outputs HA9
+.attrib fpga_pinnum 1 P37
+.inputs HA10
+.attrib fpga_pinnum 1 P38
+.outputs HA11
+.attrib fpga_pinnum 1 P39
+.inputs HA12
+.attrib fpga_pinnum 1 P54
+.outputs HA13
+.attrib fpga_pinnum 1 P56
+.inputs HA14
+.attrib fpga_pinnum 1 P57
+.outputs HA15
+.attrib fpga_pinnum 1 P58
+.inputs HA16
+.attrib fpga_pinnum 1 P60
+.outputs HA17
+.attrib fpga_pinnum 1 P61
+.inputs HA18
+.attrib fpga_pinnum 1 P62
+.outputs HA19
+.attrib fpga_pinnum 1 P63
+.inputs HA20
+.attrib fpga_pinnum 1 P65
+.outputs HA21
+.attrib fpga_pinnum 1 P64
+.inputs HA22
+.attrib fpga_pinnum 1 P67
+.outputs HA23
+.attrib fpga_pinnum 1 P66
+.inputs HA24
+.attrib fpga_pinnum 1 P70
+.outputs HA25
+.attrib fpga_pinnum 1 P69
+.inputs HA26
+.attrib fpga_pinnum 1 P72
+.outputs HA27
+.attrib fpga_pinnum 1 P71
+.inputs HA28
+.attrib fpga_pinnum 1 P74
+.outputs HA29
+.attrib fpga_pinnum 1 P73
+.inputs HA30
+.attrib fpga_pinnum 1 P76
+.outputs HA31
+.attrib fpga_pinnum 1 P75
+.inputs HA32
+.attrib fpga_pinnum 1 P78
+.outputs HA33
+.attrib fpga_pinnum 1 P77
+.inputs HA34
+.attrib fpga_pinnum 1 P185
+.outputs LEDS0
+.attrib fpga_pinnum 1 P184
+.outputs LEDS1
+.attrib fpga_pinnum 1 P138
+.outputs PD193
+.attrib fpga_pinnum 1 P137
+.outputs PD194
+.attrib fpga_pinnum 1 P136
+.outputs PD195
+.attrib fpga_pinnum 1 P135
+.outputs PD196
+.attrib fpga_pinnum 1 P134
+.outputs PD197
+.attrib fpga_pinnum 1 P131
+.outputs PD198

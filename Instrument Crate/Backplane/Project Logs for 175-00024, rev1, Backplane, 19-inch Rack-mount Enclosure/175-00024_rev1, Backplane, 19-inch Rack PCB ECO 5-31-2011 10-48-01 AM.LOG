@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=~CS_SLOT2 Pin=D2-4
+Removed Pin From Net: NetName=~CS_SLOT3 Pin=D2-5
+Removed Pin From Net: NetName=~CS_SLOT10 Pin=D3-4
+Removed Pin From Net: NetName=~CS_SLOT11 Pin=D3-5
+Removed Pin From Net: NetName=~CS_SLOT6 Pin=D4-4
+Removed Pin From Net: NetName=~CS_SLOT7 Pin=D4-5
+Added Pin To Net: NetName=~CS_SLOT3 Pin=D2-4
+Added Pin To Net: NetName=~CS_SLOT2 Pin=D2-5
+Added Pin To Net: NetName=~CS_SLOT11 Pin=D3-4
+Added Pin To Net: NetName=~CS_SLOT10 Pin=D3-5
+Added Pin To Net: NetName=~CS_SLOT7 Pin=D4-4
+Added Pin To Net: NetName=~CS_SLOT6 Pin=D4-5

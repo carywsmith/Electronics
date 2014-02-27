@@ -1,0 +1,12 @@
+Output: DrillDrawing
+Type  : Gerber
+From  : PCB Document [175-00026, rev1, BlackFin Shorting Block.PcbDoc]
+   Generated File[175-00026, rev1, BlackFin Shorting Block.GD1]
+   Generated File[175-00026, rev1, BlackFin Shorting Block.EXTREP]
+   Generated File[175-00026, rev1, BlackFin Shorting Block.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:25:21 AM On 3/21/2011

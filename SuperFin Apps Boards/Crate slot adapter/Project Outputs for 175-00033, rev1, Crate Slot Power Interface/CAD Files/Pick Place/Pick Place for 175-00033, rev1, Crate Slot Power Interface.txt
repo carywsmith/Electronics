@@ -1,0 +1,19 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+           TARGET_MECHANICAL_5 -20366.315mil  -15319.11mil       -795mil       -878mil -20366.315mil  -15319.11mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -20366.315mil  -15319.11mil       -924mil       4316mil -20366.315mil  -15319.11mil  T          0.00 Comment        
+           TARGET_MECHANICAL_5 -20366.315mil  -15319.11mil       6296mil       4300mil -20366.315mil  -15319.11mil  T          0.00 Comment        
+TP1        SMD_TEST_POINT    5354.331mil    765.453mil   5354.331mil    765.453mil   5354.331mil    765.453mil  T        180.00 Test Point SMD 
+U9         SOP8_N            4749.646mil    554.225mil   4749.646mil    554.225mil   4674.646mil      455.8mil  T         90.00 M24C32RMN1     
+U10        SMD_SOT23_3       4744.094mil   1559.568mil   4744.094mil   1559.568mil   4787.094mil   1522.568mil  T         90.00 DS2411         
+U8         PW008_N           4709.645mil    924.225mil   4709.646mil    924.225mil    4671.26mil     812.02mil  T         90.00 SN74CBT3306PWLE
+S1         CAS-120B          5049.646mil    634.225mil   5049.646mil    634.225mil   5126.417mil    565.327mil  T         90.00 CJS-1200TB     
+Q1         SMD_SOT23_3       4744.094mil   1739.568mil   4744.094mil   1739.568mil   4787.094mil   1702.568mil  T         90.00 FDV304P        
+C19        SMD_0805          4569.646mil    604.225mil   4569.646mil    604.225mil   4569.646mil    649.225mil  T        270.00 Cap SMD        
+C18        SMD_0805          4579.646mil    994.225mil   4579.646mil    994.225mil   4579.646mil   1039.225mil  T        270.00 Cap SMD        
+P1         PETC-02-12-02-01-RA   5334.646mil   1968.504mil   5334.646mil   1968.504mil   5484.646mil   1868.504mil  T          0.00 PETC-02-12-02--01-S-RA-SD
+F1         PolySwitch_Radial_0.2   4724.409mil   2963.707mil   4724.409mil   2963.707mil   4824.409mil   2963.707mil  T        180.00 RUEF400        
+P2         HDR_1X3_0.156"_-_RT_ANGLE   5060.316mil   3305.606mil   5060.316mil   3461.606mil   5060.316mil   3461.606mil  T        270.00 Header 3       
+TP2        SMD_TEST_POINT    5684.646mil    574.019mil   5684.646mil    574.019mil   5684.646mil    574.019mil  T         90.00 Test Point SMD 
+P3         MMCX2.54-V5       4819.685mil   1231.102mil   4819.685mil   1231.102mil   4819.685mil   1231.102mil  T         90.00 COAX MMCX      
+

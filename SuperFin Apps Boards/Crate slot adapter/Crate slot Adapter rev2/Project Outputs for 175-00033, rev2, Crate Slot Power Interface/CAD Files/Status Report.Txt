@@ -1,0 +1,12 @@
+Output: PCBFabricationDrawing
+Type  : Gerber
+From  : PCB Document [175-00033, rev2, Crate Slot Power Interface.PcbDoc]
+   Generated File[175-00033, rev2, Crate Slot Power Interface.GPT]
+   Generated File[175-00033, rev2, Crate Slot Power Interface.EXTREP]
+   Generated File[175-00033, rev2, Crate Slot Power Interface.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:54:20 PM On 11/10/2011

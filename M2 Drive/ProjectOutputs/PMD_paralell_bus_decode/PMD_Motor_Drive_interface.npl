@@ -1,0 +1,10 @@
+JDF G
+PROJECT PMD_Motor_Drive_interface
+DESIGN PMD_Motor_Drive_interface
+DEVFAM XBR
+DEVICE XC2C256
+DEVPKG PQ208
+DEVSPEED -7
+DEVTOPLEVELMODULETYPE EDIF
+SOURCE PMD_Motor_Drive_interface.EDF
+DEPASSOC PMD_Motor_Drive_interface PMD_Motor_Drive_interface_BUILD.ucf

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+12V Pin=U18-A3
+Removed Pin From Net: NetName=-12V Pin=U18-A5
+Added Pin To Net: NetName=-12V Pin=U18-A3
+Added Pin To Net: NetName=+12V Pin=U18-A5

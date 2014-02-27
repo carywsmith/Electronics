@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [175-00008 rev 2, PCB, M2 Focus Drive.PcbDoc]
+   Generated File[Pick Place for 175-00008 rev 2, PCB, M2 Focus Drive.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 3:56:14 PM On 6/14/2011

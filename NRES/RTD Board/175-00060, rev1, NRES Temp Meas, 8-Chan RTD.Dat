@@ -1,0 +1,37 @@
+Field=LCO p/n~String~LCO p/n~122|Field=Designator~String~Designator~314|Field=Quantity~Integer~Quantity~314|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~175-00060, rev1, NRES Temp Meas, 8-Chan RTD.PrjPcb|ReportField=ProjectFullPath~\\Files\users\rlobdill\Altum Projects\NRES\RTD Board\175-00060, rev1, NRES Temp Meas, 8-Chan RTD.PrjPcb|ReportField=Title~Bill of Materials For Project [175-00060, rev1, NRES Temp Meas, 8-Chan RTD.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~238|ReportField=ReportTime~10:50:52 AM|ReportField=ReportDate~10/1/2013|ReportField=ReportDateTime~10/1/2013 10:50:52 AM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~10/1/2013|ReportField=CurrentTime~10:49:42 AM|ReportField=Date~|ReportField=DocumentFullPathAndName~\\Files\users\rlobdill\Altum Projects\NRES\RTD Board\780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD .SchDoc|ReportField=DocumentName~780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD .SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~9/30/2013|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.09|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Ledger|PrintScaleMode=1|ReportField=ProjectName~175-00060, rev1, NRES Temp Meas, 8-Chan RTD.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~175-00060, rev1, NRES Temp Meas, 8-Chan RTD.PrjPcb|ReportField=DataSourceFullPath~\\Files\users\rlobdill\Altum Projects\NRES\RTD Board\175-00060, rev1, NRES Temp Meas, 8-Chan RTD.PrjPcb
+120-00051|C1, C2, C3, C4, C6, C7, C8, C9|8
+120-00053|C5, C10|2
+120-00002|C11, C12, C18A, C18B, C18C, C18D, C18E, C18F, C18G, C18H, C32, C35, C36, C37, C38, C39, C40, C41, C42|19
+120-00027|C13, C29, C30, C31|4
+120-00007|C14A, C14B, C14C, C14D, C14E, C14F, C14G, C14H, C15A, C15B, C15C, C15D, C15E, C15F, C15G, C15H, C16A, C16B, C16C, C16D, C16E, C16F, C16G, C16H, C20A, C20B, C20C, C20D, C20E, C20F, C20G, C20H, C25A, C25B, C25C, C25D|36
+120-00056|C17A, C17B, C17C, C17D, C17E, C17F, C17G, C17H, C19A, C19B, C19C, C19D, C19E, C19F, C19G, C19H|16
+120-00006|C21A, C21B, C21C, C21D, C22A, C22B, C22C, C22D, C23A, C23B, C23C, C23D, C24A, C24B, C24C, C24D, C26A, C26B, C26C, C26D, C27A, C27B, C27C, C27D|24
+120-00050|C28A, C28B, C28C, C28D|4
+120-00010|C33, C34, C43|3
+|J1|1
+125-00372|J2A, J2B, J2C, J2D, J2E, J2F, J2G, J2H|8
+125-00371|J3A, J3B, J3C, J3D|4
+155-00007|L1A, L1B, L1C, L1D, L2A, L2B, L2C, L2D|8
+125-00010|P1|1
+195-00004|Q1|1
+181-02052|R1, R2|2
+181-047R5|R3A, R3B, R3C, R3D, R3E, R3F, R3G, R3H, R4A, R4B, R4C, R4D, R4E, R4F, R4G, R4H, R5A, R5B, R5C, R5D, R5E, R5F, R5G, R5H|24
+180-00011|R6A, R6B, R6C, R6D, R6E, R6F, R6G, R6H|8
+180-00014|R7A, R7B, R7C, R7D|4
+181-05622|R8A, R8B, R8C, R8D|4
+181-01003|R9A, R9B, R9C, R9D|4
+180-00043|RN1|1
+180-00043|RN2|1
+185-00010|S1|1
+125-00013|TP1, TP2, TP3, TP4, TP5A, TP5B, TP5C, TP5D, TP5E, TP5F, TP5G, TP5H, TP6A, TP6B, TP6C, TP6D, TP6E, TP6F, TP6G, TP6H, TP7, TP9A, TP9B, TP9C, TP9D, TP10, TP11, TP12|28
+150-00001|U1|1
+150-00088|U2, U3|2
+150-00108|U4|1
+150-00107|U5|1
+150-00106|U6A, U6B, U6C, U6D, U6E, U6F, U6G, U6H|8
+150-00096|U7A, U7B, U7C, U7D|4
+150-00052|U8|1
+150-00109|U9|1
+150-00083|U10|1
+150-00076|U11|1
+150-00031|U12|1

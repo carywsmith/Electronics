@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=~CS_SLOT Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=~CS_SLOT Pin=P1-9
+Added Pin To Net: NetName=GND Pin=P1-10
+Added Pin To Net: NetName=NetP1_5 Pin=P1-5
+Added Pin To Net: NetName=NetP1_5 Pin=U8-5
+Added Net: Name=NetP1_5
+Change Class Name : Old Net Name=780-00036, rev1, Sch, Crate Slot Power Interface New Net Name=780-00036, rev2, Sch, Crate Slot Power Interface
+Added Room: Name=780-00036, rev2, Sch, Crate Slot Power Interface

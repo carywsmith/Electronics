@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: \\Files\users\rlobdill\Altum Projects\Instrument Crate\Instrument Pwr Sply\Flex Power Supply rev 2\175-00035 rev2, Flex Pwr Sply.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=175-00035 rev2, flex pwr sply-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=175-00035 rev2, flex pwr sply-nonplated.txt|LayerPairs=gtl,gbl

@@ -1,0 +1,66 @@
+.model BUFE16B
+.inputs E
+.inputs I<15>
+.inputs I<14>
+.inputs I<13>
+.inputs I<12>
+.inputs I<11>
+.inputs I<10>
+.inputs I<9>
+.inputs I<8>
+.inputs I<7>
+.inputs I<6>
+.inputs I<5>
+.inputs I<4>
+.inputs I<3>
+.inputs I<2>
+.inputs I<1>
+.inputs I<0>
+.outputs O<15>
+.outputs O<14>
+.outputs O<13>
+.outputs O<12>
+.outputs O<11>
+.outputs O<10>
+.outputs O<9>
+.outputs O<8>
+.outputs O<7>
+.outputs O<6>
+.outputs O<5>
+.outputs O<4>
+.outputs O<3>
+.outputs O<2>
+.outputs O<1>
+.outputs O<0>
+.loc BUFE16B.VHD 35 O<15>
+.latch I<15> O<15> tl E 2
+.loc BUFE16B.VHD 35 O<14>
+.latch I<14> O<14> tl E 2
+.loc BUFE16B.VHD 35 O<13>
+.latch I<13> O<13> tl E 2
+.loc BUFE16B.VHD 35 O<12>
+.latch I<12> O<12> tl E 2
+.loc BUFE16B.VHD 35 O<11>
+.latch I<11> O<11> tl E 2
+.loc BUFE16B.VHD 35 O<10>
+.latch I<10> O<10> tl E 2
+.loc BUFE16B.VHD 35 O<9>
+.latch I<9> O<9> tl E 2
+.loc BUFE16B.VHD 35 O<8>
+.latch I<8> O<8> tl E 2
+.loc BUFE16B.VHD 35 O<7>
+.latch I<7> O<7> tl E 2
+.loc BUFE16B.VHD 35 O<6>
+.latch I<6> O<6> tl E 2
+.loc BUFE16B.VHD 35 O<5>
+.latch I<5> O<5> tl E 2
+.loc BUFE16B.VHD 35 O<4>
+.latch I<4> O<4> tl E 2
+.loc BUFE16B.VHD 35 O<3>
+.latch I<3> O<3> tl E 2
+.loc BUFE16B.VHD 35 O<2>
+.latch I<2> O<2> tl E 2
+.loc BUFE16B.VHD 35 O<1>
+.latch I<1> O<1> tl E 2
+.loc BUFE16B.VHD 35 O<0>
+.latch I<0> O<0> tl E 2

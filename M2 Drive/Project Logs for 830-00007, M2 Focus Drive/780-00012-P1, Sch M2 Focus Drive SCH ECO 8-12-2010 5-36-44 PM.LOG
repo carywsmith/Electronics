@@ -1,0 +1,42 @@
+Remove Pin=U4-2 From Net=QUADA1+
+Remove Pin=U4-3 From Net=QUADA1-
+Remove Pin=U4-5 From Net=QUADB1+
+Remove Pin=U4-6 From Net=QUADB1-
+Remove Pin=U4-8 From Net=INDEX1+
+Remove Pin=U4-9 From Net=INDEX1-
+Remove Pin=U4-11 From Net=ENCDR_FAULT_AX1
+Remove Pin=U4-12 From Net=QUADA2+
+Remove Pin=U4-13 From Net=QUADA2-
+Remove Pin=U4-14 From Net=QUADB2+
+Remove Pin=U4-16 From Net=QUADB2-
+Remove Pin=U4-17 From Net=INDEX2+
+Remove Pin=U4-19 From Net=INDEX2-
+Remove Pin=U4-20 From Net=ENCDR_FAULT_AX2
+Remove Pin=U5-2 From Net=QUADA3+
+Remove Pin=U5-3 From Net=QUADA3-
+Remove Pin=U5-5 From Net=QUADB3+
+Remove Pin=U5-6 From Net=QUADB3-
+Remove Pin=U5-8 From Net=INDEX3+
+Remove Pin=U5-9 From Net=INDEX3-
+Remove Pin=U5-11 From Net=ENCDR_FAULT_AX3
+Add Pin To Net: Pin=U4-2 Old Net=QUADA1+ New Net=INDEX2-
+Add Pin To Net: Pin=U4-3 Old Net=QUADA1- New Net=INDEX2+
+Add Pin To Net: Pin=U4-5 Old Net=QUADB1+ New Net=QUADB2-
+Add Pin To Net: Pin=U4-6 Old Net=QUADB1- New Net=QUADB2+
+Add Pin To Net: Pin=U4-8 Old Net=INDEX1+ New Net=QUADA2-
+Add Pin To Net: Pin=U4-9 Old Net=INDEX1- New Net=QUADA2+
+Add Pin To Net: Pin=U4-11 Old Net=ENCDR_FAULT_AX1 New Net=INDEX1-
+Add Pin To Net: Pin=U4-12 Old Net=QUADA2+ New Net=INDEX1+
+Add Pin To Net: Pin=U4-13 Old Net=QUADA2- New Net=QUADB1-
+Add Pin To Net: Pin=U4-14 Old Net=QUADB2+ New Net=QUADB1+
+Add Pin To Net: Pin=U4-16 Old Net=QUADB2- New Net=QUADA1-
+Add Pin To Net: Pin=U4-17 Old Net=INDEX2+ New Net=QUADA1+
+Add Pin To Net: Pin=U4-22 Old Net=NetU4_22 New Net=ENCDR_FAULT_AX1
+Add Pin To Net: Pin=U4-23 Old Net=NetU4_23 New Net=ENCDR_FAULT_AX2
+Add Pin To Net: Pin=U5-14 Old Net=NetU5_14 New Net=INDEX3-
+Add Pin To Net: Pin=U5-16 Old Net=NetU5_16 New Net=INDEX3+
+Add Pin To Net: Pin=U5-17 Old Net=NetU5_17 New Net=QUADB3-
+Add Pin To Net: Pin=U5-19 Old Net=NetU5_19 New Net=QUADB3+
+Add Pin To Net: Pin=U5-20 Old Net=NetU5_20 New Net=QUADA3-
+Add Pin To Net: Pin=U5-22 Old Net=NetU5_22 New Net=QUADA3+
+Add Pin To Net: Pin=U5-23 Old Net=NetU5_23 New Net=ENCDR_FAULT_AX3

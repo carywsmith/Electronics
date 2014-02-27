@@ -1,0 +1,27 @@
+Added Component: Designator=D2(SOT-353)
+Added Component: Designator=D3(SOT-353)
+Added Component: Designator=D4(SOT-353)
+Added Component: Designator=D5(SOT-353)
+Added Pin To Net: NetName=~CS_SLOT0 Pin=D2-1
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=~CS_SLOT1 Pin=D2-3
+Added Pin To Net: NetName=~CS_SLOT2 Pin=D2-4
+Added Pin To Net: NetName=~CS_SLOT3 Pin=D2-5
+Added Pin To Net: NetName=~CS_SLOT8 Pin=D3-1
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=~CS_SLOT9 Pin=D3-3
+Added Pin To Net: NetName=~CS_SLOT10 Pin=D3-4
+Added Pin To Net: NetName=~CS_SLOT11 Pin=D3-5
+Added Pin To Net: NetName=~CS_SLOT4 Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=~CS_SLOT5 Pin=D4-3
+Added Pin To Net: NetName=~CS_SLOT6 Pin=D4-4
+Added Pin To Net: NetName=~CS_SLOT7 Pin=D4-5
+Added Pin To Net: NetName=SILICON_SN Pin=D5-1
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=I2C_SDA Pin=D5-3
+Added Pin To Net: NetName=I2C_SCL Pin=D5-4
+Added Member To Class: ClassName=780-00029,rev1,Pg3,Backplane, 19-in Rackmount Enclosure Member=Component D2 PESD3V3L4UG
+Added Member To Class: ClassName=780-00029,rev1,Pg3,Backplane, 19-in Rackmount Enclosure Member=Component D3 PESD3V3L4UG
+Added Member To Class: ClassName=780-00029,rev1,Pg3,Backplane, 19-in Rackmount Enclosure Member=Component D4 PESD3V3L4UG
+Added Member To Class: ClassName=780-00029,rev1,Pg3,Backplane, 19-in Rackmount Enclosure Member=Component D5 PESD3V3L4UG

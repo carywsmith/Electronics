@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00033, rev2, Crate Slot Power Interface.PcbDoc   11/10/2011  12:54:18 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer (*.GTL) to Bottom Layer (*GBL)
+ASCII Plated RoundHoles File : 175-00033, rev2, Crate Slot Power Interface-Plated.TXT
+ASCII Non-Plated RoundHoles File : 175-00033, rev2, Crate Slot Power Interface-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          11               1.47 Inch (37.40 mm)
+T2        15mil (0.381mm)          Round          9                3.32 Inch (84.43 mm)
+T3        28mil (0.7112mm)         Round          3                0.48 Inch (12.20 mm)
+T4        33mil (0.8382mm)         Round          5                0.37 Inch (9.42 mm)
+T5        36mil (0.9144mm)         Round          791              93.01 Inch (2362.48 mm)
+T6        40mil (1.016mm)          Round          12               1.10 Inch (27.94 mm)
+T7        47mil (1.1938mm)         Round          2                0.20 Inch (5.08 mm)
+T8        52mil (1.3208mm)         Round          32               3.85 Inch (97.79 mm)
+T9        70mil (1.778mm)          Round          171              39.49 Inch (1002.96 mm)
+T10       166mil (4.2164mm)        Round          4                12.05 Inch (306.16 mm)
+T11       110mil (2.794mm)         Round          2         NPTH   3.50 Inch (88.90 mm)
+T12       150mil (3.81mm)          Round          2         NPTH   1.75 Inch (44.45 mm)
+---------------------------------------------------------------------------
+Totals                                            1044             160.60 Inch (4079.19 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

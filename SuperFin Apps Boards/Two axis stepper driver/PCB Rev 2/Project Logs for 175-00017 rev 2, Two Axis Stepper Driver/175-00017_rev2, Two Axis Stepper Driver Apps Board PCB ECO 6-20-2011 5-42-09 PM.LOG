@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=OPTO_INPUT_8 Pin=R1-2
+Removed Pin From Net: NetName=OPTO_INPUT_10 Pin=R2-2
+Removed Pin From Net: NetName=OPTO_INPUT_9 Pin=R3-2
+Removed Pin From Net: NetName=OPTO_INPUT_11 Pin=R4-2
+Removed Pin From Net: NetName=GP_OUT_D14 Pin=U2-6
+Removed Member From Class: ClassName=780-00020, rev 1, pg1, Two Axis Stepper Driver Member=R2
+Removed Member From Class: ClassName=780-00020, rev 1, pg1, Two Axis Stepper Driver Member=R3
+Removed Member From Class: ClassName=780-00020, rev 1, pg1, Two Axis Stepper Driver Member=R4
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res SMD New DesignItemId=Res TH
+Change Component Footprint: Designator=R1 Old Footprint=SMD_0805 New Footprint=AXIAL-0.4
+Change Component Comment : Designator=R1 Old Comment=Res 0805 New Comment=Res TH
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=+48V Pin=R1-2
+Added Pin To Net: NetName=OPTO_INPUT_8 Pin=U1-18
+Added Pin To Net: NetName=OPTO_INPUT_9 Pin=U1-19
+Added Pin To Net: NetName=OPTO_INPUT_10 Pin=U2-18
+Added Pin To Net: NetName=OPTO_INPUT_11 Pin=U2-19
+Change Class Name : Old Net Name=780-00020, rev 1, pg1, Two Axis Stepper Driver New Net Name=780-00020, rev 2, pg1, Two Axis Stepper Driver
+Added Room: Name=780-00020, rev 2, pg1, Two Axis Stepper Driver

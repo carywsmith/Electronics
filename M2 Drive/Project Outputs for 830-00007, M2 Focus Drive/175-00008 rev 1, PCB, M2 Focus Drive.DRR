@@ -1,0 +1,34 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00008 rev 1, PCB, M2 Focus Drive.PcbDoc   8/18/2010  6:48:54 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer (*.GTL) to Bottom Layer (*.GBL)
+ASCII Plated RoundHoles File : 175-00008 rev 1, PCB, M2 Focus Drive-Plated.TXT
+ASCII Non-Plated RoundHoles File : 175-00008 rev 1, PCB, M2 Focus Drive-NonPlated.TXT
+EIA File   : 175-00008 rev 1, PCB, M2 Focus Drive.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          354              77.14 Inch (1959.44 mm)
+T2        13mil (0.3302mm)         Round          4                0.69 Inch (17.42 mm)
+T3        20mil (0.508mm)          Round          24               12.97 Inch (329.38 mm)
+T4        25mil (0.635mm)          Round          10               15.00 Inch (381.04 mm)
+T5        30mil (0.762mm)          Round          66               23.01 Inch (584.49 mm)
+T6        35mil (0.889mm)          Round          92               25.26 Inch (641.54 mm)
+T7        36mil (0.9144mm)         Round          4                0.32 Inch (8.20 mm)
+T8        47mil (1.1938mm)         Round          47               20.77 Inch (527.68 mm)
+T9        59mil (1.4986mm)         Round          2                0.20 Inch (5.08 mm)
+T10       62mil (1.5748mm)         Round          2                0.64 Inch (16.26 mm)
+T11       70mil (1.778mm)          Round          12               13.68 Inch (347.55 mm)
+T12       91mil (2.3114mm)         Round          5                7.98 Inch (202.68 mm)
+T13       123mil (3.1242mm)        Round          6                18.09 Inch (459.54 mm)
+T14       166mil (4.2164mm)        Round          6                17.90 Inch (454.54 mm)
+T15       217mil (5.5118mm)        Round          3                4.77 Inch (121.24 mm)
+T16       40mil (1.016mm)          Round          4         NPTH   3.10 Inch (78.62 mm)
+T17       128mil (3.2512mm)        Round          2         NPTH   0.50 Inch (12.70 mm)
+T18       335mil (8.509mm)         Round          6         NPTH   6.55 Inch (166.49 mm)
+T19       531mil (13.4874mm)       Round          1         NPTH   0.00 Inch (0.00 mm)
+---------------------------------------------------------------------------
+Totals                                            650              248.58 Inch (6313.89 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:02

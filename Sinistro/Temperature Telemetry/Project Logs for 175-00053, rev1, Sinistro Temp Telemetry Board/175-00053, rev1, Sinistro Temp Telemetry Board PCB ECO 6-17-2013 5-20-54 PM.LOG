@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1A-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Pin From Net: NetName=+24V Pin=Q1B-2
+Removed Member From Class: ClassName=HEATCHAN1 Member=Q1A
+Removed Member From Class: ClassName=HEATCHAN2 Member=Q1B
+Added Component: Designator=Q?A(TO-220AB)
+Added Component: Designator=Q?B(TO-220AB)
+Added Pin To Net: NetName=+24V Pin=Q?A-2
+Added Pin To Net: NetName=+24V Pin=Q?B-2
+Added Pin To Net: NetName=NetQ2A_1 Pin=Q2A-1
+Added Pin To Net: NetName=NetQ2A_1 Pin=Q?A-1
+Added Pin To Net: NetName=NetQ2A_1 Pin=U5A-6
+Added Net: Name=NetQ2A_1
+Added Pin To Net: NetName=NetQ2A_3 Pin=Q2A-3
+Added Pin To Net: NetName=NetQ2A_3 Pin=Q?A-3
+Added Pin To Net: NetName=NetQ2A_3 Pin=R18A-2
+Added Net: Name=NetQ2A_3
+Added Pin To Net: NetName=NetQ2B_1 Pin=Q2B-1
+Added Pin To Net: NetName=NetQ2B_1 Pin=Q?B-1
+Added Pin To Net: NetName=NetQ2B_1 Pin=U5B-6
+Added Net: Name=NetQ2B_1
+Added Pin To Net: NetName=NetQ2B_3 Pin=Q2B-3
+Added Pin To Net: NetName=NetQ2B_3 Pin=Q?B-3
+Added Pin To Net: NetName=NetQ2B_3 Pin=R18B-2
+Added Net: Name=NetQ2B_3
+Added Member To Class: ClassName=HEATCHAN1 Member=Component Q?A (Q?) TIP41
+Added Member To Class: ClassName=HEATCHAN2 Member=Component Q?B (Q?) TIP41

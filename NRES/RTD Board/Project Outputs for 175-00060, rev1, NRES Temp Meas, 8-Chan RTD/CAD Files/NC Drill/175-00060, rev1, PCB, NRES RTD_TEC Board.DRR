@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00060, rev1, PCB, NRES RTD_TEC Board.PcbDoc   10/22/2013  5:41:54 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer (*.GTL) to Bottom Layer (*.GBL)
+ASCII Plated RoundHoles File : 175-00060, rev1, PCB, NRES RTD_TEC Board-Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          567              83.53 Inch (2121.62 mm)
+T2        14mil (0.3556mm)         Round          40               3.44 Inch (87.43 mm)
+T3        28mil (0.7112mm)         Round          17               10.58 Inch (268.66 mm)
+T4        30mil (0.762mm)          Round          16               5.16 Inch (131.08 mm)
+T5        35mil (0.889mm)          Round          10               0.90 Inch (22.86 mm)
+T6        39mil (0.9906mm)         Round          40               8.95 Inch (227.23 mm)
+T7        40mil (1.016mm)          Round          3                0.20 Inch (5.08 mm)
+T8        47mil (1.1938mm)         Round          4                0.89 Inch (22.65 mm)
+T9        52mil (1.3208mm)         Round          28               20.26 Inch (514.65 mm)
+T10       78mil (1.9812mm)         Round          14               9.09 Inch (230.79 mm)
+---------------------------------------------------------------------------
+Totals                                            739              142.99 Inch (3632.05 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

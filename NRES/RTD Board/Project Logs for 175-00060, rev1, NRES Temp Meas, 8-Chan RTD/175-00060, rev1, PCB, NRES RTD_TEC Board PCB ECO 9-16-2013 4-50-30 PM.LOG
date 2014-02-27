@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=DOUT Pin=J1-S13
+Removed Pin From Net: NetName=~LDAC Pin=J1-S14
+Removed Pin From Net: NetName=~RESET Pin=J1-S15
+Added Pin To Net: NetName=DOUT Pin=J1-S18
+Added Pin To Net: NetName=~LDAC Pin=J1-S19
+Added Pin To Net: NetName=~RESET Pin=J1-S20

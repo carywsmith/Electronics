@@ -1,0 +1,31 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5 -13904.189mil  -9946.724mil   3318.898mil   2283.465mil -13904.189mil  -9946.724mil  T          0.00 Comment        
+Designator TARGET_MECHANICAL_5 -13904.189mil  -9946.724mil   -874.016mil   -228.346mil -13904.189mil  -9946.724mil  T          0.00 Comment        
+Designator TARGET_MECHANICAL_5 -13904.189mil  -9946.724mil    -921.26mil   2267.716mil -13904.189mil  -9946.724mil  T          0.00 Comment        
+U15        SMD_SOT23_3       1068.898mil    323.622mil   1068.898mil    323.622mil   1031.898mil    280.622mil  T          0.00 Hall Effect SMD
+U14        SMD_SOT23_3        793.307mil    323.622mil    793.307mil    323.622mil    756.307mil    280.622mil  T          0.00 Hall Effect SMD
+U13        SMD_SOT23_3        517.717mil    323.622mil    517.717mil    323.622mil    480.717mil    280.622mil  T          0.00 Hall Effect SMD
+U12        SMD_SOT23_3        242.126mil    323.622mil    242.126mil    323.622mil    205.126mil    280.622mil  T          0.00 Hall Effect SMD
+U11        SMD_SOT23_3       1068.898mil    914.173mil   1068.898mil    914.173mil   1031.898mil    871.173mil  T          0.00 Hall Effect SMD
+U10        SMD_SOT23_3        793.307mil    914.173mil    793.307mil    914.173mil    756.307mil    871.173mil  T          0.00 Hall Effect SMD
+U9         SMD_SOT23_3        517.717mil    914.173mil    517.717mil    914.173mil    480.717mil    871.173mil  T          0.00 Hall Effect SMD
+U8         SMD_SOT23_3        242.126mil    914.173mil    242.126mil    914.173mil    205.126mil    871.173mil  T          0.00 Hall Effect SMD
+U7         SMD_SOT23_3       1068.898mil   1504.724mil   1068.898mil   1504.724mil   1031.898mil   1461.724mil  T          0.00 Hall Effect SMD
+U6         SMD_SOT23_3        793.307mil   1504.724mil    793.307mil   1504.724mil    756.307mil   1461.724mil  T          0.00 Hall Effect SMD
+U5         SMD_SOT23_3        517.717mil   1504.724mil    517.717mil   1504.724mil    480.717mil   1461.724mil  T          0.00 Hall Effect SMD
+U1         SMD_SOT23_3        242.126mil   1504.724mil    242.126mil   1504.724mil    205.126mil   1461.724mil  T          0.00 Hall Effect SMD
+R3         SMD_0805           279.527mil     86.614mil    279.527mil     86.614mil    234.528mil     86.614mil  B        360.00 Res 0805       
+R2         SMD_0805           125.984mil    519.685mil    125.984mil    519.685mil    125.984mil    564.685mil  B        270.00 Res 0805       
+R1         SMD_0805           122.047mil   1110.236mil    122.047mil   1110.236mil    122.047mil   1155.236mil  B        270.00 Res 0805       
+C3         SMD_0805           645.669mil    153.543mil    645.669mil    153.543mil    690.669mil    153.543mil  B        180.00 Cap SMD        
+C2         SMD_0805           622.047mil    755.905mil    622.047mil    755.905mil    667.047mil    755.905mil  B        180.00 Cap SMD        
+C1         SMD_0805           629.921mil    1342.52mil    629.921mil    1342.52mil    674.921mil    1342.52mil  B        180.00 Cap SMD        
+C4         SMD_CAP_3216      2541.811mil     481.26mil   2541.811mil     481.26mil   2541.811mil     536.26mil  T         90.00 16V            
+P1         FC1_Flex_Cable_connector_20_pos   2536.811mil    1161.26mil   2536.811mil    1161.26mil   2488.583mil   1535.281mil  B        270.00 Header 20 for flex cable
+U2         TO-92                53.15mil   1299.213mil      53.15mil   1299.213mil      53.15mil   1349.213mil  B        180.00 SS441A         
+U3         TO-92                53.15mil    708.661mil      53.15mil    708.661mil      53.15mil    758.661mil  B        180.00 SS441A         
+U4         TO-92                53.15mil     118.11mil      53.15mil     118.11mil      53.15mil     168.11mil  B        180.00 SS441A         
+TP1        SMD_TEST_POINT    1991.811mil     441.26mil   1991.811mil     441.26mil   1991.811mil     441.26mil  T          0.00 Test Point SMD 
+TP2        SMD_TEST_POINT    1711.811mil     441.26mil   1711.811mil     441.26mil   1711.811mil     441.26mil  T        180.00 Test Point SMD 
+

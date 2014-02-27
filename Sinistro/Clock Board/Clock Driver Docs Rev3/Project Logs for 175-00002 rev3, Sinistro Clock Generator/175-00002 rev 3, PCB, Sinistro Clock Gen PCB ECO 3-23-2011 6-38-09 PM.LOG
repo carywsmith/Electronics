@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=A Pin=C38-1
+Removed Pin From Net: NetName=+28V Pin=C38-2
+Removed Pin From Net: NetName=NetC29_2 Pin=TP5-1
+Removed Pin From Net: NetName=NetC28_2 Pin=TP6-1
+Removed Pin From Net: NetName=NetC30_2 Pin=TP7-1
+Removed Pin From Net: NetName=NetC39_2 Pin=TP8-1
+Removed Pin From Net: NetName=BIAS_V_ON Pin=U17-1
+Removed Pin From Net: NetName=NetC29_2 Pin=U17-2
+Removed Pin From Net: NetName=VOD Pin=U17-3
+Removed Pin From Net: NetName=-12V Pin=U17-4
+Removed Pin From Net: NetName=A Pin=U17-5
+Removed Pin From Net: NetName=VRD Pin=U17-6
+Removed Pin From Net: NetName=NetC28_2 Pin=U17-7
+Removed Pin From Net: NetName=BIAS_V_ON Pin=U17-8
+Removed Pin From Net: NetName=BIAS_V_ON Pin=U17-9
+Removed Pin From Net: NetName=VOG Pin=U17-10
+Removed Pin From Net: NetName=NetC30_2 Pin=U17-11
+Removed Pin From Net: NetName=+28V Pin=U17-13
+Removed Pin From Net: NetName=VDD Pin=U17-14
+Removed Pin From Net: NetName=NetC39_2 Pin=U17-15
+Removed Pin From Net: NetName=BIAS_V_ON Pin=U17-16
+Removed Member From Class: ClassName=Bias Voltages Member=C38
+Removed Member From Class: ClassName=Bias Voltages Member=U17
+Added Component: Designator=K1(SO-16)
+Added Component: Designator=Q7(SOT23A)
+Added Component: Designator=R49(SMD_0805)
+Added Component: Designator=R50(SMD_0805)
+Added Component: Designator=R51(SMD_0805)
+Added Component: Designator=R52(SMD_0805)
+Added Pin To Net: NetName=+5ANA Pin=K1-1
+Added Pin To Net: NetName=+5ANA Pin=K1-3
+Added Pin To Net: NetName=+5ANA Pin=K1-5
+Added Pin To Net: NetName=+5ANA Pin=K1-7
+Added Pin To Net: NetName=NetC39_2 Pin=K1-9
+Added Pin To Net: NetName=VDD Pin=K1-10
+Added Pin To Net: NetName=NetC30_2 Pin=K1-11
+Added Pin To Net: NetName=VOG Pin=K1-12
+Added Pin To Net: NetName=NetC28_2 Pin=K1-13
+Added Pin To Net: NetName=VRD Pin=K1-14
+Added Pin To Net: NetName=NetC29_2 Pin=K1-15
+Added Pin To Net: NetName=VOD Pin=K1-16
+Added Pin To Net: NetName=BIAS_V_ON Pin=Q7-1
+Added Pin To Net: NetName=A Pin=R49-1
+Added Pin To Net: NetName=VOD Pin=R49-2
+Added Pin To Net: NetName=A Pin=R50-1
+Added Pin To Net: NetName=VRD Pin=R50-2
+Added Pin To Net: NetName=A Pin=R51-1
+Added Pin To Net: NetName=VOG Pin=R51-2
+Added Pin To Net: NetName=A Pin=R52-1
+Added Pin To Net: NetName=VDD Pin=R52-2
+Added Pin To Net: NetName=VOD Pin=TP5-1
+Added Pin To Net: NetName=VRD Pin=TP6-1
+Added Pin To Net: NetName=VOG Pin=TP7-1
+Added Pin To Net: NetName=VDD Pin=TP8-1
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_2 Pin=K1-4
+Added Pin To Net: NetName=NetK1_2 Pin=K1-6
+Added Pin To Net: NetName=NetK1_2 Pin=K1-8
+Added Pin To Net: NetName=NetK1_2 Pin=Q7-3
+Added Net: Name=NetK1_2
+Added Member To Class: ClassName=Bias Voltages Member=Component K1 AQS221
+Added Member To Class: ClassName=Bias Voltages Member=Component Q7 2N7002
+Added Member To Class: ClassName=Bias Voltages Member=Component R49 Res 0805
+Added Member To Class: ClassName=Bias Voltages Member=Component R50 Res 0805
+Added Member To Class: ClassName=Bias Voltages Member=Component R51 Res 0805
+Added Member To Class: ClassName=Bias Voltages Member=Component R52 Res 0805

@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=C1 Old DesignItemId=Cap Pol1 New DesignItemId=Cap 220uF, 63V
+Change Component DesignItemId : Designator=C2 Old DesignItemId=Cap Pol1 New DesignItemId=Cap 220uF, 63V
+Change Component DesignItemId : Designator=C3 Old DesignItemId=Cap Pol1 New DesignItemId=Cap 220uF, 63V
+Change Component Footprint: Designator=C1 Old Footprint=RB7.6-15 New Footprint=CAP 220uF 63V
+Change Component Footprint: Designator=C2 Old Footprint=RB7.6-15 New Footprint=CAP 220uF 63V
+Change Component Footprint: Designator=C3 Old Footprint=RB7.6-15 New Footprint=CAP 220uF 63V
+Change Component Comment : Designator=C1 Old Comment=35V New Comment=63V
+Change Component Comment : Designator=C2 Old Comment=35V New Comment=63V
+Change Component Comment : Designator=C3 Old Comment=35V New Comment=63V

@@ -1,0 +1,64 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5  -31062.26mil -18090.787mil       3763mil       2107mil  -31062.26mil -18090.787mil  B        180.00 Comment        
+Designator TARGET_MECHANICAL_5  -31062.26mil -18090.787mil       -622mil       2057mil  -31062.26mil -18090.787mil  B        180.00 Comment        
+Designator TARGET_MECHANICAL_5  -31062.26mil -18090.787mil       -449mil       -493mil  -31062.26mil -18090.787mil  B        180.00 Comment        
+TP2D       SMD_TEST_POINT        2980mil       1400mil       2980mil       1400mil       2980mil       1400mil  T         90.00 Test Point SMD 
+TP2C       SMD_TEST_POINT        2310mil       1390mil       2310mil       1390mil       2310mil       1390mil  T         90.00 Test Point SMD 
+TP2B       SMD_TEST_POINT         920mil       1400mil        920mil       1400mil        920mil       1400mil  T         90.00 Test Point SMD 
+TP2A       SMD_TEST_POINT         450mil       1400mil        450mil       1400mil        450mil       1400mil  T         90.00 Test Point SMD 
+TP1D       SMD_TEST_POINT        3240mil       1243mil       3240mil       1243mil       3240mil       1243mil  B        270.00 Test Point SMD 
+TP1C       SMD_TEST_POINT        2420mil       1151mil       2420mil       1151mil       2420mil       1151mil  B        270.00 Test Point SMD 
+TP1B       SMD_TEST_POINT        1561mil       1152mil       1561mil       1152mil       1561mil       1152mil  B        270.00 Test Point SMD 
+TP1A       SMD_TEST_POINT         760mil       1253mil        760mil       1253mil        760mil       1253mil  B        270.00 Test Point SMD 
+U2D        SMD_SOT23_5           3059mil        883mil       3059mil        883mil       3022mil        840mil  T        180.00 100 V/V        
+U2C        SMD_SOT23_5           2239mil        791mil       2239mil        791mil       2202mil        748mil  T        180.00 100 V/V        
+U2B        SMD_SOT23_5           1380mil        792mil       1380mil        792mil       1343mil        749mil  T        180.00 100 V/V        
+U2A        SMD_SOT23_5            579mil        893mil        579mil        893mil        542mil        850mil  T        180.00 100 V/V        
+U1         SOP8_N                 223mil        592mil        223mil        592mil    321.425mil        667mil  B        180.00 M24C32RMN1     
+J1         QMS_EDGE_PWR_PINS_-_104_PIN   1653.543mil    498.031mil   1653.543mil    442.913mil    921.093mil    512.061mil  B        180.00 QMSS-EM-PC4-104pin
+C1         SMD_0805               222mil        502mil        222mil        502mil        177mil        502mil  T        360.00 Cap SMD        
+C2         SMD_CAP_3216           217mil        394mil        217mil        394mil        162mil        394mil  T        180.00 16V            
+C3A        SMD_0805               718mil       1101mil        718mil       1101mil        718mil       1146mil  T        270.00 Cap SMD        
+C3B        SMD_0805              1519mil       1000mil       1519mil       1000mil       1519mil       1045mil  T        270.00 Cap SMD        
+C3C        SMD_0805              2378mil        999mil       2378mil        999mil       2378mil       1044mil  T        270.00 Cap SMD        
+C3D        SMD_0805              3198mil       1091mil       3198mil       1091mil       3198mil       1136mil  T        270.00 Cap SMD        
+C4A        3225[1210]         187.118mil       1244mil    187.118mil       1244mil        132mil       1244mil  B        360.00 10u, 50V       
+C4B        3225[1210]         988.118mil       1143mil    988.118mil       1143mil        933mil       1143mil  B        360.00 10u, 50V       
+C4C        3225[1210]        1847.118mil       1142mil   1847.118mil       1142mil       1792mil       1142mil  B        360.00 10u, 50V       
+C4D        3225[1210]        2667.118mil       1234mil   2667.118mil       1234mil       2612mil       1234mil  B        360.00 10u, 50V       
+C5A        SMD_0805               205mil       1006mil        205mil       1006mil        250mil       1006mil  B        180.00 1u             
+C5B        SMD_0805              1006mil        905mil       1006mil        905mil       1051mil        905mil  B        180.00 1u             
+C5C        SMD_0805              1865mil        904mil       1865mil        904mil       1910mil        904mil  B        180.00 1u             
+C5D        SMD_0805              2685mil        996mil       2685mil        996mil       2730mil        996mil  B        180.00 1u             
+D1A        SMC                    283mil        835mil        283mil        835mil    146.189mil        835mil  B        360.00 SL43-E3/57T    
+D1B        SMC                   1084mil        734mil       1084mil        734mil    947.189mil        734mil  B        360.00 SL43-E3/57T    
+D1C        SMC                   1943mil        733mil       1943mil        733mil   1806.189mil        733mil  B        360.00 SL43-E3/57T    
+D1D        SMC                   2763mil        825mil       2763mil        825mil   2626.189mil        825mil  B        360.00 SL43-E3/57T    
+L1A        Wurth_7447709680        269mil       1061mil        269mil       1061mil        269mil    866.118mil  T         90.00 22uH, 5.3A     
+L1B        Wurth_7447709680       1070mil        960mil       1070mil        960mil       1070mil    765.118mil  T         90.00 22uH, 5.3A     
+L1C        Wurth_7447709680       1929mil        959mil       1929mil        959mil       1929mil    764.118mil  T         90.00 22uH, 5.3A     
+L1D        Wurth_7447709680       2749mil       1051mil       2749mil       1051mil       2749mil    856.118mil  T         90.00 22uH, 5.3A     
+P1         HDR1X8_for_IDC        1650mil       1360mil       1300mil       1360mil       1300mil       1360mil  T        360.00 Header 8       
+Q1A        SOT223_ALT_w/PowerPAD    501.874mil       1107mil        494mil       1107mil    371.953mil   1016.449mil  B         90.00 ZXMN4A06G      
+Q1B        SOT223_ALT_w/PowerPAD   1302.874mil       1006mil       1295mil       1006mil   1172.953mil    915.449mil  B         90.00 ZXMN4A06G      
+Q1C        SOT223_ALT_w/PowerPAD   2161.874mil       1005mil       2154mil       1005mil   2031.953mil    914.449mil  B         90.00 ZXMN4A06G      
+Q1D        SOT223_ALT_w/PowerPAD   2981.874mil       1097mil       2974mil       1097mil   2851.953mil   1006.449mil  B         90.00 ZXMN4A06G      
+R1A        SMD_0805               727mil        888mil        727mil        888mil        727mil        933mil  B        270.00 Res 0805       
+R1B        SMD_0805              1528mil        787mil       1528mil        787mil       1528mil        832mil  B        270.00 Res 0805       
+R1C        SMD_0805              2387mil        786mil       2387mil        786mil       2387mil        831mil  B        270.00 Res 0805       
+R1D        SMD_0805              3207mil        878mil       3207mil        878mil       3207mil        923mil  B        270.00 Res 0805       
+R2A        SMD_0805               693mil        888mil        693mil        888mil        693mil        843mil  T         90.00 Res 0805       
+R2B        SMD_0805              1494mil        787mil       1494mil        787mil       1494mil        742mil  T         90.00 Res 0805       
+R2C        SMD_0805              2353mil        786mil       2353mil        786mil       2353mil        741mil  T         90.00 Res 0805       
+R2D        SMD_0805              3173mil        878mil       3173mil        878mil       3173mil        833mil  T         90.00 Res 0805       
+R3A        SMD_0805           595.378mil    1238.89mil    595.378mil    1238.89mil    550.378mil    1238.89mil  T        360.00 100k           
+R3B        SMD_0805          1396.378mil    1137.89mil   1396.378mil    1137.89mil   1351.378mil    1137.89mil  T        360.00 100k           
+R3C        SMD_0805          2255.378mil    1136.89mil   2255.378mil    1136.89mil   2210.378mil    1136.89mil  T        360.00 100k           
+R3D        SMD_0805          3075.378mil    1228.89mil   3075.378mil    1228.89mil   3030.378mil    1228.89mil  T        360.00 100k           
+S1         CAS-120A               231mil        630mil        231mil        630mil    299.898mil    675.276mil  T        180.00 CJS-1200TB     
+U3A        TQFN-6                 210mil       1113mil        210mil       1113mil    147.008mil   1075.599mil  B        360.00 MAX16820       
+U3B        TQFN-6                1011mil       1012mil       1011mil       1012mil    948.008mil    974.598mil  B        360.00 MAX16820       
+U3C        TQFN-6                1870mil       1011mil       1870mil       1011mil   1807.008mil    973.598mil  B        360.00 MAX16820       
+U3D        TQFN-6                2690mil       1103mil       2690mil       1103mil   2627.008mil   1065.599mil  B        360.00 MAX16820       
+

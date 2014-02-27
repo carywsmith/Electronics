@@ -1,0 +1,5 @@
+item_number,item_name,item_category,item_category_path,manufacturer,manufacturer_item_number,vendor,vendor_item_number,proto_cost
+160-00005,"Bus Bar, Insulated, 32A, 1.5"" spacing, 6"" length",Misc. Electrical,part\electrical\Misc. Electrical,"Circuit Components, Inc",B250-4-1.5-FO,"Circuit Components, Inc",B250-4-1.5-FO,
+150-00100,IC CURRENT MONITOR 3% SOT23-5,IC,part\electrical\ic,Texas Instruments,INA195AIDBVR,Digi-Key,296-26067-1-ND,
+181-R0500,RES .05 OHM 1/4W 1% 0805 SMD,resistor,part\electrical\resistor,Vishay,WSL0805R0500FEA18,Digi-Key,WSLB-.05CT-ND,
+150-00101,IC REG PO 5V 0.5A DPAK,IC,part\electrical\ic,Fairchild,MC78M05CDTX,Digi-Key,MC78M05CDTXCT-ND,

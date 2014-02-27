@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res TH New DesignItemId=Res SMD
+Change Component Footprint: Designator=R1 Old Footprint=AXIAL-0.4 New Footprint=SMD_0805
+Change Component Comment : Designator=R1 Old Comment=Res TH New Comment=Res 0805

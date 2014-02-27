@@ -1,0 +1,119 @@
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=+5V Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=+5V Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=+5V Pin=C12-2
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=+5V Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=+5V Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=+5V Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=POSLIMT1 Pin=R1-2
+Removed Pin From Net: NetName=POSLIMT2 Pin=R2-2
+Removed Pin From Net: NetName=POSLIMT3 Pin=R3-2
+Removed Pin From Net: NetName=NEGLIMT1 Pin=R4-2
+Removed Pin From Net: NetName=NEGLIMT2 Pin=R5-2
+Removed Pin From Net: NetName=NEGLIMT3 Pin=R6-2
+Removed Pin From Net: NetName=+5V Pin=U6-1
+Removed Pin From Net: NetName=GND Pin=U6-2
+Removed Pin From Net: NetName=+5V Pin=U7-1
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Pin From Net: NetName=+5V Pin=U8-1
+Removed Pin From Net: NetName=GND Pin=U8-2
+Removed Pin From Net: NetName=+5V Pin=U9-1
+Removed Pin From Net: NetName=GND Pin=U9-2
+Removed Pin From Net: NetName=+5V Pin=U10-1
+Removed Pin From Net: NetName=GND Pin=U10-2
+Removed Pin From Net: NetName=+5V Pin=U11-1
+Removed Pin From Net: NetName=GND Pin=U11-2
+Removed Pin From Net: NetName=3.3V Pin=U18-B19
+Removed Pin From Net: NetName=3.3V Pin=U18-B29
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C10
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C11
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C12
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C13
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C14
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C15
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C16
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C17
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C18
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C19
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C20
+Removed Member From Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=C21
+Change Component Footprint: Designator=U6 Old Footprint=TO-92 New Footprint=Photo-sensor
+Change Component Footprint: Designator=U7 Old Footprint=TO-92 New Footprint=Photo-sensor
+Change Component Footprint: Designator=U8 Old Footprint=TO-92 New Footprint=Photo-sensor
+Change Component Footprint: Designator=U9 Old Footprint=TO-92 New Footprint=Photo-sensor
+Change Component Footprint: Designator=U10 Old Footprint=TO-92 New Footprint=Photo-sensor
+Change Component Footprint: Designator=U11 Old Footprint=TO-92 New Footprint=Photo-sensor
+Change Component Comment : Designator=U6 Old Comment=SS441A New Comment=EE-SX1046
+Change Component Comment : Designator=U7 Old Comment=SS441A New Comment=EE-SX1046
+Change Component Comment : Designator=U8 Old Comment=SS441A New Comment=EE-SX1046
+Change Component Comment : Designator=U9 Old Comment=SS441A New Comment=EE-SX1046
+Change Component Comment : Designator=U10 Old Comment=SS441A New Comment=EE-SX1046
+Change Component Comment : Designator=U11 Old Comment=SS441A New Comment=EE-SX1046
+Added Component: Designator=R26(SMD_0805)
+Added Component: Designator=R27(SMD_0805)
+Added Component: Designator=R28(SMD_0805)
+Added Pin To Net: NetName=POSLIMT1 Pin=R4-1
+Added Pin To Net: NetName=3.3V Pin=R4-2
+Added Pin To Net: NetName=POSLIMT2 Pin=R5-1
+Added Pin To Net: NetName=3.3V Pin=R5-2
+Added Pin To Net: NetName=POSLIMT3 Pin=R6-1
+Added Pin To Net: NetName=3.3V Pin=R6-2
+Added Pin To Net: NetName=NEGLIMT1 Pin=R26-1
+Added Pin To Net: NetName=3.3V Pin=R26-2
+Added Pin To Net: NetName=NEGLIMT2 Pin=R27-1
+Added Pin To Net: NetName=3.3V Pin=R27-2
+Added Pin To Net: NetName=NEGLIMT3 Pin=R28-1
+Added Pin To Net: NetName=3.3V Pin=R28-2
+Added Pin To Net: NetName=POSLIMT1 Pin=U6-C
+Added Pin To Net: NetName=GND Pin=U6-E
+Added Pin To Net: NetName=POSLIMT2 Pin=U7-C
+Added Pin To Net: NetName=GND Pin=U7-E
+Added Pin To Net: NetName=POSLIMT3 Pin=U8-C
+Added Pin To Net: NetName=GND Pin=U8-E
+Added Pin To Net: NetName=NEGLIMT1 Pin=U9-C
+Added Pin To Net: NetName=GND Pin=U9-E
+Added Pin To Net: NetName=GND Pin=U9-K
+Added Pin To Net: NetName=NEGLIMT2 Pin=U10-C
+Added Pin To Net: NetName=GND Pin=U10-E
+Added Pin To Net: NetName=GND Pin=U10-K
+Added Pin To Net: NetName=NEGLIMT3 Pin=U11-C
+Added Pin To Net: NetName=GND Pin=U11-E
+Added Pin To Net: NetName=GND Pin=U11-K
+Added Pin To Net: NetName=GND Pin=U18-B19
+Added Pin To Net: NetName=GND Pin=U18-B29
+Added Pin To Net: NetName=24V Pin=R1-2
+Added Pin To Net: NetName=24V Pin=R2-2
+Added Pin To Net: NetName=24V Pin=R3-2
+Added Net: Name=24V
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U6-A
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U7-A
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=U8-A
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetU6_K Pin=U6-K
+Added Pin To Net: NetName=NetU6_K Pin=U9-A
+Added Net: Name=NetU6_K
+Added Pin To Net: NetName=NetU7_K Pin=U7-K
+Added Pin To Net: NetName=NetU7_K Pin=U10-A
+Added Net: Name=NetU7_K
+Added Pin To Net: NetName=NetU8_K Pin=U8-K
+Added Pin To Net: NetName=NetU8_K Pin=U11-A
+Added Net: Name=NetU8_K
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component R26 Res 0805
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component R27 Res 0805
+Added Member To Class: ClassName=780-00012-P2, Sch M2 Focus Drive Member=Component R28 Res 0805

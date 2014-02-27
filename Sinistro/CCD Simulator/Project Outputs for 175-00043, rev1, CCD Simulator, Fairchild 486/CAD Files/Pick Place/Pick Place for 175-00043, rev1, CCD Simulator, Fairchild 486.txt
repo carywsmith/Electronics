@@ -1,0 +1,55 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5 -14096.173mil  -7506.772mil       2950mil       2710mil -14096.173mil  -7506.772mil  T        180.00 Comment        
+Designator TARGET_MECHANICAL_5 -14096.173mil  -7506.772mil       -691mil       2700mil -14096.173mil  -7506.772mil  T        180.00 Comment        
+Designator TARGET_MECHANICAL_5 -14096.173mil  -7506.772mil       -512mil      -1450mil -14096.173mil  -7506.772mil  T        180.00 Comment        
+U1A        SOIC16                 662mil        296mil        662mil        296mil    559.638mil        471mil  T        270.00 DG213A         
+C1A        SMD_0805               595mil        800mil        595mil        800mil        595mil        845mil  T        270.00 Cap SMD        
+C1B        SMD_0805               595mil       1700mil        595mil       1700mil        595mil       1655mil  B         90.00 Cap SMD        
+C1C        SMD_0805              1899mil       1696mil       1899mil       1696mil       1899mil       1651mil  T         90.00 Cap SMD        
+C1D        SMD_0805              1905mil        800mil       1905mil        800mil       1905mil        845mil  B        270.00 Cap SMD        
+C2A        SMD_0805               500mil        800mil        500mil        800mil        500mil        845mil  T        270.00 Cap SMD        
+C2B        SMD_0805               500mil       1700mil        500mil       1700mil        500mil       1655mil  B         90.00 Cap SMD        
+C2C        SMD_0805              1994mil       1696mil       1994mil       1696mil       1994mil       1651mil  T         90.00 Cap SMD        
+C2D        SMD_0805              2000mil        800mil       2000mil        800mil       2000mil        845mil  B        270.00 Cap SMD        
+CCD1       Fairchild_486         1250mil       1250mil       2150mil       2250mil        250mil       2250mil  T        180.00 Fairchild 486  
+P1         HDR1X4_for_IDC        2246mil       1217mil       2246mil       1367mil       2246mil       1367mil  T        270.00 Header 4       
+P2         MMCX2.54-V5            489mil       1265mil        489mil       1265mil        489mil       1265mil  T         90.00 COAX MMCX      
+Q1A        SOT23A                 645mil        600mil        645mil        600mil    682.402mil     646.26mil  T        180.00 IF1320         
+Q1B        SOT23A                 645mil       1900mil        645mil       1900mil    682.402mil    1853.74mil  B        180.00 IF1320         
+Q1C        SOT23A                1849mil       1896mil       1849mil       1896mil   1811.599mil    1849.74mil  T        360.00 IF1320         
+Q1D        SOT23A                1855mil        600mil       1855mil        600mil   1817.599mil     646.26mil  B        360.00 IF1320         
+R1A        SMD_0805               957mil        222mil        957mil        222mil       1002mil        222mil  T        180.00 Res 0805       
+R1B        SMD_0805               957mil       2278mil        957mil       2278mil       1002mil       2278mil  B        180.00 Res 0805       
+R1C        SMD_0805              1537mil       2274mil       1537mil       2274mil       1492mil       2274mil  T        360.00 Res 0805       
+R1D        SMD_0805              1543mil        222mil       1543mil        222mil       1498mil        222mil  B        360.00 Res 0805       
+R2         SMD_0805               104mil       2095mil        104mil       2095mil        104mil       2140mil  T        270.00 Res 0805       
+R3         SMD_0805              2203mil        111mil       2203mil        111mil       2158mil        111mil  T        360.00 Res 0805       
+SW1        DIP-16                1253mil       1200mil       1253mil       1200mil        903mil       1050mil  T         90.00 SW-DPST        
+TP1A       SMD_TEST_POINT        1003mil        397mil       1003mil        397mil       1003mil        397mil  T         90.00 Test Point SMD 
+TP1B       SMD_TEST_POINT        1003mil       2103mil       1003mil       2103mil       1003mil       2103mil  T        270.00 Test Point SMD 
+TP1C       SMD_TEST_POINT        1491mil       2099mil       1491mil       2099mil       1491mil       2099mil  T        270.00 Test Point SMD 
+TP1D       SMD_TEST_POINT        1497mil        397mil       1497mil        397mil       1497mil        397mil  T         90.00 Test Point SMD 
+TP2A       SMD_TEST_POINT         760mil        820mil        760mil        820mil        760mil        820mil  T         90.00 Test Point SMD 
+TP2B       SMD_TEST_POINT         806mil       1675mil        806mil       1675mil        806mil       1675mil  T        270.00 Test Point SMD 
+TP2C       SMD_TEST_POINT        1734mil       1676mil       1734mil       1676mil       1734mil       1676mil  T        270.00 Test Point SMD 
+TP2D       SMD_TEST_POINT        1704mil        833mil       1704mil        833mil       1704mil        833mil  T         90.00 Test Point SMD 
+OUT1       SMD_TEST_POINT         846mil        621mil        846mil        621mil        846mil        621mil  T        180.00 Test Point SMD 
+OUT2       SMD_TEST_POINT         981mil       1878mil        981mil       1878mil        981mil       1878mil  T          0.00 Test Point SMD 
+OUT3       SMD_TEST_POINT        1648mil       1875mil       1648mil       1875mil       1648mil       1875mil  T        360.00 Test Point SMD 
+OUT4       SMD_TEST_POINT        1528mil        620mil       1528mil        620mil       1528mil        620mil  T        180.00 Test Point SMD 
+VRD        SMD_TEST_POINT        2362mil       2210mil       2362mil       2210mil       2362mil       2210mil  T         90.00 Test Point SMD 
+VOD        SMD_TEST_POINT         107mil        173mil        107mil        173mil        107mil        173mil  T         90.00 Test Point SMD 
+SG         SMD_TEST_POINT         109mil       2265mil        109mil       2265mil        109mil       2265mil  T         90.00 Test Point SMD 
+GND        SMD_TEST_POINT        1246mil       2241mil       1246mil       2241mil       1246mil       2241mil  T         90.00 Test Point SMD 
+GND        SMD_TEST_POINT         298mil       1010mil        298mil       1010mil        298mil       1010mil  T         90.00 Test Point SMD 
+GND        SMD_TEST_POINT        1256mil        260mil       1256mil        260mil       1256mil        260mil  T         90.00 Test Point SMD 
+RG         SMD_TEST_POINT        2355mil        170mil       2355mil        170mil       2355mil        170mil  T         90.00 Test Point SMD 
+IN         SMD_TEST_POINT         277mil       1269mil        277mil       1269mil        277mil       1269mil  T         90.00 Test Point SMD 
+U1B        SOIC16                 662mil       2204mil        662mil       2204mil    559.638mil       2029mil  B         90.00 DG213A         
+U1C        SOIC16                1832mil       2200mil       1832mil       2200mil   1934.362mil       2025mil  T         90.00 DG213A         
+U1D        SOIC16                1838mil        296mil       1838mil        296mil   1940.362mil        471mil  B        270.00 DG213A         
++28V       SMD_TEST_POINT        1871mil       1291mil       1871mil       1291mil       1871mil       1291mil  T         90.00 Test Point SMD 
++5V        SMD_TEST_POINT        1270mil       1767mil       1270mil       1767mil       1270mil       1767mil  T         90.00 Test Point SMD 
+-5V        SMD_TEST_POINT        1244mil        779mil       1244mil        779mil       1244mil        779mil  T         90.00 Test Point SMD 
+

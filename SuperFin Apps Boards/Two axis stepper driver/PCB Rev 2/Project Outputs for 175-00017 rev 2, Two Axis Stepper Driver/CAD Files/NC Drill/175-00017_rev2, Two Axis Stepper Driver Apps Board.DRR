@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 175-00017_rev2, Two Axis Stepper Driver Apps Board.PcbDoc   6/21/2011  12:00:05 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top (*.GTL) to Bottom Layer (*.GBL)
+ASCII Plated RoundHoles File : 175-00017_rev2, Two Axis Stepper Driver Apps Board-Plated.TXT
+EIA File   : 175-00017_rev2, Two Axis Stepper Driver Apps Board.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          61               9.10 Inch (231.12 mm)
+T2        25mil (0.635mm)          Round          8                2.49 Inch (63.23 mm)
+T3        28mil (0.7112mm)         Round          14               4.64 Inch (117.91 mm)
+T4        35mil (0.889mm)          Round          8                2.94 Inch (74.68 mm)
+T5        40mil (1.016mm)          Round          42               6.63 Inch (168.46 mm)
+T6        157mil (3.9878mm)        Round          1                0.00 Inch (0.00 mm)
+T7        166mil (4.2164mm)        Round          3                2.46 Inch (62.40 mm)
+---------------------------------------------------------------------------
+Totals                                            137              28.26 Inch (717.80 mm)
+
+Two holes at same point : 1
+-----------------------
+610,350
+
+Total Processing Time (hh:mm:ss) : 00:00:00

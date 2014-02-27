@@ -1,0 +1,60 @@
+Removed Parameter ComponentAvailability:Obsolete from Part J5
+Removed Parameter ComponentLink1Description:Manufacturer Link from Part J5
+Removed Parameter ComponentLink1URL:http://www.molex.com/ from Part J5
+Removed Parameter ComponentLink2Description:Datasheet from Part J5
+Removed Parameter ComponentLink2URL:http://www.molex.com/cmc_upload/common_files/1212003_catalogmx41314.pdf from Part J5
+Removed Parameter ComponentLink3Description:Iges Model from Part J5
+Removed Parameter ComponentLink3URL:http://www.molex.com/pdm_docs/igs/15-43-6233_igs.zip from Part J5
+Removed Parameter DatasheetDocument:18-Dec-2001 from Part J5
+Removed Parameter DrillSize:Nominal, Rounded to nearest 0.05mm from Part J5
+Removed Parameter PackageDocument:18-Dec-2001 from Part J5
+Removed Parameter PackageReference:15-43-6233 from Part J5
+Removed Parameter PCB_Layout:Complies with Manufacturer's Recommendation. from Part J5
+Removed Parameter PCB_Mounting:Thru-Hole from Part J5
+Removed Parameter PerformanceCategory:3 from Part J5
+Removed Parameter Ports:1 from Part J5
+Removed Parameter Positions/Loaded:Port1 - 8 Keyed/8 from Part J5
+Removed Parameter Published:25-Jun-2002 from Part J5
+Removed Parameter Publisher:Altium Limited from Part J5
+Added Parameter Arena Prefix= to Part J5
+Added Parameter Arena Prefix= to Part J6
+Added Parameter Arena Prefix= to Part L1
+Added Parameter Arena Prefix= to Part U18
+Added Parameter Arena Prefix= to Part U18
+Added Parameter Arena Type= to Part J5
+Added Parameter Arena Type= to Part J6
+Added Parameter Arena Type= to Part L1
+Added Parameter Arena Type= to Part U18
+Added Parameter Arena Type= to Part U18
+Added Parameter COST= to Part J5
+Added Parameter COST= to Part L1
+Added Parameter COST= to Part U18
+Added Parameter COST= to Part U18
+Added Parameter LCO p/n= to Part J5
+Added Parameter LCO p/n= to Part L1
+Added Parameter LCO p/n= to Part U18
+Added Parameter LCO p/n= to Part U18
+Added Parameter Manufacturer= to Part J5
+Added Parameter Manufacturer= to Part L1
+Added Parameter Manufacturer= to Part U18
+Added Parameter Manufacturer= to Part U18
+Added Parameter Manuf p/n= to Part J5
+Added Parameter Manuf p/n= to Part L1
+Added Parameter Manuf p/n= to Part U18
+Added Parameter Manuf p/n= to Part U18
+Added Parameter VALUE= to Part J5
+Added Parameter VALUE= to Part L1
+Added Parameter VALUE= to Part U18
+Added Parameter VALUE= to Part U18
+Added Parameter Vendor= to Part J5
+Added Parameter Vendor= to Part L1
+Added Parameter Vendor= to Part U18
+Added Parameter Vendor= to Part U18
+Added Parameter Vendor Mult.= to Part J5
+Added Parameter Vendor Mult.= to Part L1
+Added Parameter Vendor Mult.= to Part U18
+Added Parameter Vendor Mult.= to Part U18
+Added Parameter Vendor p/n= to Part J5
+Added Parameter Vendor p/n= to Part L1
+Added Parameter Vendor p/n= to Part U18
+Added Parameter Vendor p/n= to Part U18

@@ -1,0 +1,38 @@
+Added Component: Designator=U1(SOP8_N)
+Added Component: Designator=U2A(SMD_SOT23_5)
+Added Component: Designator=U2B(SMD_SOT23_5)
+Added Component: Designator=U2C(SMD_SOT23_5)
+Added Component: Designator=U2D(SMD_SOT23_5)
+Added Pin To Net: NetName=SLOT_ID0 Pin=U1-1
+Added Pin To Net: NetName=SLOT_ID1 Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=I2C_SDA Pin=U1-5
+Added Pin To Net: NetName=I2C_SCL Pin=U1-6
+Added Pin To Net: NetName=NetS1_2 Pin=U1-7
+Added Pin To Net: NetName=+3.3V Pin=U1-8
+Added Pin To Net: NetName=V_IMON1 Pin=U2A-1
+Added Pin To Net: NetName=A Pin=U2A-2
+Added Pin To Net: NetName=NetR1A_2 Pin=U2A-3
+Added Pin To Net: NetName=I_OUT1 Pin=U2A-4
+Added Pin To Net: NetName=+12V Pin=U2A-5
+Added Pin To Net: NetName=V_IMON2 Pin=U2B-1
+Added Pin To Net: NetName=A Pin=U2B-2
+Added Pin To Net: NetName=NetR1B_2 Pin=U2B-3
+Added Pin To Net: NetName=I_OUT2 Pin=U2B-4
+Added Pin To Net: NetName=+12V Pin=U2B-5
+Added Pin To Net: NetName=V_IMON3 Pin=U2C-1
+Added Pin To Net: NetName=A Pin=U2C-2
+Added Pin To Net: NetName=NetR1C_2 Pin=U2C-3
+Added Pin To Net: NetName=I_OUT3 Pin=U2C-4
+Added Pin To Net: NetName=+12V Pin=U2C-5
+Added Pin To Net: NetName=V_IMON4 Pin=U2D-1
+Added Pin To Net: NetName=A Pin=U2D-2
+Added Pin To Net: NetName=NetR1D_2 Pin=U2D-3
+Added Pin To Net: NetName=I_OUT4 Pin=U2D-4
+Added Pin To Net: NetName=+12V Pin=U2D-5
+Added Member To Class: ClassName=780-00035, rev1, Pg1, SCH, 4-Chan Current Driver Apps Module Member=Component U1 M24C32RMN1
+Added Member To Class: ClassName=I_SOURCE1 Member=Component U2A (U2) 100 V/V
+Added Member To Class: ClassName=I_SOURCE2 Member=Component U2B (U2) 100 V/V
+Added Member To Class: ClassName=I_SOURCE3 Member=Component U2C (U2) 100 V/V
+Added Member To Class: ClassName=I_SOURCE4 Member=Component U2D (U2) 100 V/V

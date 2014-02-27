@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=+3.3V Pin=P2-3
+Removed Pin From Net: NetName=GND Pin=P2-4
+Removed Pin From Net: NetName=GP_I/OSPARE2 Pin=TP17-1
+Removed Member From Class: ClassName=780-00019 Rev1 Pg1 Member=TP17
+Removed Member From Class: ClassName=780-00019 Rev1 Pg1 Member=TP17
+Change Component Footprint: Designator=P2 Old Footprint=HDR1X4 for IDC New Footprint=HDR1X6 for IDC
+Change Component Comment : Designator=P2 Old Comment=Header 4 New Comment=Header 6
+Added Pin To Net: NetName=I2C_SDA Pin=P2-3
+Added Pin To Net: NetName=I2C_SCL Pin=P2-4
+Added Pin To Net: NetName=+3.3V Pin=P2-5
+Added Pin To Net: NetName=GND Pin=P2-6
+Change Net Name : Old Net Name=NetP1_1 New Net Name=NetP1_8
+Change Net Name : Old Net Name=NetP1_2 New Net Name=NetP1_7
+Change Net Name : Old Net Name=NetP1_3 New Net Name=NetP1_6
+Change Net Name : Old Net Name=NetP1_4 New Net Name=NetP1_5
+Change Net Name : Old Net Name=NetP1_5 New Net Name=NetP1_4
+Change Net Name : Old Net Name=NetP1_6 New Net Name=NetP1_3
+Change Net Name : Old Net Name=NetP1_7 New Net Name=NetP1_2
+Change Net Name : Old Net Name=NetP1_8 New Net Name=NetP1_1
+Change Net Name : Old Net Name=NetP6_1 New Net Name=NetP6_12
+Change Net Name : Old Net Name=NetP6_2 New Net Name=NetP6_11
+Change Net Name : Old Net Name=NetP6_3 New Net Name=NetP6_10
+Change Net Name : Old Net Name=NetP6_4 New Net Name=NetP6_9
+Change Net Name : Old Net Name=NetP6_5 New Net Name=NetP6_8
+Change Net Name : Old Net Name=NetP6_6 New Net Name=NetP6_7
+Change Net Name : Old Net Name=NetP6_7 New Net Name=NetP6_6
+Change Net Name : Old Net Name=NetP6_8 New Net Name=NetP6_5
+Change Net Name : Old Net Name=NetP6_9 New Net Name=NetP6_4
+Change Net Name : Old Net Name=NetP6_10 New Net Name=NetP6_3
+Change Net Name : Old Net Name=NetP6_11 New Net Name=NetP6_2
+Change Net Name : Old Net Name=NetP6_12 New Net Name=NetP6_1

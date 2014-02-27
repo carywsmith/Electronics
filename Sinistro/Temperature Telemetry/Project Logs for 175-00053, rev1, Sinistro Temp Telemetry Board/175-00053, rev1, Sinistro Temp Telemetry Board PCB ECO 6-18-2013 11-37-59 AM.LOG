@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C1-NEG
+Removed Pin From Net: NetName=GND Pin=C2-NEG
+Removed Pin From Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=24RTN Pin=C1-NEG
+Added Pin To Net: NetName=24RTN Pin=C2-NEG
+Added Pin To Net: NetName=24RTN Pin=R21-1
+Change Net Name : Old Net Name=20V_ION New Net Name=18V_ION

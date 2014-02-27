@@ -1,0 +1,62 @@
+Field=LCO p/n~String~LCO p/n~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~175-00008 rev 2, M2 Focus Drive.PrjPCB|ReportField=ProjectFullPath~\\Files\users\rlobdill\Altum Projects\M2 Drive\M2 Drive Rev2\175-00008 rev 2, M2 Focus Drive.PrjPCB|ReportField=Title~Bill of Materials For Project [175-00008 rev 2, M2 Focus Drive.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~152|ReportField=ReportTime~10:53:10 AM|ReportField=ReportDate~6/9/2011|ReportField=ReportDateTime~6/9/2011 10:53:10 AM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~6/9/2011|ReportField=CurrentTime~10:52:57 AM|ReportField=Date~|ReportField=DocumentFullPathAndName~\\Files\users\rlobdill\Altum Projects\M2 Drive\M2 Drive Rev2\780-00012-P1, rev2 Sch M2 Focus Drive.SchDoc|ReportField=DocumentName~780-00012-P1, rev2 Sch M2 Focus Drive.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~6/8/2011|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.09|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Tabloid 11 x 17in|PrintScaleMode=1|ReportField=ProjectName~175-00008 rev 2, M2 Focus Drive.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~175-00008 rev 2, M2 Focus Drive.PrjPCB|ReportField=DataSourceFullPath~\\Files\users\rlobdill\Altum Projects\M2 Drive\M2 Drive Rev2\175-00008 rev 2, M2 Focus Drive.PrjPCB
+120-00041|C1, C2, C3|3
+120-00002|C4, C5, C6, C22, C23, C25, C27, C28, C30, C31, C32, C33|12
+120-00001|C7, C8, C9, C16, C17|5
+120-00027|C10, C21|2
+120-00042|C11|1
+120-00025|C12|1
+120-00007|C13|1
+120-00037|C14|1
+120-00038|C15|1
+120-00039|C18|1
+120-00040|C19|1
+120-00036|C20|1
+120-00006|C24, C26, C29|3
+140-00002|D1|1
+145-00003|F1|1
+125-00039|J1|1
+125-00042|J2, J3, J4|3
+125-00040|J5|1
+125-00005|J6|1
+125-00047|J7, J8, J9|3
+155-00014|L1|1
+155-00015|L2|1
+155-00016|L3|1
+125-00037|P1, P3, P4, P5, P6, P7|6
+125-00095|P2|1
+181-01330|R1, R2, R3|3
+181-01501|R4, R5, R6, R26, R27, R28|6
+181-02491|R7, R9, R13|3
+181-01002|R8, R10, R14|3
+181-01003|R11, R12, R15, R34|4
+181-04020|R16, R17|2
+181-04751|R18|1
+181-01211|R19|1
+181-04991|R20, R22, R23|3
+181-01003|R21, R24, R25|3
+181-02004|R29, R35|2
+181-03323|R30|1
+181-04021|R31|1
+181-03163|R32|1
+181-01472|R33|1
+181-07502|R36|1
+181-02263|R37|1
+181-06190|R38|1
+181-05621|R39|1
+181-09092|R40|1
+181-04991|R41|1
+181-01823|R42|1
+185-00005|S1, S2, S3|3
+160-00001|TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18, TP19, TP20, TP21, TP22, TP23, TP24, TP25, TP26, TP27, TP28, TP29|29
+170-00001|U1, U2, U3|3
+150-00065|U4, U5|2
+135-00001|U6, U7, U8, U9, U10, U11|6
+150-00066|U12, U13, U16|3
+150-00067|U14, U15, U17|3
+820-00010|U18|1
+150-00068|U19|1
+150-00013|U20|1
+150-00069|U21|1
+150-00070|U22|1
+150-00071|U23|1
+810-00005|XU18|1

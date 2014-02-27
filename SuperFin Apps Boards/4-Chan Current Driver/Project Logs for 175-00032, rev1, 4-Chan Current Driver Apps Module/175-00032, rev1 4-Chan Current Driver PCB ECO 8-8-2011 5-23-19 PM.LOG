@@ -1,0 +1,247 @@
+Added Component: Designator=C1(SMD_0805)
+Added Component: Designator=C2(SMD_CAP_3216)
+Added Component: Designator=C3_I_SOURCE1(SMD_0805)
+Added Component: Designator=C3_I_SOURCE2(SMD_0805)
+Added Component: Designator=C3_I_SOURCE3(SMD_0805)
+Added Component: Designator=C3_I_SOURCE4(SMD_0805)
+Added Component: Designator=C4_I_SOURCE1(3225[1210])
+Added Component: Designator=C4_I_SOURCE2(3225[1210])
+Added Component: Designator=C4_I_SOURCE3(3225[1210])
+Added Component: Designator=C4_I_SOURCE4(3225[1210])
+Added Component: Designator=C5_I_SOURCE1(2012[0805])
+Added Component: Designator=C5_I_SOURCE2(2012[0805])
+Added Component: Designator=C5_I_SOURCE3(2012[0805])
+Added Component: Designator=C5_I_SOURCE4(2012[0805])
+Added Component: Designator=D1_I_SOURCE1(SMC)
+Added Component: Designator=D1_I_SOURCE2(SMC)
+Added Component: Designator=D1_I_SOURCE3(SMC)
+Added Component: Designator=D1_I_SOURCE4(SMC)
+Added Component: Designator=L1_I_SOURCE1(Wurth 7447709680)
+Added Component: Designator=L1_I_SOURCE2(Wurth 7447709680)
+Added Component: Designator=L1_I_SOURCE3(Wurth 7447709680)
+Added Component: Designator=L1_I_SOURCE4(Wurth 7447709680)
+Added Component: Designator=P1(HDR1X8 for IDC)
+Added Component: Designator=Q1_I_SOURCE1(SOT223 ALT w/PowerPAD)
+Added Component: Designator=Q1_I_SOURCE2(SOT223 ALT w/PowerPAD)
+Added Component: Designator=Q1_I_SOURCE3(SOT223 ALT w/PowerPAD)
+Added Component: Designator=Q1_I_SOURCE4(SOT223 ALT w/PowerPAD)
+Added Component: Designator=R1_I_SOURCE1(SMD_0805)
+Added Component: Designator=R1_I_SOURCE2(SMD_0805)
+Added Component: Designator=R1_I_SOURCE3(SMD_0805)
+Added Component: Designator=R1_I_SOURCE4(SMD_0805)
+Added Component: Designator=R2_I_SOURCE1(SMD_0805)
+Added Component: Designator=R2_I_SOURCE2(SMD_0805)
+Added Component: Designator=R2_I_SOURCE3(SMD_0805)
+Added Component: Designator=R2_I_SOURCE4(SMD_0805)
+Added Component: Designator=R3_I_SOURCE1(2012[0805])
+Added Component: Designator=R3_I_SOURCE2(2012[0805])
+Added Component: Designator=R3_I_SOURCE3(2012[0805])
+Added Component: Designator=R3_I_SOURCE4(2012[0805])
+Added Component: Designator=S1(CAS-120A)
+Added Component: Designator=U3_I_SOURCE1(TQFN-6)
+Added Component: Designator=U3_I_SOURCE2(TQFN-6)
+Added Component: Designator=U3_I_SOURCE3(TQFN-6)
+Added Component: Designator=U3_I_SOURCE4(TQFN-6)
+Added Pin To Net: NetName=+3.3V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+3.3V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=+12V Pin=C3_I_SOURCE1-1
+Added Pin To Net: NetName=+12V Pin=C3_I_SOURCE2-1
+Added Pin To Net: NetName=+12V Pin=C3_I_SOURCE3-1
+Added Pin To Net: NetName=+12V Pin=C3_I_SOURCE4-1
+Added Pin To Net: NetName=+24V Pin=C4_I_SOURCE1-1
+Added Pin To Net: NetName=GND Pin=C4_I_SOURCE1-2
+Added Pin To Net: NetName=+24V Pin=C4_I_SOURCE2-1
+Added Pin To Net: NetName=GND Pin=C4_I_SOURCE2-2
+Added Pin To Net: NetName=+24V Pin=C4_I_SOURCE3-1
+Added Pin To Net: NetName=GND Pin=C4_I_SOURCE3-2
+Added Pin To Net: NetName=+24V Pin=C4_I_SOURCE4-1
+Added Pin To Net: NetName=GND Pin=C4_I_SOURCE4-2
+Added Pin To Net: NetName=GND Pin=C5_I_SOURCE1-2
+Added Pin To Net: NetName=GND Pin=C5_I_SOURCE2-2
+Added Pin To Net: NetName=GND Pin=C5_I_SOURCE3-2
+Added Pin To Net: NetName=GND Pin=C5_I_SOURCE4-2
+Added Pin To Net: NetName=+24V Pin=D1_I_SOURCE1-2
+Added Pin To Net: NetName=+24V Pin=D1_I_SOURCE2-2
+Added Pin To Net: NetName=+24V Pin=D1_I_SOURCE3-2
+Added Pin To Net: NetName=+24V Pin=D1_I_SOURCE4-2
+Added Pin To Net: NetName=GND Pin=Q1_I_SOURCE1-3
+Added Pin To Net: NetName=GND Pin=Q1_I_SOURCE2-3
+Added Pin To Net: NetName=GND Pin=Q1_I_SOURCE3-3
+Added Pin To Net: NetName=GND Pin=Q1_I_SOURCE4-3
+Added Pin To Net: NetName=+24V Pin=R1_I_SOURCE1-1
+Added Pin To Net: NetName=+24V Pin=R1_I_SOURCE2-1
+Added Pin To Net: NetName=+24V Pin=R1_I_SOURCE3-1
+Added Pin To Net: NetName=+24V Pin=R1_I_SOURCE4-1
+Added Pin To Net: NetName=GND Pin=R3_I_SOURCE1-2
+Added Pin To Net: NetName=GND Pin=R3_I_SOURCE2-2
+Added Pin To Net: NetName=GND Pin=R3_I_SOURCE3-2
+Added Pin To Net: NetName=GND Pin=R3_I_SOURCE4-2
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=NetS1_2 Pin=S1-2
+Added Pin To Net: NetName=+3.3V Pin=S1-3
+Added Pin To Net: NetName=+24V Pin=U3_I_SOURCE1-1
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE1-4
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE1-7
+Added Pin To Net: NetName=+24V Pin=U3_I_SOURCE2-1
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE2-4
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE2-7
+Added Pin To Net: NetName=+24V Pin=U3_I_SOURCE3-1
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE3-4
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE3-7
+Added Pin To Net: NetName=+24V Pin=U3_I_SOURCE4-1
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE4-4
+Added Pin To Net: NetName=GND Pin=U3_I_SOURCE4-7
+Added Pin To Net: NetName=A Pin=C3_I_SOURCE1-2
+Added Pin To Net: NetName=A Pin=C3_I_SOURCE2-2
+Added Pin To Net: NetName=A Pin=C3_I_SOURCE3-2
+Added Pin To Net: NetName=A Pin=C3_I_SOURCE4-2
+Added Net: Name=A
+Added Pin To Net: NetName=I_OUT1 Pin=P1-1
+Added Pin To Net: NetName=I_OUT1 Pin=R2_I_SOURCE1-2
+Added Net: Name=I_OUT1
+Added Pin To Net: NetName=I_OUT2 Pin=P1-3
+Added Pin To Net: NetName=I_OUT2 Pin=R2_I_SOURCE2-2
+Added Net: Name=I_OUT2
+Added Pin To Net: NetName=I_OUT3 Pin=P1-5
+Added Pin To Net: NetName=I_OUT3 Pin=R2_I_SOURCE3-2
+Added Net: Name=I_OUT3
+Added Pin To Net: NetName=I_OUT4 Pin=P1-7
+Added Pin To Net: NetName=I_OUT4 Pin=R2_I_SOURCE4-2
+Added Net: Name=I_OUT4
+Added Pin To Net: NetName=I_PWM1 Pin=J1-43
+Added Pin To Net: NetName=I_PWM1 Pin=R3_I_SOURCE1-1
+Added Pin To Net: NetName=I_PWM1 Pin=U3_I_SOURCE1-3
+Added Net: Name=I_PWM1
+Added Pin To Net: NetName=I_PWM2 Pin=J1-45
+Added Pin To Net: NetName=I_PWM2 Pin=R3_I_SOURCE2-1
+Added Pin To Net: NetName=I_PWM2 Pin=U3_I_SOURCE2-3
+Added Net: Name=I_PWM2
+Added Pin To Net: NetName=I_PWM3 Pin=J1-47
+Added Pin To Net: NetName=I_PWM3 Pin=R3_I_SOURCE3-1
+Added Pin To Net: NetName=I_PWM3 Pin=U3_I_SOURCE3-3
+Added Net: Name=I_PWM3
+Added Pin To Net: NetName=I_PWM4 Pin=J1-49
+Added Pin To Net: NetName=I_PWM4 Pin=R3_I_SOURCE4-1
+Added Pin To Net: NetName=I_PWM4 Pin=U3_I_SOURCE4-3
+Added Net: Name=I_PWM4
+Added Pin To Net: NetName=I_RTN1 Pin=L1_I_SOURCE1-2
+Added Pin To Net: NetName=I_RTN1 Pin=P1-2
+Added Net: Name=I_RTN1
+Added Pin To Net: NetName=I_RTN2 Pin=L1_I_SOURCE2-2
+Added Pin To Net: NetName=I_RTN2 Pin=P1-4
+Added Net: Name=I_RTN2
+Added Pin To Net: NetName=I_RTN3 Pin=L1_I_SOURCE3-2
+Added Pin To Net: NetName=I_RTN3 Pin=P1-6
+Added Net: Name=I_RTN3
+Added Pin To Net: NetName=I_RTN4 Pin=L1_I_SOURCE4-2
+Added Pin To Net: NetName=I_RTN4 Pin=P1-8
+Added Net: Name=I_RTN4
+Added Pin To Net: NetName=NetC5_I_SOURCE1_1 Pin=C5_I_SOURCE1-1
+Added Pin To Net: NetName=NetC5_I_SOURCE1_1 Pin=U3_I_SOURCE1-6
+Added Net: Name=NetC5_I_SOURCE1_1
+Added Pin To Net: NetName=NetC5_I_SOURCE2_1 Pin=C5_I_SOURCE2-1
+Added Pin To Net: NetName=NetC5_I_SOURCE2_1 Pin=U3_I_SOURCE2-6
+Added Net: Name=NetC5_I_SOURCE2_1
+Added Pin To Net: NetName=NetC5_I_SOURCE3_1 Pin=C5_I_SOURCE3-1
+Added Pin To Net: NetName=NetC5_I_SOURCE3_1 Pin=U3_I_SOURCE3-6
+Added Net: Name=NetC5_I_SOURCE3_1
+Added Pin To Net: NetName=NetC5_I_SOURCE4_1 Pin=C5_I_SOURCE4-1
+Added Pin To Net: NetName=NetC5_I_SOURCE4_1 Pin=U3_I_SOURCE4-6
+Added Net: Name=NetC5_I_SOURCE4_1
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=D1_I_SOURCE1-1
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=L1_I_SOURCE1-1
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Pin To Net: NetName=NetD1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-2
+Added Net: Name=NetD1_I_SOURCE1_1
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=D1_I_SOURCE2-1
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=L1_I_SOURCE2-1
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Pin To Net: NetName=NetD1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-2
+Added Net: Name=NetD1_I_SOURCE2_1
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=D1_I_SOURCE3-1
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=L1_I_SOURCE3-1
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Pin To Net: NetName=NetD1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-2
+Added Net: Name=NetD1_I_SOURCE3_1
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=D1_I_SOURCE4-1
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=L1_I_SOURCE4-1
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Pin To Net: NetName=NetD1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-2
+Added Net: Name=NetD1_I_SOURCE4_1
+Added Pin To Net: NetName=NetQ1_I_SOURCE1_1 Pin=Q1_I_SOURCE1-1
+Added Pin To Net: NetName=NetQ1_I_SOURCE1_1 Pin=U3_I_SOURCE1-5
+Added Net: Name=NetQ1_I_SOURCE1_1
+Added Pin To Net: NetName=NetQ1_I_SOURCE2_1 Pin=Q1_I_SOURCE2-1
+Added Pin To Net: NetName=NetQ1_I_SOURCE2_1 Pin=U3_I_SOURCE2-5
+Added Net: Name=NetQ1_I_SOURCE2_1
+Added Pin To Net: NetName=NetQ1_I_SOURCE3_1 Pin=Q1_I_SOURCE3-1
+Added Pin To Net: NetName=NetQ1_I_SOURCE3_1 Pin=U3_I_SOURCE3-5
+Added Net: Name=NetQ1_I_SOURCE3_1
+Added Pin To Net: NetName=NetQ1_I_SOURCE4_1 Pin=Q1_I_SOURCE4-1
+Added Pin To Net: NetName=NetQ1_I_SOURCE4_1 Pin=U3_I_SOURCE4-5
+Added Net: Name=NetQ1_I_SOURCE4_1
+Added Pin To Net: NetName=NetR1_I_SOURCE1_2 Pin=R1_I_SOURCE1-2
+Added Pin To Net: NetName=NetR1_I_SOURCE1_2 Pin=R2_I_SOURCE1-1
+Added Pin To Net: NetName=NetR1_I_SOURCE1_2 Pin=U3_I_SOURCE1-2
+Added Net: Name=NetR1_I_SOURCE1_2
+Added Pin To Net: NetName=NetR1_I_SOURCE2_2 Pin=R1_I_SOURCE2-2
+Added Pin To Net: NetName=NetR1_I_SOURCE2_2 Pin=R2_I_SOURCE2-1
+Added Pin To Net: NetName=NetR1_I_SOURCE2_2 Pin=U3_I_SOURCE2-2
+Added Net: Name=NetR1_I_SOURCE2_2
+Added Pin To Net: NetName=NetR1_I_SOURCE3_2 Pin=R1_I_SOURCE3-2
+Added Pin To Net: NetName=NetR1_I_SOURCE3_2 Pin=R2_I_SOURCE3-1
+Added Pin To Net: NetName=NetR1_I_SOURCE3_2 Pin=U3_I_SOURCE3-2
+Added Net: Name=NetR1_I_SOURCE3_2
+Added Pin To Net: NetName=NetR1_I_SOURCE4_2 Pin=R1_I_SOURCE4-2
+Added Pin To Net: NetName=NetR1_I_SOURCE4_2 Pin=R2_I_SOURCE4-1
+Added Pin To Net: NetName=NetR1_I_SOURCE4_2 Pin=U3_I_SOURCE4-2
+Added Net: Name=NetR1_I_SOURCE4_2
+Added Pin To Net: NetName=V_IMON1 Pin=J1-4
+Added Net: Name=V_IMON1
+Added Pin To Net: NetName=V_IMON2 Pin=J1-6
+Added Net: Name=V_IMON2
+Added Pin To Net: NetName=V_IMON3 Pin=J1-8
+Added Net: Name=V_IMON3
+Added Pin To Net: NetName=V_IMON4 Pin=J1-10
+Added Net: Name=V_IMON4
+Added Class: Name=780-00035, rev1, Pg1, SCH, 4-Chan Current Driver Apps Module
+Added Class: Name=I_SOURCE1
+Added Class: Name=I_SOURCE2
+Added Class: Name=I_SOURCE3
+Added Class: Name=I_SOURCE4
+Added Class: Name=I_OUT[4..1]
+Added Class: Name=I_PWM[4..1]
+Added Class: Name=I_RTN[4..1]
+Added Class: Name=V_IMON[4..1]
+Added Class: Name=780-00035, rev1, Pg2, SCH, 4-Chan Current Driver Apps Module
+Added Room: Name=780-00035, rev1, Pg1, SCH, 4-Chan Current Driver Apps Module
+Added Room: Name=I_SOURCE1
+Added Room: Name=I_SOURCE2
+Added Room: Name=I_SOURCE3
+Added Room: Name=I_SOURCE4

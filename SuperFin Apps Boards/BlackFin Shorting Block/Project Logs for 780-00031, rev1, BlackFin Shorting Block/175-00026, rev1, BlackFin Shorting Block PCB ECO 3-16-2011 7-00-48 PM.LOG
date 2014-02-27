@@ -1,0 +1,9 @@
+Added Component: Designator=U1(CM-BF5xx - Shorting Block)
+Added Pin To Net: NetName=NetU1_11 Pin=U1-11
+Added Pin To Net: NetName=NetU1_11 Pin=U1-22
+Added Net: Name=NetU1_11
+Added Pin To Net: NetName=NetU1_40 Pin=U1-40
+Added Pin To Net: NetName=NetU1_40 Pin=U1-50
+Added Net: Name=NetU1_40
+Added Class: Name=780-00031, rev1, BlackFin Shorting Block
+Added Room: Name=780-00031, rev1, BlackFin Shorting Block

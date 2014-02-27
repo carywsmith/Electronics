@@ -1,0 +1,12 @@
+Change Component DesignItemId : Designator=TP9A Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP9B Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP9C Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component DesignItemId : Designator=TP9D Old DesignItemId=Test Point SMD New DesignItemId=Test point
+Change Component Footprint: Designator=TP9A Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP9B Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP9C Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Footprint: Designator=TP9D Old Footprint=SMD_TEST POINT New Footprint=PAD_80D_052H
+Change Component Comment : Designator=TP9A Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP9B Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP9C Old Comment=Test Point SMD New Comment=Test point
+Change Component Comment : Designator=TP9D Old Comment=Test Point SMD New Comment=Test point

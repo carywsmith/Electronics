@@ -1,0 +1,1216 @@
+Added Component: Designator=C1(SMD_0805)
+Added Component: Designator=C2(SMD_0805)
+Added Component: Designator=C3(SMD_0805)
+Added Component: Designator=C4(SMD_0805)
+Added Component: Designator=C5(CAP, Thru Hole 10mm dia)
+Added Component: Designator=C6(SMD_0805)
+Added Component: Designator=C7(SMD_0805)
+Added Component: Designator=C8(SMD_0805)
+Added Component: Designator=C9(SMD_0805)
+Added Component: Designator=C10(CAP, Thru Hole 10mm dia)
+Added Component: Designator=C11(SMD_0805)
+Added Component: Designator=C12(SMD_0805)
+Added Component: Designator=C13(SMD_0805)
+Added Component: Designator=C14_ADC_Ch0(SMD_0805)
+Added Component: Designator=C14_ADC_Ch1(SMD_0805)
+Added Component: Designator=C14_ADC_Ch2(SMD_0805)
+Added Component: Designator=C14_ADC_Ch3(SMD_0805)
+Added Component: Designator=C14_ADC_Ch4(SMD_0805)
+Added Component: Designator=C14_ADC_Ch5(SMD_0805)
+Added Component: Designator=C14_ADC_Ch6(SMD_0805)
+Added Component: Designator=C14_ADC_Ch7(SMD_0805)
+Added Component: Designator=C15_ADC_Ch0(SMD_0805)
+Added Component: Designator=C15_ADC_Ch1(SMD_0805)
+Added Component: Designator=C15_ADC_Ch2(SMD_0805)
+Added Component: Designator=C15_ADC_Ch3(SMD_0805)
+Added Component: Designator=C15_ADC_Ch4(SMD_0805)
+Added Component: Designator=C15_ADC_Ch5(SMD_0805)
+Added Component: Designator=C15_ADC_Ch6(SMD_0805)
+Added Component: Designator=C15_ADC_Ch7(SMD_0805)
+Added Component: Designator=C16_ADC_Ch0(SMD_0805)
+Added Component: Designator=C16_ADC_Ch1(SMD_0805)
+Added Component: Designator=C16_ADC_Ch2(SMD_0805)
+Added Component: Designator=C16_ADC_Ch3(SMD_0805)
+Added Component: Designator=C16_ADC_Ch4(SMD_0805)
+Added Component: Designator=C16_ADC_Ch5(SMD_0805)
+Added Component: Designator=C16_ADC_Ch6(SMD_0805)
+Added Component: Designator=C16_ADC_Ch7(SMD_0805)
+Added Component: Designator=C17_ADC_Ch0(SMD_0805)
+Added Component: Designator=C17_ADC_Ch1(SMD_0805)
+Added Component: Designator=C17_ADC_Ch2(SMD_0805)
+Added Component: Designator=C17_ADC_Ch3(SMD_0805)
+Added Component: Designator=C17_ADC_Ch4(SMD_0805)
+Added Component: Designator=C17_ADC_Ch5(SMD_0805)
+Added Component: Designator=C17_ADC_Ch6(SMD_0805)
+Added Component: Designator=C17_ADC_Ch7(SMD_0805)
+Added Component: Designator=C18_ADC_Ch0(SMD_0805)
+Added Component: Designator=C18_ADC_Ch1(SMD_0805)
+Added Component: Designator=C18_ADC_Ch2(SMD_0805)
+Added Component: Designator=C18_ADC_Ch3(SMD_0805)
+Added Component: Designator=C18_ADC_Ch4(SMD_0805)
+Added Component: Designator=C18_ADC_Ch5(SMD_0805)
+Added Component: Designator=C18_ADC_Ch6(SMD_0805)
+Added Component: Designator=C18_ADC_Ch7(SMD_0805)
+Added Component: Designator=C19_ADC_Ch0(SMD_0805)
+Added Component: Designator=C19_ADC_Ch1(SMD_0805)
+Added Component: Designator=C19_ADC_Ch2(SMD_0805)
+Added Component: Designator=C19_ADC_Ch3(SMD_0805)
+Added Component: Designator=C19_ADC_Ch4(SMD_0805)
+Added Component: Designator=C19_ADC_Ch5(SMD_0805)
+Added Component: Designator=C19_ADC_Ch6(SMD_0805)
+Added Component: Designator=C19_ADC_Ch7(SMD_0805)
+Added Component: Designator=C20_ADC_Ch0(SMD_0805)
+Added Component: Designator=C20_ADC_Ch1(SMD_0805)
+Added Component: Designator=C20_ADC_Ch2(SMD_0805)
+Added Component: Designator=C20_ADC_Ch3(SMD_0805)
+Added Component: Designator=C20_ADC_Ch4(SMD_0805)
+Added Component: Designator=C20_ADC_Ch5(SMD_0805)
+Added Component: Designator=C20_ADC_Ch6(SMD_0805)
+Added Component: Designator=C20_ADC_Ch7(SMD_0805)
+Added Component: Designator=C21_TEC_Ch0(SMD_0805)
+Added Component: Designator=C21_TEC_Ch1(SMD_0805)
+Added Component: Designator=C21_TEC_Ch2(SMD_0805)
+Added Component: Designator=C21_TEC_Ch3(SMD_0805)
+Added Component: Designator=C22_TEC_Ch0(SMD_0805)
+Added Component: Designator=C22_TEC_Ch1(SMD_0805)
+Added Component: Designator=C22_TEC_Ch2(SMD_0805)
+Added Component: Designator=C22_TEC_Ch3(SMD_0805)
+Added Component: Designator=C23_TEC_Ch0(SMD_0805)
+Added Component: Designator=C23_TEC_Ch1(SMD_0805)
+Added Component: Designator=C23_TEC_Ch2(SMD_0805)
+Added Component: Designator=C23_TEC_Ch3(SMD_0805)
+Added Component: Designator=C24_TEC_Ch0(SMD_0805)
+Added Component: Designator=C24_TEC_Ch1(SMD_0805)
+Added Component: Designator=C24_TEC_Ch2(SMD_0805)
+Added Component: Designator=C24_TEC_Ch3(SMD_0805)
+Added Component: Designator=C25_TEC_Ch0(SMD_0805)
+Added Component: Designator=C25_TEC_Ch1(SMD_0805)
+Added Component: Designator=C25_TEC_Ch2(SMD_0805)
+Added Component: Designator=C25_TEC_Ch3(SMD_0805)
+Added Component: Designator=C26_TEC_Ch0(SMD_0805)
+Added Component: Designator=C26_TEC_Ch1(SMD_0805)
+Added Component: Designator=C26_TEC_Ch2(SMD_0805)
+Added Component: Designator=C26_TEC_Ch3(SMD_0805)
+Added Component: Designator=C27_TEC_Ch0(SMD_0805)
+Added Component: Designator=C27_TEC_Ch1(SMD_0805)
+Added Component: Designator=C27_TEC_Ch2(SMD_0805)
+Added Component: Designator=C27_TEC_Ch3(SMD_0805)
+Added Component: Designator=C28_TEC_Ch0(SMD_0805)
+Added Component: Designator=C28_TEC_Ch1(SMD_0805)
+Added Component: Designator=C28_TEC_Ch2(SMD_0805)
+Added Component: Designator=C28_TEC_Ch3(SMD_0805)
+Added Component: Designator=C29(SMD_0805)
+Added Component: Designator=C30(SMD_0805)
+Added Component: Designator=C31(SMD_0805)
+Added Component: Designator=C32(SMD_0805)
+Added Component: Designator=C33(SMD_CAP_6032)
+Added Component: Designator=C34(SMD_CAP_6032)
+Added Component: Designator=J1(PCB EDGE, MOLEX 46114)
+Added Component: Designator=J2_ADC_Ch0(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch1(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch2(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch3(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch4(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch5(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch6(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J2_ADC_Ch7(LEMO Size 0, 4-pin PCB)
+Added Component: Designator=J3_TEC_Ch0(LEMO Size 0, 2-pin PCB)
+Added Component: Designator=J3_TEC_Ch1(LEMO Size 0, 2-pin PCB)
+Added Component: Designator=J3_TEC_Ch2(LEMO Size 0, 2-pin PCB)
+Added Component: Designator=J3_TEC_Ch3(LEMO Size 0, 2-pin PCB)
+Added Component: Designator=L1_TEC_Ch0(SMT Inductor 7 x 7mm)
+Added Component: Designator=L1_TEC_Ch1(SMT Inductor 7 x 7mm)
+Added Component: Designator=L1_TEC_Ch2(SMT Inductor 7 x 7mm)
+Added Component: Designator=L1_TEC_Ch3(SMT Inductor 7 x 7mm)
+Added Component: Designator=L2_TEC_Ch0(SMT Inductor 7 x 7mm)
+Added Component: Designator=L2_TEC_Ch1(SMT Inductor 7 x 7mm)
+Added Component: Designator=L2_TEC_Ch2(SMT Inductor 7 x 7mm)
+Added Component: Designator=L2_TEC_Ch3(SMT Inductor 7 x 7mm)
+Added Component: Designator=P1(HDR2X5)
+Added Component: Designator=R1(SMD_0805)
+Added Component: Designator=R2(SMD_0805)
+Added Component: Designator=R3_ADC_Ch0(SMD_0805)
+Added Component: Designator=R3_ADC_Ch1(SMD_0805)
+Added Component: Designator=R3_ADC_Ch2(SMD_0805)
+Added Component: Designator=R3_ADC_Ch3(SMD_0805)
+Added Component: Designator=R3_ADC_Ch4(SMD_0805)
+Added Component: Designator=R3_ADC_Ch5(SMD_0805)
+Added Component: Designator=R3_ADC_Ch6(SMD_0805)
+Added Component: Designator=R3_ADC_Ch7(SMD_0805)
+Added Component: Designator=R4_ADC_Ch0(SMD_0805)
+Added Component: Designator=R4_ADC_Ch1(SMD_0805)
+Added Component: Designator=R4_ADC_Ch2(SMD_0805)
+Added Component: Designator=R4_ADC_Ch3(SMD_0805)
+Added Component: Designator=R4_ADC_Ch4(SMD_0805)
+Added Component: Designator=R4_ADC_Ch5(SMD_0805)
+Added Component: Designator=R4_ADC_Ch6(SMD_0805)
+Added Component: Designator=R4_ADC_Ch7(SMD_0805)
+Added Component: Designator=R5_ADC_Ch0(SMD_0805)
+Added Component: Designator=R5_ADC_Ch1(SMD_0805)
+Added Component: Designator=R5_ADC_Ch2(SMD_0805)
+Added Component: Designator=R5_ADC_Ch3(SMD_0805)
+Added Component: Designator=R5_ADC_Ch4(SMD_0805)
+Added Component: Designator=R5_ADC_Ch5(SMD_0805)
+Added Component: Designator=R5_ADC_Ch6(SMD_0805)
+Added Component: Designator=R5_ADC_Ch7(SMD_0805)
+Added Component: Designator=R6_ADC_Ch0(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch1(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch2(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch3(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch4(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch5(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch6(Vishay S102 series)
+Added Component: Designator=R6_ADC_Ch7(Vishay S102 series)
+Added Component: Designator=R7_TEC_Ch0(6332[2512])
+Added Component: Designator=R7_TEC_Ch1(6332[2512])
+Added Component: Designator=R7_TEC_Ch2(6332[2512])
+Added Component: Designator=R7_TEC_Ch3(6332[2512])
+Added Component: Designator=R8_TEC_Ch0(SMD_0805)
+Added Component: Designator=R8_TEC_Ch1(SMD_0805)
+Added Component: Designator=R8_TEC_Ch2(SMD_0805)
+Added Component: Designator=R8_TEC_Ch3(SMD_0805)
+Added Component: Designator=R9_TEC_Ch0(SMD_0805)
+Added Component: Designator=R9_TEC_Ch1(SMD_0805)
+Added Component: Designator=R9_TEC_Ch2(SMD_0805)
+Added Component: Designator=R9_TEC_Ch3(SMD_0805)
+Added Component: Designator=RN1(RES ARRAY 0603 x 4)
+Added Component: Designator=RN2(RES ARRAY 0603 x 4)
+Added Component: Designator=TP1(PAD_80D_052H)
+Added Component: Designator=TP2(PAD_80D_052H)
+Added Component: Designator=TP3(PAD_80D_052H)
+Added Component: Designator=TP4(PAD_80D_052H)
+Added Component: Designator=TP9_TEC_Ch0(SMD_TEST POINT)
+Added Component: Designator=TP9_TEC_Ch1(SMD_TEST POINT)
+Added Component: Designator=TP9_TEC_Ch2(SMD_TEST POINT)
+Added Component: Designator=TP9_TEC_Ch3(SMD_TEST POINT)
+Added Component: Designator=U1(VQ100_N)
+Added Component: Designator=U2(TEXAS Inst Switching Regulator)
+Added Component: Designator=U3(TEXAS Inst Switching Regulator)
+Added Component: Designator=U4(TSSOP14)
+Added Component: Designator=U5(TSSOP16)
+Added Component: Designator=U6_ADC_Ch0(TSSOP20)
+Added Component: Designator=U6_ADC_Ch1(TSSOP20)
+Added Component: Designator=U6_ADC_Ch2(TSSOP20)
+Added Component: Designator=U6_ADC_Ch3(TSSOP20)
+Added Component: Designator=U6_ADC_Ch4(TSSOP20)
+Added Component: Designator=U6_ADC_Ch5(TSSOP20)
+Added Component: Designator=U6_ADC_Ch6(TSSOP20)
+Added Component: Designator=U6_ADC_Ch7(TSSOP20)
+Added Component: Designator=U7_TEC_Ch0(TSSOP28 Exposed Pad)
+Added Component: Designator=U7_TEC_Ch1(TSSOP28 Exposed Pad)
+Added Component: Designator=U7_TEC_Ch2(TSSOP28 Exposed Pad)
+Added Component: Designator=U7_TEC_Ch3(TSSOP28 Exposed Pad)
+Added Component: Designator=U8(SO-8_M)
+Added Component: Designator=U9(TO-220 w/Heatsink 7136DG)
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch0-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch1-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch2-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch3-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch4-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch5-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch6-2
+Added Pin To Net: NetName=+5ANA Pin=C15_ADC_Ch7-2
+Added Pin To Net: NetName=+5ANA Pin=C34-POS
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch0-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch1-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch2-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch3-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch4-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch5-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch6-14
+Added Pin To Net: NetName=+5ANA Pin=U6_ADC_Ch7-14
+Added Pin To Net: NetName=+5ANA Pin=U9-3
+Added Net: Name=+5ANA
+Added Pin To Net: NetName=+5VADC Pin=C13-2
+Added Pin To Net: NetName=+5VADC Pin=U5-3
+Added Net: Name=+5VADC
+Added Pin To Net: NetName=+5VTEC1 Pin=C5-1
+Added Pin To Net: NetName=+5VTEC1 Pin=C12-1
+Added Pin To Net: NetName=+5VTEC1 Pin=C22_TEC_Ch0-2
+Added Pin To Net: NetName=+5VTEC1 Pin=C22_TEC_Ch1-2
+Added Pin To Net: NetName=+5VTEC1 Pin=C23_TEC_Ch0-2
+Added Pin To Net: NetName=+5VTEC1 Pin=C23_TEC_Ch1-2
+Added Pin To Net: NetName=+5VTEC1 Pin=C24_TEC_Ch0-2
+Added Pin To Net: NetName=+5VTEC1 Pin=C24_TEC_Ch1-2
+Added Pin To Net: NetName=+5VTEC1 Pin=TP1-1
+Added Pin To Net: NetName=+5VTEC1 Pin=U2-6
+Added Pin To Net: NetName=+5VTEC1 Pin=U4-14
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch0-1
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch0-9
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch0-11
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch0-12
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch0-18
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch0-20
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch1-1
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch1-9
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch1-11
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch1-12
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch1-18
+Added Pin To Net: NetName=+5VTEC1 Pin=U7_TEC_Ch1-20
+Added Net: Name=+5VTEC1
+Added Pin To Net: NetName=+5VTEC2 Pin=C10-1
+Added Pin To Net: NetName=+5VTEC2 Pin=C22_TEC_Ch2-2
+Added Pin To Net: NetName=+5VTEC2 Pin=C22_TEC_Ch3-2
+Added Pin To Net: NetName=+5VTEC2 Pin=C23_TEC_Ch2-2
+Added Pin To Net: NetName=+5VTEC2 Pin=C23_TEC_Ch3-2
+Added Pin To Net: NetName=+5VTEC2 Pin=C24_TEC_Ch2-2
+Added Pin To Net: NetName=+5VTEC2 Pin=C24_TEC_Ch3-2
+Added Pin To Net: NetName=+5VTEC2 Pin=TP3-1
+Added Pin To Net: NetName=+5VTEC2 Pin=U3-6
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch2-1
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch2-9
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch2-11
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch2-12
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch2-18
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch2-20
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch3-1
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch3-9
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch3-11
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch3-12
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch3-18
+Added Pin To Net: NetName=+5VTEC2 Pin=U7_TEC_Ch3-20
+Added Net: Name=+5VTEC2
+Added Pin To Net: NetName=+12V Pin=C29-1
+Added Pin To Net: NetName=+12V Pin=C33-POS
+Added Pin To Net: NetName=+12V Pin=J1-P3
+Added Pin To Net: NetName=+12V Pin=U8-2
+Added Pin To Net: NetName=+12V Pin=U9-1
+Added Net: Name=+12V
+Added Pin To Net: NetName=+24V Pin=C1-2
+Added Pin To Net: NetName=+24V Pin=C2-2
+Added Pin To Net: NetName=+24V Pin=C3-2
+Added Pin To Net: NetName=+24V Pin=C4-2
+Added Pin To Net: NetName=+24V Pin=C6-2
+Added Pin To Net: NetName=+24V Pin=C7-2
+Added Pin To Net: NetName=+24V Pin=C8-2
+Added Pin To Net: NetName=+24V Pin=C9-2
+Added Pin To Net: NetName=+24V Pin=J1-P1
+Added Pin To Net: NetName=+24V Pin=TP2-1
+Added Pin To Net: NetName=+24V Pin=TP4-1
+Added Pin To Net: NetName=+24V Pin=U2-2
+Added Pin To Net: NetName=+24V Pin=U3-2
+Added Net: Name=+24V
+Added Pin To Net: NetName=4.096VREF Pin=C31-1
+Added Pin To Net: NetName=4.096VREF Pin=U5-8
+Added Pin To Net: NetName=4.096VREF Pin=U8-6
+Added Net: Name=4.096VREF
+Added Pin To Net: NetName=A0 Pin=J1-S1
+Added Pin To Net: NetName=A0 Pin=U1-45
+Added Net: Name=A0
+Added Pin To Net: NetName=A1 Pin=J1-S2
+Added Pin To Net: NetName=A1 Pin=U1-44
+Added Net: Name=A1
+Added Pin To Net: NetName=A2 Pin=J1-S3
+Added Pin To Net: NetName=A2 Pin=U1-42
+Added Net: Name=A2
+Added Pin To Net: NetName=A3 Pin=J1-S4
+Added Pin To Net: NetName=A3 Pin=U1-41
+Added Net: Name=A3
+Added Pin To Net: NetName=A4 Pin=J1-S5
+Added Pin To Net: NetName=A4 Pin=U1-40
+Added Net: Name=A4
+Added Pin To Net: NetName=A5 Pin=J1-S6
+Added Pin To Net: NetName=A5 Pin=U1-37
+Added Net: Name=A5
+Added Pin To Net: NetName=A Pin=C13-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch0-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch1-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch2-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch3-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch4-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch5-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch6-1
+Added Pin To Net: NetName=A Pin=C14_ADC_Ch7-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch0-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch1-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch2-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch3-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch4-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch5-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch6-1
+Added Pin To Net: NetName=A Pin=C15_ADC_Ch7-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch0-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch1-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch2-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch3-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch4-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch5-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch6-1
+Added Pin To Net: NetName=A Pin=C17_ADC_Ch7-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch0-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch1-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch2-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch3-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch4-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch5-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch6-1
+Added Pin To Net: NetName=A Pin=C19_ADC_Ch7-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch0-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch1-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch2-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch3-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch4-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch5-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch6-1
+Added Pin To Net: NetName=A Pin=C20_ADC_Ch7-1
+Added Pin To Net: NetName=A Pin=C29-2
+Added Pin To Net: NetName=A Pin=C30-2
+Added Pin To Net: NetName=A Pin=C31-2
+Added Pin To Net: NetName=A Pin=C33-NEG
+Added Pin To Net: NetName=A Pin=C34-NEG
+Added Pin To Net: NetName=A Pin=J1-P4
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch0-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch1-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch2-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch3-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch4-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch5-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch6-1
+Added Pin To Net: NetName=A Pin=R6_ADC_Ch7-1
+Added Pin To Net: NetName=A Pin=U5-14
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch0-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch0-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch0-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch1-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch1-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch1-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch2-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch2-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch2-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch3-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch3-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch3-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch4-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch4-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch4-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch5-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch5-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch5-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch6-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch6-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch6-13
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch7-6
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch7-8
+Added Pin To Net: NetName=A Pin=U6_ADC_Ch7-13
+Added Pin To Net: NetName=A Pin=U8-4
+Added Pin To Net: NetName=A Pin=U9-2
+Added Net: Name=A
+Added Pin To Net: NetName=B0 Pin=J1-S7
+Added Pin To Net: NetName=B0 Pin=U1-36
+Added Net: Name=B0
+Added Pin To Net: NetName=B1 Pin=J1-S8
+Added Pin To Net: NetName=B1 Pin=U1-35
+Added Net: Name=B1
+Added Pin To Net: NetName=DACOUT_0 Pin=TP9_TEC_Ch0-1
+Added Pin To Net: NetName=DACOUT_0 Pin=U5-4
+Added Pin To Net: NetName=DACOUT_0 Pin=U7_TEC_Ch0-3
+Added Net: Name=DACOUT_0
+Added Pin To Net: NetName=DACOUT_1 Pin=TP9_TEC_Ch1-1
+Added Pin To Net: NetName=DACOUT_1 Pin=U5-13
+Added Pin To Net: NetName=DACOUT_1 Pin=U7_TEC_Ch1-3
+Added Net: Name=DACOUT_1
+Added Pin To Net: NetName=DACOUT_2 Pin=TP9_TEC_Ch2-1
+Added Pin To Net: NetName=DACOUT_2 Pin=U5-5
+Added Pin To Net: NetName=DACOUT_2 Pin=U7_TEC_Ch2-3
+Added Net: Name=DACOUT_2
+Added Pin To Net: NetName=DACOUT_3 Pin=TP9_TEC_Ch3-1
+Added Pin To Net: NetName=DACOUT_3 Pin=U5-12
+Added Pin To Net: NetName=DACOUT_3 Pin=U7_TEC_Ch3-3
+Added Net: Name=DACOUT_3
+Added Pin To Net: NetName=DIN Pin=J1-S12
+Added Pin To Net: NetName=DIN Pin=U5-15
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch0-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch1-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch2-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch3-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch4-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch5-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch6-19
+Added Pin To Net: NetName=DIN Pin=U6_ADC_Ch7-19
+Added Net: Name=DIN
+Added Pin To Net: NetName=DOUT Pin=J1-S13
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch0-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch1-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch2-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch3-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch4-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch5-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch6-18
+Added Pin To Net: NetName=DOUT Pin=U6_ADC_Ch7-18
+Added Net: Name=DOUT
+Added Pin To Net: NetName=NetC14_ADC_Ch0_2 Pin=C14_ADC_Ch0-2
+Added Pin To Net: NetName=NetC14_ADC_Ch0_2 Pin=R3_ADC_Ch0-2
+Added Pin To Net: NetName=NetC14_ADC_Ch0_2 Pin=U6_ADC_Ch0-9
+Added Net: Name=NetC14_ADC_Ch0_2
+Added Pin To Net: NetName=NetC14_ADC_Ch1_2 Pin=C14_ADC_Ch1-2
+Added Pin To Net: NetName=NetC14_ADC_Ch1_2 Pin=R3_ADC_Ch1-2
+Added Pin To Net: NetName=NetC14_ADC_Ch1_2 Pin=U6_ADC_Ch1-9
+Added Net: Name=NetC14_ADC_Ch1_2
+Added Pin To Net: NetName=NetC14_ADC_Ch2_2 Pin=C14_ADC_Ch2-2
+Added Pin To Net: NetName=NetC14_ADC_Ch2_2 Pin=R3_ADC_Ch2-2
+Added Pin To Net: NetName=NetC14_ADC_Ch2_2 Pin=U6_ADC_Ch2-9
+Added Net: Name=NetC14_ADC_Ch2_2
+Added Pin To Net: NetName=NetC14_ADC_Ch3_2 Pin=C14_ADC_Ch3-2
+Added Pin To Net: NetName=NetC14_ADC_Ch3_2 Pin=R3_ADC_Ch3-2
+Added Pin To Net: NetName=NetC14_ADC_Ch3_2 Pin=U6_ADC_Ch3-9
+Added Net: Name=NetC14_ADC_Ch3_2
+Added Pin To Net: NetName=NetC14_ADC_Ch4_2 Pin=C14_ADC_Ch4-2
+Added Pin To Net: NetName=NetC14_ADC_Ch4_2 Pin=R3_ADC_Ch4-2
+Added Pin To Net: NetName=NetC14_ADC_Ch4_2 Pin=U6_ADC_Ch4-9
+Added Net: Name=NetC14_ADC_Ch4_2
+Added Pin To Net: NetName=NetC14_ADC_Ch5_2 Pin=C14_ADC_Ch5-2
+Added Pin To Net: NetName=NetC14_ADC_Ch5_2 Pin=R3_ADC_Ch5-2
+Added Pin To Net: NetName=NetC14_ADC_Ch5_2 Pin=U6_ADC_Ch5-9
+Added Net: Name=NetC14_ADC_Ch5_2
+Added Pin To Net: NetName=NetC14_ADC_Ch6_2 Pin=C14_ADC_Ch6-2
+Added Pin To Net: NetName=NetC14_ADC_Ch6_2 Pin=R3_ADC_Ch6-2
+Added Pin To Net: NetName=NetC14_ADC_Ch6_2 Pin=U6_ADC_Ch6-9
+Added Net: Name=NetC14_ADC_Ch6_2
+Added Pin To Net: NetName=NetC14_ADC_Ch7_2 Pin=C14_ADC_Ch7-2
+Added Pin To Net: NetName=NetC14_ADC_Ch7_2 Pin=R3_ADC_Ch7-2
+Added Pin To Net: NetName=NetC14_ADC_Ch7_2 Pin=U6_ADC_Ch7-9
+Added Net: Name=NetC14_ADC_Ch7_2
+Added Pin To Net: NetName=NetC17_ADC_Ch0_2 Pin=C17_ADC_Ch0-2
+Added Pin To Net: NetName=NetC17_ADC_Ch0_2 Pin=C18_ADC_Ch0-2
+Added Pin To Net: NetName=NetC17_ADC_Ch0_2 Pin=R4_ADC_Ch0-2
+Added Pin To Net: NetName=NetC17_ADC_Ch0_2 Pin=U6_ADC_Ch0-11
+Added Net: Name=NetC17_ADC_Ch0_2
+Added Pin To Net: NetName=NetC17_ADC_Ch1_2 Pin=C17_ADC_Ch1-2
+Added Pin To Net: NetName=NetC17_ADC_Ch1_2 Pin=C18_ADC_Ch1-2
+Added Pin To Net: NetName=NetC17_ADC_Ch1_2 Pin=R4_ADC_Ch1-2
+Added Pin To Net: NetName=NetC17_ADC_Ch1_2 Pin=U6_ADC_Ch1-11
+Added Net: Name=NetC17_ADC_Ch1_2
+Added Pin To Net: NetName=NetC17_ADC_Ch2_2 Pin=C17_ADC_Ch2-2
+Added Pin To Net: NetName=NetC17_ADC_Ch2_2 Pin=C18_ADC_Ch2-2
+Added Pin To Net: NetName=NetC17_ADC_Ch2_2 Pin=R4_ADC_Ch2-2
+Added Pin To Net: NetName=NetC17_ADC_Ch2_2 Pin=U6_ADC_Ch2-11
+Added Net: Name=NetC17_ADC_Ch2_2
+Added Pin To Net: NetName=NetC17_ADC_Ch3_2 Pin=C17_ADC_Ch3-2
+Added Pin To Net: NetName=NetC17_ADC_Ch3_2 Pin=C18_ADC_Ch3-2
+Added Pin To Net: NetName=NetC17_ADC_Ch3_2 Pin=R4_ADC_Ch3-2
+Added Pin To Net: NetName=NetC17_ADC_Ch3_2 Pin=U6_ADC_Ch3-11
+Added Net: Name=NetC17_ADC_Ch3_2
+Added Pin To Net: NetName=NetC17_ADC_Ch4_2 Pin=C17_ADC_Ch4-2
+Added Pin To Net: NetName=NetC17_ADC_Ch4_2 Pin=C18_ADC_Ch4-2
+Added Pin To Net: NetName=NetC17_ADC_Ch4_2 Pin=R4_ADC_Ch4-2
+Added Pin To Net: NetName=NetC17_ADC_Ch4_2 Pin=U6_ADC_Ch4-11
+Added Net: Name=NetC17_ADC_Ch4_2
+Added Pin To Net: NetName=NetC17_ADC_Ch5_2 Pin=C17_ADC_Ch5-2
+Added Pin To Net: NetName=NetC17_ADC_Ch5_2 Pin=C18_ADC_Ch5-2
+Added Pin To Net: NetName=NetC17_ADC_Ch5_2 Pin=R4_ADC_Ch5-2
+Added Pin To Net: NetName=NetC17_ADC_Ch5_2 Pin=U6_ADC_Ch5-11
+Added Net: Name=NetC17_ADC_Ch5_2
+Added Pin To Net: NetName=NetC17_ADC_Ch6_2 Pin=C17_ADC_Ch6-2
+Added Pin To Net: NetName=NetC17_ADC_Ch6_2 Pin=C18_ADC_Ch6-2
+Added Pin To Net: NetName=NetC17_ADC_Ch6_2 Pin=R4_ADC_Ch6-2
+Added Pin To Net: NetName=NetC17_ADC_Ch6_2 Pin=U6_ADC_Ch6-11
+Added Net: Name=NetC17_ADC_Ch6_2
+Added Pin To Net: NetName=NetC17_ADC_Ch7_2 Pin=C17_ADC_Ch7-2
+Added Pin To Net: NetName=NetC17_ADC_Ch7_2 Pin=C18_ADC_Ch7-2
+Added Pin To Net: NetName=NetC17_ADC_Ch7_2 Pin=R4_ADC_Ch7-2
+Added Pin To Net: NetName=NetC17_ADC_Ch7_2 Pin=U6_ADC_Ch7-11
+Added Net: Name=NetC17_ADC_Ch7_2
+Added Pin To Net: NetName=NetC18_ADC_Ch0_1 Pin=C18_ADC_Ch0-1
+Added Pin To Net: NetName=NetC18_ADC_Ch0_1 Pin=C19_ADC_Ch0-2
+Added Pin To Net: NetName=NetC18_ADC_Ch0_1 Pin=R5_ADC_Ch0-2
+Added Pin To Net: NetName=NetC18_ADC_Ch0_1 Pin=U6_ADC_Ch0-12
+Added Net: Name=NetC18_ADC_Ch0_1
+Added Pin To Net: NetName=NetC18_ADC_Ch1_1 Pin=C18_ADC_Ch1-1
+Added Pin To Net: NetName=NetC18_ADC_Ch1_1 Pin=C19_ADC_Ch1-2
+Added Pin To Net: NetName=NetC18_ADC_Ch1_1 Pin=R5_ADC_Ch1-2
+Added Pin To Net: NetName=NetC18_ADC_Ch1_1 Pin=U6_ADC_Ch1-12
+Added Net: Name=NetC18_ADC_Ch1_1
+Added Pin To Net: NetName=NetC18_ADC_Ch2_1 Pin=C18_ADC_Ch2-1
+Added Pin To Net: NetName=NetC18_ADC_Ch2_1 Pin=C19_ADC_Ch2-2
+Added Pin To Net: NetName=NetC18_ADC_Ch2_1 Pin=R5_ADC_Ch2-2
+Added Pin To Net: NetName=NetC18_ADC_Ch2_1 Pin=U6_ADC_Ch2-12
+Added Net: Name=NetC18_ADC_Ch2_1
+Added Pin To Net: NetName=NetC18_ADC_Ch3_1 Pin=C18_ADC_Ch3-1
+Added Pin To Net: NetName=NetC18_ADC_Ch3_1 Pin=C19_ADC_Ch3-2
+Added Pin To Net: NetName=NetC18_ADC_Ch3_1 Pin=R5_ADC_Ch3-2
+Added Pin To Net: NetName=NetC18_ADC_Ch3_1 Pin=U6_ADC_Ch3-12
+Added Net: Name=NetC18_ADC_Ch3_1
+Added Pin To Net: NetName=NetC18_ADC_Ch4_1 Pin=C18_ADC_Ch4-1
+Added Pin To Net: NetName=NetC18_ADC_Ch4_1 Pin=C19_ADC_Ch4-2
+Added Pin To Net: NetName=NetC18_ADC_Ch4_1 Pin=R5_ADC_Ch4-2
+Added Pin To Net: NetName=NetC18_ADC_Ch4_1 Pin=U6_ADC_Ch4-12
+Added Net: Name=NetC18_ADC_Ch4_1
+Added Pin To Net: NetName=NetC18_ADC_Ch5_1 Pin=C18_ADC_Ch5-1
+Added Pin To Net: NetName=NetC18_ADC_Ch5_1 Pin=C19_ADC_Ch5-2
+Added Pin To Net: NetName=NetC18_ADC_Ch5_1 Pin=R5_ADC_Ch5-2
+Added Pin To Net: NetName=NetC18_ADC_Ch5_1 Pin=U6_ADC_Ch5-12
+Added Net: Name=NetC18_ADC_Ch5_1
+Added Pin To Net: NetName=NetC18_ADC_Ch6_1 Pin=C18_ADC_Ch6-1
+Added Pin To Net: NetName=NetC18_ADC_Ch6_1 Pin=C19_ADC_Ch6-2
+Added Pin To Net: NetName=NetC18_ADC_Ch6_1 Pin=R5_ADC_Ch6-2
+Added Pin To Net: NetName=NetC18_ADC_Ch6_1 Pin=U6_ADC_Ch6-12
+Added Net: Name=NetC18_ADC_Ch6_1
+Added Pin To Net: NetName=NetC18_ADC_Ch7_1 Pin=C18_ADC_Ch7-1
+Added Pin To Net: NetName=NetC18_ADC_Ch7_1 Pin=C19_ADC_Ch7-2
+Added Pin To Net: NetName=NetC18_ADC_Ch7_1 Pin=R5_ADC_Ch7-2
+Added Pin To Net: NetName=NetC18_ADC_Ch7_1 Pin=U6_ADC_Ch7-12
+Added Net: Name=NetC18_ADC_Ch7_1
+Added Pin To Net: NetName=NetC20_ADC_Ch0_2 Pin=C20_ADC_Ch0-2
+Added Pin To Net: NetName=NetC20_ADC_Ch0_2 Pin=U6_ADC_Ch0-7
+Added Net: Name=NetC20_ADC_Ch0_2
+Added Pin To Net: NetName=NetC20_ADC_Ch1_2 Pin=C20_ADC_Ch1-2
+Added Pin To Net: NetName=NetC20_ADC_Ch1_2 Pin=U6_ADC_Ch1-7
+Added Net: Name=NetC20_ADC_Ch1_2
+Added Pin To Net: NetName=NetC20_ADC_Ch2_2 Pin=C20_ADC_Ch2-2
+Added Pin To Net: NetName=NetC20_ADC_Ch2_2 Pin=U6_ADC_Ch2-7
+Added Net: Name=NetC20_ADC_Ch2_2
+Added Pin To Net: NetName=NetC20_ADC_Ch3_2 Pin=C20_ADC_Ch3-2
+Added Pin To Net: NetName=NetC20_ADC_Ch3_2 Pin=U6_ADC_Ch3-7
+Added Net: Name=NetC20_ADC_Ch3_2
+Added Pin To Net: NetName=NetC20_ADC_Ch4_2 Pin=C20_ADC_Ch4-2
+Added Pin To Net: NetName=NetC20_ADC_Ch4_2 Pin=U6_ADC_Ch4-7
+Added Net: Name=NetC20_ADC_Ch4_2
+Added Pin To Net: NetName=NetC20_ADC_Ch5_2 Pin=C20_ADC_Ch5-2
+Added Pin To Net: NetName=NetC20_ADC_Ch5_2 Pin=U6_ADC_Ch5-7
+Added Net: Name=NetC20_ADC_Ch5_2
+Added Pin To Net: NetName=NetC20_ADC_Ch6_2 Pin=C20_ADC_Ch6-2
+Added Pin To Net: NetName=NetC20_ADC_Ch6_2 Pin=U6_ADC_Ch6-7
+Added Net: Name=NetC20_ADC_Ch6_2
+Added Pin To Net: NetName=NetC20_ADC_Ch7_2 Pin=C20_ADC_Ch7-2
+Added Pin To Net: NetName=NetC20_ADC_Ch7_2 Pin=U6_ADC_Ch7-7
+Added Net: Name=NetC20_ADC_Ch7_2
+Added Pin To Net: NetName=NetC21_TEC_Ch0_1 Pin=C21_TEC_Ch0-1
+Added Pin To Net: NetName=NetC21_TEC_Ch0_1 Pin=C25_TEC_Ch0-2
+Added Pin To Net: NetName=NetC21_TEC_Ch0_1 Pin=L1_TEC_Ch0-2
+Added Pin To Net: NetName=NetC21_TEC_Ch0_1 Pin=R7_TEC_Ch0-2
+Added Pin To Net: NetName=NetC21_TEC_Ch0_1 Pin=U7_TEC_Ch0-16
+Added Net: Name=NetC21_TEC_Ch0_1
+Added Pin To Net: NetName=NetC21_TEC_Ch1_1 Pin=C21_TEC_Ch1-1
+Added Pin To Net: NetName=NetC21_TEC_Ch1_1 Pin=C25_TEC_Ch1-2
+Added Pin To Net: NetName=NetC21_TEC_Ch1_1 Pin=L1_TEC_Ch1-2
+Added Pin To Net: NetName=NetC21_TEC_Ch1_1 Pin=R7_TEC_Ch1-2
+Added Pin To Net: NetName=NetC21_TEC_Ch1_1 Pin=U7_TEC_Ch1-16
+Added Net: Name=NetC21_TEC_Ch1_1
+Added Pin To Net: NetName=NetC21_TEC_Ch2_1 Pin=C21_TEC_Ch2-1
+Added Pin To Net: NetName=NetC21_TEC_Ch2_1 Pin=C25_TEC_Ch2-2
+Added Pin To Net: NetName=NetC21_TEC_Ch2_1 Pin=L1_TEC_Ch2-2
+Added Pin To Net: NetName=NetC21_TEC_Ch2_1 Pin=R7_TEC_Ch2-2
+Added Pin To Net: NetName=NetC21_TEC_Ch2_1 Pin=U7_TEC_Ch2-16
+Added Net: Name=NetC21_TEC_Ch2_1
+Added Pin To Net: NetName=NetC21_TEC_Ch3_1 Pin=C21_TEC_Ch3-1
+Added Pin To Net: NetName=NetC21_TEC_Ch3_1 Pin=C25_TEC_Ch3-2
+Added Pin To Net: NetName=NetC21_TEC_Ch3_1 Pin=L1_TEC_Ch3-2
+Added Pin To Net: NetName=NetC21_TEC_Ch3_1 Pin=R7_TEC_Ch3-2
+Added Pin To Net: NetName=NetC21_TEC_Ch3_1 Pin=U7_TEC_Ch3-16
+Added Net: Name=NetC21_TEC_Ch3_1
+Added Pin To Net: NetName=NetC26_TEC_Ch0_2 Pin=C26_TEC_Ch0-2
+Added Pin To Net: NetName=NetC26_TEC_Ch0_2 Pin=R8_TEC_Ch0-2
+Added Pin To Net: NetName=NetC26_TEC_Ch0_2 Pin=U7_TEC_Ch0-4
+Added Pin To Net: NetName=NetC26_TEC_Ch0_2 Pin=U7_TEC_Ch0-26
+Added Pin To Net: NetName=NetC26_TEC_Ch0_2 Pin=U7_TEC_Ch0-27
+Added Net: Name=NetC26_TEC_Ch0_2
+Added Pin To Net: NetName=NetC26_TEC_Ch1_2 Pin=C26_TEC_Ch1-2
+Added Pin To Net: NetName=NetC26_TEC_Ch1_2 Pin=R8_TEC_Ch1-2
+Added Pin To Net: NetName=NetC26_TEC_Ch1_2 Pin=U7_TEC_Ch1-4
+Added Pin To Net: NetName=NetC26_TEC_Ch1_2 Pin=U7_TEC_Ch1-26
+Added Pin To Net: NetName=NetC26_TEC_Ch1_2 Pin=U7_TEC_Ch1-27
+Added Net: Name=NetC26_TEC_Ch1_2
+Added Pin To Net: NetName=NetC26_TEC_Ch2_2 Pin=C26_TEC_Ch2-2
+Added Pin To Net: NetName=NetC26_TEC_Ch2_2 Pin=R8_TEC_Ch2-2
+Added Pin To Net: NetName=NetC26_TEC_Ch2_2 Pin=U7_TEC_Ch2-4
+Added Pin To Net: NetName=NetC26_TEC_Ch2_2 Pin=U7_TEC_Ch2-26
+Added Pin To Net: NetName=NetC26_TEC_Ch2_2 Pin=U7_TEC_Ch2-27
+Added Net: Name=NetC26_TEC_Ch2_2
+Added Pin To Net: NetName=NetC26_TEC_Ch3_2 Pin=C26_TEC_Ch3-2
+Added Pin To Net: NetName=NetC26_TEC_Ch3_2 Pin=R8_TEC_Ch3-2
+Added Pin To Net: NetName=NetC26_TEC_Ch3_2 Pin=U7_TEC_Ch3-4
+Added Pin To Net: NetName=NetC26_TEC_Ch3_2 Pin=U7_TEC_Ch3-26
+Added Pin To Net: NetName=NetC26_TEC_Ch3_2 Pin=U7_TEC_Ch3-27
+Added Net: Name=NetC26_TEC_Ch3_2
+Added Pin To Net: NetName=NetC28_TEC_Ch0_2 Pin=C28_TEC_Ch0-2
+Added Pin To Net: NetName=NetC28_TEC_Ch0_2 Pin=U7_TEC_Ch0-25
+Added Net: Name=NetC28_TEC_Ch0_2
+Added Pin To Net: NetName=NetC28_TEC_Ch1_2 Pin=C28_TEC_Ch1-2
+Added Pin To Net: NetName=NetC28_TEC_Ch1_2 Pin=U7_TEC_Ch1-25
+Added Net: Name=NetC28_TEC_Ch1_2
+Added Pin To Net: NetName=NetC28_TEC_Ch2_2 Pin=C28_TEC_Ch2-2
+Added Pin To Net: NetName=NetC28_TEC_Ch2_2 Pin=U7_TEC_Ch2-25
+Added Net: Name=NetC28_TEC_Ch2_2
+Added Pin To Net: NetName=NetC28_TEC_Ch3_2 Pin=C28_TEC_Ch3-2
+Added Pin To Net: NetName=NetC28_TEC_Ch3_2 Pin=U7_TEC_Ch3-25
+Added Net: Name=NetC28_TEC_Ch3_2
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=NetC30_1 Pin=U8-3
+Added Net: Name=NetC30_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_1 Pin=J2_ADC_Ch0-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_1 Pin=R3_ADC_Ch0-1
+Added Net: Name=NetJ2_ADC_Ch0_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_2 Pin=J2_ADC_Ch0-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_2 Pin=R4_ADC_Ch0-1
+Added Net: Name=NetJ2_ADC_Ch0_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_3 Pin=J2_ADC_Ch0-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_3 Pin=R5_ADC_Ch0-1
+Added Net: Name=NetJ2_ADC_Ch0_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_4 Pin=J2_ADC_Ch0-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_4 Pin=R6_ADC_Ch0-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch0_4 Pin=U6_ADC_Ch0-5
+Added Net: Name=NetJ2_ADC_Ch0_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_1 Pin=J2_ADC_Ch1-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_1 Pin=R3_ADC_Ch1-1
+Added Net: Name=NetJ2_ADC_Ch1_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_2 Pin=J2_ADC_Ch1-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_2 Pin=R4_ADC_Ch1-1
+Added Net: Name=NetJ2_ADC_Ch1_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_3 Pin=J2_ADC_Ch1-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_3 Pin=R5_ADC_Ch1-1
+Added Net: Name=NetJ2_ADC_Ch1_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_4 Pin=J2_ADC_Ch1-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_4 Pin=R6_ADC_Ch1-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch1_4 Pin=U6_ADC_Ch1-5
+Added Net: Name=NetJ2_ADC_Ch1_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_1 Pin=J2_ADC_Ch2-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_1 Pin=R3_ADC_Ch2-1
+Added Net: Name=NetJ2_ADC_Ch2_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_2 Pin=J2_ADC_Ch2-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_2 Pin=R4_ADC_Ch2-1
+Added Net: Name=NetJ2_ADC_Ch2_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_3 Pin=J2_ADC_Ch2-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_3 Pin=R5_ADC_Ch2-1
+Added Net: Name=NetJ2_ADC_Ch2_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_4 Pin=J2_ADC_Ch2-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_4 Pin=R6_ADC_Ch2-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch2_4 Pin=U6_ADC_Ch2-5
+Added Net: Name=NetJ2_ADC_Ch2_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_1 Pin=J2_ADC_Ch3-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_1 Pin=R3_ADC_Ch3-1
+Added Net: Name=NetJ2_ADC_Ch3_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_2 Pin=J2_ADC_Ch3-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_2 Pin=R4_ADC_Ch3-1
+Added Net: Name=NetJ2_ADC_Ch3_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_3 Pin=J2_ADC_Ch3-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_3 Pin=R5_ADC_Ch3-1
+Added Net: Name=NetJ2_ADC_Ch3_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_4 Pin=J2_ADC_Ch3-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_4 Pin=R6_ADC_Ch3-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch3_4 Pin=U6_ADC_Ch3-5
+Added Net: Name=NetJ2_ADC_Ch3_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_1 Pin=J2_ADC_Ch4-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_1 Pin=R3_ADC_Ch4-1
+Added Net: Name=NetJ2_ADC_Ch4_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_2 Pin=J2_ADC_Ch4-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_2 Pin=R4_ADC_Ch4-1
+Added Net: Name=NetJ2_ADC_Ch4_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_3 Pin=J2_ADC_Ch4-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_3 Pin=R5_ADC_Ch4-1
+Added Net: Name=NetJ2_ADC_Ch4_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_4 Pin=J2_ADC_Ch4-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_4 Pin=R6_ADC_Ch4-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch4_4 Pin=U6_ADC_Ch4-5
+Added Net: Name=NetJ2_ADC_Ch4_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_1 Pin=J2_ADC_Ch5-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_1 Pin=R3_ADC_Ch5-1
+Added Net: Name=NetJ2_ADC_Ch5_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_2 Pin=J2_ADC_Ch5-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_2 Pin=R4_ADC_Ch5-1
+Added Net: Name=NetJ2_ADC_Ch5_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_3 Pin=J2_ADC_Ch5-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_3 Pin=R5_ADC_Ch5-1
+Added Net: Name=NetJ2_ADC_Ch5_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_4 Pin=J2_ADC_Ch5-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_4 Pin=R6_ADC_Ch5-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch5_4 Pin=U6_ADC_Ch5-5
+Added Net: Name=NetJ2_ADC_Ch5_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_1 Pin=J2_ADC_Ch6-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_1 Pin=R3_ADC_Ch6-1
+Added Net: Name=NetJ2_ADC_Ch6_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_2 Pin=J2_ADC_Ch6-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_2 Pin=R4_ADC_Ch6-1
+Added Net: Name=NetJ2_ADC_Ch6_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_3 Pin=J2_ADC_Ch6-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_3 Pin=R5_ADC_Ch6-1
+Added Net: Name=NetJ2_ADC_Ch6_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_4 Pin=J2_ADC_Ch6-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_4 Pin=R6_ADC_Ch6-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch6_4 Pin=U6_ADC_Ch6-5
+Added Net: Name=NetJ2_ADC_Ch6_4
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_1 Pin=J2_ADC_Ch7-1
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_1 Pin=R3_ADC_Ch7-1
+Added Net: Name=NetJ2_ADC_Ch7_1
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_2 Pin=J2_ADC_Ch7-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_2 Pin=R4_ADC_Ch7-1
+Added Net: Name=NetJ2_ADC_Ch7_2
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_3 Pin=J2_ADC_Ch7-3
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_3 Pin=R5_ADC_Ch7-1
+Added Net: Name=NetJ2_ADC_Ch7_3
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_4 Pin=J2_ADC_Ch7-4
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_4 Pin=R6_ADC_Ch7-2
+Added Pin To Net: NetName=NetJ2_ADC_Ch7_4 Pin=U6_ADC_Ch7-5
+Added Net: Name=NetJ2_ADC_Ch7_4
+Added Pin To Net: NetName=NetL1_TEC_Ch0_1 Pin=L1_TEC_Ch0-1
+Added Pin To Net: NetName=NetL1_TEC_Ch0_1 Pin=U7_TEC_Ch0-19
+Added Pin To Net: NetName=NetL1_TEC_Ch0_1 Pin=U7_TEC_Ch0-21
+Added Pin To Net: NetName=NetL1_TEC_Ch0_1 Pin=U7_TEC_Ch0-23
+Added Net: Name=NetL1_TEC_Ch0_1
+Added Pin To Net: NetName=NetL1_TEC_Ch1_1 Pin=L1_TEC_Ch1-1
+Added Pin To Net: NetName=NetL1_TEC_Ch1_1 Pin=U7_TEC_Ch1-19
+Added Pin To Net: NetName=NetL1_TEC_Ch1_1 Pin=U7_TEC_Ch1-21
+Added Pin To Net: NetName=NetL1_TEC_Ch1_1 Pin=U7_TEC_Ch1-23
+Added Net: Name=NetL1_TEC_Ch1_1
+Added Pin To Net: NetName=NetL1_TEC_Ch2_1 Pin=L1_TEC_Ch2-1
+Added Pin To Net: NetName=NetL1_TEC_Ch2_1 Pin=U7_TEC_Ch2-19
+Added Pin To Net: NetName=NetL1_TEC_Ch2_1 Pin=U7_TEC_Ch2-21
+Added Pin To Net: NetName=NetL1_TEC_Ch2_1 Pin=U7_TEC_Ch2-23
+Added Net: Name=NetL1_TEC_Ch2_1
+Added Pin To Net: NetName=NetL1_TEC_Ch3_1 Pin=L1_TEC_Ch3-1
+Added Pin To Net: NetName=NetL1_TEC_Ch3_1 Pin=U7_TEC_Ch3-19
+Added Pin To Net: NetName=NetL1_TEC_Ch3_1 Pin=U7_TEC_Ch3-21
+Added Pin To Net: NetName=NetL1_TEC_Ch3_1 Pin=U7_TEC_Ch3-23
+Added Net: Name=NetL1_TEC_Ch3_1
+Added Pin To Net: NetName=NetL2_TEC_Ch0_1 Pin=L2_TEC_Ch0-1
+Added Pin To Net: NetName=NetL2_TEC_Ch0_1 Pin=U7_TEC_Ch0-6
+Added Pin To Net: NetName=NetL2_TEC_Ch0_1 Pin=U7_TEC_Ch0-8
+Added Pin To Net: NetName=NetL2_TEC_Ch0_1 Pin=U7_TEC_Ch0-10
+Added Net: Name=NetL2_TEC_Ch0_1
+Added Pin To Net: NetName=NetL2_TEC_Ch1_1 Pin=L2_TEC_Ch1-1
+Added Pin To Net: NetName=NetL2_TEC_Ch1_1 Pin=U7_TEC_Ch1-6
+Added Pin To Net: NetName=NetL2_TEC_Ch1_1 Pin=U7_TEC_Ch1-8
+Added Pin To Net: NetName=NetL2_TEC_Ch1_1 Pin=U7_TEC_Ch1-10
+Added Net: Name=NetL2_TEC_Ch1_1
+Added Pin To Net: NetName=NetL2_TEC_Ch2_1 Pin=L2_TEC_Ch2-1
+Added Pin To Net: NetName=NetL2_TEC_Ch2_1 Pin=U7_TEC_Ch2-6
+Added Pin To Net: NetName=NetL2_TEC_Ch2_1 Pin=U7_TEC_Ch2-8
+Added Pin To Net: NetName=NetL2_TEC_Ch2_1 Pin=U7_TEC_Ch2-10
+Added Net: Name=NetL2_TEC_Ch2_1
+Added Pin To Net: NetName=NetL2_TEC_Ch3_1 Pin=L2_TEC_Ch3-1
+Added Pin To Net: NetName=NetL2_TEC_Ch3_1 Pin=U7_TEC_Ch3-6
+Added Pin To Net: NetName=NetL2_TEC_Ch3_1 Pin=U7_TEC_Ch3-8
+Added Pin To Net: NetName=NetL2_TEC_Ch3_1 Pin=U7_TEC_Ch3-10
+Added Net: Name=NetL2_TEC_Ch3_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U2-4
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U3-4
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR8_TEC_Ch0_1 Pin=R8_TEC_Ch0-1
+Added Pin To Net: NetName=NetR8_TEC_Ch0_1 Pin=R9_TEC_Ch0-2
+Added Pin To Net: NetName=NetR8_TEC_Ch0_1 Pin=U7_TEC_Ch0-28
+Added Net: Name=NetR8_TEC_Ch0_1
+Added Pin To Net: NetName=NetR8_TEC_Ch1_1 Pin=R8_TEC_Ch1-1
+Added Pin To Net: NetName=NetR8_TEC_Ch1_1 Pin=R9_TEC_Ch1-2
+Added Pin To Net: NetName=NetR8_TEC_Ch1_1 Pin=U7_TEC_Ch1-28
+Added Net: Name=NetR8_TEC_Ch1_1
+Added Pin To Net: NetName=NetR8_TEC_Ch2_1 Pin=R8_TEC_Ch2-1
+Added Pin To Net: NetName=NetR8_TEC_Ch2_1 Pin=R9_TEC_Ch2-2
+Added Pin To Net: NetName=NetR8_TEC_Ch2_1 Pin=U7_TEC_Ch2-28
+Added Net: Name=NetR8_TEC_Ch2_1
+Added Pin To Net: NetName=NetR8_TEC_Ch3_1 Pin=R8_TEC_Ch3-1
+Added Pin To Net: NetName=NetR8_TEC_Ch3_1 Pin=R9_TEC_Ch3-2
+Added Pin To Net: NetName=NetR8_TEC_Ch3_1 Pin=U7_TEC_Ch3-28
+Added Net: Name=NetR8_TEC_Ch3_1
+Added Pin To Net: NetName=PORT_EN Pin=C11-2
+Added Pin To Net: NetName=PORT_EN Pin=C12-2
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch0-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch1-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch2-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch3-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch4-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch5-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch6-1
+Added Pin To Net: NetName=PORT_EN Pin=C16_ADC_Ch7-1
+Added Pin To Net: NetName=PORT_EN Pin=C32-1
+Added Pin To Net: NetName=PORT_EN Pin=J1-S23
+Added Pin To Net: NetName=PORT_EN Pin=J1-S24
+Added Pin To Net: NetName=PORT_EN Pin=P1-2
+Added Pin To Net: NetName=PORT_EN Pin=P1-10
+Added Pin To Net: NetName=PORT_EN Pin=U1-11
+Added Pin To Net: NetName=PORT_EN Pin=U1-26
+Added Pin To Net: NetName=PORT_EN Pin=U1-38
+Added Pin To Net: NetName=PORT_EN Pin=U1-43
+Added Pin To Net: NetName=PORT_EN Pin=U1-59
+Added Pin To Net: NetName=PORT_EN Pin=U1-74
+Added Pin To Net: NetName=PORT_EN Pin=U1-86
+Added Pin To Net: NetName=PORT_EN Pin=U1-95
+Added Pin To Net: NetName=PORT_EN Pin=U4-7
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch0-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch0-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch1-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch1-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch2-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch2-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch3-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch3-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch4-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch4-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch5-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch5-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch6-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch6-3
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch7-2
+Added Pin To Net: NetName=PORT_EN Pin=U6_ADC_Ch7-3
+Added Net: Name=PORT_EN
+Added Pin To Net: NetName=SCLK Pin=J1-S11
+Added Pin To Net: NetName=SCLK Pin=U5-16
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch0-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch1-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch2-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch3-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch4-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch5-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch6-20
+Added Pin To Net: NetName=SCLK Pin=U6_ADC_Ch7-20
+Added Net: Name=SCLK
+Added Pin To Net: NetName=TCK Pin=P1-1
+Added Pin To Net: NetName=TCK Pin=RN2-1
+Added Pin To Net: NetName=TCK Pin=U1-62
+Added Net: Name=TCK
+Added Pin To Net: NetName=TDI Pin=P1-9
+Added Pin To Net: NetName=TDI Pin=RN2-7
+Added Pin To Net: NetName=TDI Pin=U1-4
+Added Net: Name=TDI
+Added Pin To Net: NetName=TDO Pin=P1-3
+Added Pin To Net: NetName=TDO Pin=RN2-3
+Added Pin To Net: NetName=TDO Pin=U1-73
+Added Net: Name=TDO
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch0 Pin=J3_TEC_Ch0-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch0 Pin=R7_TEC_Ch0-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch0 Pin=U7_TEC_Ch0-15
+Added Net: Name=TEC_DRIVE(+)_TEC_Ch0
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch1 Pin=J3_TEC_Ch1-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch1 Pin=R7_TEC_Ch1-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch1 Pin=U7_TEC_Ch1-15
+Added Net: Name=TEC_DRIVE(+)_TEC_Ch1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch2 Pin=J3_TEC_Ch2-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch2 Pin=R7_TEC_Ch2-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch2 Pin=U7_TEC_Ch2-15
+Added Net: Name=TEC_DRIVE(+)_TEC_Ch2
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch3 Pin=J3_TEC_Ch3-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch3 Pin=R7_TEC_Ch3-1
+Added Pin To Net: NetName=TEC_DRIVE(+)_TEC_Ch3 Pin=U7_TEC_Ch3-15
+Added Net: Name=TEC_DRIVE(+)_TEC_Ch3
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch0 Pin=C25_TEC_Ch0-1
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch0 Pin=C27_TEC_Ch0-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch0 Pin=J3_TEC_Ch0-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch0 Pin=L2_TEC_Ch0-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch0 Pin=U7_TEC_Ch0-14
+Added Net: Name=TEC_DRIVE(-)_TEC_Ch0
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch1 Pin=C25_TEC_Ch1-1
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch1 Pin=C27_TEC_Ch1-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch1 Pin=J3_TEC_Ch1-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch1 Pin=L2_TEC_Ch1-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch1 Pin=U7_TEC_Ch1-14
+Added Net: Name=TEC_DRIVE(-)_TEC_Ch1
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch2 Pin=C25_TEC_Ch2-1
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch2 Pin=C27_TEC_Ch2-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch2 Pin=J3_TEC_Ch2-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch2 Pin=L2_TEC_Ch2-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch2 Pin=U7_TEC_Ch2-14
+Added Net: Name=TEC_DRIVE(-)_TEC_Ch2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch3 Pin=C25_TEC_Ch3-1
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch3 Pin=C27_TEC_Ch3-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch3 Pin=J3_TEC_Ch3-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch3 Pin=L2_TEC_Ch3-2
+Added Pin To Net: NetName=TEC_DRIVE(-)_TEC_Ch3 Pin=U7_TEC_Ch3-14
+Added Net: Name=TEC_DRIVE(-)_TEC_Ch3
+Added Pin To Net: NetName=TMS Pin=P1-5
+Added Pin To Net: NetName=TMS Pin=RN2-5
+Added Pin To Net: NetName=TMS Pin=U1-15
+Added Net: Name=TMS
+Added Pin To Net: NetName=T Pin=C1-1
+Added Pin To Net: NetName=T Pin=C2-1
+Added Pin To Net: NetName=T Pin=C3-1
+Added Pin To Net: NetName=T Pin=C4-1
+Added Pin To Net: NetName=T Pin=C5-2
+Added Pin To Net: NetName=T Pin=C6-1
+Added Pin To Net: NetName=T Pin=C7-1
+Added Pin To Net: NetName=T Pin=C8-1
+Added Pin To Net: NetName=T Pin=C9-1
+Added Pin To Net: NetName=T Pin=C10-2
+Added Pin To Net: NetName=T Pin=C21_TEC_Ch0-2
+Added Pin To Net: NetName=T Pin=C21_TEC_Ch1-2
+Added Pin To Net: NetName=T Pin=C21_TEC_Ch2-2
+Added Pin To Net: NetName=T Pin=C21_TEC_Ch3-2
+Added Pin To Net: NetName=T Pin=C22_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=C22_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=C22_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=C22_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=C23_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=C23_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=C23_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=C23_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=C24_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=C24_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=C24_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=C24_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=C26_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=C26_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=C26_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=C26_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=C27_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=C27_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=C27_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=C27_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=C28_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=C28_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=C28_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=C28_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=J1-P2
+Added Pin To Net: NetName=T Pin=R1-1
+Added Pin To Net: NetName=T Pin=R2-1
+Added Pin To Net: NetName=T Pin=R9_TEC_Ch0-1
+Added Pin To Net: NetName=T Pin=R9_TEC_Ch1-1
+Added Pin To Net: NetName=T Pin=R9_TEC_Ch2-1
+Added Pin To Net: NetName=T Pin=R9_TEC_Ch3-1
+Added Pin To Net: NetName=T Pin=RN1-1
+Added Pin To Net: NetName=T Pin=RN1-3
+Added Pin To Net: NetName=T Pin=RN1-5
+Added Pin To Net: NetName=T Pin=RN1-7
+Added Pin To Net: NetName=T Pin=U2-1
+Added Pin To Net: NetName=T Pin=U2-7
+Added Pin To Net: NetName=T Pin=U3-1
+Added Pin To Net: NetName=T Pin=U3-7
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-2
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-5
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-7
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-22
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-24
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch0-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-2
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-5
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-7
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-22
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-24
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch1-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-2
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-5
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-7
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-22
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-24
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch2-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-2
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-5
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-7
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-22
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-24
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Pin To Net: NetName=T Pin=U7_TEC_Ch3-29
+Added Net: Name=T
+Added Pin To Net: NetName=VCC Pin=C11-1
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch0-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch1-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch2-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch3-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch4-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch5-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch6-2
+Added Pin To Net: NetName=VCC Pin=C16_ADC_Ch7-2
+Added Pin To Net: NetName=VCC Pin=C32-2
+Added Pin To Net: NetName=VCC Pin=J1-S21
+Added Pin To Net: NetName=VCC Pin=J1-S22
+Added Pin To Net: NetName=VCC Pin=P1-4
+Added Pin To Net: NetName=VCC Pin=RN2-2
+Added Pin To Net: NetName=VCC Pin=RN2-4
+Added Pin To Net: NetName=VCC Pin=RN2-6
+Added Pin To Net: NetName=VCC Pin=RN2-8
+Added Pin To Net: NetName=VCC Pin=U1-3
+Added Pin To Net: NetName=VCC Pin=U1-18
+Added Pin To Net: NetName=VCC Pin=U1-34
+Added Pin To Net: NetName=VCC Pin=U1-39
+Added Pin To Net: NetName=VCC Pin=U1-51
+Added Pin To Net: NetName=VCC Pin=U1-66
+Added Pin To Net: NetName=VCC Pin=U1-82
+Added Pin To Net: NetName=VCC Pin=U1-91
+Added Pin To Net: NetName=VCC Pin=U4-1
+Added Pin To Net: NetName=VCC Pin=U4-8
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch0-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch0-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch1-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch1-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch2-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch2-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch3-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch3-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch4-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch4-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch5-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch5-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch6-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch6-15
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch7-1
+Added Pin To Net: NetName=VCC Pin=U6_ADC_Ch7-15
+Added Net: Name=VCC
+Added Pin To Net: NetName=~CS0 Pin=U6_ADC_Ch0-16
+Added Net: Name=~CS0
+Added Pin To Net: NetName=~CS1 Pin=U6_ADC_Ch1-16
+Added Net: Name=~CS1
+Added Pin To Net: NetName=~CS2 Pin=U6_ADC_Ch2-16
+Added Net: Name=~CS2
+Added Pin To Net: NetName=~CS3 Pin=U6_ADC_Ch3-16
+Added Net: Name=~CS3
+Added Pin To Net: NetName=~CS4 Pin=U6_ADC_Ch4-16
+Added Net: Name=~CS4
+Added Pin To Net: NetName=~CS5 Pin=U6_ADC_Ch5-16
+Added Net: Name=~CS5
+Added Pin To Net: NetName=~CS6 Pin=U6_ADC_Ch6-16
+Added Net: Name=~CS6
+Added Pin To Net: NetName=~CS7 Pin=U6_ADC_Ch7-16
+Added Net: Name=~CS7
+Added Pin To Net: NetName=~CS8 Pin=U5-2
+Added Net: Name=~CS8
+Added Pin To Net: NetName=~CS_0 Pin=U1-33
+Added Net: Name=~CS_0
+Added Pin To Net: NetName=~CS_1 Pin=U1-32
+Added Net: Name=~CS_1
+Added Pin To Net: NetName=~CS_2 Pin=U1-31
+Added Net: Name=~CS_2
+Added Pin To Net: NetName=~CS_3 Pin=U1-30
+Added Net: Name=~CS_3
+Added Pin To Net: NetName=~CS_4 Pin=U1-29
+Added Net: Name=~CS_4
+Added Pin To Net: NetName=~CS_5 Pin=U1-28
+Added Net: Name=~CS_5
+Added Pin To Net: NetName=~CS_6 Pin=U1-27
+Added Net: Name=~CS_6
+Added Pin To Net: NetName=~CS_7 Pin=U1-25
+Added Net: Name=~CS_7
+Added Pin To Net: NetName=~CS_8 Pin=U1-24
+Added Net: Name=~CS_8
+Added Pin To Net: NetName=~DRDY_0 Pin=U1-22
+Added Pin To Net: NetName=~DRDY_0 Pin=U6_ADC_Ch0-17
+Added Net: Name=~DRDY_0
+Added Pin To Net: NetName=~DRDY_1 Pin=U1-21
+Added Pin To Net: NetName=~DRDY_1 Pin=U6_ADC_Ch1-17
+Added Net: Name=~DRDY_1
+Added Pin To Net: NetName=~DRDY_2 Pin=U1-20
+Added Pin To Net: NetName=~DRDY_2 Pin=U6_ADC_Ch2-17
+Added Net: Name=~DRDY_2
+Added Pin To Net: NetName=~DRDY_3 Pin=U1-2
+Added Pin To Net: NetName=~DRDY_3 Pin=U6_ADC_Ch3-17
+Added Net: Name=~DRDY_3
+Added Pin To Net: NetName=~DRDY_4 Pin=U1-19
+Added Pin To Net: NetName=~DRDY_4 Pin=U6_ADC_Ch4-17
+Added Net: Name=~DRDY_4
+Added Pin To Net: NetName=~DRDY_5 Pin=U1-17
+Added Pin To Net: NetName=~DRDY_5 Pin=U6_ADC_Ch5-17
+Added Net: Name=~DRDY_5
+Added Pin To Net: NetName=~DRDY_6 Pin=U1-16
+Added Pin To Net: NetName=~DRDY_6 Pin=U6_ADC_Ch6-17
+Added Net: Name=~DRDY_6
+Added Pin To Net: NetName=~DRDY_7 Pin=U1-14
+Added Pin To Net: NetName=~DRDY_7 Pin=U6_ADC_Ch7-17
+Added Net: Name=~DRDY_7
+Added Pin To Net: NetName=~DRDY Pin=J1-S9
+Added Pin To Net: NetName=~DRDY Pin=U1-23
+Added Net: Name=~DRDY
+Added Pin To Net: NetName=~LDAC Pin=J1-S14
+Added Pin To Net: NetName=~LDAC Pin=U5-1
+Added Net: Name=~LDAC
+Added Pin To Net: NetName=~LVSHDN_0 Pin=RN1-2
+Added Pin To Net: NetName=~LVSHDN_0 Pin=U1-13
+Added Pin To Net: NetName=~LVSHDN_0 Pin=U4-2
+Added Net: Name=~LVSHDN_0
+Added Pin To Net: NetName=~LVSHDN_1 Pin=RN1-4
+Added Pin To Net: NetName=~LVSHDN_1 Pin=U1-12
+Added Pin To Net: NetName=~LVSHDN_1 Pin=U4-3
+Added Net: Name=~LVSHDN_1
+Added Pin To Net: NetName=~LVSHDN_2 Pin=RN1-6
+Added Pin To Net: NetName=~LVSHDN_2 Pin=U1-100
+Added Pin To Net: NetName=~LVSHDN_2 Pin=U4-4
+Added Net: Name=~LVSHDN_2
+Added Pin To Net: NetName=~LVSHDN_3 Pin=RN1-8
+Added Pin To Net: NetName=~LVSHDN_3 Pin=U1-10
+Added Pin To Net: NetName=~LVSHDN_3 Pin=U4-5
+Added Net: Name=~LVSHDN_3
+Added Pin To Net: NetName=~RESET Pin=J1-S15
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch0-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch1-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch2-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch3-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch4-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch5-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch6-4
+Added Pin To Net: NetName=~RESET Pin=U6_ADC_Ch7-4
+Added Net: Name=~RESET
+Added Pin To Net: NetName=~RST Pin=U5-9
+Added Net: Name=~RST
+Added Pin To Net: NetName=~SHDN_0 Pin=U4-13
+Added Pin To Net: NetName=~SHDN_0 Pin=U7_TEC_Ch0-17
+Added Net: Name=~SHDN_0
+Added Pin To Net: NetName=~SHDN_1 Pin=U4-12
+Added Pin To Net: NetName=~SHDN_1 Pin=U7_TEC_Ch1-17
+Added Net: Name=~SHDN_1
+Added Pin To Net: NetName=~SHDN_2 Pin=U4-11
+Added Pin To Net: NetName=~SHDN_2 Pin=U7_TEC_Ch2-17
+Added Net: Name=~SHDN_2
+Added Pin To Net: NetName=~SHDN_3 Pin=U4-10
+Added Pin To Net: NetName=~SHDN_3 Pin=U7_TEC_Ch3-17
+Added Net: Name=~SHDN_3
+Added Pin To Net: NetName=~SHDN Pin=J1-S10
+Added Pin To Net: NetName=~SHDN Pin=U1-1
+Added Net: Name=~SHDN
+Added Class: Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Class: Name=ADC_Ch0
+Added Class: Name=ADC_Ch1
+Added Class: Name=ADC_Ch2
+Added Class: Name=ADC_Ch3
+Added Class: Name=ADC_Ch4
+Added Class: Name=ADC_Ch5
+Added Class: Name=ADC_Ch6
+Added Class: Name=ADC_Ch7
+Added Class: Name=Power Supplies
+Added Class: Name=TEC_Ch0
+Added Class: Name=TEC_Ch1
+Added Class: Name=TEC_Ch2
+Added Class: Name=TEC_Ch3
+Added Class: Name=U1_FPGA
+Added Class: Name=780-00055, rev1, Pg2, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Class: Name=780-00055, rev1, Pg3, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Room: Name=780-00055, rev1, Pg1, SCH, NRES Temp Meas, 8-Chan RTD 
+Added Room: Name=ADC_Ch0
+Added Room: Name=ADC_Ch1
+Added Room: Name=ADC_Ch2
+Added Room: Name=ADC_Ch3
+Added Room: Name=ADC_Ch4
+Added Room: Name=ADC_Ch5
+Added Room: Name=ADC_Ch6
+Added Room: Name=ADC_Ch7
+Added Room: Name=Power Supplies
+Added Room: Name=TEC_Ch0
+Added Room: Name=TEC_Ch1
+Added Room: Name=TEC_Ch2
+Added Room: Name=TEC_Ch3
+Added Room: Name=U1_FPGA

@@ -1,0 +1,185 @@
+Removed Pin From Net: NetName=+24V Pin=C1-POS
+Removed Pin From Net: NetName=HV_ON_MON Pin=J1-23
+Removed Pin From Net: NetName=HV_ON_MON Pin=P1-23
+Removed Pin From Net: NetName=NetC4_1 Pin=TP19-1
+Removed Pin From Net: NetName=NetC19_1 Pin=TP20-1
+Removed Pin From Net: NetName=NetC5_1 Pin=TP22-1
+Removed Pin From Net: NetName=NetC25_1 Pin=TP23-1
+Removed Pin From Net: NetName=-5ANA_IMON Pin=U1-A7
+Removed Pin From Net: NetName=-12V_IMON Pin=U1-A9
+Removed Pin From Net: NetName=NetC4_1 Pin=U1-A11
+Removed Pin From Net: NetName=NetC19_1 Pin=U1-A13
+Removed Pin From Net: NetName=NetC5_1 Pin=U1-A15
+Removed Pin From Net: NetName=NetC25_1 Pin=U1-A17
+Removed Pin From Net: NetName=OUTLET_TEMP Pin=U1-A19
+Removed Pin From Net: NetName=INLET_TEMP Pin=U1-A21
+Removed Pin From Net: NetName=VCC_IMON Pin=U1-A23
+Removed Pin From Net: NetName=+28V_IMON Pin=U1-A25
+Removed Pin From Net: NetName=+5ANA_IMON Pin=U1-A27
+Removed Pin From Net: NetName=+12V_IMON Pin=U1-A29
+Removed Pin From Net: NetName=+24V_IMON Pin=U1-A37
+Removed Pin From Net: NetName=+24V Pin=U2-3
+Removed Member From Class: ClassName=SF CONNECTIONS Member=TP19
+Removed Member From Class: ClassName=SF CONNECTIONS Member=TP20
+Removed Member From Class: ClassName=SF CONNECTIONS Member=TP22
+Removed Member From Class: ClassName=SF CONNECTIONS Member=TP23
+Added Component: Designator=C26(SMD_0805)
+Added Component: Designator=C27(SMD_0805)
+Added Component: Designator=C28(SMD_0805)
+Added Component: Designator=C29(SMD_0805)
+Added Component: Designator=C30(SMD_0805)
+Added Component: Designator=C31(SMD_0805)
+Added Component: Designator=C32(SMD_0805)
+Added Component: Designator=C33(SMD_0805)
+Added Component: Designator=Q4(TO-252(D-PAK)  PowerPAD)
+Added Component: Designator=Q5(TO-252(D-PAK)  PowerPAD)
+Added Component: Designator=R22(smd_0805)
+Added Component: Designator=R23(SMD_0805)
+Added Component: Designator=R24(SMD_0805)
+Added Component: Designator=R25(SMD_0805)
+Added Component: Designator=R26(SMD_0805)
+Added Component: Designator=RN2(RES ARRAY 0603 x 4)
+Added Component: Designator=RN3(RES ARRAY 0603 x 4)
+Added Pin To Net: NetName=A Pin=C26-2
+Added Pin To Net: NetName=A Pin=C27-2
+Added Pin To Net: NetName=A Pin=C28-2
+Added Pin To Net: NetName=A Pin=C29-2
+Added Pin To Net: NetName=A Pin=C30-2
+Added Pin To Net: NetName=A Pin=C31-2
+Added Pin To Net: NetName=+24V Pin=C32-2
+Added Pin To Net: NetName=+24V Pin=C33-2
+Added Pin To Net: NetName=A Pin=J1-13
+Added Pin To Net: NetName=A Pin=J1-15
+Added Pin To Net: NetName=A Pin=P1-13
+Added Pin To Net: NetName=A Pin=P1-15
+Added Pin To Net: NetName=+24V Pin=Q4-3
+Added Pin To Net: NetName=+24V Pin=Q5-3
+Added Pin To Net: NetName=+12V Pin=R22-2
+Added Pin To Net: NetName=+24V Pin=R23-2
+Added Pin To Net: NetName=+24V Pin=R24-2
+Added Pin To Net: NetName=VCC_IMON Pin=RN1-1
+Added Pin To Net: NetName=+24V_IMON Pin=RN2-1
+Added Pin To Net: NetName=+12V_IMON Pin=RN2-3
+Added Pin To Net: NetName=+5ANA_IMON Pin=RN2-5
+Added Pin To Net: NetName=+28V_IMON Pin=RN2-7
+Added Pin To Net: NetName=-5ANA_IMON Pin=RN3-5
+Added Pin To Net: NetName=-12V_IMON Pin=RN3-7
+Added Pin To Net: NetName=NetC4_1 Pin=U1-A7
+Added Pin To Net: NetName=NetC19_1 Pin=U1-A9
+Added Pin To Net: NetName=NetC5_1 Pin=U1-A11
+Added Pin To Net: NetName=NetC25_1 Pin=U1-A13
+Added Pin To Net: NetName=OUTLET_TEMP Pin=U1-A37
+Added Pin To Net: NetName=INLET_TEMP Pin=U1-A39
+Added Pin To Net: NetName=GND Pin=U1-B4
+Added Pin To Net: NetName=GND Pin=U1-B53
+Added Pin To Net: NetName=+24V_VAC Pin=J1-23
+Added Pin To Net: NetName=+24V_VAC Pin=P1-23
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Pin To Net: NetName=+24V_VAC Pin=Q5-2
+Added Net: Name=+24V_VAC
+Added Pin To Net: NetName=NetC1_pos Pin=C1-POS
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=Q4-2
+Added Pin To Net: NetName=NetC1_pos Pin=U2-3
+Added Net: Name=NetC1_pos
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=NetC26_1 Pin=RN2-8
+Added Pin To Net: NetName=NetC26_1 Pin=U1-A15
+Added Net: Name=NetC26_1
+Added Pin To Net: NetName=NetC27_1 Pin=C27-1
+Added Pin To Net: NetName=NetC27_1 Pin=RN2-6
+Added Pin To Net: NetName=NetC27_1 Pin=U1-A17
+Added Net: Name=NetC27_1
+Added Pin To Net: NetName=NetC28_1 Pin=C28-1
+Added Pin To Net: NetName=NetC28_1 Pin=RN2-4
+Added Pin To Net: NetName=NetC28_1 Pin=U1-A19
+Added Net: Name=NetC28_1
+Added Pin To Net: NetName=NetC29_1 Pin=C29-1
+Added Pin To Net: NetName=NetC29_1 Pin=RN3-6
+Added Pin To Net: NetName=NetC29_1 Pin=U1-A25
+Added Net: Name=NetC29_1
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=NetC30_1 Pin=RN3-8
+Added Pin To Net: NetName=NetC30_1 Pin=U1-A23
+Added Net: Name=NetC30_1
+Added Pin To Net: NetName=NetC31_1 Pin=C31-1
+Added Pin To Net: NetName=NetC31_1 Pin=RN2-2
+Added Pin To Net: NetName=NetC31_1 Pin=U1-A21
+Added Net: Name=NetC31_1
+Added Pin To Net: NetName=NetC32_1 Pin=C32-1
+Added Pin To Net: NetName=NetC32_1 Pin=Q4-1
+Added Pin To Net: NetName=NetC32_1 Pin=R23-1
+Added Pin To Net: NetName=NetC32_1 Pin=R25-2
+Added Net: Name=NetC32_1
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_1 Pin=Q5-1
+Added Pin To Net: NetName=NetC33_1 Pin=R24-1
+Added Pin To Net: NetName=NetC33_1 Pin=R26-2
+Added Net: Name=NetC33_1
+Added Pin To Net: NetName=NetRN1_3 Pin=RN1-3
+Added Net: Name=NetRN1_3
+Added Pin To Net: NetName=NetRN1_7 Pin=RN1-7
+Added Net: Name=NetRN1_7
+Added Pin To Net: NetName=VAC_ANALOG Pin=J1-19
+Added Pin To Net: NetName=VAC_ANALOG Pin=P1-19
+Added Net: Name=VAC_ANALOG
+Added Pin To Net: NetName=VAC_IDENT Pin=J1-17
+Added Pin To Net: NetName=VAC_IDENT Pin=P1-17
+Added Pin To Net: NetName=VAC_IDENT Pin=R22-1
+Added Net: Name=VAC_IDENT
+Added Pin To Net: NetName=~ION_PUMP_ON Pin=R25-1
+Added Pin To Net: NetName=~ION_PUMP_ON Pin=U1-B51
+Added Net: Name=~ION_PUMP_ON
+Added Pin To Net: NetName=~VAC_GAUGE_ON Pin=R26-1
+Added Pin To Net: NetName=~VAC_GAUGE_ON Pin=U1-B2
+Added Net: Name=~VAC_GAUGE_ON
+Change Class Name : Old Net Name=780-00051, rev1, Pg1, Sinistro Temp Telemetry Board New Net Name=780-00051, rev2, Pg1, Sinistro Temp Telemetry Board
+Added Class: Name=780-00051, rev2, Pg4, Sinistro Temp Telemetry Board
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C26 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C27 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C28 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C29 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C30 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C31 Cap SMD
+Added Member To Class: ClassName=LM335 AND FAN Member=Component C32 Cap SMD
+Added Member To Class: ClassName=LM335 AND FAN Member=Component C33 Cap SMD
+Added Member To Class: ClassName=LM335 AND FAN Member=Component Q4 IRF5303P
+Added Member To Class: ClassName=LM335 AND FAN Member=Component Q5 IRF5303P
+Added Member To Class: ClassName=780-00051, rev2, Pg1, Sinistro Temp Telemetry Board Member=Component R22 Res 0805
+Added Member To Class: ClassName=LM335 AND FAN Member=Component R23 Res 0805
+Added Member To Class: ClassName=LM335 AND FAN Member=Component R24 Res 0805
+Added Member To Class: ClassName=LM335 AND FAN Member=Component R25 Res 0805
+Added Member To Class: ClassName=LM335 AND FAN Member=Component R26 Res 0805
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component RN2 RES ARRAY  x4 10K
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component RN3 RES ARRAY  x4 10K
+Added Room: Name=780-00051, rev2, Pg1, Sinistro Temp Telemetry Board

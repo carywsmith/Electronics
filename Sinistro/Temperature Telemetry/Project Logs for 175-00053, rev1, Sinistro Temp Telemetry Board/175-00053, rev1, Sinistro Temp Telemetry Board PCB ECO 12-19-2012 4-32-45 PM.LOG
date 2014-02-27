@@ -1,0 +1,131 @@
+Removed Pin From Net: NetName=V_MON_MODION Pin=TP19-1
+Removed Pin From Net: NetName=VAC_READ Pin=TP20-1
+Removed Pin From Net: NetName=V_MON_VARIAN Pin=TP22-1
+Removed Pin From Net: NetName=I_MON_VARIAN Pin=TP23-1
+Removed Pin From Net: NetName=-5ANA_IMON Pin=U1-A7
+Removed Pin From Net: NetName=-12V_IMON Pin=U1-A9
+Removed Pin From Net: NetName=V_MON_MODION Pin=U1-A11
+Removed Pin From Net: NetName=VAC_READ Pin=U1-A13
+Removed Pin From Net: NetName=V_MON_VARIAN Pin=U1-A15
+Removed Pin From Net: NetName=I_MON_VARIAN Pin=U1-A17
+Removed Pin From Net: NetName=OUTLET_TEMP Pin=U1-A19
+Removed Pin From Net: NetName=INLET_TEMP Pin=U1-A21
+Removed Pin From Net: NetName=VCC_IMON Pin=U1-A23
+Removed Pin From Net: NetName=+28V_IMON Pin=U1-A25
+Removed Pin From Net: NetName=+5ANA_IMON Pin=U1-A27
+Removed Pin From Net: NetName=+12V_IMON Pin=U1-A29
+Removed Pin From Net: NetName=+24V_IMON Pin=U1-A37
+Added Component: Designator=C3(SMD_0805)
+Added Component: Designator=C4(SMD_0805)
+Added Component: Designator=C5(SMD_0805)
+Added Component: Designator=C19(SMD_0805)
+Added Component: Designator=C25(SMD_0805)
+Added Component: Designator=C26(SMD_0805)
+Added Component: Designator=C27(SMD_0805)
+Added Component: Designator=C28(SMD_0805)
+Added Component: Designator=C29(SMD_0805)
+Added Component: Designator=C30(SMD_0805)
+Added Component: Designator=C31(SMD_0805)
+Added Component: Designator=C32(SMD_0805)
+Added Component: Designator=C33(SMD_0805)
+Added Component: Designator=C34(SMD_0805)
+Added Component: Designator=RN1(RES ARRAY 0603 x 4)
+Added Component: Designator=RN2(RES ARRAY 0603 x 4)
+Added Component: Designator=RN3(RES ARRAY 0603 x 4)
+Added Component: Designator=RN4(RES ARRAY 0603 x 4)
+Added Pin To Net: NetName=A Pin=C3-2
+Added Pin To Net: NetName=A Pin=C4-2
+Added Pin To Net: NetName=A Pin=C5-2
+Added Pin To Net: NetName=A Pin=C19-2
+Added Pin To Net: NetName=A Pin=C25-2
+Added Pin To Net: NetName=A Pin=C26-2
+Added Pin To Net: NetName=A Pin=C28-1
+Added Pin To Net: NetName=A Pin=C29-1
+Added Pin To Net: NetName=A Pin=C30-1
+Added Pin To Net: NetName=A Pin=C31-1
+Added Pin To Net: NetName=A Pin=C32-1
+Added Pin To Net: NetName=A Pin=C33-1
+Added Pin To Net: NetName=A Pin=C34-1
+Added Pin To Net: NetName=VAC_READ Pin=RN1-1
+Added Pin To Net: NetName=V_MON_MODION Pin=RN1-3
+Added Pin To Net: NetName=-12V_IMON Pin=RN1-5
+Added Pin To Net: NetName=-5ANA_IMON Pin=RN1-7
+Added Pin To Net: NetName=INLET_TEMP Pin=RN2-1
+Added Pin To Net: NetName=OUTLET_TEMP Pin=RN2-3
+Added Pin To Net: NetName=I_MON_VARIAN Pin=RN2-5
+Added Pin To Net: NetName=V_MON_VARIAN Pin=RN2-7
+Added Pin To Net: NetName=+12V_IMON Pin=RN3-1
+Added Pin To Net: NetName=+5ANA_IMON Pin=RN3-3
+Added Pin To Net: NetName=+28V_IMON Pin=RN3-5
+Added Pin To Net: NetName=VCC_IMON Pin=RN3-7
+Added Pin To Net: NetName=+24V_IMON Pin=RN4-7
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=RN1-8
+Added Pin To Net: NetName=NetC3_1 Pin=U1-A7
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=RN1-4
+Added Pin To Net: NetName=NetC4_1 Pin=U1-A11
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=RN2-8
+Added Pin To Net: NetName=NetC5_1 Pin=U1-A15
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=RN1-2
+Added Pin To Net: NetName=NetC19_1 Pin=U1-A13
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC25_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_1 Pin=RN2-6
+Added Pin To Net: NetName=NetC25_1 Pin=U1-A17
+Added Net: Name=NetC25_1
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=NetC26_1 Pin=RN1-6
+Added Pin To Net: NetName=NetC26_1 Pin=U1-A9
+Added Net: Name=NetC26_1
+Added Pin To Net: NetName=NetC28_2 Pin=C28-2
+Added Pin To Net: NetName=NetC28_2 Pin=RN2-2
+Added Pin To Net: NetName=NetC28_2 Pin=U1-A21
+Added Net: Name=NetC28_2
+Added Pin To Net: NetName=NetC29_2 Pin=C29-2
+Added Pin To Net: NetName=NetC29_2 Pin=RN3-2
+Added Pin To Net: NetName=NetC29_2 Pin=U1-A29
+Added Net: Name=NetC29_2
+Added Pin To Net: NetName=NetC30_2 Pin=C30-2
+Added Pin To Net: NetName=NetC30_2 Pin=RN3-6
+Added Pin To Net: NetName=NetC30_2 Pin=U1-A25
+Added Net: Name=NetC30_2
+Added Pin To Net: NetName=NetC31_2 Pin=C31-2
+Added Pin To Net: NetName=NetC31_2 Pin=RN3-4
+Added Pin To Net: NetName=NetC31_2 Pin=U1-A27
+Added Net: Name=NetC31_2
+Added Pin To Net: NetName=NetC32_2 Pin=C32-2
+Added Pin To Net: NetName=NetC32_2 Pin=RN4-8
+Added Pin To Net: NetName=NetC32_2 Pin=U1-A37
+Added Net: Name=NetC32_2
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=RN2-4
+Added Pin To Net: NetName=NetC33_2 Pin=U1-A19
+Added Net: Name=NetC33_2
+Added Pin To Net: NetName=NetC34_2 Pin=C34-2
+Added Pin To Net: NetName=NetC34_2 Pin=RN3-8
+Added Pin To Net: NetName=NetC34_2 Pin=U1-A23
+Added Net: Name=NetC34_2
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C3 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C4 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C5 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C19 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C25 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C26 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C27 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C28 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C29 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C30 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C31 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C32 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C33 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component C34 Cap SMD
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component RN1 RES ARRAY  x4 10K
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component RN2 RES ARRAY  x4 10K
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component RN3 RES ARRAY  x4 10K
+Added Member To Class: ClassName=SF CONNECTIONS Member=Component RN4 RES ARRAY  x4 10K

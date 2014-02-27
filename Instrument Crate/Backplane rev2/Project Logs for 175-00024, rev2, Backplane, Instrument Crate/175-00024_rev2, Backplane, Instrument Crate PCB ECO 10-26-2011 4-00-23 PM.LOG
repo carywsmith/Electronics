@@ -1,0 +1,132 @@
+Removed Pin From Net: NetName=IMON_SLOT1 Pin=U4A-1
+Removed Pin From Net: NetName=IMON_SLOT2 Pin=U4B-1
+Removed Pin From Net: NetName=IMON_SLOT3 Pin=U4C-1
+Removed Pin From Net: NetName=IMON_SLOT4 Pin=U4D-1
+Removed Pin From Net: NetName=IMON_SLOT5 Pin=U4E-1
+Removed Pin From Net: NetName=IMON_SLOT6 Pin=U4F-1
+Removed Pin From Net: NetName=IMON_SLOT7 Pin=U4G-1
+Removed Pin From Net: NetName=IMON_SLOT8 Pin=U4H-1
+Removed Pin From Net: NetName=IMON_SLOT9 Pin=U4I-1
+Removed Pin From Net: NetName=IMON_SLOT10 Pin=U4J-1
+Removed Pin From Net: NetName=IMON_SLOT11 Pin=U4K-1
+Removed Pin From Net: NetName=IMON_SLOT12 Pin=U4L-1
+Added Component: Designator=C21A(2012[0805])
+Added Component: Designator=C21B(2012[0805])
+Added Component: Designator=C21C(2012[0805])
+Added Component: Designator=C21D(2012[0805])
+Added Component: Designator=C21E(2012[0805])
+Added Component: Designator=C21F(2012[0805])
+Added Component: Designator=C21G(2012[0805])
+Added Component: Designator=C21H(2012[0805])
+Added Component: Designator=C21I(2012[0805])
+Added Component: Designator=C21J(2012[0805])
+Added Component: Designator=C21K(2012[0805])
+Added Component: Designator=C21L(2012[0805])
+Added Component: Designator=R18A(SMD_0805)
+Added Component: Designator=R18B(SMD_0805)
+Added Component: Designator=R18C(SMD_0805)
+Added Component: Designator=R18D(SMD_0805)
+Added Component: Designator=R18E(SMD_0805)
+Added Component: Designator=R18F(SMD_0805)
+Added Component: Designator=R18G(SMD_0805)
+Added Component: Designator=R18H(SMD_0805)
+Added Component: Designator=R18I(SMD_0805)
+Added Component: Designator=R18J(SMD_0805)
+Added Component: Designator=R18K(SMD_0805)
+Added Component: Designator=R18L(SMD_0805)
+Added Pin To Net: NetName=IMON_SLOT1 Pin=C21A-1
+Added Pin To Net: NetName=GND Pin=C21A-2
+Added Pin To Net: NetName=IMON_SLOT2 Pin=C21B-1
+Added Pin To Net: NetName=GND Pin=C21B-2
+Added Pin To Net: NetName=IMON_SLOT3 Pin=C21C-1
+Added Pin To Net: NetName=GND Pin=C21C-2
+Added Pin To Net: NetName=IMON_SLOT4 Pin=C21D-1
+Added Pin To Net: NetName=GND Pin=C21D-2
+Added Pin To Net: NetName=IMON_SLOT5 Pin=C21E-1
+Added Pin To Net: NetName=GND Pin=C21E-2
+Added Pin To Net: NetName=IMON_SLOT6 Pin=C21F-1
+Added Pin To Net: NetName=GND Pin=C21F-2
+Added Pin To Net: NetName=IMON_SLOT7 Pin=C21G-1
+Added Pin To Net: NetName=GND Pin=C21G-2
+Added Pin To Net: NetName=IMON_SLOT8 Pin=C21H-1
+Added Pin To Net: NetName=GND Pin=C21H-2
+Added Pin To Net: NetName=IMON_SLOT9 Pin=C21I-1
+Added Pin To Net: NetName=GND Pin=C21I-2
+Added Pin To Net: NetName=IMON_SLOT10 Pin=C21J-1
+Added Pin To Net: NetName=GND Pin=C21J-2
+Added Pin To Net: NetName=IMON_SLOT11 Pin=C21K-1
+Added Pin To Net: NetName=GND Pin=C21K-2
+Added Pin To Net: NetName=IMON_SLOT12 Pin=C21L-1
+Added Pin To Net: NetName=GND Pin=C21L-2
+Added Pin To Net: NetName=IMON_SLOT1 Pin=R18A-1
+Added Pin To Net: NetName=IMON_SLOT2 Pin=R18B-1
+Added Pin To Net: NetName=IMON_SLOT3 Pin=R18C-1
+Added Pin To Net: NetName=IMON_SLOT4 Pin=R18D-1
+Added Pin To Net: NetName=IMON_SLOT5 Pin=R18E-1
+Added Pin To Net: NetName=IMON_SLOT6 Pin=R18F-1
+Added Pin To Net: NetName=IMON_SLOT7 Pin=R18G-1
+Added Pin To Net: NetName=IMON_SLOT8 Pin=R18H-1
+Added Pin To Net: NetName=IMON_SLOT9 Pin=R18I-1
+Added Pin To Net: NetName=IMON_SLOT10 Pin=R18J-1
+Added Pin To Net: NetName=IMON_SLOT11 Pin=R18K-1
+Added Pin To Net: NetName=IMON_SLOT12 Pin=R18L-1
+Added Pin To Net: NetName=NetR18A_2 Pin=R18A-2
+Added Pin To Net: NetName=NetR18A_2 Pin=U4A-1
+Added Net: Name=NetR18A_2
+Added Pin To Net: NetName=NetR18B_2 Pin=R18B-2
+Added Pin To Net: NetName=NetR18B_2 Pin=U4B-1
+Added Net: Name=NetR18B_2
+Added Pin To Net: NetName=NetR18C_2 Pin=R18C-2
+Added Pin To Net: NetName=NetR18C_2 Pin=U4C-1
+Added Net: Name=NetR18C_2
+Added Pin To Net: NetName=NetR18D_2 Pin=R18D-2
+Added Pin To Net: NetName=NetR18D_2 Pin=U4D-1
+Added Net: Name=NetR18D_2
+Added Pin To Net: NetName=NetR18E_2 Pin=R18E-2
+Added Pin To Net: NetName=NetR18E_2 Pin=U4E-1
+Added Net: Name=NetR18E_2
+Added Pin To Net: NetName=NetR18F_2 Pin=R18F-2
+Added Pin To Net: NetName=NetR18F_2 Pin=U4F-1
+Added Net: Name=NetR18F_2
+Added Pin To Net: NetName=NetR18G_2 Pin=R18G-2
+Added Pin To Net: NetName=NetR18G_2 Pin=U4G-1
+Added Net: Name=NetR18G_2
+Added Pin To Net: NetName=NetR18H_2 Pin=R18H-2
+Added Pin To Net: NetName=NetR18H_2 Pin=U4H-1
+Added Net: Name=NetR18H_2
+Added Pin To Net: NetName=NetR18I_2 Pin=R18I-2
+Added Pin To Net: NetName=NetR18I_2 Pin=U4I-1
+Added Net: Name=NetR18I_2
+Added Pin To Net: NetName=NetR18J_2 Pin=R18J-2
+Added Pin To Net: NetName=NetR18J_2 Pin=U4J-1
+Added Net: Name=NetR18J_2
+Added Pin To Net: NetName=NetR18K_2 Pin=R18K-2
+Added Pin To Net: NetName=NetR18K_2 Pin=U4K-1
+Added Net: Name=NetR18K_2
+Added Pin To Net: NetName=NetR18L_2 Pin=R18L-2
+Added Pin To Net: NetName=NetR18L_2 Pin=U4L-1
+Added Net: Name=NetR18L_2
+Added Member To Class: ClassName=BackplaneSlot1 Member=Component C21A (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot2 Member=Component C21B (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot3 Member=Component C21C (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot4 Member=Component C21D (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot5 Member=Component C21E (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot6 Member=Component C21F (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot7 Member=Component C21G (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot8 Member=Component C21H (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot9 Member=Component C21I (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot10 Member=Component C21J (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot11 Member=Component C21K (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot12 Member=Component C21L (C21) 1u
+Added Member To Class: ClassName=BackplaneSlot1 Member=Component R18A (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot2 Member=Component R18B (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot3 Member=Component R18C (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot4 Member=Component R18D (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot5 Member=Component R18E (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot6 Member=Component R18F (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot7 Member=Component R18G (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot8 Member=Component R18H (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot9 Member=Component R18I (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot10 Member=Component R18J (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot11 Member=Component R18K (R18) Res 0805
+Added Member To Class: ClassName=BackplaneSlot12 Member=Component R18L (R18) Res 0805

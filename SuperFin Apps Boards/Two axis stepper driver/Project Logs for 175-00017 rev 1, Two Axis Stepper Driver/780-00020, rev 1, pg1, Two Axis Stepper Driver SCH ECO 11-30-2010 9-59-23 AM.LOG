@@ -1,0 +1,18 @@
+Removed Parameter ComponentLink1Description:Manufacturer Link from Part U3
+Removed Parameter ComponentLink1URL:http://www.st.com/ from Part U3
+Removed Parameter ComponentLink2Description:Datasheet from Part U3
+Removed Parameter ComponentLink2URL:http://www.st.com/stonline/products/literature/ds/4578/m24c32-w.pdf from Part U3
+Removed Parameter DatasheetVersion:Jul-1999 from Part U3
+Removed Parameter LatestRevisionDate:13-Apr-2006 from Part U3
+Removed Parameter LatestRevisionNote:IPC-7351 Footprint Added. from Part U3
+Removed Parameter PackageDescription:8-Pin Small Outline Integrated Circuit 1.27 mm Pitch from Part U3
+Removed Parameter PackageReference:SOP8 from Part U3
+Removed Parameter PackageVersion:Jul-1999 from Part U3
+Removed Parameter Published:24-Aug-2001 from Part U3
+Removed Parameter Publisher:Altium Limited from Part U3
+Change Value of Parameter LCO p/n in Part C1 Old= New=120-00041
+Change Value of Parameter LCO p/n in Part C2 Old= New=120-00041
+Change Value of Parameter LCO p/n in Part R1 Old= New=181-04022
+Change Value of Parameter LCO p/n in Part R2 Old= New=181-04022
+Change Value of Parameter LCO p/n in Part R3 Old= New=181-04022
+Change Value of Parameter LCO p/n in Part R4 Old= New=181-04022

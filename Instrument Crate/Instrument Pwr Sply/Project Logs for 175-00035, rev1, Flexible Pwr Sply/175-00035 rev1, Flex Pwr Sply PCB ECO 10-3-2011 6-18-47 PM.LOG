@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Member From Class: ClassName=780-00038 rev1, Pg1, SCH, Flex Pwr Sply Member=C5

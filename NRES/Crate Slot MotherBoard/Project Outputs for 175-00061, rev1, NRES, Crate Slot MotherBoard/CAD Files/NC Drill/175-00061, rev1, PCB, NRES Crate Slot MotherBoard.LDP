@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: \\Files\users\rlobdill\Altum Projects\NRES\Crate Slot MotherBoard\175-00061, rev1, PCB, NRES Crate Slot MotherBoard.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=175-00061, rev1, pcb, nres crate slot motherboard-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=175-00061, rev1, pcb, nres crate slot motherboard-nonplated.txt|LayerPairs=gtl,gbl

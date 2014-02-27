@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+24V Pin=TP2-1
+Removed Pin From Net: NetName=+24V Pin=TP3-1
+Removed Member From Class: ClassName=780-00057, rev1, Pg1, SCH, NRES, Crate Slot MotherBoard Member=TP2
+Removed Member From Class: ClassName=780-00057, rev1, Pg1, SCH, NRES, Crate Slot MotherBoard Member=TP3

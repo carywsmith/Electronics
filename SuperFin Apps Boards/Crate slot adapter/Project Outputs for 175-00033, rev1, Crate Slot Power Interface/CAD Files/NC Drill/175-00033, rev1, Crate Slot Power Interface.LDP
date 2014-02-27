@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: \\Files\users\rlobdill\Altum Projects\SuperFin Apps Boards\Crate slot adapter\175-00033, rev1, Crate Slot Power Interface.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=175-00033, rev1, crate slot power interface-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=175-00033, rev1, crate slot power interface-nonplated.txt|LayerPairs=gtl,gbl

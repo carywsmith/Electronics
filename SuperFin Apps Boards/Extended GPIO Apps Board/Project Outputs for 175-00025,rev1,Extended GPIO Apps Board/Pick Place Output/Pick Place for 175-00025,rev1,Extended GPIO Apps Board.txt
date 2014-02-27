@@ -1,0 +1,16 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+Designator TARGET_MECHANICAL_5 -21296.535mil -15437.362mil   3897.638mil   1958.661mil -21296.535mil -15437.362mil  T          0.00 Comment        
+Designator TARGET_MECHANICAL_5 -21296.535mil -15437.362mil   -767.716mil   -767.716mil -21296.535mil -15437.362mil  T          0.00 Comment        
+Designator TARGET_MECHANICAL_5 -21296.535mil -15437.362mil   -816.929mil   2047.244mil -21296.535mil -15437.362mil  T          0.00 Comment        
+U1         SOP8_N            1840.551mil    738.189mil   1840.551mil    738.189mil   1742.126mil    813.189mil  T        360.00 M24C32RMN1     
+S1         CAS-120A          2106.299mil    984.252mil   2106.299mil    984.252mil   2175.197mil   1029.528mil  T        180.00 CJS-1200TB     
+P3         HDR1X8_for_IDC    2829.134mil    1210.63mil   3179.134mil    1210.63mil   3179.134mil    1210.63mil  T        180.00 Header 8       
+P2         HDR1X8_for_IDC     466.929mil    1210.63mil    816.929mil    1210.63mil    816.929mil    1210.63mil  T        180.00 Header 8       
+P1         HDR1X8_for_IDC    1657.874mil    1210.63mil   2007.874mil    1210.63mil   2007.874mil    1210.63mil  T        180.00 Header 8       
+J1         QMS_EDGE_PWR_PINS_-_104_pin   1653.543mil    498.031mil   1653.543mil    442.913mil    921.093mil    512.061mil  B        180.00 QMSS-EM-PC4-104pin
+D2         SOT-353           1594.488mil   1029.527mil   1564.961mil    994.095mil   1564.961mil    994.095mil  T         90.00 PESD3V3L4UG    
+D1         SOT-353            1407.48mil   1029.527mil   1377.953mil    994.095mil   1377.953mil    994.095mil  T         90.00 PESD3V3L4UG    
+C4         SMD_CAP_3216       787.402mil    728.346mil    787.402mil    728.346mil    732.402mil    728.346mil  T        180.00 16V            
+C2         SMD_0805           767.716mil    856.299mil    767.716mil    856.299mil    722.716mil    856.299mil  T          0.00 Cap SMD        
+
