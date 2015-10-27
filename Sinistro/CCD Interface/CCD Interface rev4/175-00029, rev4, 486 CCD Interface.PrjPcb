@@ -28,7 +28,9 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+OutputPath=Project Outputs for 175-00029, rev4, 486 CCD Interface
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -104,6 +106,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=CAMtastic3.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=CAMtastic4.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=175-00029, rev4, 486 CCD Interface_withJon.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.DRR
 DItemRevisionGUID=
@@ -113,55 +166,291 @@ DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 re
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.G1
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GBL
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GD1
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.G1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GM1
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GM2
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GM3
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GP1
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GTL
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.LDP
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.REP
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.RUL
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.TXT
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\175-00029 rev4, 486 CCD Interface.REP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Gerber\175-00029 rev4, 486 CCD Interface.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\175-00029 rev4, 486 CCD Interface.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Copper_Plane_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Mechanical_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Mechanical_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\GerberX2\175-00029 rev4, 486 CCD Interface_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument49]
 DocumentPath=..\CCD Interface rev3\Project Outputs for 175-00029, rev3, 486 CCD Interface\Design Rule Check - 175-00029 rev3, 486 CCD Interface.html
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\bottompaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\mechanical1\features
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\mechanical2\features
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\mechanical3\features
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\mid1\features
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\plane1\features
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\rout\features
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\symbols\rect59.0551x118.1102_45\features
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\symbols\rect59.0551x118.1102_135\features
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\symbols\rect59.0551x118.1102_225\features
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\symbols\rect59.0551x118.1102_315\features
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\symbols\s40_202\features
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Pick Place\Pick Place for 175-00029 rev4, 486 CCD Interface.csv
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\Pick Place\Pick Place for 175-00029 rev4, 486 CCD Interface.txt
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\drill\tools
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for 175-00029, rev4, 486 CCD Interface\ODB\odb\steps\pcb\layers\rout\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -207,13 +496,13 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 175-00029, rev4, 486 CCD Interface
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
@@ -249,7 +538,7 @@ OutputDefault6=0
 Name=Simulator Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
@@ -270,7 +559,7 @@ OutputDefault3=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
 OutputDocumentPath1=
@@ -380,7 +669,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Name=Assembly Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
 OutputDocumentPath1=
@@ -402,13 +691,29 @@ OutputDefault3=0
 Name=Fabrication Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.38|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration1_Name2=OutputConfigurationParameter2
+Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Combination Drill Guide For (Bottom Layer (*.GBL),Top Layer (*.GTL))|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration1_Name3=OutputConfigurationParameter3
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name4=OutputConfigurationParameter4
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name5=OutputConfigurationParameter5
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name6=OutputConfigurationParameter6
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name7=OutputConfigurationParameter7
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name8=OutputConfigurationParameter8
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
@@ -489,12 +794,22 @@ OutputVariantName10=[No Variations]
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1,16908290~1,16908291~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False
+OutputType11=Gerber X2
+OutputName11=Gerber X2 Files
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=IPC2581
+OutputName12=IPC-2581 Files
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
 OutputDocumentPath1=
@@ -533,7 +848,7 @@ OutputDefault6=0
 Name=Other Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
 OutputDocumentPath1=
@@ -713,7 +1028,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Name=Validation Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
 OutputDocumentPath1=
@@ -742,12 +1057,17 @@ OutputName5=Environment configuration compliance check
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
+OutputType6=Component states check
+OutputName6=Vault's components states check
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
 TargetPrinter=OKI C9300
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
 OutputDocumentPath1=
@@ -768,6 +1088,11 @@ OutputName4=Export IDF
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
+OutputType5=PDF3D
+OutputName5=Export PDF3D
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
 
 [Modification Levels]
 Type1=1
@@ -1004,6 +1329,8 @@ Type106=2
 Type107=2
 Type108=2
 Type109=1
+Type110=1
+Type111=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1042,6 +1369,7 @@ NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
 SelectedOnly=0
