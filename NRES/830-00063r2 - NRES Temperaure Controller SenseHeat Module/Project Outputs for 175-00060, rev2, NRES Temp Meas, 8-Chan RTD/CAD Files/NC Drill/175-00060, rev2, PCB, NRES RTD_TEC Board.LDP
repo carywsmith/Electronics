@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Documents and Settings\rlobdill\Desktop\electronics\NRES\RTD Board\RTD Board Rev2\175-00060, rev2, PCB, NRES RTD_TEC Board.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=175-00060, rev2, pcb, nres rtd_tec board-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=175-00060, rev2, pcb, nres rtd_tec board-nonplated.txt|LayerPairs=gtl,gbl

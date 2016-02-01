@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 175-00060, rev2, PCB, NRES RTD_TEC Board.GBR   11/10/2014  9:25:18 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer (*.GTL)                       
+.G1                 MidLayer1 (*.G1)                        
+.GP1                InternalPlane1 (*.GP1)                  
+.GP2                InternalPlane2 (*.GP2)                  
+.GP3                InternalPlane3 (*.GP3)                  
+.GP4                InternalPlane4 (*.GP4)                  
+.G2                 MidLayer2 (*.G2)                        
+.GBL                Bottom Layer (*.GBL)                    
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+------------------------------------------------------------------------------------------

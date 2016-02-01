@@ -1,0 +1,95 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents and Settings\rlobdill\Desktop\electronics\NRES\RTD Board\RTD Board Rev2\175-00060, rev2, PCB, NRES RTD_TEC Board.PcbDoc
+Date     : 10/30/2014
+Time     : 9:32:48 PM
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InNet('VCC'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) ((HasFootprint('TSSOP28 Exposed Pad')))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=2.54mm) (Preferred=0.127mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.025mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch0 (Bounding Region = (282.507mm, 249.21mm, 297.239mm, 296.708mm) (InComponentClass('ADC_Ch0'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch1 (Bounding Region = (296.507mm, 249.21mm, 311.239mm, 296.708mm) (InComponentClass('ADC_Ch1'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch2 (Bounding Region = (310.507mm, 249.21mm, 325.239mm, 296.708mm) (InComponentClass('ADC_Ch2'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch3 (Bounding Region = (324.507mm, 249.21mm, 339.239mm, 296.708mm) (InComponentClass('ADC_Ch3'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch4 (Bounding Region = (338.507mm, 249.21mm, 353.239mm, 296.708mm) (InComponentClass('ADC_Ch4'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch5 (Bounding Region = (352.507mm, 249.21mm, 367.239mm, 296.708mm) (InComponentClass('ADC_Ch5'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch6 (Bounding Region = (366.507mm, 249.21mm, 381.239mm, 296.708mm) (InComponentClass('ADC_Ch6'))
+Rule Violations :0
+
+Processing Rule : Room ADC_Ch7 (Bounding Region = (380.507mm, 249.21mm, 395.239mm, 296.708mm) (InComponentClass('ADC_Ch7'))
+Rule Violations :0
+
+Processing Rule : Room Power Supplies (Bounding Region = (264.661mm, 198.278mm, 499.281mm, 408.565mm) (InComponentClass('Power Supplies'))
+Rule Violations :0
+
+Processing Rule : Room TEC_Ch0 (Bounding Region = (404.313mm, 248.448mm, 420.874mm, 311.034mm) (InComponentClass('TEC_Ch0'))
+Rule Violations :0
+
+Processing Rule : Room TEC_Ch1 (Bounding Region = (418.313mm, 248.448mm, 434.874mm, 311.034mm) (InComponentClass('TEC_Ch1'))
+Rule Violations :0
+
+Processing Rule : Room TEC_Ch2 (Bounding Region = (432.313mm, 248.448mm, 448.874mm, 311.034mm) (InComponentClass('TEC_Ch2'))
+Rule Violations :0
+
+Processing Rule : Room TEC_Ch3 (Bounding Region = (446.313mm, 248.448mm, 462.874mm, 311.034mm) (InComponentClass('TEC_Ch3'))
+Rule Violations :0
+
+Processing Rule : Room U13_FPGA (Bounding Region = (281.374mm, 300.716mm, 364.382mm, 378.212mm) (InComponentClass('U13_FPGA'))
+Rule Violations :0
+
+Processing Rule : Room 780-00055, rev2, Pg1, SCH, NRES Temp Meas, 8-Chan RTD  (Bounding Region = (262.426mm, 248.621mm, 491.001mm, 364.191mm) (InComponentClass('780-00055, rev2, Pg1, SCH, NRES Temp Meas, 8-Chan RTD '))
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:04

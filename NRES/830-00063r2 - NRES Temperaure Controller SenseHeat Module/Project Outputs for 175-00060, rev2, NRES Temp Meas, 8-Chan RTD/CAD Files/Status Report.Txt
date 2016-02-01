@@ -1,0 +1,10 @@
+Output: IPC-D-356A-NETLIST FILE
+Type  : Test Points
+From  : PCB Document [175-00060, rev2, PCB, NRES RTD_TEC Board.PcbDoc]
+   Generated File[Fabrication Testpoint Report for 175-00060, rev2, PCB, NRES RTD_TEC Board.ipc]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:25:24 PM On 11/10/2014
