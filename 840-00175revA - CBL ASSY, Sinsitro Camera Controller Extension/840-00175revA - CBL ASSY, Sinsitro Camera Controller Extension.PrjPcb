@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for 840-00175revA - CBL ASSY, Sinsitro Camera Controller Extension
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -107,59 +107,59 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=.\NC Drill\175-00065revA - PCB, Sinistro Camera Controller Extension.DRR
+DocumentPath=NC Drill\175-00065revA - PCB, Sinistro Camera Controller Extension.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.EXTREP
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GBL
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GBS
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GD1
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GM1
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GM2
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GTL
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GTO
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GTS
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\NC Drill\175-00065revA - PCB, Sinistro Camera Controller Extension.LDP
+DocumentPath=NC Drill\175-00065revA - PCB, Sinistro Camera Controller Extension.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.REP
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.REP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.RUL
+DocumentPath=Gerber\175-00065revA - PCB, Sinistro Camera Controller Extension.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\NC Drill\175-00065revA - PCB, Sinistro Camera Controller Extension.TXT
+DocumentPath=NC Drill\175-00065revA - PCB, Sinistro Camera Controller Extension.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -173,7 +173,7 @@ GenerateBOM=1
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for 840-00175revA - CBL ASSY, Sinsitro Camera Controller Extension
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
