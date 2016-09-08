@@ -45,7 +45,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -73,7 +73,75 @@ GenerateClassCluster=0
 DocumentUniqueId=DVMQTVBE
 
 [Document3]
+DocumentPath=780-00060revA - SCH, Sinistro Camera Controller Pass-Thru.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=USLVSDXH
+
+[Document4]
 DocumentPath=4layer.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NUKKIPGC
+
+[Document6]
+DocumentPath=..\ImagingLabLibrary\Components.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=..\ImagingLabLibrary\Components.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -246,90 +314,86 @@ DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Contr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for 840-00175revB - CBL ASSY, Sinsitro Camera Controller Extension\BOM\Bill of Materials-840-00175revB - CBL ASSY, Sinsitro Camera Controller Extension.xls
-DItemRevisionGUID=
-
-[GeneratedDocument41]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument41]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument42]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottom\features
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument43]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomoverlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument44]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottompaste\features
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument45]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomsolder\features
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument46]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument47]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument48]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical2\features
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument49]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical4\features
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument50]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical5\features
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument51]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane1\features
 DItemRevisionGUID=
 
-[GeneratedDocument53]
+[GeneratedDocument52]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane2\features
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument53]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\top\features
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument54]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topoverlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument55]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\toppaste\features
 DItemRevisionGUID=
 
-[GeneratedDocument57]
+[GeneratedDocument56]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topsolder\features
 DItemRevisionGUID=
 
-[GeneratedDocument58]
+[GeneratedDocument57]
 DocumentPath=Project Outputs\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
-[GeneratedDocument59]
+[GeneratedDocument58]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
-[GeneratedDocument60]
+[GeneratedDocument59]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
-[GeneratedDocument61]
+[GeneratedDocument60]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
@@ -481,10 +545,12 @@ OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType13=Schematic Print
 OutputName13=Schematic Prints
-OutputDocumentPath13=
+OutputDocumentPath13=C:\Users\jdevera\Dropbox\_jdevera_docs\Altium_SVN\840-00175revB - CBL ASSY, Sinistro Camera Controller Extension\780-00059revB - SCH, Sinistro Camera Controller Extension.SchDoc
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration13_Name1=OutputConfigurationParameter1
+Configuration13_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType14=SimView Print
 OutputName14=SimView Prints
 OutputDocumentPath14=
