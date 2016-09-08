@@ -1,0 +1,99 @@
+G04 Layer_Color=0*
+%FSLAX26Y26*%
+%MOIN*%
+%TF.FileFunction,NonPlated,1,4,NPTH,Drill*%
+%TF.Part,Single*%
+G01*
+G75*
+%TA.AperFunction,OtherDrill,Pad Free-0 (-1315.944mil,1568.268mil)*%
+%ADD37C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-700.198mil,1923.78mil)*%
+%ADD38C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (0mil,2047.244mil)*%
+%ADD39C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (700.198mil,1923.78mil)*%
+%ADD40C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (1315.944mil,1568.28mil)*%
+%ADD41C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (1772.966mil,1023.622mil)*%
+%ADD42C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (2016.142mil,355.5mil)*%
+%ADD43C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (2016.142mil,-355.5mil)*%
+%ADD44C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (1772.966mil,-1023.622mil)*%
+%ADD45C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (1315.944mil,-1568.28mil)*%
+%ADD46C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (700.198mil,-1923.78mil)*%
+%ADD47C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (0mil,-2047.244mil)*%
+%ADD48C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-700.198mil,-1923.78mil)*%
+%ADD49C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-1315.944mil,-1568.28mil)*%
+%ADD50C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-1772.966mil,-1023.622mil)*%
+%ADD51C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-2016.142mil,-355.5mil)*%
+%ADD52C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-2016.142mil,355.5mil)*%
+%ADD53C,0.177165*%
+%TA.AperFunction,OtherDrill,Pad Free-0 (-1772.966mil,1023.622mil)*%
+%ADD54C,0.177165*%
+D37*
+X-1315944Y1568268D02*
+D03*
+D38*
+X-700198Y1923780D02*
+D03*
+D39*
+X0Y2047244D02*
+D03*
+D40*
+X700198Y1923780D02*
+D03*
+D41*
+X1315944Y1568280D02*
+D03*
+D42*
+X1772966Y1023622D02*
+D03*
+D43*
+X2016142Y355500D02*
+D03*
+D44*
+Y-355500D02*
+D03*
+D45*
+X1772966Y-1023622D02*
+D03*
+D46*
+X1315944Y-1568280D02*
+D03*
+D47*
+X700198Y-1923780D02*
+D03*
+D48*
+X0Y-2047244D02*
+D03*
+D49*
+X-700198Y-1923780D02*
+D03*
+D50*
+X-1315944Y-1568280D02*
+D03*
+D51*
+X-1772966Y-1023622D02*
+D03*
+D52*
+X-2016142Y-355500D02*
+D03*
+D53*
+Y355500D02*
+D03*
+D54*
+X-1772966Y1023622D02*
+D03*
+%TF.MD5,294ecc627d154a1b95bcb94c4ae38d8b*%
+M02*

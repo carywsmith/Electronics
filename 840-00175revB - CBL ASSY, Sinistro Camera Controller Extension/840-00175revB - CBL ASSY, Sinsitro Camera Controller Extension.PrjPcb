@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 840-00175revB - CBL ASSY, Sinsitro Camera Controller Extension
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -158,243 +158,271 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs\NC Drill\175-00065revB - PCB, Sinistro Camera Controller Extension-NonPlated.TXT
+DocumentPath=Project Outputs\175-00066a\NC Drill\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs\NC Drill\175-00065revB - PCB, Sinistro Camera Controller Extension-Plated.TXT
+DocumentPath=Project Outputs\175-00066a\NC Drill\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs\NC Drill\175-00065revB - PCB, Sinistro Camera Controller Extension.DRL
+DocumentPath=Project Outputs\175-00066a\NC Drill\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs\NC Drill\175-00065revB - PCB, Sinistro Camera Controller Extension.DRR
+DocumentPath=Project Outputs\175-00066a\NC Drill\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.EXTREP
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension.EXTREP
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GBL
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GBO
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GBP
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GBS
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GD1
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GG1
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GPT
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GTL
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GTO
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GTP
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.GTS
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs\NC Drill\175-00065revB - PCB, Sinistro Camera Controller Extension.LDP
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.REP
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension.REP
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs\ODB\175-00065revB - PCB, Sinistro Camera Controller Extension.REP
+DocumentPath=Project Outputs\175-00066a\NC Drill\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs\Gerber\175-00065revB - PCB, Sinistro Camera Controller Extension.RUL
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.REP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension.RUL
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs\175-00066a\ODB\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.REP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs\175-00066a\Gerber\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Drawing_1.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Drillmap_1.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Copper_Plane_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Legend_Bot.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Copper_Plane_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Legend_Top.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Mechanical_2.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Mechanical_4.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Mechanical_5.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_NPTH_Drill.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Paste_Bot.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Paste_Top.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Mechanical_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Profile.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Mechanical_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_PTH_Drill.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Mechanical_5.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Soldermask_Bot.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs\GerberX2\175-00065revB - PCB, Sinistro Camera Controller Extension_Soldermask_Top.gbr
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\eda\data
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottom\features
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomoverlay\features
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottompaste\features
+DocumentPath=Project Outputs\175-00066a\GerberX2\175-00066revA - PCB, Sinistro Camera Controller Pass-Thru_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomsolder\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical2\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\bottom\features
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical4\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\bottomoverlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical5\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\bottompaste\features
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane1\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\bottomsolder\features
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane2\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\top\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topoverlay\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\toppaste\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\mechanical2\features
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topsolder\features
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\mechanical4\features
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=Project Outputs\ODB\odb\matrix\matrix
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\mechanical5\features
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\plane1\features
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\stephdr
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\plane2\features
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\tools
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\topoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\toppaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\topsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs\175-00066a\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -407,7 +435,7 @@ Variant=[No Variations]
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 840-00175revB - CBL ASSY, Sinsitro Camera Controller Extension
 
 [OutputGroup1]
 Name=Netlist Outputs

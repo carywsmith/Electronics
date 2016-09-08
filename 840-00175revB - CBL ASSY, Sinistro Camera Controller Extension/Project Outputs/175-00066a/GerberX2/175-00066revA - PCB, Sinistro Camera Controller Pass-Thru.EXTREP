@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 175-00066revA - PCB, Sinistro Camera Controller Pass-Thru.GBR   2016-09-08  18:27:56
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Layer                               
+.gbr                Internal Plane 1                        
+.gbr                Internal Plane 2                        
+.gbr                Bottom Layer                            
+.gbr                Top Overlay                             
+.gbr                Top Solder                              
+.gbr                Bottom Paste                            
+.gbr                Bottom Overlay                          
+.gbr                Bottom Solder                           
+.gbr                Top Paste                               
+.gbr                Mechanical 4                            
+.gbr                Mechanical 2                            
+.gbr                Mechanical 5                            
+.gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------
