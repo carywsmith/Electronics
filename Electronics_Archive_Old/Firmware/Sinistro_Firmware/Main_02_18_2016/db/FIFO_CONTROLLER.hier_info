@@ -1,0 +1,38 @@
+|FIFO_CONTROLLER
+clk => counter[9].CLK
+clk => counter[8].CLK
+clk => counter[7].CLK
+clk => counter[6].CLK
+clk => counter[5].CLK
+clk => counter[4].CLK
+clk => counter[3].CLK
+clk => counter[2].CLK
+clk => counter[1].CLK
+clk => counter[0].CLK
+clk => wt[3].CLK
+clk => wt[2].CLK
+clk => wt[1].CLK
+clk => wt[0].CLK
+clk => Slave_FIFO_Write_n~reg0.CLK
+clk => O_FIFO_Rd_Clk.DATAIN
+FIFO_Reset_n => Slave_FIFO_Write_n~reg0.PRESET
+FIFO_Reset_n => counter[9].ACLR
+FIFO_Reset_n => counter[8].ACLR
+FIFO_Reset_n => counter[7].ACLR
+FIFO_Reset_n => counter[6].ACLR
+FIFO_Reset_n => counter[5].ACLR
+FIFO_Reset_n => counter[4].ACLR
+FIFO_Reset_n => counter[3].ACLR
+FIFO_Reset_n => counter[2].ACLR
+FIFO_Reset_n => counter[1].ACLR
+FIFO_Reset_n => counter[0].ACLR
+FIFO_Reset_n => wt[3].ENA
+FIFO_Reset_n => wt[2].ENA
+FIFO_Reset_n => wt[1].ENA
+FIFO_Reset_n => wt[0].ENA
+O_FIFO_Empty_n => process_0~0.IN0
+FLAG_B => process_0~0.IN1
+Slave_FIFO_Write_n <= Slave_FIFO_Write_n~reg0.DB_MAX_OUTPUT_PORT_TYPE
+O_FIFO_Rd_Clk <= clk.DB_MAX_OUTPUT_PORT_TYPE
+
+

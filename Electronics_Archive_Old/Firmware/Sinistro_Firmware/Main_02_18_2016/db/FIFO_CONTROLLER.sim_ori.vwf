@@ -1,0 +1,397 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 100000.0;
+	SIMULATION_TIME = 100000.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 10.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("clk")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("IFClk")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("O_FIFO_Rd_Clk")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Slave_FIFO_Write_n")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("FIFO_Reset_n")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("O_FIFO_Empty_n")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("FLAG_B")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("O_FIFO_Read_n")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("clk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 4800;
+			LEVEL 0 FOR 10.417;
+			LEVEL 1 FOR 10.416;
+		}
+		LEVEL 0 FOR 1.6;
+	}
+}
+
+TRANSITION_LIST("IFClk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 15.279;
+		NODE
+		{
+			REPEAT = 4799;
+			LEVEL 0 FOR 10.478;
+			LEVEL 1 FOR 10.355;
+		}
+		LEVEL 0 FOR 7.154;
+	}
+}
+
+TRANSITION_LIST("O_FIFO_Rd_Clk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 13.925;
+		NODE
+		{
+			REPEAT = 4799;
+			LEVEL 0 FOR 10.62;
+			LEVEL 1 FOR 10.213;
+		}
+		LEVEL 0 FOR 8.508;
+	}
+}
+
+TRANSITION_LIST("Slave_FIFO_Write_n")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 203.846;
+		NODE
+		{
+			REPEAT = 40;
+			LEVEL 0 FOR 20.953;
+			LEVEL 1 FOR 20.713;
+		}
+		LEVEL 0 FOR 20.953;
+		LEVEL 1 FOR 187.377;
+		NODE
+		{
+			REPEAT = 8;
+			LEVEL 0 FOR 20.953;
+			LEVEL 1 FOR 20.713;
+		}
+		LEVEL 0 FOR 20.953;
+		LEVEL 1 FOR 41.546;
+		NODE
+		{
+			REPEAT = 60;
+			LEVEL 0 FOR 20.953;
+			LEVEL 1 FOR 20.713;
+		}
+		LEVEL 0 FOR 20.953;
+		LEVEL 1 FOR 374.874;
+		NODE
+		{
+			REPEAT = 144;
+			LEVEL 0 FOR 20.953;
+			LEVEL 1 FOR 20.713;
+		}
+		NODE
+		{
+			REPEAT = 8;
+			LEVEL 0 FOR 20.953;
+			LEVEL 1 FOR 249.876;
+			NODE
+			{
+				REPEAT = 255;
+				LEVEL 0 FOR 20.953;
+				LEVEL 1 FOR 20.713;
+			}
+		}
+		LEVEL 0 FOR 20.953;
+		LEVEL 1 FOR 249.876;
+		NODE
+		{
+			REPEAT = 28;
+			LEVEL 0 FOR 20.953;
+			LEVEL 1 FOR 20.713;
+		}
+		LEVEL 0 FOR 20.953;
+		LEVEL 1 FOR 5.964;
+	}
+}
+
+TRANSITION_LIST("FIFO_Reset_n")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 0.2;
+		LEVEL 0 FOR 55.8;
+		LEVEL 1 FOR 99944.0;
+	}
+}
+
+TRANSITION_LIST("O_FIFO_Empty_n")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1846.894;
+		LEVEL 0 FOR 187.366;
+		LEVEL 1 FOR 368.041;
+		LEVEL 0 FOR 40.15;
+		LEVEL 1 FOR 97557.549;
+	}
+}
+
+TRANSITION_LIST("FLAG_B")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 0.2;
+		LEVEL 0 FOR 109.0;
+		LEVEL 1 FOR 4856.003;
+		LEVEL 0 FOR 374.732;
+		LEVEL 1 FOR 94660.065;
+	}
+}
+
+TRANSITION_LIST("O_FIFO_Read_n")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 182.757;
+		NODE
+		{
+			REPEAT = 40;
+			LEVEL 0 FOR 20.917;
+			LEVEL 1 FOR 20.749;
+		}
+		LEVEL 0 FOR 20.917;
+		LEVEL 1 FOR 187.413;
+		NODE
+		{
+			REPEAT = 8;
+			LEVEL 0 FOR 20.917;
+			LEVEL 1 FOR 20.749;
+		}
+		LEVEL 0 FOR 20.917;
+		LEVEL 1 FOR 41.582;
+		NODE
+		{
+			REPEAT = 60;
+			LEVEL 0 FOR 20.917;
+			LEVEL 1 FOR 20.749;
+		}
+		LEVEL 0 FOR 20.917;
+		LEVEL 1 FOR 374.91;
+		NODE
+		{
+			REPEAT = 144;
+			LEVEL 0 FOR 20.917;
+			LEVEL 1 FOR 20.749;
+		}
+		NODE
+		{
+			REPEAT = 8;
+			LEVEL 0 FOR 20.917;
+			LEVEL 1 FOR 249.912;
+			NODE
+			{
+				REPEAT = 255;
+				LEVEL 0 FOR 20.917;
+				LEVEL 1 FOR 20.749;
+			}
+		}
+		LEVEL 0 FOR 20.917;
+		LEVEL 1 FOR 249.912;
+		NODE
+		{
+			REPEAT = 29;
+			LEVEL 0 FOR 20.917;
+			LEVEL 1 FOR 20.749;
+		}
+		LEVEL 0 FOR 6.34;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "FIFO_Reset_n";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "clk";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "FLAG_B";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "O_FIFO_Empty_n";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "IFClk";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "O_FIFO_Rd_Clk";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "O_FIFO_Read_n";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Slave_FIFO_Write_n";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 2449142;
+	MASTER = TRUE;
+}
+;

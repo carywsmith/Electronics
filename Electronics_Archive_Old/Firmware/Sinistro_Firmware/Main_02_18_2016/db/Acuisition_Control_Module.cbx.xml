@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Acuisition_Control_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst17|lpm_add_sub0:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_compare4:inst55|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter37:inst63|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_j9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst18|lpm_add_sub0:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Mirror:inst78|lpm_counter10:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_0fm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_compare4:inst29|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_compare4:inst56|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_compare4:inst57|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_constant18:inst59|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_0g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter12:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_1bj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_mux0:inst43|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_mrc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst17|lpm_counter26:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_constant19:inst68|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_vf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_decode1:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_svf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_dff8:inst64|lpm_ff:lpm_ff_component|lpm_constant:ac" CBX_FILE_NAME="lpm_constant_k84.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst18|lpm_counter26:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst23|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Mirror:inst78|lpm_counter11:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_22k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter14:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_c2l.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter16:inst8|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u8m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_decode2:inst10|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_mbi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_mux1:inst44|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rof.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst23|lpm_add_sub0:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter17:inst26|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_b9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst16|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst23|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_99k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter7:inst20|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_c9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter8:inst45|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_c9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_divide0:inst28|lpm_divide:lpm_divide_component" CBX_FILE_NAME="lpm_divide_cfs.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst16|lpm_add_sub0:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst17|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_compare4:inst54|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_constant0:inst22|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_constant16:inst50|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_rf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst16|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_99k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst18|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst23|lpm_counter26:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_counter15:inst14|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_e9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_mux5:inst35|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_8qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst17|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_99k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_constant17:inst51|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst16|lpm_counter26:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|Filter_DCDS_Module:inst18|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_99k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Acuisition_Control_Module|lpm_compare4:inst31|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

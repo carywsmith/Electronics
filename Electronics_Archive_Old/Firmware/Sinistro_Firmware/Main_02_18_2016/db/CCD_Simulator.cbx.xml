@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CCD_Simulator">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD_Simulator|lpm_counter38:inst26|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_haj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD_Simulator|lpm_mux7:inst35|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_krc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD_Simulator|lpm_counter39:inst28|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_0fm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD_Simulator|lpm_mux6:inst33|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_a9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD_Simulator|lpm_mux7:inst34|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_krc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD_Simulator|lpm_mux7:inst36|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_krc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

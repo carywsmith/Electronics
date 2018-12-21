@@ -1,0 +1,604 @@
+Classic Timing Analyzer report for FIFO_CONTROLLER
+Tue Jul 21 10:29:17 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Timing Analyzer Settings
+  4. Clock Settings Summary
+  5. Parallel Compilation
+  6. Clock Setup: 'clk'
+  7. tsu
+  8. tco
+  9. tpd
+ 10. th
+ 11. Board Trace Model Assignments
+ 12. Input Transition Times
+ 13. Slow Corner Signal Integrity Metrics
+ 14. Fast Corner Signal Integrity Metrics
+ 15. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                                                                                                                                     ;
++------------------------------+-------+---------------+------------------------------------------------+-------------------------+--------------------+------------+----------+--------------+
+; Type                         ; Slack ; Required Time ; Actual Time                                    ; From                    ; To                 ; From Clock ; To Clock ; Failed Paths ;
++------------------------------+-------+---------------+------------------------------------------------+-------------------------+--------------------+------------+----------+--------------+
+; Worst-case tsu               ; N/A   ; None          ; 3.335 ns                                       ; FLAG_B                  ; wt[3]              ; --         ; clk      ; 0            ;
+; Worst-case tco               ; N/A   ; None          ; 5.677 ns                                       ; Slave_FIFO_Write_n~reg0 ; Slave_FIFO_Write_n ; clk        ; --       ; 0            ;
+; Worst-case tpd               ; N/A   ; None          ; 5.114 ns                                       ; clk                     ; O_FIFO_Rd_Clk      ; --         ; --       ; 0            ;
+; Worst-case th                ; N/A   ; None          ; 0.179 ns                                       ; FIFO_Reset_n            ; wt[1]              ; --         ; clk      ; 0            ;
+; Clock Setup: 'clk'           ; N/A   ; None          ; Restricted to 250.00 MHz ( period = 4.000 ns ) ; counter[6]              ; counter[9]         ; clk        ; clk      ; 0            ;
+; Total number of failed paths ;       ;               ;                                                ;                         ;                    ;            ;          ; 0            ;
++------------------------------+-------+---------------+------------------------------------------------+-------------------------+--------------------+------------+----------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Settings                                                                                           ;
++---------------------------------------------------------------------+--------------------+------+----+-------------+
+; Option                                                              ; Setting            ; From ; To ; Entity Name ;
++---------------------------------------------------------------------+--------------------+------+----+-------------+
+; Device Name                                                         ; EP3C16F256C6       ;      ;    ;             ;
+; Timing Models                                                       ; Final              ;      ;    ;             ;
+; Default hold multicycle                                             ; Same as Multicycle ;      ;    ;             ;
+; Cut paths between unrelated clock domains                           ; On                 ;      ;    ;             ;
+; Cut off read during write signal paths                              ; On                 ;      ;    ;             ;
+; Cut off feedback from I/O pins                                      ; On                 ;      ;    ;             ;
+; Report Combined Fast/Slow Timing                                    ; Off                ;      ;    ;             ;
+; Ignore Clock Settings                                               ; Off                ;      ;    ;             ;
+; Analyze latches as synchronous elements                             ; On                 ;      ;    ;             ;
+; Enable Recovery/Removal analysis                                    ; Off                ;      ;    ;             ;
+; Enable Clock Latency                                                ; Off                ;      ;    ;             ;
+; Use TimeQuest Timing Analyzer                                       ; Off                ;      ;    ;             ;
+; Nominal Core Supply Voltage                                         ; 1.2V               ;      ;    ;             ;
+; Minimum Core Junction Temperature                                   ; 0                  ;      ;    ;             ;
+; Maximum Core Junction Temperature                                   ; 85                 ;      ;    ;             ;
+; Number of source nodes to report per destination node               ; 10                 ;      ;    ;             ;
+; Number of destination nodes to report                               ; 10                 ;      ;    ;             ;
+; Number of paths to report                                           ; 200                ;      ;    ;             ;
+; Report Minimum Timing Checks                                        ; Off                ;      ;    ;             ;
+; Use Fast Timing Models                                              ; Off                ;      ;    ;             ;
+; Report IO Paths Separately                                          ; Off                ;      ;    ;             ;
+; Perform Multicorner Analysis                                        ; On                 ;      ;    ;             ;
+; Reports the worst-case path for each clock domain and analysis      ; Off                ;      ;    ;             ;
+; Removes common clock path pessimism (CCPP) during slack computation ; On                 ;      ;    ;             ;
+; Output I/O Timing Endpoint                                          ; Near End           ;      ;    ;             ;
+; Enables Advanced I/O Timing                                         ; On                 ;      ;    ;             ;
++---------------------------------------------------------------------+--------------------+------+----+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Settings Summary                                                                                                                                                             ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+; Clock Node Name ; Clock Setting Name ; Type     ; Fmax Requirement ; Early Latency ; Late Latency ; Based on ; Multiply Base Fmax by ; Divide Base Fmax by ; Offset ; Phase offset ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+; clk             ;                    ; User Pin ; None             ; 0.000 ns      ; 0.000 ns     ; --       ; N/A                   ; N/A                 ; N/A    ;              ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-4 processors         ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Setup: 'clk'                                                                                                                                                                                                                       ;
++-----------------------------------------+-----------------------------------------------------+----------------+-------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+; Slack                                   ; Actual fmax (period)                                ; From           ; To          ; From Clock ; To Clock ; Required Setup Relationship ; Required Longest P2P Time ; Actual Longest P2P Time ;
++-----------------------------------------+-----------------------------------------------------+----------------+-------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 3.030 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 3.022 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 3.018 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.972 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.964 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.960 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.914 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.906 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.902 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.865 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.856 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.848 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.844 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.807 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.798 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.790 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.786 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.777 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.749 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.740 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.732 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.729 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.728 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.719 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.691 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.682 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.674 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.671 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.670 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.661 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.633 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.624 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.616 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.614 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.613 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.612 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.603 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.602 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.575 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.566 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.558 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.556 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.555 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.554 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.545 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.544 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.517 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.498 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.497 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.487 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.486 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.459 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.440 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.439 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.429 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.428 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.409 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 2.408 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.401 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.382 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.381 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.371 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.370 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.351 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 2.350 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.324 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.323 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.313 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.312 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.311 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.310 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.308 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.306 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.303 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.302 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.300 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.299 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.298 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.298 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.296 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.294 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.293 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 2.292 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.266 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.265 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.254 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.235 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 2.234 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.208 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.196 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.177 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 2.176 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.176 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.175 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.173 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.172 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.171 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.171 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.169 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.167 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[3]          ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.156 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[3]          ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.155 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[3]          ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.153 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[3]          ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.151 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.150 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 2.138 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.119 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 2.118 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[2]          ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.093 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[2]          ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.092 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[2]          ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.090 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[2]          ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.088 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.061 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 2.060 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.058 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.057 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.057 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.056 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.056 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.055 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.055 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.054 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.053 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.053 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.052 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.051 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.036 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.035 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 2.034 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.033 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.031 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 2.026 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 2.022 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[1]          ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 2.005 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[1]          ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 2.004 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.003 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[1]          ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 2.002 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 2.002 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[1]          ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 2.000 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[8]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 1.945 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[9]     ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 1.944 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 1.921 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 1.920 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 1.918 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[0]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 1.916 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; state.wi    ; clk        ; clk      ; None                        ; None                      ; 1.913 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[6]     ; state.w0    ; clk        ; clk      ; None                        ; None                      ; 1.911 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 1.909 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 1.908 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 1.906 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; state.wi    ; clk        ; clk      ; None                        ; None                      ; 1.905 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[3]     ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 1.904 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[7]     ; state.w0    ; clk        ; clk      ; None                        ; None                      ; 1.903 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; state.wi    ; clk        ; clk      ; None                        ; None                      ; 1.901 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[4]     ; state.w0    ; clk        ; clk      ; None                        ; None                      ; 1.899 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.Wr_Slave ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 1.895 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.Wr_Slave ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 1.894 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.Wr_Slave ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 1.892 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.Wr_Slave ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 1.890 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[0]          ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 1.878 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[0]          ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 1.877 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[0]          ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 1.875 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[0]          ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 1.873 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 1.869 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 1.822 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 1.821 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 1.819 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 1.817 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.w0       ; wt[3]       ; clk        ; clk      ; None                        ; None                      ; 1.801 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.w0       ; wt[2]       ; clk        ; clk      ; None                        ; None                      ; 1.800 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.w0       ; wt[0]       ; clk        ; clk      ; None                        ; None                      ; 1.798 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.w0       ; wt[1]       ; clk        ; clk      ; None                        ; None                      ; 1.796 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 1.781 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; state.wi    ; clk        ; clk      ; None                        ; None                      ; 1.748 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[2]     ; state.w0    ; clk        ; clk      ; None                        ; None                      ; 1.746 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[1]     ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 1.733 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.idle0    ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 1.722 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[7]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[6]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[5]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[4]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[9]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[8]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[3]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[1]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[2]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; state.wi       ; counter[0]  ; clk        ; clk      ; None                        ; None                      ; 1.716 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[3]          ; state.wi    ; clk        ; clk      ; None                        ; None                      ; 1.715 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; state.wi    ; clk        ; clk      ; None                        ; None                      ; 1.660 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; counter[5]     ; state.w0    ; clk        ; clk      ; None                        ; None                      ; 1.658 ns                ;
+; N/A                                     ; Restricted to 250.00 MHz ( period = 4.000 ns )      ; wt[3]          ; state.idle0 ; clk        ; clk      ; None                        ; None                      ; 1.644 ns                ;
+; Timing analysis restricted to 200 rows. ; To change the limit use Settings (Assignments menu) ;                ;             ;            ;          ;                             ;                           ;                         ;
++-----------------------------------------+-----------------------------------------------------+----------------+-------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+
+
++--------------------------------------------------------------------------------+
+; tsu                                                                            ;
++-------+--------------+------------+----------------+----------------+----------+
+; Slack ; Required tsu ; Actual tsu ; From           ; To             ; To Clock ;
++-------+--------------+------------+----------------+----------------+----------+
+; N/A   ; None         ; 3.335 ns   ; FLAG_B         ; wt[3]          ; clk      ;
+; N/A   ; None         ; 3.334 ns   ; FLAG_B         ; wt[2]          ; clk      ;
+; N/A   ; None         ; 3.332 ns   ; FLAG_B         ; wt[0]          ; clk      ;
+; N/A   ; None         ; 3.330 ns   ; FLAG_B         ; wt[1]          ; clk      ;
+; N/A   ; None         ; 3.325 ns   ; O_FIFO_Empty_n ; wt[3]          ; clk      ;
+; N/A   ; None         ; 3.324 ns   ; O_FIFO_Empty_n ; wt[2]          ; clk      ;
+; N/A   ; None         ; 3.322 ns   ; O_FIFO_Empty_n ; wt[0]          ; clk      ;
+; N/A   ; None         ; 3.320 ns   ; O_FIFO_Empty_n ; wt[1]          ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[7]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[6]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[5]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[4]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[9]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[8]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[3]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[1]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[2]     ; clk      ;
+; N/A   ; None         ; 3.229 ns   ; FLAG_B         ; counter[0]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[7]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[6]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[5]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[4]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[9]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[8]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[3]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[1]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[2]     ; clk      ;
+; N/A   ; None         ; 3.219 ns   ; O_FIFO_Empty_n ; counter[0]     ; clk      ;
+; N/A   ; None         ; 2.823 ns   ; FLAG_B         ; state.idle0    ; clk      ;
+; N/A   ; None         ; 2.813 ns   ; O_FIFO_Empty_n ; state.idle0    ; clk      ;
+; N/A   ; None         ; 2.787 ns   ; FLAG_B         ; state.wi       ; clk      ;
+; N/A   ; None         ; 2.777 ns   ; O_FIFO_Empty_n ; state.wi       ; clk      ;
+; N/A   ; None         ; 1.664 ns   ; O_FIFO_Empty_n ; state.Wr_Slave ; clk      ;
+; N/A   ; None         ; 1.591 ns   ; FLAG_B         ; state.Wr_Slave ; clk      ;
+; N/A   ; None         ; -0.032 ns  ; FIFO_Reset_n   ; wt[3]          ; clk      ;
+; N/A   ; None         ; -0.033 ns  ; FIFO_Reset_n   ; wt[2]          ; clk      ;
+; N/A   ; None         ; -0.035 ns  ; FIFO_Reset_n   ; wt[0]          ; clk      ;
+; N/A   ; None         ; -0.037 ns  ; FIFO_Reset_n   ; wt[1]          ; clk      ;
++-------+--------------+------------+----------------+----------------+----------+
+
+
++-----------------------------------------------------------------------------------------------+
+; tco                                                                                           ;
++-------+--------------+------------+-------------------------+--------------------+------------+
+; Slack ; Required tco ; Actual tco ; From                    ; To                 ; From Clock ;
++-------+--------------+------------+-------------------------+--------------------+------------+
+; N/A   ; None         ; 5.677 ns   ; Slave_FIFO_Write_n~reg0 ; Slave_FIFO_Write_n ; clk        ;
+; N/A   ; None         ; 5.624 ns   ; state.Wr_Slave          ; O_FIFO_Read_n      ; clk        ;
++-------+--------------+------------+-------------------------+--------------------+------------+
+
+
++--------------------------------------------------------------------+
+; tpd                                                                ;
++-------+-------------------+-----------------+------+---------------+
+; Slack ; Required P2P Time ; Actual P2P Time ; From ; To            ;
++-------+-------------------+-----------------+------+---------------+
+; N/A   ; None              ; 5.114 ns        ; clk  ; O_FIFO_Rd_Clk ;
++-------+-------------------+-----------------+------+---------------+
+
+
++--------------------------------------------------------------------------------------+
+; th                                                                                   ;
++---------------+-------------+-----------+----------------+----------------+----------+
+; Minimum Slack ; Required th ; Actual th ; From           ; To             ; To Clock ;
++---------------+-------------+-----------+----------------+----------------+----------+
+; N/A           ; None        ; 0.179 ns  ; FIFO_Reset_n   ; wt[1]          ; clk      ;
+; N/A           ; None        ; 0.177 ns  ; FIFO_Reset_n   ; wt[0]          ; clk      ;
+; N/A           ; None        ; 0.175 ns  ; FIFO_Reset_n   ; wt[2]          ; clk      ;
+; N/A           ; None        ; 0.174 ns  ; FIFO_Reset_n   ; wt[3]          ; clk      ;
+; N/A           ; None        ; -1.449 ns ; FLAG_B         ; state.Wr_Slave ; clk      ;
+; N/A           ; None        ; -1.522 ns ; O_FIFO_Empty_n ; state.Wr_Slave ; clk      ;
+; N/A           ; None        ; -2.635 ns ; O_FIFO_Empty_n ; state.wi       ; clk      ;
+; N/A           ; None        ; -2.645 ns ; FLAG_B         ; state.wi       ; clk      ;
+; N/A           ; None        ; -2.671 ns ; O_FIFO_Empty_n ; state.idle0    ; clk      ;
+; N/A           ; None        ; -2.681 ns ; FLAG_B         ; state.idle0    ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[7]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[6]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[5]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[4]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[9]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[8]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[3]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[1]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[2]     ; clk      ;
+; N/A           ; None        ; -3.077 ns ; O_FIFO_Empty_n ; counter[0]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[7]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[6]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[5]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[4]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[9]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[8]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[3]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[1]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[2]     ; clk      ;
+; N/A           ; None        ; -3.087 ns ; FLAG_B         ; counter[0]     ; clk      ;
+; N/A           ; None        ; -3.178 ns ; O_FIFO_Empty_n ; wt[1]          ; clk      ;
+; N/A           ; None        ; -3.180 ns ; O_FIFO_Empty_n ; wt[0]          ; clk      ;
+; N/A           ; None        ; -3.182 ns ; O_FIFO_Empty_n ; wt[2]          ; clk      ;
+; N/A           ; None        ; -3.183 ns ; O_FIFO_Empty_n ; wt[3]          ; clk      ;
+; N/A           ; None        ; -3.188 ns ; FLAG_B         ; wt[1]          ; clk      ;
+; N/A           ; None        ; -3.190 ns ; FLAG_B         ; wt[0]          ; clk      ;
+; N/A           ; None        ; -3.192 ns ; FLAG_B         ; wt[2]          ; clk      ;
+; N/A           ; None        ; -3.193 ns ; FLAG_B         ; wt[3]          ; clk      ;
++---------------+-------------+-----------+----------------+----------------+----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                         ;
++--------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Pin                ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ;
++--------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Slave_FIFO_Write_n ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_Rd_Clk      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_Read_n      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_DCLK~      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_nCEO~      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
++--------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; clk                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; FIFO_Reset_n            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_Empty_n          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; FLAG_B                  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Slave_FIFO_Write_n ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_Rd_Clk      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.26e-007 V                  ; 2.33 V              ; -0.00317 V          ; 0.162 V                              ; 0.063 V                              ; 3.54e-009 s                 ; 3.41e-009 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.26e-007 V                 ; 2.33 V             ; -0.00317 V         ; 0.162 V                             ; 0.063 V                             ; 3.54e-009 s                ; 3.41e-009 s                ; Yes                       ; Yes                       ;
+; O_FIFO_Read_n      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.26e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.035 V                              ; 7.76e-010 s                 ; 8.05e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.26e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.035 V                             ; 7.76e-010 s                ; 8.05e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-007 V                  ; 2.35 V              ; -0.0132 V           ; 0.2 V                                ; 0.027 V                              ; 5.26e-010 s                 ; 4.81e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-007 V                 ; 2.35 V             ; -0.0132 V          ; 0.2 V                               ; 0.027 V                             ; 5.26e-010 s                ; 4.81e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-007 V                  ; 2.35 V              ; -0.00483 V          ; 0.18 V                               ; 0.019 V                              ; 7.23e-010 s                 ; 9.82e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-007 V                 ; 2.35 V             ; -0.00483 V         ; 0.18 V                              ; 0.019 V                             ; 7.23e-010 s                ; 9.82e-010 s                ; Yes                       ; Yes                       ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Slave_FIFO_Write_n ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_Rd_Clk      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.64 V              ; -0.0109 V           ; 0.244 V                              ; 0.16 V                               ; 2.42e-009 s                 ; 2.37e-009 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.64 V             ; -0.0109 V          ; 0.244 V                             ; 0.16 V                              ; 2.42e-009 s                ; 2.37e-009 s                ; No                        ; Yes                       ;
+; O_FIFO_Read_n      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0352 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0352 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.53e-008 V                  ; 2.7 V               ; -0.021 V            ; 0.204 V                              ; 0.048 V                              ; 4.85e-010 s                 ; 6.74e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 3.53e-008 V                 ; 2.7 V              ; -0.021 V           ; 0.204 V                             ; 0.048 V                             ; 4.85e-010 s                ; 6.74e-010 s                ; No                        ; Yes                       ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Classic Timing Analyzer
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Tue Jul 21 10:29:16 2009
+Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off FIFO_CONTROLLER -c FIFO_CONTROLLER --timing_analysis_only
+Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
+Warning: Found pins functioning as undefined clocks and/or memory enables
+    Info: Assuming node "clk" is an undefined clock
+Info: Clock "clk" Internal fmax is restricted to 250.0 MHz between source register "counter[6]" and destination register "counter[9]"
+    Info: fmax restricted to clock pin edge rate 4.0 ns. Expand message to see actual delay path.
+        Info: + Longest register to register delay is 3.030 ns
+            Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = FF_X1_Y22_N21; Fanout = 3; REG Node = 'counter[6]'
+            Info: 2: + IC(0.441 ns) + CELL(0.241 ns) = 0.682 ns; Loc. = LCCOMB_X1_Y22_N0; Fanout = 2; COMB Node = 'LessThan1~0'
+            Info: 3: + IC(0.388 ns) + CELL(0.243 ns) = 1.313 ns; Loc. = LCCOMB_X1_Y22_N28; Fanout = 4; COMB Node = 'LessThan1~2'
+            Info: 4: + IC(0.261 ns) + CELL(0.446 ns) = 2.020 ns; Loc. = LCCOMB_X1_Y22_N8; Fanout = 2; COMB Node = 'Add1~1'
+            Info: 5: + IC(0.000 ns) + CELL(0.058 ns) = 2.078 ns; Loc. = LCCOMB_X1_Y22_N10; Fanout = 2; COMB Node = 'Add1~3'
+            Info: 6: + IC(0.000 ns) + CELL(0.058 ns) = 2.136 ns; Loc. = LCCOMB_X1_Y22_N12; Fanout = 2; COMB Node = 'Add1~5'
+            Info: 7: + IC(0.000 ns) + CELL(0.058 ns) = 2.194 ns; Loc. = LCCOMB_X1_Y22_N14; Fanout = 2; COMB Node = 'Add1~7'
+            Info: 8: + IC(0.000 ns) + CELL(0.058 ns) = 2.252 ns; Loc. = LCCOMB_X1_Y22_N16; Fanout = 2; COMB Node = 'Add1~9'
+            Info: 9: + IC(0.000 ns) + CELL(0.058 ns) = 2.310 ns; Loc. = LCCOMB_X1_Y22_N18; Fanout = 2; COMB Node = 'Add1~11'
+            Info: 10: + IC(0.000 ns) + CELL(0.058 ns) = 2.368 ns; Loc. = LCCOMB_X1_Y22_N20; Fanout = 2; COMB Node = 'Add1~13'
+            Info: 11: + IC(0.000 ns) + CELL(0.058 ns) = 2.426 ns; Loc. = LCCOMB_X1_Y22_N22; Fanout = 2; COMB Node = 'Add1~15'
+            Info: 12: + IC(0.000 ns) + CELL(0.058 ns) = 2.484 ns; Loc. = LCCOMB_X1_Y22_N24; Fanout = 1; COMB Node = 'Add1~17'
+            Info: 13: + IC(0.000 ns) + CELL(0.455 ns) = 2.939 ns; Loc. = LCCOMB_X1_Y22_N26; Fanout = 1; COMB Node = 'Add1~18'
+            Info: 14: + IC(0.000 ns) + CELL(0.091 ns) = 3.030 ns; Loc. = FF_X1_Y22_N27; Fanout = 3; REG Node = 'counter[9]'
+            Info: Total cell delay = 1.940 ns ( 64.03 % )
+            Info: Total interconnect delay = 1.090 ns ( 35.97 % )
+        Info: - Smallest clock skew is 0.000 ns
+            Info: + Shortest clock path from clock "clk" to destination register is 2.568 ns
+                Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E2; Fanout = 1; CLK Node = 'clk'
+                Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N1; Fanout = 2; COMB Node = 'clk~input'
+                Info: 3: + IC(0.163 ns) + CELL(0.000 ns) = 1.069 ns; Loc. = CLKCTRL_G4; Fanout = 19; COMB Node = 'clk~inputclkctrl'
+                Info: 4: + IC(0.965 ns) + CELL(0.534 ns) = 2.568 ns; Loc. = FF_X1_Y22_N27; Fanout = 3; REG Node = 'counter[9]'
+                Info: Total cell delay = 1.440 ns ( 56.07 % )
+                Info: Total interconnect delay = 1.128 ns ( 43.93 % )
+            Info: - Longest clock path from clock "clk" to source register is 2.568 ns
+                Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E2; Fanout = 1; CLK Node = 'clk'
+                Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N1; Fanout = 2; COMB Node = 'clk~input'
+                Info: 3: + IC(0.163 ns) + CELL(0.000 ns) = 1.069 ns; Loc. = CLKCTRL_G4; Fanout = 19; COMB Node = 'clk~inputclkctrl'
+                Info: 4: + IC(0.965 ns) + CELL(0.534 ns) = 2.568 ns; Loc. = FF_X1_Y22_N21; Fanout = 3; REG Node = 'counter[6]'
+                Info: Total cell delay = 1.440 ns ( 56.07 % )
+                Info: Total interconnect delay = 1.128 ns ( 43.93 % )
+        Info: + Micro clock to output delay of source is 0.199 ns
+        Info: + Micro setup delay of destination is -0.015 ns
+Info: tsu for register "wt[3]" (data pin = "FLAG_B", clock pin = "clk") is 3.335 ns
+    Info: + Longest pin to register delay is 5.918 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_F1; Fanout = 1; PIN Node = 'FLAG_B'
+        Info: 2: + IC(0.000 ns) + CELL(0.886 ns) = 0.886 ns; Loc. = IOIBUF_X0_Y22_N22; Fanout = 2; COMB Node = 'FLAG_B~input'
+        Info: 3: + IC(2.971 ns) + CELL(0.367 ns) = 4.224 ns; Loc. = LCCOMB_X2_Y22_N10; Fanout = 3; COMB Node = 'process_0~0'
+        Info: 4: + IC(0.366 ns) + CELL(0.243 ns) = 4.833 ns; Loc. = LCCOMB_X2_Y22_N26; Fanout = 2; COMB Node = 'wt[3]~19'
+        Info: 5: + IC(0.377 ns) + CELL(0.130 ns) = 5.340 ns; Loc. = LCCOMB_X1_Y22_N30; Fanout = 4; COMB Node = 'wt[3]~20'
+        Info: 6: + IC(0.357 ns) + CELL(0.130 ns) = 5.827 ns; Loc. = LCCOMB_X2_Y22_N2; Fanout = 1; COMB Node = 'wt[3]~21'
+        Info: 7: + IC(0.000 ns) + CELL(0.091 ns) = 5.918 ns; Loc. = FF_X2_Y22_N3; Fanout = 4; REG Node = 'wt[3]'
+        Info: Total cell delay = 1.847 ns ( 31.21 % )
+        Info: Total interconnect delay = 4.071 ns ( 68.79 % )
+    Info: + Micro setup delay of destination is -0.015 ns
+    Info: - Shortest clock path from clock "clk" to destination register is 2.568 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E2; Fanout = 1; CLK Node = 'clk'
+        Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N1; Fanout = 2; COMB Node = 'clk~input'
+        Info: 3: + IC(0.163 ns) + CELL(0.000 ns) = 1.069 ns; Loc. = CLKCTRL_G4; Fanout = 19; COMB Node = 'clk~inputclkctrl'
+        Info: 4: + IC(0.965 ns) + CELL(0.534 ns) = 2.568 ns; Loc. = FF_X2_Y22_N3; Fanout = 4; REG Node = 'wt[3]'
+        Info: Total cell delay = 1.440 ns ( 56.07 % )
+        Info: Total interconnect delay = 1.128 ns ( 43.93 % )
+Info: tco from clock "clk" to destination pin "Slave_FIFO_Write_n" through register "Slave_FIFO_Write_n~reg0" is 5.677 ns
+    Info: + Longest clock path from clock "clk" to source register is 2.567 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E2; Fanout = 1; CLK Node = 'clk'
+        Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N1; Fanout = 2; COMB Node = 'clk~input'
+        Info: 3: + IC(0.163 ns) + CELL(0.000 ns) = 1.069 ns; Loc. = CLKCTRL_G4; Fanout = 19; COMB Node = 'clk~inputclkctrl'
+        Info: 4: + IC(0.964 ns) + CELL(0.534 ns) = 2.567 ns; Loc. = FF_X3_Y22_N1; Fanout = 1; REG Node = 'Slave_FIFO_Write_n~reg0'
+        Info: Total cell delay = 1.440 ns ( 56.10 % )
+        Info: Total interconnect delay = 1.127 ns ( 43.90 % )
+    Info: + Micro clock to output delay of source is 0.199 ns
+    Info: + Longest register to pin delay is 2.911 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = FF_X3_Y22_N1; Fanout = 1; REG Node = 'Slave_FIFO_Write_n~reg0'
+        Info: 2: + IC(0.851 ns) + CELL(2.060 ns) = 2.911 ns; Loc. = IOOBUF_X3_Y29_N9; Fanout = 1; COMB Node = 'Slave_FIFO_Write_n~output'
+        Info: 3: + IC(0.000 ns) + CELL(0.000 ns) = 2.911 ns; Loc. = PIN_B4; Fanout = 0; PIN Node = 'Slave_FIFO_Write_n'
+        Info: Total cell delay = 2.060 ns ( 70.77 % )
+        Info: Total interconnect delay = 0.851 ns ( 29.23 % )
+Info: Longest tpd from source pin "clk" to destination pin "O_FIFO_Rd_Clk" is 5.114 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E2; Fanout = 1; CLK Node = 'clk'
+    Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N1; Fanout = 2; COMB Node = 'clk~input'
+    Info: 3: + IC(0.691 ns) + CELL(3.517 ns) = 5.114 ns; Loc. = IOOBUF_X0_Y21_N23; Fanout = 1; COMB Node = 'O_FIFO_Rd_Clk~output'
+    Info: 4: + IC(0.000 ns) + CELL(0.000 ns) = 5.114 ns; Loc. = PIN_G1; Fanout = 0; PIN Node = 'O_FIFO_Rd_Clk'
+    Info: Total cell delay = 4.423 ns ( 86.49 % )
+    Info: Total interconnect delay = 0.691 ns ( 13.51 % )
+Info: th for register "wt[1]" (data pin = "FIFO_Reset_n", clock pin = "clk") is 0.179 ns
+    Info: + Longest clock path from clock "clk" to destination register is 2.568 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E2; Fanout = 1; CLK Node = 'clk'
+        Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N1; Fanout = 2; COMB Node = 'clk~input'
+        Info: 3: + IC(0.163 ns) + CELL(0.000 ns) = 1.069 ns; Loc. = CLKCTRL_G4; Fanout = 19; COMB Node = 'clk~inputclkctrl'
+        Info: 4: + IC(0.965 ns) + CELL(0.534 ns) = 2.568 ns; Loc. = FF_X2_Y22_N23; Fanout = 6; REG Node = 'wt[1]'
+        Info: Total cell delay = 1.440 ns ( 56.07 % )
+        Info: Total interconnect delay = 1.128 ns ( 43.93 % )
+    Info: + Micro hold delay of destination is 0.157 ns
+    Info: - Shortest pin to register delay is 2.546 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_E1; Fanout = 1; PIN Node = 'FIFO_Reset_n'
+        Info: 2: + IC(0.000 ns) + CELL(0.906 ns) = 0.906 ns; Loc. = IOIBUF_X0_Y14_N8; Fanout = 2; COMB Node = 'FIFO_Reset_n~input'
+        Info: 3: + IC(0.764 ns) + CELL(0.303 ns) = 1.973 ns; Loc. = LCCOMB_X1_Y22_N30; Fanout = 4; COMB Node = 'wt[3]~20'
+        Info: 4: + IC(0.352 ns) + CELL(0.130 ns) = 2.455 ns; Loc. = LCCOMB_X2_Y22_N22; Fanout = 1; COMB Node = 'wt[1]~23'
+        Info: 5: + IC(0.000 ns) + CELL(0.091 ns) = 2.546 ns; Loc. = FF_X2_Y22_N23; Fanout = 6; REG Node = 'wt[1]'
+        Info: Total cell delay = 1.430 ns ( 56.17 % )
+        Info: Total interconnect delay = 1.116 ns ( 43.83 % )
+Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 177 megabytes
+    Info: Processing ended: Tue Jul 21 10:29:17 2009
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

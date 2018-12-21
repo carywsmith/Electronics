@@ -1,0 +1,1281 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+10
+705
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lpm_counter10
+# storage
+db|Mirror.(1).cnf
+db|Mirror.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_counter10.v
+2aea6133705a45668fc4770c9784370
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_counter10:inst5
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Mirror.(2).cnf
+db|Mirror.(2).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_counter.tdf
+775da77f476c58b7ddeb65edee82b5
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+0
+PARAMETER_UNKNOWN
+USR
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_0fm
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sset
+-1
+3
+q
+-1
+3
+cout
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aclr
+-1
+3
+sload
+-1
+1
+sclr
+-1
+1
+data
+-1
+1
+aset
+-1
+1
+aload
+-1
+1
+updown
+-1
+2
+cnt_en
+-1
+2
+cin
+-1
+2
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_compare.inc
+aec4ea1b78f4cda1c3effe18f1abbf63
+..|..|quartus|libraries|megafunctions|lpm_add_sub.inc
+7d9a33dd39f13aa690c3d0edd88351
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|alt_synch_counter.inc
+09966d10c3e95c888bf8e443df34d8
+..|..|quartus|libraries|megafunctions|lpm_counter.inc
+7f888b135ddf66f0653c44cb18ac5
+..|..|quartus|libraries|megafunctions|cmpconst.inc
+e61874547688138e6fc0b49ff8760
+..|..|quartus|libraries|megafunctions|lpm_decode.inc
+bd0e2f5e01c1bd360461dceb53d48
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+..|..|quartus|libraries|megafunctions|alt_counter_f10ke.inc
+536f8da8218b4a93689416f9baea1880
+..|..|quartus|libraries|megafunctions|alt_synch_counter_f.inc
+93a5aae1d8bd19c9e8e8eef93ab2177d
+..|..|quartus|libraries|megafunctions|alt_counter_stratix.inc
+2251b94d26afaa53635df1aff6b6e7be
+}
+# hierarchies {
+lpm_counter10:inst5|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_0fm
+# storage
+db|Mirror.(3).cnf
+db|Mirror.(3).cnf
+# case_insensitive
+# source_file
+db|cntr_0fm.tdf
+8f58769662b92c4c4eb7486d97fd839
+7
+# used_port {
+sset
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cout
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter32
+# storage
+db|Mirror.(4).cnf
+db|Mirror.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_counter32.v
+371b2af357224d97bf15651d5634a58
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Mirror.(5).cnf
+db|Mirror.(5).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_counter.tdf
+775da77f476c58b7ddeb65edee82b5
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+13
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_ghk
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q
+-1
+3
+data
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+sset
+-1
+1
+sclr
+-1
+1
+aload
+-1
+1
+aclr
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_compare.inc
+aec4ea1b78f4cda1c3effe18f1abbf63
+..|..|quartus|libraries|megafunctions|lpm_add_sub.inc
+7d9a33dd39f13aa690c3d0edd88351
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|alt_synch_counter.inc
+09966d10c3e95c888bf8e443df34d8
+..|..|quartus|libraries|megafunctions|lpm_counter.inc
+7f888b135ddf66f0653c44cb18ac5
+..|..|quartus|libraries|megafunctions|cmpconst.inc
+e61874547688138e6fc0b49ff8760
+..|..|quartus|libraries|megafunctions|lpm_decode.inc
+bd0e2f5e01c1bd360461dceb53d48
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+..|..|quartus|libraries|megafunctions|alt_counter_f10ke.inc
+536f8da8218b4a93689416f9baea1880
+..|..|quartus|libraries|megafunctions|alt_synch_counter_f.inc
+93a5aae1d8bd19c9e8e8eef93ab2177d
+..|..|quartus|libraries|megafunctions|alt_counter_stratix.inc
+2251b94d26afaa53635df1aff6b6e7be
+}
+# macro_sequence
+
+# end
+# entity
+cntr_ghk
+# storage
+db|Mirror.(6).cnf
+db|Mirror.(6).cnf
+# case_insensitive
+# source_file
+db|cntr_ghk.tdf
+bf66fc35a9e2819919d3325bd44fe84
+7
+# used_port {
+sload
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter11
+# storage
+db|Mirror.(7).cnf
+db|Mirror.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_counter11.v
+cc9fd1ea1164661935e6269ed1d7518
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_counter11:inst7
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Mirror.(8).cnf
+db|Mirror.(8).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_counter.tdf
+775da77f476c58b7ddeb65edee82b5
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+7
+PARAMETER_UNKNOWN
+USR
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_22k
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sset
+-1
+3
+q
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+sload
+-1
+1
+sclr
+-1
+1
+data
+-1
+1
+aset
+-1
+1
+aload
+-1
+1
+aclr
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_compare.inc
+aec4ea1b78f4cda1c3effe18f1abbf63
+..|..|quartus|libraries|megafunctions|lpm_add_sub.inc
+7d9a33dd39f13aa690c3d0edd88351
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|alt_synch_counter.inc
+09966d10c3e95c888bf8e443df34d8
+..|..|quartus|libraries|megafunctions|lpm_counter.inc
+7f888b135ddf66f0653c44cb18ac5
+..|..|quartus|libraries|megafunctions|cmpconst.inc
+e61874547688138e6fc0b49ff8760
+..|..|quartus|libraries|megafunctions|lpm_decode.inc
+bd0e2f5e01c1bd360461dceb53d48
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+..|..|quartus|libraries|megafunctions|alt_counter_f10ke.inc
+536f8da8218b4a93689416f9baea1880
+..|..|quartus|libraries|megafunctions|alt_synch_counter_f.inc
+93a5aae1d8bd19c9e8e8eef93ab2177d
+..|..|quartus|libraries|megafunctions|alt_counter_stratix.inc
+2251b94d26afaa53635df1aff6b6e7be
+}
+# hierarchies {
+lpm_counter11:inst7|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_22k
+# storage
+db|Mirror.(9).cnf
+db|Mirror.(9).cnf
+# case_insensitive
+# source_file
+db|cntr_22k.tdf
+cf4420346fdec2a112238bbea7c0a1e0
+7
+# used_port {
+sset
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg1
+# storage
+db|Mirror.(10).cnf
+db|Mirror.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_shiftreg1.v
+cc2afc34dec7dc9fa4a9570f6f61ec7
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_shiftreg1:inst1
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg
+# storage
+db|Mirror.(11).cnf
+db|Mirror.(11).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_shiftreg.tdf
+9d96accaf3e63787e483832f2441140
+7
+# user_parameter {
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+LEFT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+shiftout
+-1
+3
+shiftin
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff10
+# storage
+db|Mirror.(12).cnf
+db|Mirror.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_dff10.v
+126da4c92336eacdfd4a2a1c9893f7ed
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_dff10:inst4
+lpm_dff10:inst3
+lpm_dff10:inst2
+}
+# macro_sequence
+
+# end
+# entity
+lpm_ff
+# storage
+db|Mirror.(13).cnf
+db|Mirror.(13).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_ff.tdf
+851d7a03647c4809c457044d4c66412
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_FFTYPE
+DFF
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q
+-1
+3
+enable
+-1
+3
+data
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+lpm_dff10:inst4|lpm_ff:lpm_ff_component
+lpm_dff10:inst3|lpm_ff:lpm_ff_component
+lpm_dff10:inst2|lpm_ff:lpm_ff_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg
+# storage
+db|Mirror.(15).cnf
+db|Mirror.(15).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_shiftreg.tdf
+9d96accaf3e63787e483832f2441140
+7
+# user_parameter {
+LPM_WIDTH
+5
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+LEFT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+shiftout
+-1
+3
+shiftin
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+}
+# macro_sequence
+
+# end
+# entity
+Mirror
+# storage
+db|Mirror.(0).cnf
+db|Mirror.(0).cnf
+# case_insensitive
+# source_file
+Mirror.bdf
+11ac46bb84f43ffe8256eed27d1f2c15
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg
+# storage
+db|Mirror.(16).cnf
+db|Mirror.(16).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_shiftreg.tdf
+9d96accaf3e63787e483832f2441140
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+LEFT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+shiftout
+-1
+3
+shiftin
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg12
+# storage
+db|Mirror.(14).cnf
+db|Mirror.(14).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg12.tdf
+3b76221b97eeb405f2eff3626f285de
+7
+# used_port {
+shiftout
+-1
+3
+shiftin
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_shiftreg.inc
+ab7419a3e1c1b11843b76ba93873576
+}
+# hierarchies {
+lpm_shiftreg12:inst12
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg
+# storage
+db|Mirror.(17).cnf
+db|Mirror.(17).cnf
+# case_insensitive
+# source_file
+..|..|quartus|libraries|megafunctions|lpm_shiftreg.tdf
+9d96accaf3e63787e483832f2441140
+7
+# user_parameter {
+LPM_WIDTH
+3
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+LEFT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+shiftout
+-1
+3
+shiftin
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+..|..|quartus|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+..|..|quartus|libraries|megafunctions|dffeea.inc
+55d29d20f7e852c37746bec4e2495ec
+..|..|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component
+}
+# macro_sequence
+
+# end
+# complete
+

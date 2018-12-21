@@ -1,0 +1,250 @@
+Simulator report for Par_Gen_Emul
+Fri Sep 25 12:02:14 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 us     ;
+; Simulation Netlist Size     ; 63 nodes     ;
+; Simulation Coverage         ;      81.69 % ;
+; Total Number of Transitions ; 5217         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      81.69 % ;
+; Total nodes checked                                 ; 63           ;
+; Total output ports checked                          ; 71           ;
+; Total output ports with complete 1/0-value coverage ; 58           ;
+; Total output ports with no 1/0-value coverage       ; 13           ;
+; Total output ports with no 1-value coverage         ; 13           ;
+; Total output ports with no 0-value coverage         ; 13           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                          ;
++-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                               ; Output Port Name                                                                                                        ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+------------------+
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[4]           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[4]           ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[3]           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[3]           ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[2]           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[2]           ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[1]           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[1]           ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[0]           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[0]           ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita0           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita0           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita0           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita0~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita1           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita1           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita1           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita1~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita2           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita2           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita2           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita2~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita3           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita3           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita3           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita3~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita4           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita4           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita4           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita4~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita5           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita5           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita5           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita5~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita6           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita6           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita6           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita6~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita7           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita7           ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita7           ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita7~COUT      ; cout             ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita7~1         ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita7~1         ; combout          ;
+; |Par_Gen_Emul|inst35                                                                                                    ; |Par_Gen_Emul|inst35                                                                                                    ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~123                        ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~123                        ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~116                        ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~116                        ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~125                        ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~125                        ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~118                        ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~118                        ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~119                        ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~119                        ; combout          ;
+; |Par_Gen_Emul|inst31                                                                                                    ; |Par_Gen_Emul|inst31                                                                                                    ; q                ;
+; |Par_Gen_Emul|inst32                                                                                                    ; |Par_Gen_Emul|inst32                                                                                                    ; q                ;
+; |Par_Gen_Emul|inst35~3                                                                                                  ; |Par_Gen_Emul|inst35~3                                                                                                  ; combout          ;
+; |Par_Gen_Emul|inst35~4                                                                                                  ; |Par_Gen_Emul|inst35~4                                                                                                  ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~52                         ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~52                         ; combout          ;
+; |Par_Gen_Emul|inst32~0                                                                                                  ; |Par_Gen_Emul|inst32~0                                                                                                  ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita2~_wirecell ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita2~_wirecell ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita4~_wirecell ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_comb_bita4~_wirecell ; combout          ;
+; |Par_Gen_Emul|Start_Act_L~output                                                                                        ; |Par_Gen_Emul|Start_Act_L~output                                                                                        ; o                ;
+; |Par_Gen_Emul|Start_Act_L                                                                                               ; |Par_Gen_Emul|Start_Act_L                                                                                               ; padout           ;
+; |Par_Gen_Emul|Em_Del[4]~output                                                                                          ; |Par_Gen_Emul|Em_Del[4]~output                                                                                          ; o                ;
+; |Par_Gen_Emul|Em_Del[4]                                                                                                 ; |Par_Gen_Emul|Em_Del[4]                                                                                                 ; padout           ;
+; |Par_Gen_Emul|Em_Del[3]~output                                                                                          ; |Par_Gen_Emul|Em_Del[3]~output                                                                                          ; o                ;
+; |Par_Gen_Emul|Em_Del[3]                                                                                                 ; |Par_Gen_Emul|Em_Del[3]                                                                                                 ; padout           ;
+; |Par_Gen_Emul|Em_Del[2]~output                                                                                          ; |Par_Gen_Emul|Em_Del[2]~output                                                                                          ; o                ;
+; |Par_Gen_Emul|Em_Del[2]                                                                                                 ; |Par_Gen_Emul|Em_Del[2]                                                                                                 ; padout           ;
+; |Par_Gen_Emul|Em_Del[1]~output                                                                                          ; |Par_Gen_Emul|Em_Del[1]~output                                                                                          ; o                ;
+; |Par_Gen_Emul|Em_Del[1]                                                                                                 ; |Par_Gen_Emul|Em_Del[1]                                                                                                 ; padout           ;
+; |Par_Gen_Emul|Em_Del[0]~output                                                                                          ; |Par_Gen_Emul|Em_Del[0]~output                                                                                          ; o                ;
+; |Par_Gen_Emul|Em_Del[0]                                                                                                 ; |Par_Gen_Emul|Em_Del[0]                                                                                                 ; padout           ;
+; |Par_Gen_Emul|Reset_n~input                                                                                             ; |Par_Gen_Emul|Reset_n~input                                                                                             ; o                ;
+; |Par_Gen_Emul|Reset_n                                                                                                   ; |Par_Gen_Emul|Reset_n                                                                                                   ; padout           ;
+; |Par_Gen_Emul|EOF_Act_Line~input                                                                                        ; |Par_Gen_Emul|EOF_Act_Line~input                                                                                        ; o                ;
+; |Par_Gen_Emul|EOF_Act_Line                                                                                              ; |Par_Gen_Emul|EOF_Act_Line                                                                                              ; padout           ;
+; |Par_Gen_Emul|Clk_10~input                                                                                              ; |Par_Gen_Emul|Clk_10~input                                                                                              ; o                ;
+; |Par_Gen_Emul|Clk_10                                                                                                    ; |Par_Gen_Emul|Clk_10                                                                                                    ; padout           ;
+; |Par_Gen_Emul|CCD_Read_Start~input                                                                                      ; |Par_Gen_Emul|CCD_Read_Start~input                                                                                      ; o                ;
+; |Par_Gen_Emul|CCD_Read_Start                                                                                            ; |Par_Gen_Emul|CCD_Read_Start                                                                                            ; padout           ;
+; |Par_Gen_Emul|Clk_10~inputclkctrl                                                                                       ; |Par_Gen_Emul|Clk_10~inputclkctrl                                                                                       ; outclk           ;
+; |Par_Gen_Emul|Reset_n~inputclkctrl                                                                                      ; |Par_Gen_Emul|Reset_n~inputclkctrl                                                                                      ; outclk           ;
++-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                         ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                     ; Output Port Name                                                                                              ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[7] ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[7] ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[6] ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[6] ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[5] ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[5] ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~112              ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~112              ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~113              ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~113              ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~114              ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~114              ; combout          ;
+; |Par_Gen_Emul|~GND                                                                                            ; |Par_Gen_Emul|~GND                                                                                            ; combout          ;
+; |Par_Gen_Emul|Em_Del[7]~output                                                                                ; |Par_Gen_Emul|Em_Del[7]~output                                                                                ; o                ;
+; |Par_Gen_Emul|Em_Del[7]                                                                                       ; |Par_Gen_Emul|Em_Del[7]                                                                                       ; padout           ;
+; |Par_Gen_Emul|Em_Del[6]~output                                                                                ; |Par_Gen_Emul|Em_Del[6]~output                                                                                ; o                ;
+; |Par_Gen_Emul|Em_Del[6]                                                                                       ; |Par_Gen_Emul|Em_Del[6]                                                                                       ; padout           ;
+; |Par_Gen_Emul|Em_Del[5]~output                                                                                ; |Par_Gen_Emul|Em_Del[5]~output                                                                                ; o                ;
+; |Par_Gen_Emul|Em_Del[5]                                                                                       ; |Par_Gen_Emul|Em_Del[5]                                                                                       ; padout           ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                         ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                     ; Output Port Name                                                                                              ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[7] ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[7] ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[6] ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[6] ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[5] ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[5] ; q                ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~112              ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~112              ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~113              ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~113              ; combout          ;
+; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~114              ; |Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|_~114              ; combout          ;
+; |Par_Gen_Emul|~GND                                                                                            ; |Par_Gen_Emul|~GND                                                                                            ; combout          ;
+; |Par_Gen_Emul|Em_Del[7]~output                                                                                ; |Par_Gen_Emul|Em_Del[7]~output                                                                                ; o                ;
+; |Par_Gen_Emul|Em_Del[7]                                                                                       ; |Par_Gen_Emul|Em_Del[7]                                                                                       ; padout           ;
+; |Par_Gen_Emul|Em_Del[6]~output                                                                                ; |Par_Gen_Emul|Em_Del[6]~output                                                                                ; o                ;
+; |Par_Gen_Emul|Em_Del[6]                                                                                       ; |Par_Gen_Emul|Em_Del[6]                                                                                       ; padout           ;
+; |Par_Gen_Emul|Em_Del[5]~output                                                                                ; |Par_Gen_Emul|Em_Del[5]~output                                                                                ; o                ;
+; |Par_Gen_Emul|Em_Del[5]                                                                                       ; |Par_Gen_Emul|Em_Del[5]                                                                                       ; padout           ;
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Fri Sep 25 12:02:12 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Par_Gen_Emul -c Par_Gen_Emul
+Info: Using vector source file "C:/altera/90/qdesigns/Old/Main_09_24_Base/Par_Gen_Emul.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of Par_Gen_Emul.vwf called Par_Gen_Emul.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      81.69 %
+Info: Number of transitions in simulation is 5217
+Info: Vector file Par_Gen_Emul.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 121 megabytes
+    Info: Processing ended: Fri Sep 25 12:02:14 2009
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

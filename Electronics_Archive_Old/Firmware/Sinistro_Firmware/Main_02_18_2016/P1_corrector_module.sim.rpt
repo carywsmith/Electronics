@@ -1,0 +1,258 @@
+Simulator report for P1_corrector_module
+Tue Feb 16 19:04:01 2016
+Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 4.0 ms       ;
+; Simulation Netlist Size     ; 75 nodes     ;
+; Simulation Coverage         ;      96.63 % ;
+; Total Number of Transitions ; 194805       ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      96.63 % ;
+; Total nodes checked                                 ; 75           ;
+; Total output ports checked                          ; 89           ;
+; Total output ports with complete 1/0-value coverage ; 86           ;
+; Total output ports with no 1/0-value coverage       ; 3            ;
+; Total output ports with no 1-value coverage         ; 3            ;
+; Total output ports with no 0-value coverage         ; 3            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                                                          ;
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                               ; Output Port Name                                                                                                                        ; Output Port Type ;
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[6]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[6]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[5]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[5]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[4]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[4]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[3]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[3]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[2]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[2]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[1]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[1]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[0]                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[0]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6                   ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6~0                 ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6~0                 ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[6]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[6]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[5]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[5]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[4]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[4]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[3]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[3]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[2]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[2]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[1]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[1]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[0]                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_reg_bit[0]                   ; q                ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita0~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita1~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita2~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita3~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita4~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita5~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6                   ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6                   ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6~COUT              ; cout             ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6~0                 ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|counter_comb_bita6~0                 ; combout          ;
+; |P1_corrector_module|inst9                                                                                                              ; |P1_corrector_module|inst9                                                                                                              ; q                ;
+; |P1_corrector_module|inst11                                                                                                             ; |P1_corrector_module|inst11                                                                                                             ; q                ;
+; |P1_corrector_module|inst4                                                                                                              ; |P1_corrector_module|inst4                                                                                                              ; combout          ;
+; |P1_corrector_module|inst8                                                                                                              ; |P1_corrector_module|inst8                                                                                                              ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~0 ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~0 ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~1 ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~1 ; combout          ;
+; |P1_corrector_module|inst9~0                                                                                                            ; |P1_corrector_module|inst9~0                                                                                                            ; combout          ;
+; |P1_corrector_module|inst6                                                                                                              ; |P1_corrector_module|inst6                                                                                                              ; q                ;
+; |P1_corrector_module|inst8~0                                                                                                            ; |P1_corrector_module|inst8~0                                                                                                            ; combout          ;
+; |P1_corrector_module|inst                                                                                                               ; |P1_corrector_module|inst                                                                                                               ; q                ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~2 ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~2 ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cout_actual                          ; |P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cout_actual                          ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~0 ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~0 ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~1 ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cmpr_kfc:cmpr1|aneb_result_wire[0]~1 ; combout          ;
+; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cout_actual                          ; |P1_corrector_module|lpm_counter46:inst2|lpm_counter:lpm_counter_component|cntr_elk:auto_generated|cout_actual                          ; combout          ;
+; |P1_corrector_module|inst5                                                                                                              ; |P1_corrector_module|inst5                                                                                                              ; q                ;
+; |P1_corrector_module|inst~0                                                                                                             ; |P1_corrector_module|inst~0                                                                                                             ; combout          ;
+; |P1_corrector_module|inst7                                                                                                              ; |P1_corrector_module|inst7                                                                                                              ; q                ;
+; |P1_corrector_module|inst7~0                                                                                                            ; |P1_corrector_module|inst7~0                                                                                                            ; combout          ;
+; |P1_corrector_module|Start_Act_Line_New~output                                                                                          ; |P1_corrector_module|Start_Act_Line_New~output                                                                                          ; o                ;
+; |P1_corrector_module|Start_Act_Line_New                                                                                                 ; |P1_corrector_module|Start_Act_Line_New                                                                                                 ; padout           ;
+; |P1_corrector_module|S_A_L~output                                                                                                       ; |P1_corrector_module|S_A_L~output                                                                                                       ; o                ;
+; |P1_corrector_module|S_A_L                                                                                                              ; |P1_corrector_module|S_A_L                                                                                                              ; padout           ;
+; |P1_corrector_module|P1_Down~output                                                                                                     ; |P1_corrector_module|P1_Down~output                                                                                                     ; o                ;
+; |P1_corrector_module|P1_Down                                                                                                            ; |P1_corrector_module|P1_Down                                                                                                            ; padout           ;
+; |P1_corrector_module|Start_Act_Line~input                                                                                               ; |P1_corrector_module|Start_Act_Line~input                                                                                               ; o                ;
+; |P1_corrector_module|Start_Act_Line                                                                                                     ; |P1_corrector_module|Start_Act_Line                                                                                                     ; padout           ;
+; |P1_corrector_module|End_of_Line~input                                                                                                  ; |P1_corrector_module|End_of_Line~input                                                                                                  ; o                ;
+; |P1_corrector_module|End_of_Line                                                                                                        ; |P1_corrector_module|End_of_Line                                                                                                        ; padout           ;
+; |P1_corrector_module|Clk_10MHz~input                                                                                                    ; |P1_corrector_module|Clk_10MHz~input                                                                                                    ; o                ;
+; |P1_corrector_module|Clk_10MHz                                                                                                          ; |P1_corrector_module|Clk_10MHz                                                                                                          ; padout           ;
+; |P1_corrector_module|PP1~input                                                                                                          ; |P1_corrector_module|PP1~input                                                                                                          ; o                ;
+; |P1_corrector_module|PP1                                                                                                                ; |P1_corrector_module|PP1                                                                                                                ; padout           ;
+; |P1_corrector_module|Active~input                                                                                                       ; |P1_corrector_module|Active~input                                                                                                       ; o                ;
+; |P1_corrector_module|Active                                                                                                             ; |P1_corrector_module|Active                                                                                                             ; padout           ;
+; |P1_corrector_module|Clk_1MHz~input                                                                                                     ; |P1_corrector_module|Clk_1MHz~input                                                                                                     ; o                ;
+; |P1_corrector_module|Clk_1MHz                                                                                                           ; |P1_corrector_module|Clk_1MHz                                                                                                           ; padout           ;
+; |P1_corrector_module|P2_Start~input                                                                                                     ; |P1_corrector_module|P2_Start~input                                                                                                     ; o                ;
+; |P1_corrector_module|P2_Start                                                                                                           ; |P1_corrector_module|P2_Start                                                                                                           ; padout           ;
+; |P1_corrector_module|Clk_1MHz~inputclkctrl                                                                                              ; |P1_corrector_module|Clk_1MHz~inputclkctrl                                                                                              ; outclk           ;
+; |P1_corrector_module|Clk_10MHz~inputclkctrl                                                                                             ; |P1_corrector_module|Clk_10MHz~inputclkctrl                                                                                             ; outclk           ;
+; |P1_corrector_module|inst5~feeder                                                                                                       ; |P1_corrector_module|inst5~feeder                                                                                                       ; combout          ;
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                             ;
++-----------------------------------------+-----------------------------------------+------------------+
+; Node Name                               ; Output Port Name                        ; Output Port Type ;
++-----------------------------------------+-----------------------------------------+------------------+
+; |P1_corrector_module|~GND               ; |P1_corrector_module|~GND               ; combout          ;
+; |P1_corrector_module|End_of_Frame~input ; |P1_corrector_module|End_of_Frame~input ; o                ;
+; |P1_corrector_module|End_of_Frame       ; |P1_corrector_module|End_of_Frame       ; padout           ;
++-----------------------------------------+-----------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                             ;
++-----------------------------------------+-----------------------------------------+------------------+
+; Node Name                               ; Output Port Name                        ; Output Port Type ;
++-----------------------------------------+-----------------------------------------+------------------+
+; |P1_corrector_module|~GND               ; |P1_corrector_module|~GND               ; combout          ;
+; |P1_corrector_module|End_of_Frame~input ; |P1_corrector_module|End_of_Frame~input ; o                ;
+; |P1_corrector_module|End_of_Frame       ; |P1_corrector_module|End_of_Frame       ; padout           ;
++-----------------------------------------+-----------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
+    Info: Processing started: Tue Feb 16 19:03:57 2016
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off P1_corrector_module -c P1_corrector_module
+Info: Using vector source file "C:/altera/91/qdesigns/Main_02_14_2016/P1_corrector_module.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of P1_corrector_module.vwf called P1_corrector_module.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      96.63 %
+Info: Number of transitions in simulation is 194805
+Info: Vector file P1_corrector_module.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 205 megabytes
+    Info: Processing ended: Tue Feb 16 19:04:01 2016
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
+
+

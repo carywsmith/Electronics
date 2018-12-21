@@ -1,0 +1,253 @@
+Simulator report for FIFO_CONTROLLER
+Tue Jul 21 10:29:26 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 us     ;
+; Simulation Netlist Size     ; 69 nodes     ;
+; Simulation Coverage         ;      92.31 % ;
+; Total Number of Transitions ; 142653       ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      92.31 % ;
+; Total nodes checked                                 ; 69           ;
+; Total output ports checked                          ; 78           ;
+; Total output ports with complete 1/0-value coverage ; 72           ;
+; Total output ports with no 1/0-value coverage       ; 6            ;
+; Total output ports with no 1-value coverage         ; 6            ;
+; Total output ports with no 0-value coverage         ; 6            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                        ;
++------------------------------------------------+------------------------------------------------+------------------+
+; Node Name                                      ; Output Port Name                               ; Output Port Type ;
++------------------------------------------------+------------------------------------------------+------------------+
+; |fifo_controller|counter[7]                    ; |fifo_controller|counter[7]                    ; q                ;
+; |fifo_controller|counter[6]                    ; |fifo_controller|counter[6]                    ; q                ;
+; |fifo_controller|counter[5]                    ; |fifo_controller|counter[5]                    ; q                ;
+; |fifo_controller|counter[4]                    ; |fifo_controller|counter[4]                    ; q                ;
+; |fifo_controller|counter[3]                    ; |fifo_controller|counter[3]                    ; q                ;
+; |fifo_controller|counter[2]                    ; |fifo_controller|counter[2]                    ; q                ;
+; |fifo_controller|counter[1]                    ; |fifo_controller|counter[1]                    ; q                ;
+; |fifo_controller|counter[0]                    ; |fifo_controller|counter[0]                    ; q                ;
+; |fifo_controller|Add1~0                        ; |fifo_controller|Add1~0                        ; combout          ;
+; |fifo_controller|Add1~0                        ; |fifo_controller|Add1~1                        ; cout             ;
+; |fifo_controller|Add1~2                        ; |fifo_controller|Add1~2                        ; combout          ;
+; |fifo_controller|Add1~2                        ; |fifo_controller|Add1~3                        ; cout             ;
+; |fifo_controller|Add1~4                        ; |fifo_controller|Add1~4                        ; combout          ;
+; |fifo_controller|Add1~4                        ; |fifo_controller|Add1~5                        ; cout             ;
+; |fifo_controller|Add1~6                        ; |fifo_controller|Add1~6                        ; combout          ;
+; |fifo_controller|Add1~6                        ; |fifo_controller|Add1~7                        ; cout             ;
+; |fifo_controller|Add1~8                        ; |fifo_controller|Add1~8                        ; combout          ;
+; |fifo_controller|Add1~8                        ; |fifo_controller|Add1~9                        ; cout             ;
+; |fifo_controller|Add1~10                       ; |fifo_controller|Add1~10                       ; combout          ;
+; |fifo_controller|Add1~10                       ; |fifo_controller|Add1~11                       ; cout             ;
+; |fifo_controller|Add1~12                       ; |fifo_controller|Add1~12                       ; combout          ;
+; |fifo_controller|Add1~12                       ; |fifo_controller|Add1~13                       ; cout             ;
+; |fifo_controller|Add1~14                       ; |fifo_controller|Add1~14                       ; combout          ;
+; |fifo_controller|Add1~14                       ; |fifo_controller|Add1~15                       ; cout             ;
+; |fifo_controller|Add1~16                       ; |fifo_controller|Add1~16                       ; combout          ;
+; |fifo_controller|Slave_FIFO_Write_n~reg0       ; |fifo_controller|Slave_FIFO_Write_n~reg0       ; q                ;
+; |fifo_controller|state.Wr_Slave                ; |fifo_controller|state.Wr_Slave                ; q                ;
+; |fifo_controller|state.wi                      ; |fifo_controller|state.wi                      ; q                ;
+; |fifo_controller|wt[2]                         ; |fifo_controller|wt[2]                         ; q                ;
+; |fifo_controller|wt[1]                         ; |fifo_controller|wt[1]                         ; q                ;
+; |fifo_controller|state~23                      ; |fifo_controller|state~23                      ; combout          ;
+; |fifo_controller|process_0~0                   ; |fifo_controller|process_0~0                   ; combout          ;
+; |fifo_controller|state~24                      ; |fifo_controller|state~24                      ; combout          ;
+; |fifo_controller|state.idle0                   ; |fifo_controller|state.idle0                   ; q                ;
+; |fifo_controller|Selector16~2                  ; |fifo_controller|Selector16~2                  ; combout          ;
+; |fifo_controller|LessThan1~0                   ; |fifo_controller|LessThan1~0                   ; combout          ;
+; |fifo_controller|LessThan1~1                   ; |fifo_controller|LessThan1~1                   ; combout          ;
+; |fifo_controller|LessThan1~2                   ; |fifo_controller|LessThan1~2                   ; combout          ;
+; |fifo_controller|Selector16~3                  ; |fifo_controller|Selector16~3                  ; combout          ;
+; |fifo_controller|wt[3]~18                      ; |fifo_controller|wt[3]~18                      ; combout          ;
+; |fifo_controller|wt[0]                         ; |fifo_controller|wt[0]                         ; q                ;
+; |fifo_controller|LessThan2~0                   ; |fifo_controller|LessThan2~0                   ; combout          ;
+; |fifo_controller|LessThan2~1                   ; |fifo_controller|LessThan2~1                   ; combout          ;
+; |fifo_controller|state.w0                      ; |fifo_controller|state.w0                      ; q                ;
+; |fifo_controller|wt[3]~19                      ; |fifo_controller|wt[3]~19                      ; combout          ;
+; |fifo_controller|Selector16~5                  ; |fifo_controller|Selector16~5                  ; combout          ;
+; |fifo_controller|wt[3]~20                      ; |fifo_controller|wt[3]~20                      ; combout          ;
+; |fifo_controller|wt[3]~21                      ; |fifo_controller|wt[3]~21                      ; combout          ;
+; |fifo_controller|Add0~0                        ; |fifo_controller|Add0~0                        ; combout          ;
+; |fifo_controller|wt[2]~22                      ; |fifo_controller|wt[2]~22                      ; combout          ;
+; |fifo_controller|wt[1]~23                      ; |fifo_controller|wt[1]~23                      ; combout          ;
+; |fifo_controller|counter[9]~21                 ; |fifo_controller|counter[9]~21                 ; combout          ;
+; |fifo_controller|Selector15~0                  ; |fifo_controller|Selector15~0                  ; combout          ;
+; |fifo_controller|state~25                      ; |fifo_controller|state~25                      ; combout          ;
+; |fifo_controller|wt[0]~24                      ; |fifo_controller|wt[0]~24                      ; combout          ;
+; |fifo_controller|Slave_FIFO_Write_n~output     ; |fifo_controller|Slave_FIFO_Write_n~output     ; o                ;
+; |fifo_controller|Slave_FIFO_Write_n            ; |fifo_controller|Slave_FIFO_Write_n            ; padout           ;
+; |fifo_controller|O_FIFO_Rd_Clk~output          ; |fifo_controller|O_FIFO_Rd_Clk~output          ; o                ;
+; |fifo_controller|O_FIFO_Rd_Clk                 ; |fifo_controller|O_FIFO_Rd_Clk                 ; padout           ;
+; |fifo_controller|O_FIFO_Read_n~output          ; |fifo_controller|O_FIFO_Read_n~output          ; o                ;
+; |fifo_controller|O_FIFO_Read_n                 ; |fifo_controller|O_FIFO_Read_n                 ; padout           ;
+; |fifo_controller|clk~input                     ; |fifo_controller|clk~input                     ; o                ;
+; |fifo_controller|clk                           ; |fifo_controller|clk                           ; padout           ;
+; |fifo_controller|FIFO_Reset_n~input            ; |fifo_controller|FIFO_Reset_n~input            ; o                ;
+; |fifo_controller|FIFO_Reset_n                  ; |fifo_controller|FIFO_Reset_n                  ; padout           ;
+; |fifo_controller|O_FIFO_Empty_n~input          ; |fifo_controller|O_FIFO_Empty_n~input          ; o                ;
+; |fifo_controller|O_FIFO_Empty_n                ; |fifo_controller|O_FIFO_Empty_n                ; padout           ;
+; |fifo_controller|FLAG_B~input                  ; |fifo_controller|FLAG_B~input                  ; o                ;
+; |fifo_controller|FLAG_B                        ; |fifo_controller|FLAG_B                        ; padout           ;
+; |fifo_controller|clk~inputclkctrl              ; |fifo_controller|clk~inputclkctrl              ; outclk           ;
+; |fifo_controller|FIFO_Reset_n~inputclkctrl     ; |fifo_controller|FIFO_Reset_n~inputclkctrl     ; outclk           ;
+; |fifo_controller|Slave_FIFO_Write_n~reg0feeder ; |fifo_controller|Slave_FIFO_Write_n~reg0feeder ; combout          ;
++------------------------------------------------+------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                         ;
++-------------------------------+-------------------------------+------------------+
+; Node Name                     ; Output Port Name              ; Output Port Type ;
++-------------------------------+-------------------------------+------------------+
+; |fifo_controller|counter[9]   ; |fifo_controller|counter[9]   ; q                ;
+; |fifo_controller|counter[8]   ; |fifo_controller|counter[8]   ; q                ;
+; |fifo_controller|Add1~16      ; |fifo_controller|Add1~17      ; cout             ;
+; |fifo_controller|Add1~18      ; |fifo_controller|Add1~18      ; combout          ;
+; |fifo_controller|wt[3]        ; |fifo_controller|wt[3]        ; q                ;
+; |fifo_controller|Selector16~4 ; |fifo_controller|Selector16~4 ; combout          ;
++-------------------------------+-------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                         ;
++-------------------------------+-------------------------------+------------------+
+; Node Name                     ; Output Port Name              ; Output Port Type ;
++-------------------------------+-------------------------------+------------------+
+; |fifo_controller|counter[9]   ; |fifo_controller|counter[9]   ; q                ;
+; |fifo_controller|counter[8]   ; |fifo_controller|counter[8]   ; q                ;
+; |fifo_controller|Add1~16      ; |fifo_controller|Add1~17      ; cout             ;
+; |fifo_controller|Add1~18      ; |fifo_controller|Add1~18      ; combout          ;
+; |fifo_controller|wt[3]        ; |fifo_controller|wt[3]        ; q                ;
+; |fifo_controller|Selector16~4 ; |fifo_controller|Selector16~4 ; combout          ;
++-------------------------------+-------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Tue Jul 21 10:29:24 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off FIFO_CONTROLLER -c FIFO_CONTROLLER
+Info: Using vector source file "C:/altera/90/qdesigns/Main_02_Base/FIFO_CONTROLLER.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of FIFO_CONTROLLER.vwf called FIFO_CONTROLLER.sim_ori.vwf has been created in the db folder
+Warning: Ignored node in vector source file. Can't find corresponding node name "IFClk" in design.
+Info: Inverted registers were found during simulation
+    Info: Register: |fifo_controller|Slave_FIFO_Write_n~reg0
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      92.31 %
+Info: Number of transitions in simulation is 142653
+Info: Vector file FIFO_CONTROLLER.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 162 megabytes
+    Info: Processing ended: Tue Jul 21 10:29:26 2009
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

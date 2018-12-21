@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Feb 14 18:58:34 2016
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : P1_corrector_module
+Top-level Entity Name : P1_corrector_module
+Family : Cyclone III
+Device : EP3C16F256C6
+Timing Models : Final
+Total logic elements : 30 / 15,408 ( < 1 % )
+    Total combinational functions : 29 / 15,408 ( < 1 % )
+    Dedicated logic registers : 21 / 15,408 ( < 1 % )
+Total registers : 21
+Total pins : 11 / 169 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

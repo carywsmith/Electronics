@@ -1,0 +1,29 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'IFClk'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Slow 1200mV 85C Model Hold 'IFClk'
+Slack : -0.015
+TNS   : -0.015
+
+Type  : Slow 1200mV 0C Model Setup 'IFClk'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'IFClk'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Fast 1200mV 0C Model Setup 'IFClk'
+Slack : 0.010
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'IFClk'
+Slack : -0.015
+TNS   : -0.015
+
+------------------------------------------------------------

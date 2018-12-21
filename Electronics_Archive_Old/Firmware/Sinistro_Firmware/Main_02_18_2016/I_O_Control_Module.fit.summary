@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 20 19:02:07 2009
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Full Version
+Revision Name : I_O_Control_Module
+Top-level Entity Name : I_O_Control_Module
+Family : Cyclone III
+Device : EP3C16F256C6
+Timing Models : Final
+Total logic elements : 45 / 15,408 ( < 1 % )
+    Total combinational functions : 25 / 15,408 ( < 1 % )
+    Dedicated logic registers : 21 / 15,408 ( < 1 % )
+Total registers : 21
+Total pins : 59 / 169 ( 35 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

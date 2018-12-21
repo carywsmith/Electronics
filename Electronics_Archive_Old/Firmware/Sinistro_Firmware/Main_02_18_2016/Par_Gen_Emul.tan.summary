@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.933 ns
+From           : EOF_Act_Line
+To             : inst35
+From Clock     : --
+To Clock       : Clk_10
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.023 ns
+From           : lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[5]
+To             : Em_Del[5]
+From Clock     : Clk_10
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.457 ns
+From           : Reset_n
+To             : Em_Del[5]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.138 ns
+From           : CCD_Read_Start
+To             : inst31
+From Clock     : --
+To Clock       : Clk_10
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_10'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[0]
+To             : lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated|counter_reg_bit[0]
+From Clock     : Clk_10
+To Clock       : Clk_10
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

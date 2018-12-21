@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Mar 05 13:41:59 2009
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Full Version
+Revision Name : Period_Meter
+Top-level Entity Name : Period_Meter
+Family : Cyclone III
+Device : EP3C16F256C6
+Timing Models : Final
+Total logic elements : 105 / 15,408 ( < 1 % )
+    Total combinational functions : 72 / 15,408 ( < 1 % )
+    Dedicated logic registers : 67 / 15,408 ( < 1 % )
+Total registers : 67
+Total pins : 70 / 169 ( 41 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Clock_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_compare5:inst9|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_0pk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_counter21:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_lak.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_compare5:inst11|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_0pk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_constant6:inst8|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ul6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_counter21:inst12|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_lak.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_mux4:inst26|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_bqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_constant5:inst6|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ek6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_counter22:inst10|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_7nl.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Clock_Module|lpm_counter23:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_1bj.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 14 13:24:27 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Serial_Control_Module
+Top-level Entity Name : Serial_Control_Module
+Family : Cyclone III
+Device : EP3C5F256C6
+Timing Models : Final
+Total logic elements : 46 / 5,136 ( < 1 % )
+    Total combinational functions : 33 / 5,136 ( < 1 % )
+    Dedicated logic registers : 37 / 5,136 ( < 1 % )
+Total registers : 37
+Total pins : 42 / 183 ( 23 % )
+Total virtual pins : 0
+Total memory bits : 32,768 / 423,936 ( 8 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

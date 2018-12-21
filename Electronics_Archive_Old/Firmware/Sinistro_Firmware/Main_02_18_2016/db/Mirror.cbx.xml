@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Mirror">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_0fm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_22k.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

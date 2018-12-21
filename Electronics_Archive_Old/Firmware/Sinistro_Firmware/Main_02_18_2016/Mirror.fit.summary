@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Jul 26 10:43:24 2009
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : Mirror
+Top-level Entity Name : Mirror
+Family : Cyclone III
+Device : EP3C5F256C6
+Timing Models : Final
+Total logic elements : 50 / 5,136 ( < 1 % )
+    Total combinational functions : 19 / 5,136 ( < 1 % )
+    Dedicated logic registers : 46 / 5,136 ( < 1 % )
+Total registers : 46
+Total pins : 48 / 183 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

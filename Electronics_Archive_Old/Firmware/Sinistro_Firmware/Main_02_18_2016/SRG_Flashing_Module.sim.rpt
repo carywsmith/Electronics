@@ -1,0 +1,336 @@
+Simulator report for SRG_Flashing_Module
+Fri May 22 15:25:49 2009
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 us     ;
+; Simulation Netlist Size     ; 140 nodes    ;
+; Simulation Coverage         ;      90.26 % ;
+; Total Number of Transitions ; 35198        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      90.26 % ;
+; Total nodes checked                                 ; 140          ;
+; Total output ports checked                          ; 154          ;
+; Total output ports with complete 1/0-value coverage ; 139          ;
+; Total output ports with no 1/0-value coverage       ; 14           ;
+; Total output ports with no 1-value coverage         ; 14           ;
+; Total output ports with no 0-value coverage         ; 15           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                                                    ;
++--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                            ; Output Port Name                                                                                                                     ; Output Port Type ;
++--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[1]                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[1]                 ; q                ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[0]                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[0]                 ; q                ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita0                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita0                 ; combout          ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita0                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita0~COUT            ; cout             ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita1                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita1                 ; combout          ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita1                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita1~COUT            ; cout             ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita2                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita2                 ; combout          ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita2                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita2~COUT            ; cout             ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita3                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita3                 ; combout          ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita3                 ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita3~COUT            ; cout             ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita3~2               ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_comb_bita3~2               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[5]               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[5]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[4]               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[4]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[3]               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[3]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[2]               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[2]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[1]               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[1]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[0]               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_reg_bit[0]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita0               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita0               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita0               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita0~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita1               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita1               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita1               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita1~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita2               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita2               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita2               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita2~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita3               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita3               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita3               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita3~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita4               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita4               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita4               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita4~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita5               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita5               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita5               ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita5~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita5~2             ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|counter_comb_bita5~2             ; combout          ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[3]               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[3]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[2]               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[2]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[1]               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[1]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[0]               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[0]               ; q                ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita0               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita0               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita0               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita0~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita1               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita1               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita1               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita1~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita2               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita2               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita2               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita2~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita3               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita3               ; combout          ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita3               ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita3~COUT          ; cout             ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita3~2             ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_comb_bita3~2             ; combout          ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]                                                 ; q                ;
+; |SRG_Flashing_Module|inst2                                                                                                           ; |SRG_Flashing_Module|inst2                                                                                                           ; q                ;
+; |SRG_Flashing_Module|21mux:inst5|5~47                                                                                                ; |SRG_Flashing_Module|21mux:inst5|5~47                                                                                                ; combout          ;
+; |SRG_Flashing_Module|inst41                                                                                                          ; |SRG_Flashing_Module|inst41                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst42                                                                                                          ; |SRG_Flashing_Module|inst42                                                                                                          ; q                ;
+; |SRG_Flashing_Module|21mux:inst5|5~48                                                                                                ; |SRG_Flashing_Module|21mux:inst5|5~48                                                                                                ; combout          ;
+; |SRG_Flashing_Module|inst1                                                                                                           ; |SRG_Flashing_Module|inst1                                                                                                           ; q                ;
+; |SRG_Flashing_Module|inst6                                                                                                           ; |SRG_Flashing_Module|inst6                                                                                                           ; q                ;
+; |SRG_Flashing_Module|inst12                                                                                                          ; |SRG_Flashing_Module|inst12                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst13                                                                                                          ; |SRG_Flashing_Module|inst13                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst18                                                                                                          ; |SRG_Flashing_Module|inst18                                                                                                          ; q                ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]                                                 ; q                ;
+; |SRG_Flashing_Module|inst31                                                                                                          ; |SRG_Flashing_Module|inst31                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst32                                                                                                          ; |SRG_Flashing_Module|inst32                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst2~18                                                                                                        ; |SRG_Flashing_Module|inst2~18                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst60                                                                                                          ; |SRG_Flashing_Module|inst60                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst61                                                                                                          ; |SRG_Flashing_Module|inst61                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst1~83                                                                                                        ; |SRG_Flashing_Module|inst1~83                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst55                                                                                                          ; |SRG_Flashing_Module|inst55                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst56                                                                                                          ; |SRG_Flashing_Module|inst56                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst1~84                                                                                                        ; |SRG_Flashing_Module|inst1~84                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst6~129                                                                                                       ; |SRG_Flashing_Module|inst6~129                                                                                                       ; combout          ;
+; |SRG_Flashing_Module|inst48                                                                                                          ; |SRG_Flashing_Module|inst48                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst47                                                                                                          ; |SRG_Flashing_Module|inst47                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst6~130                                                                                                       ; |SRG_Flashing_Module|inst6~130                                                                                                       ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|cmpr_jfc:cmpr1|result_wire[0]~66 ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|cmpr_jfc:cmpr1|result_wire[0]~66 ; combout          ;
+; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|cout_actual                      ; |SRG_Flashing_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component|cntr_j0k:auto_generated|cout_actual                      ; combout          ;
+; |SRG_Flashing_Module|inst13~39                                                                                                       ; |SRG_Flashing_Module|inst13~39                                                                                                       ; combout          ;
+; |SRG_Flashing_Module|inst14                                                                                                          ; |SRG_Flashing_Module|inst14                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst13~40                                                                                                       ; |SRG_Flashing_Module|inst13~40                                                                                                       ; combout          ;
+; |SRG_Flashing_Module|inst68                                                                                                          ; |SRG_Flashing_Module|inst68                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst69                                                                                                          ; |SRG_Flashing_Module|inst69                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst18~141                                                                                                      ; |SRG_Flashing_Module|inst18~141                                                                                                      ; combout          ;
+; |SRG_Flashing_Module|inst64                                                                                                          ; |SRG_Flashing_Module|inst64                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst65                                                                                                          ; |SRG_Flashing_Module|inst65                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst18~142                                                                                                      ; |SRG_Flashing_Module|inst18~142                                                                                                      ; combout          ;
+; |SRG_Flashing_Module|inst35                                                                                                          ; |SRG_Flashing_Module|inst35                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst36                                                                                                          ; |SRG_Flashing_Module|inst36                                                                                                          ; q                ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|_~20                               ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|_~20                               ; combout          ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]                                                 ; q                ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[3]~6             ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|counter_reg_bit[3]~6             ; combout          ;
+; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|_~34                             ; |SRG_Flashing_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component|cntr_o3l:auto_generated|_~34                             ; combout          ;
+; |SRG_Flashing_Module|inst15                                                                                                          ; |SRG_Flashing_Module|inst15                                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst14~93                                                                                                       ; |SRG_Flashing_Module|inst14~93                                                                                                       ; combout          ;
+; |SRG_Flashing_Module|inst40                                                                                                          ; |SRG_Flashing_Module|inst40                                                                                                          ; combout          ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]                                                 ; q                ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]                                                 ; q                ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                                 ; q                ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                                 ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                                 ; q                ;
+; |SRG_Flashing_Module|inst42~2                                                                                                        ; |SRG_Flashing_Module|inst42~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst32~2                                                                                                        ; |SRG_Flashing_Module|inst32~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst61~2                                                                                                        ; |SRG_Flashing_Module|inst61~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst56~2                                                                                                        ; |SRG_Flashing_Module|inst56~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst47~2                                                                                                        ; |SRG_Flashing_Module|inst47~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst69~2                                                                                                        ; |SRG_Flashing_Module|inst69~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst65~2                                                                                                        ; |SRG_Flashing_Module|inst65~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|inst36~2                                                                                                        ; |SRG_Flashing_Module|inst36~2                                                                                                        ; combout          ;
+; |SRG_Flashing_Module|Line_Start~output                                                                                               ; |SRG_Flashing_Module|Line_Start~output                                                                                               ; o                ;
+; |SRG_Flashing_Module|Line_Start                                                                                                      ; |SRG_Flashing_Module|Line_Start                                                                                                      ; padout           ;
+; |SRG_Flashing_Module|Mux~output                                                                                                      ; |SRG_Flashing_Module|Mux~output                                                                                                      ; o                ;
+; |SRG_Flashing_Module|Mux                                                                                                             ; |SRG_Flashing_Module|Mux                                                                                                             ; padout           ;
+; |SRG_Flashing_Module|SRg_Shift_End~output                                                                                            ; |SRG_Flashing_Module|SRg_Shift_End~output                                                                                            ; o                ;
+; |SRG_Flashing_Module|SRg_Shift_End                                                                                                   ; |SRG_Flashing_Module|SRg_Shift_End                                                                                                   ; padout           ;
+; |SRG_Flashing_Module|1KHz~output                                                                                                     ; |SRG_Flashing_Module|1KHz~output                                                                                                     ; o                ;
+; |SRG_Flashing_Module|1KHz                                                                                                            ; |SRG_Flashing_Module|1KHz                                                                                                            ; padout           ;
+; |SRG_Flashing_Module|SRg_Flash_Cycle_End~output                                                                                      ; |SRG_Flashing_Module|SRg_Flash_Cycle_End~output                                                                                      ; o                ;
+; |SRG_Flashing_Module|SRg_Flash_Cycle_End                                                                                             ; |SRG_Flashing_Module|SRg_Flash_Cycle_End                                                                                             ; padout           ;
+; |SRG_Flashing_Module|DC_Hold~output                                                                                                  ; |SRG_Flashing_Module|DC_Hold~output                                                                                                  ; o                ;
+; |SRG_Flashing_Module|DC_Hold                                                                                                         ; |SRG_Flashing_Module|DC_Hold                                                                                                         ; padout           ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[1]~output                                                                                         ; |SRG_Flashing_Module|Flash_Num_Cnt[1]~output                                                                                         ; o                ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[1]                                                                                                ; |SRG_Flashing_Module|Flash_Num_Cnt[1]                                                                                                ; padout           ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[0]~output                                                                                         ; |SRG_Flashing_Module|Flash_Num_Cnt[0]~output                                                                                         ; o                ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[0]                                                                                                ; |SRG_Flashing_Module|Flash_Num_Cnt[0]                                                                                                ; padout           ;
+; |SRG_Flashing_Module|Clk_10~input                                                                                                    ; |SRG_Flashing_Module|Clk_10~input                                                                                                    ; o                ;
+; |SRG_Flashing_Module|Clk_10                                                                                                          ; |SRG_Flashing_Module|Clk_10                                                                                                          ; padout           ;
+; |SRG_Flashing_Module|Reset_n~input                                                                                                   ; |SRG_Flashing_Module|Reset_n~input                                                                                                   ; o                ;
+; |SRG_Flashing_Module|Reset_n                                                                                                         ; |SRG_Flashing_Module|Reset_n                                                                                                         ; padout           ;
+; |SRG_Flashing_Module|Clk_50_k~input                                                                                                  ; |SRG_Flashing_Module|Clk_50_k~input                                                                                                  ; o                ;
+; |SRG_Flashing_Module|Clk_50_k                                                                                                        ; |SRG_Flashing_Module|Clk_50_k                                                                                                        ; padout           ;
+; |SRG_Flashing_Module|SRG_Flash_Start~input                                                                                           ; |SRG_Flashing_Module|SRG_Flash_Start~input                                                                                           ; o                ;
+; |SRG_Flashing_Module|SRG_Flash_Start                                                                                                 ; |SRG_Flashing_Module|SRG_Flash_Start                                                                                                 ; padout           ;
+; |SRG_Flashing_Module|Line_End_In~input                                                                                               ; |SRG_Flashing_Module|Line_End_In~input                                                                                               ; o                ;
+; |SRG_Flashing_Module|Line_End_In                                                                                                     ; |SRG_Flashing_Module|Line_End_In                                                                                                     ; padout           ;
+; |SRG_Flashing_Module|End_Of_Frame~input                                                                                              ; |SRG_Flashing_Module|End_Of_Frame~input                                                                                              ; o                ;
+; |SRG_Flashing_Module|End_Of_Frame                                                                                                    ; |SRG_Flashing_Module|End_Of_Frame                                                                                                    ; padout           ;
+; |SRG_Flashing_Module|Clk_10~inputclkctrl                                                                                             ; |SRG_Flashing_Module|Clk_10~inputclkctrl                                                                                             ; outclk           ;
+; |SRG_Flashing_Module|Reset_n~inputclkctrl                                                                                            ; |SRG_Flashing_Module|Reset_n~inputclkctrl                                                                                            ; outclk           ;
+; |SRG_Flashing_Module|Clk_50_k~inputclkctrl                                                                                           ; |SRG_Flashing_Module|Clk_50_k~inputclkctrl                                                                                           ; outclk           ;
+; |SRG_Flashing_Module|inst55~feeder                                                                                                   ; |SRG_Flashing_Module|inst55~feeder                                                                                                   ; combout          ;
+; |SRG_Flashing_Module|inst64~feeder                                                                                                   ; |SRG_Flashing_Module|inst64~feeder                                                                                                   ; combout          ;
+; |SRG_Flashing_Module|inst48~feeder                                                                                                   ; |SRG_Flashing_Module|inst48~feeder                                                                                                   ; combout          ;
+; |SRG_Flashing_Module|inst12~feeder                                                                                                   ; |SRG_Flashing_Module|inst12~feeder                                                                                                   ; combout          ;
+; |SRG_Flashing_Module|inst15~feeder                                                                                                   ; |SRG_Flashing_Module|inst15~feeder                                                                                                   ; combout          ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]~feeder                                          ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]~feeder                                          ; combout          ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]~feeder                                          ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]~feeder                                          ; combout          ;
+; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~feeder                                          ; |SRG_Flashing_Module|lpm_shiftreg6:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~feeder                                          ; combout          ;
++--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                            ; Output Port Name                                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[3] ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[3] ; q                ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[2] ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[2] ; q                ;
+; |SRG_Flashing_Module|inst44~20                                                                                       ; |SRG_Flashing_Module|inst44~20                                                                                       ; combout          ;
+; |SRG_Flashing_Module|inst51                                                                                          ; |SRG_Flashing_Module|inst51                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst52~2                                                                                        ; |SRG_Flashing_Module|inst52~2                                                                                        ; combout          ;
+; |SRG_Flashing_Module|~GND                                                                                            ; |SRG_Flashing_Module|~GND                                                                                            ; combout          ;
+; |SRG_Flashing_Module|Line_End~output                                                                                 ; |SRG_Flashing_Module|Line_End~output                                                                                 ; o                ;
+; |SRG_Flashing_Module|Line_End                                                                                        ; |SRG_Flashing_Module|Line_End                                                                                        ; padout           ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[3]~output                                                                         ; |SRG_Flashing_Module|Flash_Num_Cnt[3]~output                                                                         ; o                ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[3]                                                                                ; |SRG_Flashing_Module|Flash_Num_Cnt[3]                                                                                ; padout           ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[2]~output                                                                         ; |SRG_Flashing_Module|Flash_Num_Cnt[2]~output                                                                         ; o                ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[2]                                                                                ; |SRG_Flashing_Module|Flash_Num_Cnt[2]                                                                                ; padout           ;
+; |SRG_Flashing_Module|Line_Start_In~input                                                                             ; |SRG_Flashing_Module|Line_Start_In~input                                                                             ; o                ;
+; |SRG_Flashing_Module|Line_Start_In                                                                                   ; |SRG_Flashing_Module|Line_Start_In                                                                                   ; padout           ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                            ; Output Port Name                                                                                                     ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[3] ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[3] ; q                ;
+; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[2] ; |SRG_Flashing_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component|cntr_jll:auto_generated|counter_reg_bit[2] ; q                ;
+; |SRG_Flashing_Module|inst44~20                                                                                       ; |SRG_Flashing_Module|inst44~20                                                                                       ; combout          ;
+; |SRG_Flashing_Module|inst51                                                                                          ; |SRG_Flashing_Module|inst51                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst52                                                                                          ; |SRG_Flashing_Module|inst52                                                                                          ; q                ;
+; |SRG_Flashing_Module|inst52~2                                                                                        ; |SRG_Flashing_Module|inst52~2                                                                                        ; combout          ;
+; |SRG_Flashing_Module|~GND                                                                                            ; |SRG_Flashing_Module|~GND                                                                                            ; combout          ;
+; |SRG_Flashing_Module|Line_End~output                                                                                 ; |SRG_Flashing_Module|Line_End~output                                                                                 ; o                ;
+; |SRG_Flashing_Module|Line_End                                                                                        ; |SRG_Flashing_Module|Line_End                                                                                        ; padout           ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[3]~output                                                                         ; |SRG_Flashing_Module|Flash_Num_Cnt[3]~output                                                                         ; o                ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[3]                                                                                ; |SRG_Flashing_Module|Flash_Num_Cnt[3]                                                                                ; padout           ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[2]~output                                                                         ; |SRG_Flashing_Module|Flash_Num_Cnt[2]~output                                                                         ; o                ;
+; |SRG_Flashing_Module|Flash_Num_Cnt[2]                                                                                ; |SRG_Flashing_Module|Flash_Num_Cnt[2]                                                                                ; padout           ;
+; |SRG_Flashing_Module|Line_Start_In~input                                                                             ; |SRG_Flashing_Module|Line_Start_In~input                                                                             ; o                ;
+; |SRG_Flashing_Module|Line_Start_In                                                                                   ; |SRG_Flashing_Module|Line_Start_In                                                                                   ; padout           ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 8.1 Build 163 10/28/2008 SJ Full Version
+    Info: Processing started: Fri May 22 15:25:47 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off SRG_Flashing_Module -c SRG_Flashing_Module
+Info: Using vector source file "C:/altera/81/qdesigns/Main_05_22/Main/SRG_Flashing_Module.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of SRG_Flashing_Module.vwf called SRG_Flashing_Module.sim_ori.vwf has been created in the db folder
+Info: Inverted registers were found during simulation
+    Info: Register: |SRG_Flashing_Module|inst47
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      90.26 %
+Info: Number of transitions in simulation is 35198
+Info: Vector file SRG_Flashing_Module.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 114 megabytes
+    Info: Processing ended: Fri May 22 15:25:49 2009
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

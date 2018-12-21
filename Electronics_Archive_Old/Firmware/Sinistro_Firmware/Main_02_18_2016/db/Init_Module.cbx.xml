@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Init_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_svf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_vrh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_s631.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_baj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_ojk.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Filter_DCDS_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Filter_DCDS_Module|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Filter_DCDS_Module|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_99k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Filter_DCDS_Module|lpm_add_sub3:inst5|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_osh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Filter_DCDS_Module|lpm_counter26:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Filter_DCDS_Module|lpm_add_sub0:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

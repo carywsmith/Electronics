@@ -1,0 +1,384 @@
+Simulator report for Mirror
+Sun Jul 26 10:43:37 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 10.0 us      ;
+; Simulation Netlist Size     ; 184 nodes    ;
+; Simulation Coverage         ;      73.71 % ;
+; Total Number of Transitions ; 15418        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C5F256C6  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      73.71 % ;
+; Total nodes checked                                 ; 184          ;
+; Total output ports checked                          ; 175          ;
+; Total output ports with complete 1/0-value coverage ; 129          ;
+; Total output ports with no 1/0-value coverage       ; 43           ;
+; Total output ports with no 1-value coverage         ; 43           ;
+; Total output ports with no 0-value coverage         ; 46           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                   ;
++------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                  ; Output Port Name                                                                                              ; Output Port Type ;
++------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_reg_bit[0]   ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_reg_bit[0]      ; q                ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_reg_bit[2]   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_reg_bit[2]      ; q                ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_reg_bit[1]   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_reg_bit[1]      ; q                ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_reg_bit[0]   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_reg_bit[0]      ; q                ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_reg_bit[1]   ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_reg_bit[1]      ; q                ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita0   ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita0      ; combout          ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita0   ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita1   ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita1      ; combout          ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita1   ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita1~0 ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_comb_bita1~0    ; combout          ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita0   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita0      ; combout          ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita0   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita1   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita1      ; combout          ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita1   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita2   ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|counter_comb_bita2      ; combout          ;
+; |Mirror|inst30                                                                                             ; |Mirror|inst30                                                                                                ; q                ;
+; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                  ; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                     ; q                ;
+; |Mirror|inst26                                                                                             ; |Mirror|inst26                                                                                                ; q                ;
+; |Mirror|inst24                                                                                             ; |Mirror|inst24                                                                                                ; q                ;
+; |Mirror|inst42                                                                                             ; |Mirror|inst42                                                                                                ; q                ;
+; |Mirror|inst43                                                                                             ; |Mirror|inst43                                                                                                ; q                ;
+; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                    ; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                       ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[4]                                                    ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[4]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[3]                                                    ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[3]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[2]                                                    ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[2]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[1]                                                    ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[1]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[0]                                                    ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[0]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[4]                                                    ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[4]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[3]                                                    ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[3]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[2]                                                    ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[2]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[1]                                                    ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[1]                                                       ; q                ;
+; |Mirror|inst8                                                                                              ; |Mirror|inst8                                                                                                 ; q                ;
+; |Mirror|inst18                                                                                             ; |Mirror|inst18                                                                                                ; combout          ;
+; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                  ; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                     ; q                ;
+; |Mirror|inst9~0                                                                                            ; |Mirror|inst9~0                                                                                               ; combout          ;
+; |Mirror|inst21                                                                                             ; |Mirror|inst21                                                                                                ; q                ;
+; |Mirror|inst48                                                                                             ; |Mirror|inst48                                                                                                ; q                ;
+; |Mirror|inst20                                                                                             ; |Mirror|inst20                                                                                                ; q                ;
+; |Mirror|inst23                                                                                             ; |Mirror|inst23                                                                                                ; combout          ;
+; |Mirror|inst47                                                                                             ; |Mirror|inst47                                                                                                ; q                ;
+; |Mirror|inst46                                                                                             ; |Mirror|inst46                                                                                                ; q                ;
+; |Mirror|inst45                                                                                             ; |Mirror|inst45                                                                                                ; combout          ;
+; |Mirror|inst14                                                                                             ; |Mirror|inst14                                                                                                ; combout          ;
+; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                    ; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                       ; q                ;
+; |Mirror|inst6                                                                                              ; |Mirror|inst6                                                                                                 ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[4]                                                    ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[4]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[3]                                                    ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[3]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[2]                                                    ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[2]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[1]                                                    ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[1]                                                       ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[0]                                                    ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[0]                                                       ; q                ;
+; |Mirror|inst8~3                                                                                            ; |Mirror|inst8~3                                                                                               ; combout          ;
+; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_reg_bit[1]~4 ; |Mirror|lpm_counter10:inst5|lpm_counter:lpm_counter_component|cntr_0fm:auto_generated|counter_reg_bit[1]~4    ; combout          ;
+; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                  ; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                     ; q                ;
+; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|_~13                 ; |Mirror|lpm_counter11:inst7|lpm_counter:lpm_counter_component|cntr_22k:auto_generated|_~13                    ; combout          ;
+; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                    ; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                       ; q                ;
+; |Mirror|inst21~0                                                                                           ; |Mirror|inst21~0                                                                                              ; combout          ;
+; |Mirror|inst20~0                                                                                           ; |Mirror|inst20~0                                                                                              ; combout          ;
+; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~_wirecell                        ; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~_wirecell                           ; combout          ;
+; |Mirror|Dat_Stb~output                                                                                     ; |Mirror|Dat_Stb~output                                                                                        ; o                ;
+; |Mirror|Dat_Stb                                                                                            ; |Mirror|Dat_Stb                                                                                               ; padout           ;
+; |Mirror|Start_Acquisition~output                                                                           ; |Mirror|Start_Acquisition~output                                                                              ; o                ;
+; |Mirror|Start_Acquisition                                                                                  ; |Mirror|Start_Acquisition                                                                                     ; padout           ;
+; |Mirror|End~output                                                                                         ; |Mirror|End~output                                                                                            ; o                ;
+; |Mirror|End                                                                                                ; |Mirror|End                                                                                                   ; padout           ;
+; |Mirror|ADC_Read_n~output                                                                                  ; |Mirror|ADC_Read_n~output                                                                                     ; o                ;
+; |Mirror|ADC_Read_n                                                                                         ; |Mirror|ADC_Read_n                                                                                            ; padout           ;
+; |Mirror|ADC_CS_n~output                                                                                    ; |Mirror|ADC_CS_n~output                                                                                       ; o                ;
+; |Mirror|ADC_CS_n                                                                                           ; |Mirror|ADC_CS_n                                                                                              ; padout           ;
+; |Mirror|Mux~output                                                                                         ; |Mirror|Mux~output                                                                                            ; o                ;
+; |Mirror|Mux                                                                                                ; |Mirror|Mux                                                                                                   ; padout           ;
+; |Mirror|DFF_Enbl~output                                                                                    ; |Mirror|DFF_Enbl~output                                                                                       ; o                ;
+; |Mirror|DFF_Enbl                                                                                           ; |Mirror|DFF_Enbl                                                                                              ; padout           ;
+; |Mirror|16_bit_Stb~output                                                                                  ; |Mirror|16_bit_Stb~output                                                                                     ; o                ;
+; |Mirror|16_bit_Stb                                                                                         ; |Mirror|16_bit_Stb                                                                                            ; padout           ;
+; |Mirror|ADC_Data[12]~output                                                                                ; |Mirror|ADC_Data[12]~output                                                                                   ; o                ;
+; |Mirror|ADC_Data[12]                                                                                       ; |Mirror|ADC_Data[12]                                                                                          ; padout           ;
+; |Mirror|ADC_Data[11]~output                                                                                ; |Mirror|ADC_Data[11]~output                                                                                   ; o                ;
+; |Mirror|ADC_Data[11]                                                                                       ; |Mirror|ADC_Data[11]                                                                                          ; padout           ;
+; |Mirror|ADC_Data[10]~output                                                                                ; |Mirror|ADC_Data[10]~output                                                                                   ; o                ;
+; |Mirror|ADC_Data[10]                                                                                       ; |Mirror|ADC_Data[10]                                                                                          ; padout           ;
+; |Mirror|ADC_Data[9]~output                                                                                 ; |Mirror|ADC_Data[9]~output                                                                                    ; o                ;
+; |Mirror|ADC_Data[9]                                                                                        ; |Mirror|ADC_Data[9]                                                                                           ; padout           ;
+; |Mirror|ADC_Data[8]~output                                                                                 ; |Mirror|ADC_Data[8]~output                                                                                    ; o                ;
+; |Mirror|ADC_Data[8]                                                                                        ; |Mirror|ADC_Data[8]                                                                                           ; padout           ;
+; |Mirror|ADC_Data[4]~output                                                                                 ; |Mirror|ADC_Data[4]~output                                                                                    ; o                ;
+; |Mirror|ADC_Data[4]                                                                                        ; |Mirror|ADC_Data[4]                                                                                           ; padout           ;
+; |Mirror|ADC_Data[3]~output                                                                                 ; |Mirror|ADC_Data[3]~output                                                                                    ; o                ;
+; |Mirror|ADC_Data[3]                                                                                        ; |Mirror|ADC_Data[3]                                                                                           ; padout           ;
+; |Mirror|ADC_Data[2]~output                                                                                 ; |Mirror|ADC_Data[2]~output                                                                                    ; o                ;
+; |Mirror|ADC_Data[2]                                                                                        ; |Mirror|ADC_Data[2]                                                                                           ; padout           ;
+; |Mirror|ADC_Data[1]~output                                                                                 ; |Mirror|ADC_Data[1]~output                                                                                    ; o                ;
+; |Mirror|ADC_Data[1]                                                                                        ; |Mirror|ADC_Data[1]                                                                                           ; padout           ;
+; |Mirror|Acquisition_Delay[5]                                                                               ; |Mirror|Acquisition_Delay[5]                                                                                  ; padout           ;
+; |Mirror|Acquisition_Delay[4]                                                                               ; |Mirror|Acquisition_Delay[4]                                                                                  ; padout           ;
+; |Mirror|Acquisition_Delay[3]                                                                               ; |Mirror|Acquisition_Delay[3]                                                                                  ; padout           ;
+; |Mirror|Acquisition_Delay[2]                                                                               ; |Mirror|Acquisition_Delay[2]                                                                                  ; padout           ;
+; |Mirror|Acquisition_Delay[0]                                                                               ; |Mirror|Acquisition_Delay[0]                                                                                  ; padout           ;
+; |Mirror|Clk_100~input                                                                                      ; |Mirror|Clk_100~input                                                                                         ; o                ;
+; |Mirror|Clk_100                                                                                            ; |Mirror|Clk_100                                                                                               ; padout           ;
+; |Mirror|ADC_Dat[5]~input                                                                                   ; |Mirror|ADC_Dat[5]~input                                                                                      ; o                ;
+; |Mirror|ADC_Dat[5]                                                                                         ; |Mirror|ADC_Dat[5]                                                                                            ; padout           ;
+; |Mirror|ADC_Dat[4]~input                                                                                   ; |Mirror|ADC_Dat[4]~input                                                                                      ; o                ;
+; |Mirror|ADC_Dat[4]                                                                                         ; |Mirror|ADC_Dat[4]                                                                                            ; padout           ;
+; |Mirror|ADC_Dat[3]~input                                                                                   ; |Mirror|ADC_Dat[3]~input                                                                                      ; o                ;
+; |Mirror|ADC_Dat[3]                                                                                         ; |Mirror|ADC_Dat[3]                                                                                            ; padout           ;
+; |Mirror|ADC_Dat[2]~input                                                                                   ; |Mirror|ADC_Dat[2]~input                                                                                      ; o                ;
+; |Mirror|ADC_Dat[2]                                                                                         ; |Mirror|ADC_Dat[2]                                                                                            ; padout           ;
+; |Mirror|ADC_Dat[1]~input                                                                                   ; |Mirror|ADC_Dat[1]~input                                                                                      ; o                ;
+; |Mirror|ADC_Dat[1]                                                                                         ; |Mirror|ADC_Dat[1]                                                                                            ; padout           ;
+; |Mirror|ADC_Dat[0]~input                                                                                   ; |Mirror|ADC_Dat[0]~input                                                                                      ; o                ;
+; |Mirror|ADC_Dat[0]                                                                                         ; |Mirror|ADC_Dat[0]                                                                                            ; padout           ;
+; |Mirror|CONVST_n~input                                                                                     ; |Mirror|CONVST_n~input                                                                                        ; o                ;
+; |Mirror|CONVST_n                                                                                           ; |Mirror|CONVST_n                                                                                              ; padout           ;
+; |Mirror|Clk_100~inputclkctrl                                                                               ; |Mirror|Clk_100~inputclkctrl                                                                                  ; outclk           ;
+; |Mirror|inst24~feeder                                                                                      ; |Mirror|inst24~feeder                                                                                         ; combout          ;
+; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[0]~feeder                           ; |Mirror|lpm_shiftreg12:inst12|lpm_shiftreg:lpm_shiftreg_component|dffs[0]~feeder                              ; combout          ;
+; |Mirror|inst48~feeder                                                                                      ; |Mirror|inst48~feeder                                                                                         ; combout          ;
+; |Mirror|inst47~feeder                                                                                      ; |Mirror|inst47~feeder                                                                                         ; combout          ;
+; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~feeder                             ; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~feeder                                ; combout          ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[4]~feeder                                             ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[4]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[2]~feeder                                             ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[2]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[1]~feeder                                             ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[1]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[0]~feeder                                             ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                ; combout          ;
+; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[1]~feeder                             ; |Mirror|lpm_shiftreg1:inst1|lpm_shiftreg:lpm_shiftreg_component|dffs[1]~feeder                                ; combout          ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[5]~feeder                                             ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[5]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[5]~feeder                                             ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[5]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[3]~feeder                                             ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[3]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[0]~feeder                                             ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[0]~feeder                                             ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                ; combout          ;
++------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                           ;
++----------------------------------------------------------------+----------------------------------------------------------------+------------------+
+; Node Name                                                      ; Output Port Name                                               ; Output Port Type ;
++----------------------------------------------------------------+----------------------------------------------------------------+------------------+
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]        ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]        ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[5]        ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[7]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[0]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[0]        ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]        ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]        ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[5]        ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |Mirror|~GND                                                   ; |Mirror|~GND                                                   ; combout          ;
+; |Mirror|ADC_Data[15]~output                                    ; |Mirror|ADC_Data[15]~output                                    ; o                ;
+; |Mirror|ADC_Data[15]                                           ; |Mirror|ADC_Data[15]                                           ; padout           ;
+; |Mirror|ADC_Data[14]~output                                    ; |Mirror|ADC_Data[14]~output                                    ; o                ;
+; |Mirror|ADC_Data[14]                                           ; |Mirror|ADC_Data[14]                                           ; padout           ;
+; |Mirror|ADC_Data[13]~output                                    ; |Mirror|ADC_Data[13]~output                                    ; o                ;
+; |Mirror|ADC_Data[13]                                           ; |Mirror|ADC_Data[13]                                           ; padout           ;
+; |Mirror|ADC_Data[7]~output                                     ; |Mirror|ADC_Data[7]~output                                     ; o                ;
+; |Mirror|ADC_Data[7]                                            ; |Mirror|ADC_Data[7]                                            ; padout           ;
+; |Mirror|ADC_Data[6]~output                                     ; |Mirror|ADC_Data[6]~output                                     ; o                ;
+; |Mirror|ADC_Data[6]                                            ; |Mirror|ADC_Data[6]                                            ; padout           ;
+; |Mirror|ADC_Data[5]~output                                     ; |Mirror|ADC_Data[5]~output                                     ; o                ;
+; |Mirror|ADC_Data[5]                                            ; |Mirror|ADC_Data[5]                                            ; padout           ;
+; |Mirror|ADC_Data[0]~output                                     ; |Mirror|ADC_Data[0]~output                                     ; o                ;
+; |Mirror|ADC_Data[0]                                            ; |Mirror|ADC_Data[0]                                            ; padout           ;
+; |Mirror|Acquisition_Delay[12]                                  ; |Mirror|Acquisition_Delay[12]                                  ; padout           ;
+; |Mirror|Acquisition_Delay[11]                                  ; |Mirror|Acquisition_Delay[11]                                  ; padout           ;
+; |Mirror|Acquisition_Delay[10]                                  ; |Mirror|Acquisition_Delay[10]                                  ; padout           ;
+; |Mirror|Acquisition_Delay[9]                                   ; |Mirror|Acquisition_Delay[9]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[8]                                   ; |Mirror|Acquisition_Delay[8]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[7]                                   ; |Mirror|Acquisition_Delay[7]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[6]                                   ; |Mirror|Acquisition_Delay[6]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[1]                                   ; |Mirror|Acquisition_Delay[1]                                   ; padout           ;
+; |Mirror|ADC_Dat[7]~input                                       ; |Mirror|ADC_Dat[7]~input                                       ; o                ;
+; |Mirror|ADC_Dat[7]                                             ; |Mirror|ADC_Dat[7]                                             ; padout           ;
+; |Mirror|ADC_Dat[6]~input                                       ; |Mirror|ADC_Dat[6]~input                                       ; o                ;
+; |Mirror|ADC_Dat[6]                                             ; |Mirror|ADC_Dat[6]                                             ; padout           ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]~feeder ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]~feeder ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]~feeder ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
++----------------------------------------------------------------+----------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                           ;
++----------------------------------------------------------------+----------------------------------------------------------------+------------------+
+; Node Name                                                      ; Output Port Name                                               ; Output Port Type ;
++----------------------------------------------------------------+----------------------------------------------------------------+------------------+
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]        ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]        ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[5]        ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[7]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[0]        ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[0]        ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]        ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]        ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[5]        ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |Mirror|~GND                                                   ; |Mirror|~GND                                                   ; combout          ;
+; |Mirror|ADC_Data[15]~output                                    ; |Mirror|ADC_Data[15]~output                                    ; o                ;
+; |Mirror|ADC_Data[15]                                           ; |Mirror|ADC_Data[15]                                           ; padout           ;
+; |Mirror|ADC_Data[14]~output                                    ; |Mirror|ADC_Data[14]~output                                    ; o                ;
+; |Mirror|ADC_Data[14]                                           ; |Mirror|ADC_Data[14]                                           ; padout           ;
+; |Mirror|ADC_Data[13]~output                                    ; |Mirror|ADC_Data[13]~output                                    ; o                ;
+; |Mirror|ADC_Data[13]                                           ; |Mirror|ADC_Data[13]                                           ; padout           ;
+; |Mirror|ADC_Data[7]~output                                     ; |Mirror|ADC_Data[7]~output                                     ; o                ;
+; |Mirror|ADC_Data[7]                                            ; |Mirror|ADC_Data[7]                                            ; padout           ;
+; |Mirror|ADC_Data[6]~output                                     ; |Mirror|ADC_Data[6]~output                                     ; o                ;
+; |Mirror|ADC_Data[6]                                            ; |Mirror|ADC_Data[6]                                            ; padout           ;
+; |Mirror|ADC_Data[5]~output                                     ; |Mirror|ADC_Data[5]~output                                     ; o                ;
+; |Mirror|ADC_Data[5]                                            ; |Mirror|ADC_Data[5]                                            ; padout           ;
+; |Mirror|ADC_Data[0]~output                                     ; |Mirror|ADC_Data[0]~output                                     ; o                ;
+; |Mirror|ADC_Data[0]                                            ; |Mirror|ADC_Data[0]                                            ; padout           ;
+; |Mirror|Acquisition_Delay[12]                                  ; |Mirror|Acquisition_Delay[12]                                  ; padout           ;
+; |Mirror|Acquisition_Delay[11]                                  ; |Mirror|Acquisition_Delay[11]                                  ; padout           ;
+; |Mirror|Acquisition_Delay[10]                                  ; |Mirror|Acquisition_Delay[10]                                  ; padout           ;
+; |Mirror|Acquisition_Delay[9]                                   ; |Mirror|Acquisition_Delay[9]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[8]                                   ; |Mirror|Acquisition_Delay[8]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[7]                                   ; |Mirror|Acquisition_Delay[7]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[6]                                   ; |Mirror|Acquisition_Delay[6]                                   ; padout           ;
+; |Mirror|Acquisition_Delay[1]                                   ; |Mirror|Acquisition_Delay[1]                                   ; padout           ;
+; |Mirror|Reset_n~input                                          ; |Mirror|Reset_n~input                                          ; o                ;
+; |Mirror|Reset_n                                                ; |Mirror|Reset_n                                                ; padout           ;
+; |Mirror|ADC_Dat[7]~input                                       ; |Mirror|ADC_Dat[7]~input                                       ; o                ;
+; |Mirror|ADC_Dat[7]                                             ; |Mirror|ADC_Dat[7]                                             ; padout           ;
+; |Mirror|ADC_Dat[6]~input                                       ; |Mirror|ADC_Dat[6]~input                                       ; o                ;
+; |Mirror|ADC_Dat[6]                                             ; |Mirror|ADC_Dat[6]                                             ; padout           ;
+; |Mirror|Reset_n~inputclkctrl                                   ; |Mirror|Reset_n~inputclkctrl                                   ; outclk           ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]~feeder ; |Mirror|lpm_dff10:inst3|lpm_ff:lpm_ff_component|dffs[5]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]~feeder ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[7]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]~feeder ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[7]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |Mirror|lpm_dff10:inst4|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
+; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |Mirror|lpm_dff10:inst2|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
++----------------------------------------------------------------+----------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Sun Jul 26 10:43:36 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Mirror -c Mirror
+Info: Using vector source file "C:/altera/90/qdesigns/Main_04_Base/Mirror.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of Mirror.vwf called Mirror.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      73.71 %
+Info: Number of transitions in simulation is 15418
+Info: Vector file Mirror.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 163 megabytes
+    Info: Processing ended: Sun Jul 26 10:43:37 2009
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

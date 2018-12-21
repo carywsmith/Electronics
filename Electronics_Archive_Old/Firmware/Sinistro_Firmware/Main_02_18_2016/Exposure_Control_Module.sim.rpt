@@ -1,0 +1,574 @@
+Simulator report for Exposure_Control_Module
+Thu May 28 11:47:20 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 us     ;
+; Simulation Netlist Size     ; 261 nodes    ;
+; Simulation Coverage         ;      57.91 % ;
+; Total Number of Transitions ; 21843        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      57.91 % ;
+; Total nodes checked                                 ; 261          ;
+; Total output ports checked                          ; 297          ;
+; Total output ports with complete 1/0-value coverage ; 172          ;
+; Total output ports with no 1/0-value coverage       ; 111          ;
+; Total output ports with no 1-value coverage         ; 111          ;
+; Total output ports with no 0-value coverage         ; 125          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                                         ;
++-------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                     ; Output Port Name                                                                                                                 ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[23]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[23]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[22]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[22]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[21]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[21]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[20]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[20]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[19]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[19]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[18]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[18]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[17]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[17]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[16]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[16]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[15]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[15]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[14]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[14]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[13]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[13]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[12]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[12]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[11]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[11]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[10]    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[10]       ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[9]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[9]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[8]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[8]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[7]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[7]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[6]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[6]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[5]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[5]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[4]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[4]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[3]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[3]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[2]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[2]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[1]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[1]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[0]     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_reg_bit[0]        ; q                ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita0     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita0        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita0     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita0~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita1     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita1        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita1     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita1~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita2     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita2        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita2     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita2~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita3     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita3        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita3     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita3~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita4     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita4        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita4     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita4~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita5     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita5        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita5     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita5~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita6     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita6        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita6     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita6~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita7     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita7        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita7     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita7~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita8     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita8        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita8     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita8~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita9     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita9        ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita9     ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita9~COUT   ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita10    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita10       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita10    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita10~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita11    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita11       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita11    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita11~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita12    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita12       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita12    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita12~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita13    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita13       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita13    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita13~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita14    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita14       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita14    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita14~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita15    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita15       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita15    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita15~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita16    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita16       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita16    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita16~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita17    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita17       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita17    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita17~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita18    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita18       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita18    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita18~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita19    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita19       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita19    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita19~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita20    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita20       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita20    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita20~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita21    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita21       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita21    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita21~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita22    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita22       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita22    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita22~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita23    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita23       ; combout          ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita23    ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita23~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita23~0  ; |Exposure_Control_Module|lpm_counter30:inst4|lpm_counter:lpm_counter_component|cntr_7hk:auto_generated|counter_comb_bita23~0     ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[11]   ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[11]      ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[10]   ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[10]      ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[9]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[9]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[8]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[8]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[7]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[7]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[6]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[6]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[5]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[5]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[4]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[4]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[3]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[3]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[2]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[2]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[1]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[1]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[0]    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_reg_bit[0]       ; q                ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita0    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita0       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita0    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita0~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita1    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita1       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita1    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita1~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita2    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita2       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita2    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita2~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita3    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita3       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita3    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita3~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita4    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita4       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita4    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita4~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita5    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita5       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita5    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita5~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita6    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita6       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita6    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita6~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita7    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita7       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita7    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita7~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita8    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita8       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita8    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita8~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita9    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita9       ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita9    ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita9~COUT  ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita10   ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita10      ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita10   ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita10~COUT ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita11   ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita11      ; combout          ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita11   ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita11~COUT ; cout             ;
+; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita11~0 ; |Exposure_Control_Module|lpm_counter31:inst16|lpm_counter:lpm_counter_component|cntr_4hk:auto_generated|counter_comb_bita11~0    ; combout          ;
+; |Exposure_Control_Module|inst8                                                                                                ; |Exposure_Control_Module|inst8                                                                                                   ; q                ;
+; |Exposure_Control_Module|inst7                                                                                                ; |Exposure_Control_Module|inst7                                                                                                   ; q                ;
+; |Exposure_Control_Module|inst14                                                                                               ; |Exposure_Control_Module|inst14                                                                                                  ; combout          ;
+; |Exposure_Control_Module|inst10                                                                                               ; |Exposure_Control_Module|inst10                                                                                                  ; q                ;
+; |Exposure_Control_Module|inst6                                                                                                ; |Exposure_Control_Module|inst6                                                                                                   ; q                ;
+; |Exposure_Control_Module|inst11                                                                                               ; |Exposure_Control_Module|inst11                                                                                                  ; combout          ;
+; |Exposure_Control_Module|lpm_decode5:inst2|lpm_decode:lpm_decode_component|decode_7uf:auto_generated|w_anode14w[2]            ; |Exposure_Control_Module|lpm_decode5:inst2|lpm_decode:lpm_decode_component|decode_7uf:auto_generated|w_anode14w[2]               ; combout          ;
+; |Exposure_Control_Module|lpm_decode5:inst2|lpm_decode:lpm_decode_component|decode_7uf:auto_generated|w_anode1w[2]             ; |Exposure_Control_Module|lpm_decode5:inst2|lpm_decode:lpm_decode_component|decode_7uf:auto_generated|w_anode1w[2]                ; combout          ;
+; |Exposure_Control_Module|inst7~3                                                                                              ; |Exposure_Control_Module|inst7~3                                                                                                 ; combout          ;
+; |Exposure_Control_Module|inst9                                                                                                ; |Exposure_Control_Module|inst9                                                                                                   ; q                ;
+; |Exposure_Control_Module|inst12                                                                                               ; |Exposure_Control_Module|inst12                                                                                                  ; combout          ;
+; |Exposure_Control_Module|inst6~3                                                                                              ; |Exposure_Control_Module|inst6~3                                                                                                 ; combout          ;
+; |Exposure_Control_Module|inst9~3                                                                                              ; |Exposure_Control_Module|inst9~3                                                                                                 ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[2]                                                     ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[2]                                                        ; q                ;
+; |Exposure_Control_Module|lpm_decode5:inst2|lpm_decode:lpm_decode_component|decode_7uf:auto_generated|w_anode22w[2]~1          ; |Exposure_Control_Module|lpm_decode5:inst2|lpm_decode:lpm_decode_component|decode_7uf:auto_generated|w_anode22w[2]~1             ; combout          ;
+; |Exposure_Control_Module|Exposure_End~output                                                                                  ; |Exposure_Control_Module|Exposure_End~output                                                                                     ; o                ;
+; |Exposure_Control_Module|Exposure_End                                                                                         ; |Exposure_Control_Module|Exposure_End                                                                                            ; padout           ;
+; |Exposure_Control_Module|C_Out~output                                                                                         ; |Exposure_Control_Module|C_Out~output                                                                                            ; o                ;
+; |Exposure_Control_Module|C_Out                                                                                                ; |Exposure_Control_Module|C_Out                                                                                                   ; padout           ;
+; |Exposure_Control_Module|Shutter_On~output                                                                                    ; |Exposure_Control_Module|Shutter_On~output                                                                                       ; o                ;
+; |Exposure_Control_Module|Shutter_On                                                                                           ; |Exposure_Control_Module|Shutter_On                                                                                              ; padout           ;
+; |Exposure_Control_Module|CCD_Read_Start~output                                                                                ; |Exposure_Control_Module|CCD_Read_Start~output                                                                                   ; o                ;
+; |Exposure_Control_Module|CCD_Read_Start                                                                                       ; |Exposure_Control_Module|CCD_Read_Start                                                                                          ; padout           ;
+; |Exposure_Control_Module|Clk_1KHz~input                                                                                       ; |Exposure_Control_Module|Clk_1KHz~input                                                                                          ; o                ;
+; |Exposure_Control_Module|Clk_1KHz                                                                                             ; |Exposure_Control_Module|Clk_1KHz                                                                                                ; padout           ;
+; |Exposure_Control_Module|Reset_n~input                                                                                        ; |Exposure_Control_Module|Reset_n~input                                                                                           ; o                ;
+; |Exposure_Control_Module|Reset_n                                                                                              ; |Exposure_Control_Module|Reset_n                                                                                                 ; padout           ;
+; |Exposure_Control_Module|Wr_n~input                                                                                           ; |Exposure_Control_Module|Wr_n~input                                                                                              ; o                ;
+; |Exposure_Control_Module|Wr_n                                                                                                 ; |Exposure_Control_Module|Wr_n                                                                                                    ; padout           ;
+; |Exposure_Control_Module|Addr[0]~input                                                                                        ; |Exposure_Control_Module|Addr[0]~input                                                                                           ; o                ;
+; |Exposure_Control_Module|Addr[0]                                                                                              ; |Exposure_Control_Module|Addr[0]                                                                                                 ; padout           ;
+; |Exposure_Control_Module|Addr[1]~input                                                                                        ; |Exposure_Control_Module|Addr[1]~input                                                                                           ; o                ;
+; |Exposure_Control_Module|Addr[1]                                                                                              ; |Exposure_Control_Module|Addr[1]                                                                                                 ; padout           ;
+; |Exposure_Control_Module|Exp_Timer_Cs_n~input                                                                                 ; |Exposure_Control_Module|Exp_Timer_Cs_n~input                                                                                    ; o                ;
+; |Exposure_Control_Module|Exp_Timer_Cs_n                                                                                       ; |Exposure_Control_Module|Exp_Timer_Cs_n                                                                                          ; padout           ;
+; |Exposure_Control_Module|Dat[4]~input                                                                                         ; |Exposure_Control_Module|Dat[4]~input                                                                                            ; o                ;
+; |Exposure_Control_Module|Dat[4]                                                                                               ; |Exposure_Control_Module|Dat[4]                                                                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[3]~input                                                                                         ; |Exposure_Control_Module|Dat[3]~input                                                                                            ; o                ;
+; |Exposure_Control_Module|Dat[3]                                                                                               ; |Exposure_Control_Module|Dat[3]                                                                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[2]~input                                                                                         ; |Exposure_Control_Module|Dat[2]~input                                                                                            ; o                ;
+; |Exposure_Control_Module|Dat[2]                                                                                               ; |Exposure_Control_Module|Dat[2]                                                                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[1]~input                                                                                         ; |Exposure_Control_Module|Dat[1]~input                                                                                            ; o                ;
+; |Exposure_Control_Module|Dat[1]                                                                                               ; |Exposure_Control_Module|Dat[1]                                                                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[0]~input                                                                                         ; |Exposure_Control_Module|Dat[0]~input                                                                                            ; o                ;
+; |Exposure_Control_Module|Dat[0]                                                                                               ; |Exposure_Control_Module|Dat[0]                                                                                                  ; padout           ;
+; |Exposure_Control_Module|Exposure_Start~input                                                                                 ; |Exposure_Control_Module|Exposure_Start~input                                                                                    ; o                ;
+; |Exposure_Control_Module|Exposure_Start                                                                                       ; |Exposure_Control_Module|Exposure_Start                                                                                          ; padout           ;
+; |Exposure_Control_Module|Clk_100~input                                                                                        ; |Exposure_Control_Module|Clk_100~input                                                                                           ; o                ;
+; |Exposure_Control_Module|Clk_100                                                                                              ; |Exposure_Control_Module|Clk_100                                                                                                 ; padout           ;
+; |Exposure_Control_Module|Clk_1KHz~inputclkctrl                                                                                ; |Exposure_Control_Module|Clk_1KHz~inputclkctrl                                                                                   ; outclk           ;
+; |Exposure_Control_Module|Reset_n~inputclkctrl                                                                                 ; |Exposure_Control_Module|Reset_n~inputclkctrl                                                                                    ; outclk           ;
+; |Exposure_Control_Module|Wr_n~inputclkctrl                                                                                    ; |Exposure_Control_Module|Wr_n~inputclkctrl                                                                                       ; outclk           ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[4]~feeder                                                 ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[4]~feeder                                                    ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[4]~feeder                                              ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[4]~feeder                                                 ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[4]~feeder                                                ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[4]~feeder                                                   ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[2]~feeder                                                ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[2]~feeder                                                   ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[1]~feeder                                              ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[1]~feeder                                                 ; combout          ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[1]~feeder                                                 ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[1]~feeder                                                    ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[1]~feeder                                                ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[1]~feeder                                                   ; combout          ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                 ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                    ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[0]~feeder                                              ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                 ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[0]~feeder                                                   ; combout          ;
++-------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                 ;
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                         ; Output Port Name                                                                  ; Output Port Type ;
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------------+
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[5]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[5]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[4]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[4]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[3]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[3]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[2]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[2]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[1]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[1]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[0]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[0]            ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[15]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[15]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[13]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[13]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[11]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[11]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[7]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[7]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[6]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[6]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[3]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[3]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[1]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[1]           ; q                ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~0  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~0  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~1  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~1  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~2  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~2  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~3  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~3  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~4  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~4  ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]        ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]        ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]        ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]        ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[9]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[9]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[5]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[5]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[4]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[4]         ; q                ;
+; |Exposure_Control_Module|Exp[23]~output                                           ; |Exposure_Control_Module|Exp[23]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[23]                                                  ; |Exposure_Control_Module|Exp[23]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[22]~output                                           ; |Exposure_Control_Module|Exp[22]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[22]                                                  ; |Exposure_Control_Module|Exp[22]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[21]~output                                           ; |Exposure_Control_Module|Exp[21]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[21]                                                  ; |Exposure_Control_Module|Exp[21]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[20]~output                                           ; |Exposure_Control_Module|Exp[20]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[20]                                                  ; |Exposure_Control_Module|Exp[20]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[19]~output                                           ; |Exposure_Control_Module|Exp[19]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[19]                                                  ; |Exposure_Control_Module|Exp[19]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[18]~output                                           ; |Exposure_Control_Module|Exp[18]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[18]                                                  ; |Exposure_Control_Module|Exp[18]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[17]~output                                           ; |Exposure_Control_Module|Exp[17]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[17]                                                  ; |Exposure_Control_Module|Exp[17]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[16]~output                                           ; |Exposure_Control_Module|Exp[16]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[16]                                                  ; |Exposure_Control_Module|Exp[16]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[15]~output                                           ; |Exposure_Control_Module|Exp[15]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[15]                                                  ; |Exposure_Control_Module|Exp[15]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[14]~output                                           ; |Exposure_Control_Module|Exp[14]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[14]                                                  ; |Exposure_Control_Module|Exp[14]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[13]~output                                           ; |Exposure_Control_Module|Exp[13]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[13]                                                  ; |Exposure_Control_Module|Exp[13]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[12]~output                                           ; |Exposure_Control_Module|Exp[12]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[12]                                                  ; |Exposure_Control_Module|Exp[12]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[11]~output                                           ; |Exposure_Control_Module|Exp[11]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[11]                                                  ; |Exposure_Control_Module|Exp[11]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[10]~output                                           ; |Exposure_Control_Module|Exp[10]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[10]                                                  ; |Exposure_Control_Module|Exp[10]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[9]~output                                            ; |Exposure_Control_Module|Exp[9]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[9]                                                   ; |Exposure_Control_Module|Exp[9]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[8]~output                                            ; |Exposure_Control_Module|Exp[8]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[8]                                                   ; |Exposure_Control_Module|Exp[8]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[7]~output                                            ; |Exposure_Control_Module|Exp[7]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[7]                                                   ; |Exposure_Control_Module|Exp[7]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[6]~output                                            ; |Exposure_Control_Module|Exp[6]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[6]                                                   ; |Exposure_Control_Module|Exp[6]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[5]~output                                            ; |Exposure_Control_Module|Exp[5]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[5]                                                   ; |Exposure_Control_Module|Exp[5]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[3]~output                                            ; |Exposure_Control_Module|Exp[3]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[3]                                                   ; |Exposure_Control_Module|Exp[3]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[1]~output                                            ; |Exposure_Control_Module|Exp[1]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[1]                                                   ; |Exposure_Control_Module|Exp[1]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[7]~input                                             ; |Exposure_Control_Module|Dat[7]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[7]                                                   ; |Exposure_Control_Module|Dat[7]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[6]~input                                             ; |Exposure_Control_Module|Dat[6]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[6]                                                   ; |Exposure_Control_Module|Dat[6]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[5]~input                                             ; |Exposure_Control_Module|Dat[5]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[5]                                                   ; |Exposure_Control_Module|Dat[5]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[15]~input                                            ; |Exposure_Control_Module|Dat[15]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[15]                                                  ; |Exposure_Control_Module|Dat[15]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[14]~input                                            ; |Exposure_Control_Module|Dat[14]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[14]                                                  ; |Exposure_Control_Module|Dat[14]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[13]~input                                            ; |Exposure_Control_Module|Dat[13]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[13]                                                  ; |Exposure_Control_Module|Dat[13]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[12]~input                                            ; |Exposure_Control_Module|Dat[12]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[12]                                                  ; |Exposure_Control_Module|Dat[12]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[11]~input                                            ; |Exposure_Control_Module|Dat[11]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[11]                                                  ; |Exposure_Control_Module|Dat[11]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[10]~input                                            ; |Exposure_Control_Module|Dat[10]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[10]                                                  ; |Exposure_Control_Module|Dat[10]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[9]~input                                             ; |Exposure_Control_Module|Dat[9]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[9]                                                   ; |Exposure_Control_Module|Dat[9]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[8]~input                                             ; |Exposure_Control_Module|Dat[8]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[8]                                                   ; |Exposure_Control_Module|Dat[8]                                                   ; padout           ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]~feeder     ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]~feeder     ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]~feeder  ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]~feeder  ; combout          ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]~feeder     ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]~feeder     ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]~feeder    ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]~feeder    ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]~feeder   ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]~feeder   ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]~feeder   ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]~feeder   ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]~feeder ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]~feeder ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]~feeder   ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]~feeder   ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]~feeder ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]~feeder ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]~feeder    ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]~feeder    ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]~feeder    ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]~feeder    ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]~feeder  ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]~feeder  ; combout          ;
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                 ;
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                         ; Output Port Name                                                                  ; Output Port Type ;
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------------+
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[5]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[5]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[4]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[4]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[3]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[3]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[2]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[2]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[1]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[1]            ; q                ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[0]            ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[0]            ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[15]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[15]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[13]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[13]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[11]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[11]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]          ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]          ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[7]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[7]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[6]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[6]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[4]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[4]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[3]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[3]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[2]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[2]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[1]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[1]           ; q                ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[0]           ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[0]           ; q                ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~0  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~0  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~1  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~1  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~2  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~2  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~3  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~3  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~4  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~4  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~5  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~5  ; combout          ;
+; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~6  ; |Exposure_Control_Module|lpm_or6:inst13|lpm_or:lpm_or_component|or_node[0][23]~6  ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]        ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]        ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]        ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]        ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[9]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[9]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[5]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[5]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[4]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[4]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[3]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[3]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[1]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[1]         ; q                ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[0]         ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[0]         ; q                ;
+; |Exposure_Control_Module|Exp[23]~output                                           ; |Exposure_Control_Module|Exp[23]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[23]                                                  ; |Exposure_Control_Module|Exp[23]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[22]~output                                           ; |Exposure_Control_Module|Exp[22]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[22]                                                  ; |Exposure_Control_Module|Exp[22]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[21]~output                                           ; |Exposure_Control_Module|Exp[21]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[21]                                                  ; |Exposure_Control_Module|Exp[21]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[20]~output                                           ; |Exposure_Control_Module|Exp[20]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[20]                                                  ; |Exposure_Control_Module|Exp[20]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[19]~output                                           ; |Exposure_Control_Module|Exp[19]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[19]                                                  ; |Exposure_Control_Module|Exp[19]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[18]~output                                           ; |Exposure_Control_Module|Exp[18]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[18]                                                  ; |Exposure_Control_Module|Exp[18]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[17]~output                                           ; |Exposure_Control_Module|Exp[17]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[17]                                                  ; |Exposure_Control_Module|Exp[17]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[16]~output                                           ; |Exposure_Control_Module|Exp[16]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[16]                                                  ; |Exposure_Control_Module|Exp[16]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[15]~output                                           ; |Exposure_Control_Module|Exp[15]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[15]                                                  ; |Exposure_Control_Module|Exp[15]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[14]~output                                           ; |Exposure_Control_Module|Exp[14]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[14]                                                  ; |Exposure_Control_Module|Exp[14]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[13]~output                                           ; |Exposure_Control_Module|Exp[13]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[13]                                                  ; |Exposure_Control_Module|Exp[13]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[12]~output                                           ; |Exposure_Control_Module|Exp[12]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[12]                                                  ; |Exposure_Control_Module|Exp[12]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[11]~output                                           ; |Exposure_Control_Module|Exp[11]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[11]                                                  ; |Exposure_Control_Module|Exp[11]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[10]~output                                           ; |Exposure_Control_Module|Exp[10]~output                                           ; o                ;
+; |Exposure_Control_Module|Exp[10]                                                  ; |Exposure_Control_Module|Exp[10]                                                  ; padout           ;
+; |Exposure_Control_Module|Exp[9]~output                                            ; |Exposure_Control_Module|Exp[9]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[9]                                                   ; |Exposure_Control_Module|Exp[9]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[8]~output                                            ; |Exposure_Control_Module|Exp[8]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[8]                                                   ; |Exposure_Control_Module|Exp[8]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[7]~output                                            ; |Exposure_Control_Module|Exp[7]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[7]                                                   ; |Exposure_Control_Module|Exp[7]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[6]~output                                            ; |Exposure_Control_Module|Exp[6]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[6]                                                   ; |Exposure_Control_Module|Exp[6]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[5]~output                                            ; |Exposure_Control_Module|Exp[5]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[5]                                                   ; |Exposure_Control_Module|Exp[5]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[4]~output                                            ; |Exposure_Control_Module|Exp[4]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[4]                                                   ; |Exposure_Control_Module|Exp[4]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[3]~output                                            ; |Exposure_Control_Module|Exp[3]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[3]                                                   ; |Exposure_Control_Module|Exp[3]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[2]~output                                            ; |Exposure_Control_Module|Exp[2]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[2]                                                   ; |Exposure_Control_Module|Exp[2]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[1]~output                                            ; |Exposure_Control_Module|Exp[1]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[1]                                                   ; |Exposure_Control_Module|Exp[1]                                                   ; padout           ;
+; |Exposure_Control_Module|Exp[0]~output                                            ; |Exposure_Control_Module|Exp[0]~output                                            ; o                ;
+; |Exposure_Control_Module|Exp[0]                                                   ; |Exposure_Control_Module|Exp[0]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[7]~input                                             ; |Exposure_Control_Module|Dat[7]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[7]                                                   ; |Exposure_Control_Module|Dat[7]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[6]~input                                             ; |Exposure_Control_Module|Dat[6]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[6]                                                   ; |Exposure_Control_Module|Dat[6]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[5]~input                                             ; |Exposure_Control_Module|Dat[5]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[5]                                                   ; |Exposure_Control_Module|Dat[5]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[15]~input                                            ; |Exposure_Control_Module|Dat[15]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[15]                                                  ; |Exposure_Control_Module|Dat[15]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[14]~input                                            ; |Exposure_Control_Module|Dat[14]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[14]                                                  ; |Exposure_Control_Module|Dat[14]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[13]~input                                            ; |Exposure_Control_Module|Dat[13]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[13]                                                  ; |Exposure_Control_Module|Dat[13]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[12]~input                                            ; |Exposure_Control_Module|Dat[12]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[12]                                                  ; |Exposure_Control_Module|Dat[12]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[11]~input                                            ; |Exposure_Control_Module|Dat[11]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[11]                                                  ; |Exposure_Control_Module|Dat[11]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[10]~input                                            ; |Exposure_Control_Module|Dat[10]~input                                            ; o                ;
+; |Exposure_Control_Module|Dat[10]                                                  ; |Exposure_Control_Module|Dat[10]                                                  ; padout           ;
+; |Exposure_Control_Module|Dat[9]~input                                             ; |Exposure_Control_Module|Dat[9]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[9]                                                   ; |Exposure_Control_Module|Dat[9]                                                   ; padout           ;
+; |Exposure_Control_Module|Dat[8]~input                                             ; |Exposure_Control_Module|Dat[8]~input                                             ; o                ;
+; |Exposure_Control_Module|Dat[8]                                                   ; |Exposure_Control_Module|Dat[8]                                                   ; padout           ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]~feeder     ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[7]~feeder     ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]~feeder  ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[7]~feeder  ; combout          ;
+; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]~feeder     ; |Exposure_Control_Module|lpm_ff0:inst1|lpm_ff:lpm_ff_component|dffs[6]~feeder     ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]~feeder    ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[5]~feeder    ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]~feeder   ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[14]~feeder   ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]~feeder   ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[12]~feeder   ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]~feeder ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[11]~feeder ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]~feeder   ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[10]~feeder   ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]~feeder ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[10]~feeder ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]~feeder    ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[9]~feeder    ; combout          ;
+; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]~feeder    ; |Exposure_Control_Module|lpm_dff19:inst|lpm_ff:lpm_ff_component|dffs[8]~feeder    ; combout          ;
+; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]~feeder  ; |Exposure_Control_Module|lpm_dff20:inst17|lpm_ff:lpm_ff_component|dffs[8]~feeder  ; combout          ;
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Thu May 28 11:47:18 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Exposure_Control_Module -c Exposure_Control_Module
+Info: Using vector source file "C:/altera/90/qdesigns/Main_05_28/Exposure_Control_Module.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of Exposure_Control_Module.vwf called Exposure_Control_Module.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      57.91 %
+Info: Number of transitions in simulation is 21843
+Info: Vector file Exposure_Control_Module.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 122 megabytes
+    Info: Processing ended: Thu May 28 11:47:21 2009
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+

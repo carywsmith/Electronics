@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Mar 16 15:23:49 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Parallel_Clocks_Generator
+Top-level Entity Name : Parallel_Clocks_Generator
+Family : Cyclone III
+Total logic elements : 399
+    Total combinational functions : 227
+    Dedicated logic registers : 263
+Total registers : 263
+Total pins : 83
+Total virtual pins : 0
+Total memory bits : 32,768
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

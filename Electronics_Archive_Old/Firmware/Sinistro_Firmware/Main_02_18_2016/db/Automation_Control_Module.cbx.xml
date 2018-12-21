@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Automation_Control_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Automation_Control_Module|lpm_constant4:inst3|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_9e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Automation_Control_Module|lpm_counter20:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_jll.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Automation_Control_Module|lpm_counter27:inst10|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_j0k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Automation_Control_Module|lpm_counter28:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_o3l.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

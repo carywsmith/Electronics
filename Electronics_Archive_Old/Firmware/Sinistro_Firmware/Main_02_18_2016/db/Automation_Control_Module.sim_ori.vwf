@@ -1,0 +1,551 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 100000.0;
+	SIMULATION_TIME = 100000.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 10.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("Clk_10")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Frame_Start_No_ROI")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Line_Start")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Reset_n")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Line_Start_In")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Line_End_In")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Line_End")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Clk_50_k")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Mux")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SRg_Flashing_End")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("1KHz")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Rest_Num_Cnt[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Rest_Num_Cnt[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Rest_Num_Cnt[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Rest_Num_Cnt[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("FRM")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("Clk_10")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1000;
+			LEVEL 0 FOR 50.0;
+			LEVEL 1 FOR 50.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Frame_Start_No_ROI")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1.6;
+		LEVEL 1 FOR 4.863;
+		LEVEL 0 FOR 161.582;
+		LEVEL 1 FOR 615.955;
+		LEVEL 0 FOR 32586.288;
+		LEVEL 1 FOR 1108.647;
+		LEVEL 0 FOR 65521.065;
+	}
+}
+
+TRANSITION_LIST("Line_Start")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 456.284;
+		LEVEL 1 FOR 100.048;
+		LEVEL 0 FOR 4501.691;
+		LEVEL 1 FOR 199.762;
+		LEVEL 0 FOR 28398.499;
+		LEVEL 1 FOR 100.048;
+		LEVEL 0 FOR 66243.668;
+	}
+}
+
+TRANSITION_LIST("Reset_n")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 0.4;
+		LEVEL 0 FOR 77.159;
+		LEVEL 1 FOR 99922.441;
+	}
+}
+
+TRANSITION_LIST("Line_Start_In")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("Line_End_In")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 4345.344;
+		LEVEL 1 FOR 140.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 560.0;
+			LEVEL 1 FOR 140.0;
+		}
+		LEVEL 0 FOR 33728.181;
+		LEVEL 1 FOR 776.053;
+		LEVEL 0 FOR 2771.619;
+		LEVEL 1 FOR 776.053;
+		LEVEL 0 FOR 56665.322;
+		LEVEL 1 FOR 97.428;
+	}
+}
+
+TRANSITION_LIST("Line_End")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("Clk_50_k")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 2000;
+			LEVEL 0 FOR 25.0;
+			LEVEL 1 FOR 25.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Mux")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 356.173;
+		LEVEL 1 FOR 4900.005;
+		LEVEL 0 FOR 28299.995;
+		LEVEL 1 FOR 66443.827;
+	}
+}
+
+TRANSITION_LIST("SRg_Flashing_End")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5356.078;
+		LEVEL 1 FOR 28200.015;
+		LEVEL 0 FOR 66443.907;
+	}
+}
+
+TRANSITION_LIST("1KHz")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 2581.062;
+		NODE
+		{
+			REPEAT = 38;
+			LEVEL 1 FOR 50.015;
+			LEVEL 0 FOR 2449.985;
+		}
+		LEVEL 1 FOR 50.015;
+		LEVEL 0 FOR 2368.923;
+	}
+}
+
+TRANSITION_LIST("Rest_Num_Cnt[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("Rest_Num_Cnt[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("Rest_Num_Cnt[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 156.063;
+		LEVEL 1 FOR 4300.007;
+		LEVEL 0 FOR 899.993;
+		LEVEL 1 FOR 94643.937;
+	}
+}
+
+TRANSITION_LIST("Rest_Num_Cnt[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 4456.214;
+		LEVEL 1 FOR 700.015;
+		LEVEL 0 FOR 94843.771;
+	}
+}
+
+TRANSITION_LIST("FRM")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 27681.082;
+		LEVEL 1 FOR 5800.014;
+		LEVEL 0 FOR 66518.904;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Reset_n";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Clk_10";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Clk_50_k";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Frame_Start_No_ROI";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Line_Start";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Line_End_In";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Line_End";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Line_Start_In";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Mux";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SRg_Flashing_End";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "1KHz";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Rest_Num_Cnt[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Rest_Num_Cnt[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Rest_Num_Cnt[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Rest_Num_Cnt[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "FRM";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 3282400;
+	MASTER = TRUE;
+}
+
+TIME_BAR
+{
+	TIME = 9312638;
+	MASTER = FALSE;
+}
+;

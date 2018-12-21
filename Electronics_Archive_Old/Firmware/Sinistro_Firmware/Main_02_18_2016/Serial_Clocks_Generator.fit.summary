@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Mar 15 15:49:32 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Serial_Clocks_Generator
+Top-level Entity Name : serial_clocks_generator
+Family : Cyclone III
+Device : EP3C5F256C6
+Timing Models : Final
+Total logic elements : 351 / 5,136 ( 7 % )
+    Total combinational functions : 246 / 5,136 ( 5 % )
+    Dedicated logic registers : 300 / 5,136 ( 6 % )
+Total registers : 300
+Total pins : 58 / 183 ( 32 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

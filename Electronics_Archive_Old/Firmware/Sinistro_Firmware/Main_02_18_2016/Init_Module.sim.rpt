@@ -1,0 +1,521 @@
+Simulator report for Init_Module
+Fri Jun 19 11:36:26 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 200.0 us     ;
+; Simulation Netlist Size     ; 249 nodes    ;
+; Simulation Coverage         ;      67.61 % ;
+; Total Number of Transitions ; 51380        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------------------------------------------+
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ALTSYNCRAM ;
++--------------------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      67.61 % ;
+; Total nodes checked                                 ; 249          ;
+; Total output ports checked                          ; 284          ;
+; Total output ports with complete 1/0-value coverage ; 192          ;
+; Total output ports with no 1/0-value coverage       ; 60           ;
+; Total output ports with no 1-value coverage         ; 76           ;
+; Total output ports with no 0-value coverage         ; 76           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                  ;
++--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                          ; Output Port Name                                                                                                     ; Output Port Type ;
++--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[1]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[1]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[0]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[0]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[7]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[7]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[6]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[6]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[5]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[5]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[4]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[4]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[3]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[3]        ; q                ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[2]      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[2]        ; q                ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[0]                   ; portadataout0    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[1]                   ; portadataout1    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[2]                   ; portadataout2    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[3]                   ; portadataout3    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[4]                   ; portadataout4    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[5]                   ; portadataout5    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[6]                   ; portadataout6    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0           ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[7]                   ; portadataout7    ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita0      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita0        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita0      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita0~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita1      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita1        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita1      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita1~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita2      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita2        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita2      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita2~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita3      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita3        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita3      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita3~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita4      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita4        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita4      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita4~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita5      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita5        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita5      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita5~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita6      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita6        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita6      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita6~COUT   ; cout             ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita7      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita7        ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita7      ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita7~COUT   ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[4]     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[4]       ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[3]     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[3]       ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[2]     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[2]       ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[1]     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[1]       ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[0]     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[0]       ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita0     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita0       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita0     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita0~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita1     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita1       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita1     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita1~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita2     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita2       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita2     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita2~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita3     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita3       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita3     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita3~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita4     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita4       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita4     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita4~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita5     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita5       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita5     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita5~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita6     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita6       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita6     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita6~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita7     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita7       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita7     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita7~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita8     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita8       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita8     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita8~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita9     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita9       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita9     ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita9~COUT  ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita10    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita10      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita10    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita10~COUT ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita11    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita11      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita11    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita11~COUT ; cout             ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita11~1  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_comb_bita11~1    ; combout          ;
+; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita7~0    ; |Init_Module|lpm_counter35:inst2|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_comb_bita7~0      ; combout          ;
+; |Init_Module|inst39                                                                                                ; |Init_Module|inst39                                                                                                  ; q                ;
+; |Init_Module|inst37                                                                                                ; |Init_Module|inst37                                                                                                  ; q                ;
+; |Init_Module|inst36                                                                                                ; |Init_Module|inst36                                                                                                  ; q                ;
+; |Init_Module|inst5                                                                                                 ; |Init_Module|inst5                                                                                                   ; combout          ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[3]                 ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[3]                   ; q                ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[2]                 ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[2]                   ; q                ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[0]                 ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[0]                   ; q                ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[1]                 ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|dffe1a[1]                   ; q                ;
+; |Init_Module|inst42                                                                                                ; |Init_Module|inst42                                                                                                  ; q                ;
+; |Init_Module|inst40                                                                                                ; |Init_Module|inst40                                                                                                  ; q                ;
+; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[2]                                                       ; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[2]                                                         ; q                ;
+; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[3]                                                       ; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[3]                                                         ; q                ;
+; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode39w[3]~2           ; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode39w[3]~2             ; combout          ;
+; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[1]                                                       ; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[1]                                                         ; q                ;
+; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[0]                                                       ; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[0]                                                         ; q                ;
+; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode12w[3]~3           ; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode12w[3]~3             ; combout          ;
+; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode29w[3]~2           ; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode29w[3]~2             ; combout          ;
+; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode39w[3]~3           ; |Init_Module|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode39w[3]~3             ; combout          ;
+; |Init_Module|inst35                                                                                                ; |Init_Module|inst35                                                                                                  ; q                ;
+; |Init_Module|inst6                                                                                                 ; |Init_Module|inst6                                                                                                   ; q                ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode30w[2]~0           ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode30w[2]~0             ; combout          ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode22w[2]~1           ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode22w[2]~1             ; combout          ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode1w[2]~2            ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode1w[2]~2              ; combout          ;
+; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode14w[2]~1           ; |Init_Module|lpm_decode6:inst1|lpm_decode:lpm_decode_component|decode_vrh:auto_generated|w_anode14w[2]~1             ; combout          ;
+; |Init_Module|inst41                                                                                                ; |Init_Module|inst41                                                                                                  ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[4]          ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[4]            ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[3]          ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[3]            ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[2]          ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[2]            ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[1]          ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[1]            ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[0]          ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[0]            ; combout          ;
+; |Init_Module|inst13                                                                                                ; |Init_Module|inst13                                                                                                  ; combout          ;
+; |Init_Module|inst31                                                                                                ; |Init_Module|inst31                                                                                                  ; q                ;
+; |Init_Module|inst32                                                                                                ; |Init_Module|inst32                                                                                                  ; q                ;
+; |Init_Module|inst6~3                                                                                               ; |Init_Module|inst6~3                                                                                                 ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11]~13 ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11]~13   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10]~14 ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10]~14   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]~15  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]~15    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]~16  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]~16    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]~17  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]~17    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]~18  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]~18    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]~19  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]~19    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[4]~20  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[4]~20    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[3]~21  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[3]~21    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[2]~22  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[2]~22    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[1]~23  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[1]~23    ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[0]~24  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[0]~24    ; combout          ;
+; |Init_Module|inst                                                                                                  ; |Init_Module|inst                                                                                                    ; q                ;
+; |Init_Module|inst7~3                                                                                               ; |Init_Module|inst7~3                                                                                                 ; combout          ;
+; |Init_Module|inst~3                                                                                                ; |Init_Module|inst~3                                                                                                  ; combout          ;
+; |Init_Module|inst37~0                                                                                              ; |Init_Module|inst37~0                                                                                                ; combout          ;
+; |Init_Module|inst32~0                                                                                              ; |Init_Module|inst32~0                                                                                                ; combout          ;
+; |Init_Module|Rg_Wr_n~output                                                                                        ; |Init_Module|Rg_Wr_n~output                                                                                          ; o                ;
+; |Init_Module|Rg_Wr_n                                                                                               ; |Init_Module|Rg_Wr_n                                                                                                 ; padout           ;
+; |Init_Module|M_Cnt[1]~output                                                                                       ; |Init_Module|M_Cnt[1]~output                                                                                         ; o                ;
+; |Init_Module|M_Cnt[1]                                                                                              ; |Init_Module|M_Cnt[1]                                                                                                ; padout           ;
+; |Init_Module|M_Cnt[0]~output                                                                                       ; |Init_Module|M_Cnt[0]~output                                                                                         ; o                ;
+; |Init_Module|M_Cnt[0]                                                                                              ; |Init_Module|M_Cnt[0]                                                                                                ; padout           ;
+; |Init_Module|Init_Out_n~output                                                                                     ; |Init_Module|Init_Out_n~output                                                                                       ; o                ;
+; |Init_Module|Init_Out_n                                                                                            ; |Init_Module|Init_Out_n                                                                                              ; padout           ;
+; |Init_Module|Clock_Sel_n~output                                                                                    ; |Init_Module|Clock_Sel_n~output                                                                                      ; o                ;
+; |Init_Module|Clock_Sel_n                                                                                           ; |Init_Module|Clock_Sel_n                                                                                             ; padout           ;
+; |Init_Module|M_Adr_Cnt[5]~output                                                                                   ; |Init_Module|M_Adr_Cnt[5]~output                                                                                     ; o                ;
+; |Init_Module|M_Adr_Cnt[5]                                                                                          ; |Init_Module|M_Adr_Cnt[5]                                                                                            ; padout           ;
+; |Init_Module|M_Adr_Cnt[4]~output                                                                                   ; |Init_Module|M_Adr_Cnt[4]~output                                                                                     ; o                ;
+; |Init_Module|M_Adr_Cnt[4]                                                                                          ; |Init_Module|M_Adr_Cnt[4]                                                                                            ; padout           ;
+; |Init_Module|M_Adr_Cnt[3]~output                                                                                   ; |Init_Module|M_Adr_Cnt[3]~output                                                                                     ; o                ;
+; |Init_Module|M_Adr_Cnt[3]                                                                                          ; |Init_Module|M_Adr_Cnt[3]                                                                                            ; padout           ;
+; |Init_Module|M_Adr_Cnt[2]~output                                                                                   ; |Init_Module|M_Adr_Cnt[2]~output                                                                                     ; o                ;
+; |Init_Module|M_Adr_Cnt[2]                                                                                          ; |Init_Module|M_Adr_Cnt[2]                                                                                            ; padout           ;
+; |Init_Module|M_Adr_Cnt[1]~output                                                                                   ; |Init_Module|M_Adr_Cnt[1]~output                                                                                     ; o                ;
+; |Init_Module|M_Adr_Cnt[1]                                                                                          ; |Init_Module|M_Adr_Cnt[1]                                                                                            ; padout           ;
+; |Init_Module|M_Adr_Cnt[0]~output                                                                                   ; |Init_Module|M_Adr_Cnt[0]~output                                                                                     ; o                ;
+; |Init_Module|M_Adr_Cnt[0]                                                                                          ; |Init_Module|M_Adr_Cnt[0]                                                                                            ; padout           ;
+; |Init_Module|Acq_Sel_n~output                                                                                      ; |Init_Module|Acq_Sel_n~output                                                                                        ; o                ;
+; |Init_Module|Acq_Sel_n                                                                                             ; |Init_Module|Acq_Sel_n                                                                                               ; padout           ;
+; |Init_Module|Ser_Sel_n~output                                                                                      ; |Init_Module|Ser_Sel_n~output                                                                                        ; o                ;
+; |Init_Module|Ser_Sel_n                                                                                             ; |Init_Module|Ser_Sel_n                                                                                               ; padout           ;
+; |Init_Module|Par_Sel_n~output                                                                                      ; |Init_Module|Par_Sel_n~output                                                                                        ; o                ;
+; |Init_Module|Par_Sel_n                                                                                             ; |Init_Module|Par_Sel_n                                                                                               ; padout           ;
+; |Init_Module|New_Cycle~output                                                                                      ; |Init_Module|New_Cycle~output                                                                                        ; o                ;
+; |Init_Module|New_Cycle                                                                                             ; |Init_Module|New_Cycle                                                                                               ; padout           ;
+; |Init_Module|P_Cnt_Reset~output                                                                                    ; |Init_Module|P_Cnt_Reset~output                                                                                      ; o                ;
+; |Init_Module|P_Cnt_Reset                                                                                           ; |Init_Module|P_Cnt_Reset                                                                                             ; padout           ;
+; |Init_Module|Z_Enbl_Cs_n~output                                                                                    ; |Init_Module|Z_Enbl_Cs_n~output                                                                                      ; o                ;
+; |Init_Module|Z_Enbl_Cs_n                                                                                           ; |Init_Module|Z_Enbl_Cs_n                                                                                             ; padout           ;
+; |Init_Module|Rg_Adr[3]~output                                                                                      ; |Init_Module|Rg_Adr[3]~output                                                                                        ; o                ;
+; |Init_Module|Rg_Adr[3]                                                                                             ; |Init_Module|Rg_Adr[3]                                                                                               ; padout           ;
+; |Init_Module|Rg_Adr[2]~output                                                                                      ; |Init_Module|Rg_Adr[2]~output                                                                                        ; o                ;
+; |Init_Module|Rg_Adr[2]                                                                                             ; |Init_Module|Rg_Adr[2]                                                                                               ; padout           ;
+; |Init_Module|Rg_Adr[1]~output                                                                                      ; |Init_Module|Rg_Adr[1]~output                                                                                        ; o                ;
+; |Init_Module|Rg_Adr[1]                                                                                             ; |Init_Module|Rg_Adr[1]                                                                                               ; padout           ;
+; |Init_Module|Rg_Adr[0]~output                                                                                      ; |Init_Module|Rg_Adr[0]~output                                                                                        ; o                ;
+; |Init_Module|Rg_Adr[0]                                                                                             ; |Init_Module|Rg_Adr[0]                                                                                               ; padout           ;
+; |Init_Module|Z_Disbl_Cs_n~output                                                                                   ; |Init_Module|Z_Disbl_Cs_n~output                                                                                     ; o                ;
+; |Init_Module|Z_Disbl_Cs_n                                                                                          ; |Init_Module|Z_Disbl_Cs_n                                                                                            ; padout           ;
+; |Init_Module|D_Enbl_Cs_n~output                                                                                    ; |Init_Module|D_Enbl_Cs_n~output                                                                                      ; o                ;
+; |Init_Module|D_Enbl_Cs_n                                                                                           ; |Init_Module|D_Enbl_Cs_n                                                                                             ; padout           ;
+; |Init_Module|ROM_Dat[7]~output                                                                                     ; |Init_Module|ROM_Dat[7]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[7]                                                                                            ; |Init_Module|ROM_Dat[7]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[6]~output                                                                                     ; |Init_Module|ROM_Dat[6]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[6]                                                                                            ; |Init_Module|ROM_Dat[6]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[5]~output                                                                                     ; |Init_Module|ROM_Dat[5]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[5]                                                                                            ; |Init_Module|ROM_Dat[5]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[4]~output                                                                                     ; |Init_Module|ROM_Dat[4]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[4]                                                                                            ; |Init_Module|ROM_Dat[4]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[3]~output                                                                                     ; |Init_Module|ROM_Dat[3]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[3]                                                                                            ; |Init_Module|ROM_Dat[3]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[2]~output                                                                                     ; |Init_Module|ROM_Dat[2]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[2]                                                                                            ; |Init_Module|ROM_Dat[2]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[1]~output                                                                                     ; |Init_Module|ROM_Dat[1]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[1]                                                                                            ; |Init_Module|ROM_Dat[1]                                                                                              ; padout           ;
+; |Init_Module|ROM_Dat[0]~output                                                                                     ; |Init_Module|ROM_Dat[0]~output                                                                                       ; o                ;
+; |Init_Module|ROM_Dat[0]                                                                                            ; |Init_Module|ROM_Dat[0]                                                                                              ; padout           ;
+; |Init_Module|Clk_50~input                                                                                          ; |Init_Module|Clk_50~input                                                                                            ; o                ;
+; |Init_Module|Clk_50                                                                                                ; |Init_Module|Clk_50                                                                                                  ; padout           ;
+; |Init_Module|Reset_n~input                                                                                         ; |Init_Module|Reset_n~input                                                                                           ; o                ;
+; |Init_Module|Reset_n                                                                                               ; |Init_Module|Reset_n                                                                                                 ; padout           ;
+; |Init_Module|Locked~input                                                                                          ; |Init_Module|Locked~input                                                                                            ; o                ;
+; |Init_Module|Locked                                                                                                ; |Init_Module|Locked                                                                                                  ; padout           ;
+; |Init_Module|Clk_1M~input                                                                                          ; |Init_Module|Clk_1M~input                                                                                            ; o                ;
+; |Init_Module|Clk_1M                                                                                                ; |Init_Module|Clk_1M                                                                                                  ; padout           ;
+; |Init_Module|Clk_50~inputclkctrl                                                                                   ; |Init_Module|Clk_50~inputclkctrl                                                                                     ; outclk           ;
+; |Init_Module|Reset_n~inputclkctrl                                                                                  ; |Init_Module|Reset_n~inputclkctrl                                                                                    ; outclk           ;
+; |Init_Module|Clk_1M~inputclkctrl                                                                                   ; |Init_Module|Clk_1M~inputclkctrl                                                                                     ; outclk           ;
+; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[3]~feeder                                                ; |Init_Module|lpm_dff21:inst8|lpm_ff:lpm_ff_component|dffs[3]~feeder                                                  ; combout          ;
+; |Init_Module|inst41~feeder                                                                                         ; |Init_Module|inst41~feeder                                                                                           ; combout          ;
+; |Init_Module|inst39~feeder                                                                                         ; |Init_Module|inst39~feeder                                                                                           ; combout          ;
+; |Init_Module|inst42~feeder                                                                                         ; |Init_Module|inst42~feeder                                                                                           ; combout          ;
+; |Init_Module|inst31~feeder                                                                                         ; |Init_Module|inst31~feeder                                                                                           ; combout          ;
++--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                 ;
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                         ; Output Port Name                                                                                                  ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+------------------+
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[8]                ; portadataout8    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[9]                ; portadataout9    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[10]               ; portadataout10   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[11]               ; portadataout11   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[12]               ; portadataout12   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[13]               ; portadataout13   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[14]               ; portadataout14   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0          ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[15]               ; portadataout15   ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11]   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11]   ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10]   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10]   ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]    ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]    ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]    ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]    ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]    ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11]~0 ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11]~0 ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10]~1 ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10]~1 ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]~2  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]~2  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]~3  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]~3  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]~4  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]~4  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]~5  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]~5  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]~6  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]~6  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux219_dataout~2      ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux219_dataout~2      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[4]~7  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[4]~7  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[3]~8  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[3]~8  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux215_dataout~2      ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux215_dataout~2      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[2]~9  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[2]~9  ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux213_dataout~2      ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux213_dataout~2      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[1]~10 ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[1]~10 ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux211_dataout~2      ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux211_dataout~2      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[0]~11 ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[0]~11 ; combout          ;
+; |Init_Module|~GND                                                                                                 ; |Init_Module|~GND                                                                                                 ; combout          ;
+; |Init_Module|ROM_Dat[15]~output                                                                                   ; |Init_Module|ROM_Dat[15]~output                                                                                   ; o                ;
+; |Init_Module|ROM_Dat[15]                                                                                          ; |Init_Module|ROM_Dat[15]                                                                                          ; padout           ;
+; |Init_Module|ROM_Dat[14]~output                                                                                   ; |Init_Module|ROM_Dat[14]~output                                                                                   ; o                ;
+; |Init_Module|ROM_Dat[14]                                                                                          ; |Init_Module|ROM_Dat[14]                                                                                          ; padout           ;
+; |Init_Module|ROM_Dat[13]~output                                                                                   ; |Init_Module|ROM_Dat[13]~output                                                                                   ; o                ;
+; |Init_Module|ROM_Dat[13]                                                                                          ; |Init_Module|ROM_Dat[13]                                                                                          ; padout           ;
+; |Init_Module|ROM_Dat[12]~output                                                                                   ; |Init_Module|ROM_Dat[12]~output                                                                                   ; o                ;
+; |Init_Module|ROM_Dat[12]                                                                                          ; |Init_Module|ROM_Dat[12]                                                                                          ; padout           ;
+; |Init_Module|ROM_Dat[11]~output                                                                                   ; |Init_Module|ROM_Dat[11]~output                                                                                   ; o                ;
+; |Init_Module|ROM_Dat[11]                                                                                          ; |Init_Module|ROM_Dat[11]                                                                                          ; padout           ;
+; |Init_Module|ROM_Dat[10]~output                                                                                   ; |Init_Module|ROM_Dat[10]~output                                                                                   ; o                ;
+; |Init_Module|ROM_Dat[10]                                                                                          ; |Init_Module|ROM_Dat[10]                                                                                          ; padout           ;
+; |Init_Module|ROM_Dat[9]~output                                                                                    ; |Init_Module|ROM_Dat[9]~output                                                                                    ; o                ;
+; |Init_Module|ROM_Dat[9]                                                                                           ; |Init_Module|ROM_Dat[9]                                                                                           ; padout           ;
+; |Init_Module|ROM_Dat[8]~output                                                                                    ; |Init_Module|ROM_Dat[8]~output                                                                                    ; o                ;
+; |Init_Module|ROM_Dat[8]                                                                                           ; |Init_Module|ROM_Dat[8]                                                                                           ; padout           ;
+; |Init_Module|Cycle_Period[11]~input                                                                               ; |Init_Module|Cycle_Period[11]~input                                                                               ; o                ;
+; |Init_Module|Cycle_Period[11]                                                                                     ; |Init_Module|Cycle_Period[11]                                                                                     ; padout           ;
+; |Init_Module|Cycle_Period[10]~input                                                                               ; |Init_Module|Cycle_Period[10]~input                                                                               ; o                ;
+; |Init_Module|Cycle_Period[10]                                                                                     ; |Init_Module|Cycle_Period[10]                                                                                     ; padout           ;
+; |Init_Module|Cycle_Period[9]~input                                                                                ; |Init_Module|Cycle_Period[9]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[9]                                                                                      ; |Init_Module|Cycle_Period[9]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[8]~input                                                                                ; |Init_Module|Cycle_Period[8]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[8]                                                                                      ; |Init_Module|Cycle_Period[8]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[7]~input                                                                                ; |Init_Module|Cycle_Period[7]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[7]                                                                                      ; |Init_Module|Cycle_Period[7]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[6]~input                                                                                ; |Init_Module|Cycle_Period[6]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[6]                                                                                      ; |Init_Module|Cycle_Period[6]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[5]~input                                                                                ; |Init_Module|Cycle_Period[5]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[5]                                                                                      ; |Init_Module|Cycle_Period[5]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[4]~input                                                                                ; |Init_Module|Cycle_Period[4]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[4]                                                                                      ; |Init_Module|Cycle_Period[4]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[3]~input                                                                                ; |Init_Module|Cycle_Period[3]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[3]                                                                                      ; |Init_Module|Cycle_Period[3]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[2]~input                                                                                ; |Init_Module|Cycle_Period[2]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[2]                                                                                      ; |Init_Module|Cycle_Period[2]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[1]~input                                                                                ; |Init_Module|Cycle_Period[1]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[1]                                                                                      ; |Init_Module|Cycle_Period[1]                                                                                      ; padout           ;
+; |Init_Module|Cycle_Period[0]~input                                                                                ; |Init_Module|Cycle_Period[0]~input                                                                                ; o                ;
+; |Init_Module|Cycle_Period[0]                                                                                      ; |Init_Module|Cycle_Period[0]                                                                                      ; padout           ;
+; |Init_Module|Stop_Cycling~input                                                                                   ; |Init_Module|Stop_Cycling~input                                                                                   ; o                ;
+; |Init_Module|Stop_Cycling                                                                                         ; |Init_Module|Stop_Cycling                                                                                         ; padout           ;
+; |Init_Module|Init_On_n~input                                                                                      ; |Init_Module|Init_On_n~input                                                                                      ; o                ;
+; |Init_Module|Init_On_n                                                                                            ; |Init_Module|Init_On_n                                                                                            ; padout           ;
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                             ;
++-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                       ; Output Port Name                                                                                                ; Output Port Type ;
++-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[8]              ; portadataout8    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[9]              ; portadataout9    ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[10]             ; portadataout10   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[11]             ; portadataout11   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[12]             ; portadataout12   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[13]             ; portadataout13   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[14]             ; portadataout14   ;
+; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|ram_block1a0        ; |Init_Module|lpm_rom0:inst14|altsyncram:altsyncram_component|altsyncram_s631:auto_generated|q_a[15]             ; portadataout15   ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11] ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[11] ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10] ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[10] ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[9]  ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[8]  ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[7]  ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[6]  ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]  ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|counter_reg_bit[5]  ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[11]      ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[11]      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[10]      ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[10]      ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[9]       ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[9]       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[8]       ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[8]       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[7]       ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[7]       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[6]       ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[6]       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[5]       ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|pre_hazard[5]       ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2123_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2123_dataout~2   ; combout          ;
+; |Init_Module|inst7                                                                                              ; |Init_Module|inst7                                                                                              ; q                ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2121_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2121_dataout~2   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2119_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2119_dataout~2   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2117_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2117_dataout~2   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2115_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2115_dataout~2   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2113_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2113_dataout~2   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2111_dataout~2   ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux2111_dataout~2   ; combout          ;
+; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux217_dataout~2    ; |Init_Module|lpm_counter36:inst54|lpm_counter:lpm_counter_component|cntr_ojk:auto_generated|mux217_dataout~2    ; combout          ;
+; |Init_Module|~GND                                                                                               ; |Init_Module|~GND                                                                                               ; combout          ;
+; |Init_Module|ROM_Dat[15]~output                                                                                 ; |Init_Module|ROM_Dat[15]~output                                                                                 ; o                ;
+; |Init_Module|ROM_Dat[15]                                                                                        ; |Init_Module|ROM_Dat[15]                                                                                        ; padout           ;
+; |Init_Module|ROM_Dat[14]~output                                                                                 ; |Init_Module|ROM_Dat[14]~output                                                                                 ; o                ;
+; |Init_Module|ROM_Dat[14]                                                                                        ; |Init_Module|ROM_Dat[14]                                                                                        ; padout           ;
+; |Init_Module|ROM_Dat[13]~output                                                                                 ; |Init_Module|ROM_Dat[13]~output                                                                                 ; o                ;
+; |Init_Module|ROM_Dat[13]                                                                                        ; |Init_Module|ROM_Dat[13]                                                                                        ; padout           ;
+; |Init_Module|ROM_Dat[12]~output                                                                                 ; |Init_Module|ROM_Dat[12]~output                                                                                 ; o                ;
+; |Init_Module|ROM_Dat[12]                                                                                        ; |Init_Module|ROM_Dat[12]                                                                                        ; padout           ;
+; |Init_Module|ROM_Dat[11]~output                                                                                 ; |Init_Module|ROM_Dat[11]~output                                                                                 ; o                ;
+; |Init_Module|ROM_Dat[11]                                                                                        ; |Init_Module|ROM_Dat[11]                                                                                        ; padout           ;
+; |Init_Module|ROM_Dat[10]~output                                                                                 ; |Init_Module|ROM_Dat[10]~output                                                                                 ; o                ;
+; |Init_Module|ROM_Dat[10]                                                                                        ; |Init_Module|ROM_Dat[10]                                                                                        ; padout           ;
+; |Init_Module|ROM_Dat[9]~output                                                                                  ; |Init_Module|ROM_Dat[9]~output                                                                                  ; o                ;
+; |Init_Module|ROM_Dat[9]                                                                                         ; |Init_Module|ROM_Dat[9]                                                                                         ; padout           ;
+; |Init_Module|ROM_Dat[8]~output                                                                                  ; |Init_Module|ROM_Dat[8]~output                                                                                  ; o                ;
+; |Init_Module|ROM_Dat[8]                                                                                         ; |Init_Module|ROM_Dat[8]                                                                                         ; padout           ;
+; |Init_Module|Cycle_Period[11]~input                                                                             ; |Init_Module|Cycle_Period[11]~input                                                                             ; o                ;
+; |Init_Module|Cycle_Period[11]                                                                                   ; |Init_Module|Cycle_Period[11]                                                                                   ; padout           ;
+; |Init_Module|Cycle_Period[10]~input                                                                             ; |Init_Module|Cycle_Period[10]~input                                                                             ; o                ;
+; |Init_Module|Cycle_Period[10]                                                                                   ; |Init_Module|Cycle_Period[10]                                                                                   ; padout           ;
+; |Init_Module|Cycle_Period[9]~input                                                                              ; |Init_Module|Cycle_Period[9]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[9]                                                                                    ; |Init_Module|Cycle_Period[9]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[8]~input                                                                              ; |Init_Module|Cycle_Period[8]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[8]                                                                                    ; |Init_Module|Cycle_Period[8]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[7]~input                                                                              ; |Init_Module|Cycle_Period[7]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[7]                                                                                    ; |Init_Module|Cycle_Period[7]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[6]~input                                                                              ; |Init_Module|Cycle_Period[6]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[6]                                                                                    ; |Init_Module|Cycle_Period[6]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[5]~input                                                                              ; |Init_Module|Cycle_Period[5]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[5]                                                                                    ; |Init_Module|Cycle_Period[5]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[4]~input                                                                              ; |Init_Module|Cycle_Period[4]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[4]                                                                                    ; |Init_Module|Cycle_Period[4]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[3]~input                                                                              ; |Init_Module|Cycle_Period[3]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[3]                                                                                    ; |Init_Module|Cycle_Period[3]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[2]~input                                                                              ; |Init_Module|Cycle_Period[2]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[2]                                                                                    ; |Init_Module|Cycle_Period[2]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[1]~input                                                                              ; |Init_Module|Cycle_Period[1]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[1]                                                                                    ; |Init_Module|Cycle_Period[1]                                                                                    ; padout           ;
+; |Init_Module|Cycle_Period[0]~input                                                                              ; |Init_Module|Cycle_Period[0]~input                                                                              ; o                ;
+; |Init_Module|Cycle_Period[0]                                                                                    ; |Init_Module|Cycle_Period[0]                                                                                    ; padout           ;
+; |Init_Module|Stop_Cycling~input                                                                                 ; |Init_Module|Stop_Cycling~input                                                                                 ; o                ;
+; |Init_Module|Stop_Cycling                                                                                       ; |Init_Module|Stop_Cycling                                                                                       ; padout           ;
+; |Init_Module|Init_On_n~input                                                                                    ; |Init_Module|Init_On_n~input                                                                                    ; o                ;
+; |Init_Module|Init_On_n                                                                                          ; |Init_Module|Init_On_n                                                                                          ; padout           ;
++-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Fri Jun 19 11:36:22 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Init_Module -c Init_Module
+Info: Using vector source file "C:/altera/90/qdesigns/Main_Test_01/Init_Module.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of Init_Module.vwf called Init_Module.sim_ori.vwf has been created in the db folder
+Info: Inverted registers were found during simulation
+    Info: Register: |Init_Module|inst39
+    Info: Register: |Init_Module|inst35
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      67.61 %
+Info: Number of transitions in simulation is 51380
+Info: Vector file Init_Module.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 122 megabytes
+    Info: Processing ended: Fri Jun 19 11:36:27 2009
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
+
+

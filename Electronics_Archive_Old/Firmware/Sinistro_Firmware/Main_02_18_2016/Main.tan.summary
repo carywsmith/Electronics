@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : 1.517 ns
+Required Time  : 5.000 ns
+Actual Time    : 3.483 ns
+From           : Addr[15]
+To             : Acuisition_Control_Module:inst|lpm_dff8:inst64|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : --
+To Clock       : Wr_n
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : 2.233 ns
+Required Time  : 12.000 ns
+Actual Time    : 9.767 ns
+From           : Addr[15]
+To             : CDat[6]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : 4.156 ns
+Required Time  : 5.000 ns
+Actual Time    : 0.844 ns
+From           : CDat[0]
+To             : Serial_Clocks_Generator:inst6|lpm_dff0:inst43|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : --
+To Clock       : Wr_n
+Failed Paths   : 0
+
+Type           : Clock Hold: 'altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[2]'
+Slack          : 0.502 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : Parallel_Clocks_Generator:inst26|inst71
+To             : Parallel_Clocks_Generator:inst26|inst71
+From Clock     : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[2]
+To Clock       : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[2]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[3]'
+Slack          : 0.502 ns
+Required Time  : 1.00 MHz ( period = 1000.000 ns )
+Actual Time    : N/A
+From           : Exposure_Control_Module:inst29|inst7
+To             : Exposure_Control_Module:inst29|inst7
+From Clock     : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[3]
+To Clock       : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[3]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[4]'
+Slack          : 0.502 ns
+Required Time  : 0.05 MHz ( period = 20000.000 ns )
+Actual Time    : N/A
+From           : SRG_Flashing_Module:inst3|inst13
+To             : SRG_Flashing_Module:inst3|inst13
+From Clock     : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[4]
+To Clock       : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[4]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[0]'
+Slack          : 0.832 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : Acuisition_Control_Module:inst|lpm_counter37:inst63|lpm_counter:lpm_counter_component|cntr_j9j:auto_generated|counter_reg_bit[1]
+To             : Acuisition_Control_Module:inst|lpm_counter37:inst63|lpm_counter:lpm_counter_component|cntr_j9j:auto_generated|counter_reg_bit[1]
+From Clock     : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[0]
+To Clock       : altpll0:inst2|altpll:altpll_component|altpll_6qr2:auto_generated|clk[0]
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

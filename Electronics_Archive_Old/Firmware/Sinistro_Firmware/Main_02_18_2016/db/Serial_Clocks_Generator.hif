@@ -1,0 +1,1208 @@
+Quartus II
+Version 9.1 Build 222 10/21/2009 SJ Full Version
+10
+3500
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lpm_compare0
+# storage
+db|Serial_Clocks_Generator.(1).cnf
+db|Serial_Clocks_Generator.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_compare0.v
+a1c05a988966f15d82a6ffad705acfee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_compare0:inst8
+lpm_compare0:inst31
+lpm_compare0:inst29
+lpm_compare0:inst12
+lpm_compare0:inst10
+lpm_compare0:inst27
+lpm_compare0:inst24
+lpm_compare0:inst7
+lpm_compare0:inst32
+lpm_compare0:inst34
+lpm_compare0:inst35
+lpm_compare0:inst36
+lpm_compare0:inst30
+lpm_compare0:inst44
+}
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Serial_Clocks_Generator.(2).cnf
+db|Serial_Clocks_Generator.(2).cnf
+# case_insensitive
+# source_file
+|altera|91|quartus|libraries|megafunctions|lpm_compare.tdf
+c970ec48c9d7d7f713d7075c8e1a6b2
+7
+# user_parameter {
+lpm_width
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+1
+PARAMETER_SIGNED_DEC
+USR
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_tji
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+clock
+-1
+3
+aeb
+-1
+3
+aclr
+-1
+1
+clken
+-1
+2
+}
+# hierarchies {
+lpm_compare0:inst8|lpm_compare:lpm_compare_component
+lpm_compare0:inst31|lpm_compare:lpm_compare_component
+lpm_compare0:inst29|lpm_compare:lpm_compare_component
+lpm_compare0:inst12|lpm_compare:lpm_compare_component
+lpm_compare0:inst10|lpm_compare:lpm_compare_component
+lpm_compare0:inst27|lpm_compare:lpm_compare_component
+lpm_compare0:inst24|lpm_compare:lpm_compare_component
+lpm_compare0:inst7|lpm_compare:lpm_compare_component
+lpm_compare0:inst32|lpm_compare:lpm_compare_component
+lpm_compare0:inst34|lpm_compare:lpm_compare_component
+lpm_compare0:inst35|lpm_compare:lpm_compare_component
+lpm_compare0:inst36|lpm_compare:lpm_compare_component
+lpm_compare0:inst30|lpm_compare:lpm_compare_component
+lpm_compare0:inst44|lpm_compare:lpm_compare_component
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_tji
+# storage
+db|Serial_Clocks_Generator.(3).cnf
+db|Serial_Clocks_Generator.(3).cnf
+# case_insensitive
+# source_file
+db|cmpr_tji.tdf
+5512ca31236c8ecc40224e593e9b8c3
+7
+# used_port {
+datab9
+-1
+3
+datab8
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab15
+-1
+3
+datab14
+-1
+3
+datab13
+-1
+3
+datab12
+-1
+3
+datab11
+-1
+3
+datab10
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa9
+-1
+3
+dataa8
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa15
+-1
+3
+dataa14
+-1
+3
+dataa13
+-1
+3
+dataa12
+-1
+3
+dataa11
+-1
+3
+dataa10
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+clock
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+lpm_compare0:inst8|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst31|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst29|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst12|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst10|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst27|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst24|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst7|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst32|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst34|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst35|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst36|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst30|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+lpm_compare0:inst44|lpm_compare:lpm_compare_component|cmpr_tji:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter0
+# storage
+db|Serial_Clocks_Generator.(4).cnf
+db|Serial_Clocks_Generator.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_counter0.v
+9fca1388789653197832e53eba92b14
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_counter0:inst
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Serial_Clocks_Generator.(5).cnf
+db|Serial_Clocks_Generator.(5).cnf
+# case_insensitive
+# source_file
+|altera|91|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+0
+PARAMETER_UNKNOWN
+USR
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_shk
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sset
+-1
+3
+q
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+sload
+-1
+1
+sclr
+-1
+1
+data
+-1
+1
+aload
+-1
+1
+aclr
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# hierarchies {
+lpm_counter0:inst|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_shk
+# storage
+db|Serial_Clocks_Generator.(6).cnf
+db|Serial_Clocks_Generator.(6).cnf
+# case_insensitive
+# source_file
+db|cntr_shk.tdf
+21f55c434c1fb628c4686e42e03ba4e4
+7
+# used_port {
+sset
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+}
+# hierarchies {
+lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_shk:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff0
+# storage
+db|Serial_Clocks_Generator.(7).cnf
+db|Serial_Clocks_Generator.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_dff0.v
+434b60d8f6c2a47a3d780f2c195ae8
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_dff0:inst21
+lpm_dff0:inst23
+lpm_dff0:inst11
+lpm_dff0:inst9
+lpm_dff0:inst26
+lpm_dff0:inst13
+lpm_dff0:inst5
+lpm_dff0:inst1
+lpm_dff0:inst19
+lpm_dff0:inst18
+lpm_dff0:inst15
+lpm_dff0:inst14
+lpm_dff0:inst47
+lpm_dff0:inst22
+lpm_dff0:inst46
+lpm_dff0:inst43
+}
+# macro_sequence
+
+# end
+# entity
+lpm_ff
+# storage
+db|Serial_Clocks_Generator.(8).cnf
+db|Serial_Clocks_Generator.(8).cnf
+# case_insensitive
+# source_file
+|altera|91|quartus|libraries|megafunctions|lpm_ff.tdf
+46b042d3fd5eb2f17a9dfd3891afd1a
+7
+# user_parameter {
+LPM_WIDTH
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_FFTYPE
+DFF
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q
+-1
+3
+enable
+-1
+3
+data
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_dff0:inst21|lpm_ff:lpm_ff_component
+lpm_dff0:inst23|lpm_ff:lpm_ff_component
+lpm_dff0:inst11|lpm_ff:lpm_ff_component
+lpm_dff0:inst9|lpm_ff:lpm_ff_component
+lpm_dff0:inst26|lpm_ff:lpm_ff_component
+lpm_dff0:inst13|lpm_ff:lpm_ff_component
+lpm_dff0:inst5|lpm_ff:lpm_ff_component
+lpm_dff0:inst1|lpm_ff:lpm_ff_component
+lpm_dff0:inst19|lpm_ff:lpm_ff_component
+lpm_dff0:inst18|lpm_ff:lpm_ff_component
+lpm_dff0:inst15|lpm_ff:lpm_ff_component
+lpm_dff0:inst14|lpm_ff:lpm_ff_component
+lpm_dff0:inst47|lpm_ff:lpm_ff_component
+lpm_dff0:inst22|lpm_ff:lpm_ff_component
+lpm_dff0:inst46|lpm_ff:lpm_ff_component
+lpm_dff0:inst43|lpm_ff:lpm_ff_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode0
+# storage
+db|Serial_Clocks_Generator.(9).cnf
+db|Serial_Clocks_Generator.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lpm_decode0.v
+1ce1d1c5d9b095e2bdb841564c4ca6d9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+lpm_decode0:inst16
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode
+# storage
+db|Serial_Clocks_Generator.(10).cnf
+db|Serial_Clocks_Generator.(10).cnf
+# case_insensitive
+# source_file
+|altera|91|quartus|libraries|megafunctions|lpm_decode.tdf
+bfce37ee9af3768dda7316c867798b
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DECODES
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+decode_svf
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+eq
+-1
+3
+enable
+-1
+3
+data
+-1
+3
+}
+# hierarchies {
+lpm_decode0:inst16|lpm_decode:lpm_decode_component
+}
+# macro_sequence
+
+# end
+# entity
+decode_svf
+# storage
+db|Serial_Clocks_Generator.(11).cnf
+db|Serial_Clocks_Generator.(11).cnf
+# case_insensitive
+# source_file
+db|decode_svf.tdf
+80b125908ba8d28fa55737bdab404dec
+7
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq15
+-1
+3
+eq14
+-1
+3
+eq13
+-1
+3
+eq12
+-1
+3
+eq11
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+enable
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_decode0:inst16|lpm_decode:lpm_decode_component|decode_svf:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter33
+# storage
+db|Serial_Clocks_Generator.(12).cnf
+db|Serial_Clocks_Generator.(12).cnf
+# case_insensitive
+# source_file
+lpm_counter33.tdf
+d9cbcf834d33491924c8284c2ef37ad
+7
+# used_port {
+sload
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+lpm_counter33:inst38
+lpm_counter33:inst40
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Serial_Clocks_Generator.(13).cnf
+db|Serial_Clocks_Generator.(13).cnf
+# case_insensitive
+# source_file
+|altera|91|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_4gk
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+}
+# hierarchies {
+lpm_counter33:inst38|lpm_counter:lpm_counter_component
+lpm_counter33:inst40|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_4gk
+# storage
+db|Serial_Clocks_Generator.(14).cnf
+db|Serial_Clocks_Generator.(14).cnf
+# case_insensitive
+# source_file
+db|cntr_4gk.tdf
+48497e78f5c2c3c14419a26a7e307a
+7
+# used_port {
+sload
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+}
+# hierarchies {
+lpm_counter33:inst38|lpm_counter:lpm_counter_component|cntr_4gk:auto_generated
+lpm_counter33:inst40|lpm_counter:lpm_counter_component|cntr_4gk:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+Serial_Clocks_Generator
+# storage
+db|Serial_Clocks_Generator.(0).cnf
+db|Serial_Clocks_Generator.(0).cnf
+# case_insensitive
+# source_file
+serial_clocks_generator.bdf
+487c9e4c1f9803241fbab47354e38b4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

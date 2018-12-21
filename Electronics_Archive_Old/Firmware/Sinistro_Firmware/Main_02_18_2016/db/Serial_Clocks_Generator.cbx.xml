@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Serial_Clocks_Generator">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst34|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst31|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst35|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst44|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_counter33:inst38|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_4gk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst10|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst27|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst32|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_counter33:inst40|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_4gk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst24|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_decode0:inst16|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_svf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst12|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst29|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_compare0:inst30|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Clocks_Generator|lpm_counter0:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_shk.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

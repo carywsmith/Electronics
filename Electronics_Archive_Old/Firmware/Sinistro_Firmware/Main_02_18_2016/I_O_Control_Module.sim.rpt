@@ -1,0 +1,440 @@
+Simulator report for I_O_Control_Module
+Wed May 20 20:06:17 2009
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 5.0 us       ;
+; Simulation Netlist Size     ; 180 nodes    ;
+; Simulation Coverage         ;      46.11 % ;
+; Total Number of Transitions ; 1790         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C16F256C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      46.11 % ;
+; Total nodes checked                                 ; 180          ;
+; Total output ports checked                          ; 180          ;
+; Total output ports with complete 1/0-value coverage ; 83           ;
+; Total output ports with no 1/0-value coverage       ; 94           ;
+; Total output ports with no 1-value coverage         ; 94           ;
+; Total output ports with no 0-value coverage         ; 97           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                ;
++--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                          ; Output Port Name                                                                                                   ; Output Port Type ;
++--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+------------------+
+; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode49w[3]~24    ; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode49w[3]~24    ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode12w[3]~11    ; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode12w[3]~11    ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode29w[3]~22    ; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode29w[3]~22    ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode39w[3]~11    ; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode39w[3]~11    ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode49w[3]~25    ; |I_O_Control_Module|lpm_decode3:inst|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode49w[3]~25    ; combout          ;
+; |I_O_Control_Module|inst13~14                                                                                      ; |I_O_Control_Module|inst13~14                                                                                      ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode101w[1]~24 ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode101w[1]~24 ; combout          ;
+; |I_O_Control_Module|inst2~56                                                                                       ; |I_O_Control_Module|inst2~56                                                                                       ; combout          ;
+; |I_O_Control_Module|inst2                                                                                          ; |I_O_Control_Module|inst2                                                                                          ; combout          ;
+; |I_O_Control_Module|inst4~57                                                                                       ; |I_O_Control_Module|inst4~57                                                                                       ; combout          ;
+; |I_O_Control_Module|inst4~58                                                                                       ; |I_O_Control_Module|inst4~58                                                                                       ; combout          ;
+; |I_O_Control_Module|inst4                                                                                          ; |I_O_Control_Module|inst4                                                                                          ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode79w[3]~16  ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode79w[3]~16  ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode79w[3]     ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode79w[3]     ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode89w[3]~15  ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode89w[3]~15  ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode89w[3]     ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode89w[3]     ; combout          ;
+; |I_O_Control_Module|129                                                                                            ; |I_O_Control_Module|129                                                                                            ; q                ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode101w[1]~25 ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode101w[1]~25 ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode108w[3]    ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode108w[3]    ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode119w[3]    ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode119w[3]    ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode3w[1]~9    ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode3w[1]~9    ; combout          ;
+; |I_O_Control_Module|inst13~15                                                                                      ; |I_O_Control_Module|inst13~15                                                                                      ; combout          ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[3]                                ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[3]                                ; q                ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                ; q                ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                ; q                ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                ; q                ;
+; |I_O_Control_Module|lpm_or5:inst8|lpm_or:lpm_or_component|or_node[0][3]~45                                         ; |I_O_Control_Module|lpm_or5:inst8|lpm_or:lpm_or_component|or_node[0][3]~45                                         ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode149w[3]    ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode149w[3]    ; combout          ;
+; |I_O_Control_Module|160                                                                                            ; |I_O_Control_Module|160                                                                                            ; combout          ;
+; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode179w[3]    ; |I_O_Control_Module|lpm_decode3:inst21|lpm_decode:lpm_decode_component|decode_svf:auto_generated|w_anode179w[3]    ; combout          ;
+; |I_O_Control_Module|Par_Gen_Cs_n~output                                                                            ; |I_O_Control_Module|Par_Gen_Cs_n~output                                                                            ; o                ;
+; |I_O_Control_Module|Par_Gen_Cs_n                                                                                   ; |I_O_Control_Module|Par_Gen_Cs_n                                                                                   ; padout           ;
+; |I_O_Control_Module|S_Gen_Cs_n~output                                                                              ; |I_O_Control_Module|S_Gen_Cs_n~output                                                                              ; o                ;
+; |I_O_Control_Module|S_Gen_Cs_n                                                                                     ; |I_O_Control_Module|S_Gen_Cs_n                                                                                     ; padout           ;
+; |I_O_Control_Module|Acq_Control_Cs_n~output                                                                        ; |I_O_Control_Module|Acq_Control_Cs_n~output                                                                        ; o                ;
+; |I_O_Control_Module|Acq_Control_Cs_n                                                                               ; |I_O_Control_Module|Acq_Control_Cs_n                                                                               ; padout           ;
+; |I_O_Control_Module|Ser_Ram_Cs_n~output                                                                            ; |I_O_Control_Module|Ser_Ram_Cs_n~output                                                                            ; o                ;
+; |I_O_Control_Module|Ser_Ram_Cs_n                                                                                   ; |I_O_Control_Module|Ser_Ram_Cs_n                                                                                   ; padout           ;
+; |I_O_Control_Module|P_Addr_Cnt_Reset~output                                                                        ; |I_O_Control_Module|P_Addr_Cnt_Reset~output                                                                        ; o                ;
+; |I_O_Control_Module|P_Addr_Cnt_Reset                                                                               ; |I_O_Control_Module|P_Addr_Cnt_Reset                                                                               ; padout           ;
+; |I_O_Control_Module|S_Addr_Cnt_Reset~output                                                                        ; |I_O_Control_Module|S_Addr_Cnt_Reset~output                                                                        ; o                ;
+; |I_O_Control_Module|S_Addr_Cnt_Reset                                                                               ; |I_O_Control_Module|S_Addr_Cnt_Reset                                                                               ; padout           ;
+; |I_O_Control_Module|Sel_MSP_n~output                                                                               ; |I_O_Control_Module|Sel_MSP_n~output                                                                               ; o                ;
+; |I_O_Control_Module|Sel_MSP_n                                                                                      ; |I_O_Control_Module|Sel_MSP_n                                                                                      ; padout           ;
+; |I_O_Control_Module|Sel_Status_n~output                                                                            ; |I_O_Control_Module|Sel_Status_n~output                                                                            ; o                ;
+; |I_O_Control_Module|Sel_Status_n                                                                                   ; |I_O_Control_Module|Sel_Status_n                                                                                   ; padout           ;
+; |I_O_Control_Module|MSP_Ack~output                                                                                 ; |I_O_Control_Module|MSP_Ack~output                                                                                 ; o                ;
+; |I_O_Control_Module|MSP_Ack                                                                                        ; |I_O_Control_Module|MSP_Ack                                                                                        ; padout           ;
+; |I_O_Control_Module|Time_Low_Sel_n~output                                                                          ; |I_O_Control_Module|Time_Low_Sel_n~output                                                                          ; o                ;
+; |I_O_Control_Module|Time_Low_Sel_n                                                                                 ; |I_O_Control_Module|Time_Low_Sel_n                                                                                 ; padout           ;
+; |I_O_Control_Module|Time_High_Sel_n~output                                                                         ; |I_O_Control_Module|Time_High_Sel_n~output                                                                         ; o                ;
+; |I_O_Control_Module|Time_High_Sel_n                                                                                ; |I_O_Control_Module|Time_High_Sel_n                                                                                ; padout           ;
+; |I_O_Control_Module|Read_Sel_n~output                                                                              ; |I_O_Control_Module|Read_Sel_n~output                                                                              ; o                ;
+; |I_O_Control_Module|Read_Sel_n                                                                                     ; |I_O_Control_Module|Read_Sel_n                                                                                     ; padout           ;
+; |I_O_Control_Module|Bus_Sel[1]~output                                                                              ; |I_O_Control_Module|Bus_Sel[1]~output                                                                              ; o                ;
+; |I_O_Control_Module|Bus_Sel[1]                                                                                     ; |I_O_Control_Module|Bus_Sel[1]                                                                                     ; padout           ;
+; |I_O_Control_Module|Bus_Sel[0]~output                                                                              ; |I_O_Control_Module|Bus_Sel[0]~output                                                                              ; o                ;
+; |I_O_Control_Module|Bus_Sel[0]                                                                                     ; |I_O_Control_Module|Bus_Sel[0]                                                                                     ; padout           ;
+; |I_O_Control_Module|Addr[7]~input                                                                                  ; |I_O_Control_Module|Addr[7]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[7]                                                                                        ; |I_O_Control_Module|Addr[7]                                                                                        ; padout           ;
+; |I_O_Control_Module|Addr[6]~input                                                                                  ; |I_O_Control_Module|Addr[6]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[6]                                                                                        ; |I_O_Control_Module|Addr[6]                                                                                        ; padout           ;
+; |I_O_Control_Module|Addr[5]~input                                                                                  ; |I_O_Control_Module|Addr[5]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[5]                                                                                        ; |I_O_Control_Module|Addr[5]                                                                                        ; padout           ;
+; |I_O_Control_Module|Addr[4]~input                                                                                  ; |I_O_Control_Module|Addr[4]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[4]                                                                                        ; |I_O_Control_Module|Addr[4]                                                                                        ; padout           ;
+; |I_O_Control_Module|Addr[0]~input                                                                                  ; |I_O_Control_Module|Addr[0]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[0]                                                                                        ; |I_O_Control_Module|Addr[0]                                                                                        ; padout           ;
+; |I_O_Control_Module|Addr[2]~input                                                                                  ; |I_O_Control_Module|Addr[2]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[2]                                                                                        ; |I_O_Control_Module|Addr[2]                                                                                        ; padout           ;
+; |I_O_Control_Module|Addr[1]~input                                                                                  ; |I_O_Control_Module|Addr[1]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[1]                                                                                        ; |I_O_Control_Module|Addr[1]                                                                                        ; padout           ;
+; |I_O_Control_Module|Wr_n~input                                                                                     ; |I_O_Control_Module|Wr_n~input                                                                                     ; o                ;
+; |I_O_Control_Module|Wr_n                                                                                           ; |I_O_Control_Module|Wr_n                                                                                           ; padout           ;
+; |I_O_Control_Module|Addr[3]~input                                                                                  ; |I_O_Control_Module|Addr[3]~input                                                                                  ; o                ;
+; |I_O_Control_Module|Addr[3]                                                                                        ; |I_O_Control_Module|Addr[3]                                                                                        ; padout           ;
+; |I_O_Control_Module|IFClk~input                                                                                    ; |I_O_Control_Module|IFClk~input                                                                                    ; o                ;
+; |I_O_Control_Module|IFClk                                                                                          ; |I_O_Control_Module|IFClk                                                                                          ; padout           ;
+; |I_O_Control_Module|Wr_n~inputclkctrl                                                                              ; |I_O_Control_Module|Wr_n~inputclkctrl                                                                              ; outclk           ;
+; |I_O_Control_Module|IFClk~inputclkctrl                                                                             ; |I_O_Control_Module|IFClk~inputclkctrl                                                                             ; outclk           ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[3]~feeder                         ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[3]~feeder                         ; combout          ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[1]~feeder                         ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[1]~feeder                         ; combout          ;
+; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[0]~feeder                         ; |I_O_Control_Module|lpm_shiftreg8:inst6|lpm_shiftreg:lpm_shiftreg_component|dffs[0]~feeder                         ; combout          ;
++--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                     ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; Node Name                                                                   ; Output Port Name                                                            ; Output Port Type ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[7]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[5]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[0]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[0]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[7]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[7]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[5]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[5]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[0]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[0]         ; q                ;
+; |I_O_Control_Module|Control[7]~output                                       ; |I_O_Control_Module|Control[7]~output                                       ; o                ;
+; |I_O_Control_Module|Control[7]                                              ; |I_O_Control_Module|Control[7]                                              ; padout           ;
+; |I_O_Control_Module|Control[6]~output                                       ; |I_O_Control_Module|Control[6]~output                                       ; o                ;
+; |I_O_Control_Module|Control[6]                                              ; |I_O_Control_Module|Control[6]                                              ; padout           ;
+; |I_O_Control_Module|Control[5]~output                                       ; |I_O_Control_Module|Control[5]~output                                       ; o                ;
+; |I_O_Control_Module|Control[5]                                              ; |I_O_Control_Module|Control[5]                                              ; padout           ;
+; |I_O_Control_Module|Control[4]~output                                       ; |I_O_Control_Module|Control[4]~output                                       ; o                ;
+; |I_O_Control_Module|Control[4]                                              ; |I_O_Control_Module|Control[4]                                              ; padout           ;
+; |I_O_Control_Module|Control[3]~output                                       ; |I_O_Control_Module|Control[3]~output                                       ; o                ;
+; |I_O_Control_Module|Control[3]                                              ; |I_O_Control_Module|Control[3]                                              ; padout           ;
+; |I_O_Control_Module|Control[2]~output                                       ; |I_O_Control_Module|Control[2]~output                                       ; o                ;
+; |I_O_Control_Module|Control[2]                                              ; |I_O_Control_Module|Control[2]                                              ; padout           ;
+; |I_O_Control_Module|Control[1]~output                                       ; |I_O_Control_Module|Control[1]~output                                       ; o                ;
+; |I_O_Control_Module|Control[1]                                              ; |I_O_Control_Module|Control[1]                                              ; padout           ;
+; |I_O_Control_Module|Control[0]~output                                       ; |I_O_Control_Module|Control[0]~output                                       ; o                ;
+; |I_O_Control_Module|Control[0]                                              ; |I_O_Control_Module|Control[0]                                              ; padout           ;
+; |I_O_Control_Module|L_Dat[15]~output                                        ; |I_O_Control_Module|L_Dat[15]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[15]                                               ; |I_O_Control_Module|L_Dat[15]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[14]~output                                        ; |I_O_Control_Module|L_Dat[14]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[14]                                               ; |I_O_Control_Module|L_Dat[14]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[13]~output                                        ; |I_O_Control_Module|L_Dat[13]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[13]                                               ; |I_O_Control_Module|L_Dat[13]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[12]~output                                        ; |I_O_Control_Module|L_Dat[12]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[12]                                               ; |I_O_Control_Module|L_Dat[12]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[11]~output                                        ; |I_O_Control_Module|L_Dat[11]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[11]                                               ; |I_O_Control_Module|L_Dat[11]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[10]~output                                        ; |I_O_Control_Module|L_Dat[10]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[10]                                               ; |I_O_Control_Module|L_Dat[10]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[9]~output                                         ; |I_O_Control_Module|L_Dat[9]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[9]                                                ; |I_O_Control_Module|L_Dat[9]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[8]~output                                         ; |I_O_Control_Module|L_Dat[8]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[8]                                                ; |I_O_Control_Module|L_Dat[8]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[7]~output                                         ; |I_O_Control_Module|L_Dat[7]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[7]                                                ; |I_O_Control_Module|L_Dat[7]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[6]~output                                         ; |I_O_Control_Module|L_Dat[6]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[6]                                                ; |I_O_Control_Module|L_Dat[6]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[5]~output                                         ; |I_O_Control_Module|L_Dat[5]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[5]                                                ; |I_O_Control_Module|L_Dat[5]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[4]~output                                         ; |I_O_Control_Module|L_Dat[4]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[4]                                                ; |I_O_Control_Module|L_Dat[4]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[3]~output                                         ; |I_O_Control_Module|L_Dat[3]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[3]                                                ; |I_O_Control_Module|L_Dat[3]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[2]~output                                         ; |I_O_Control_Module|L_Dat[2]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[2]                                                ; |I_O_Control_Module|L_Dat[2]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[1]~output                                         ; |I_O_Control_Module|L_Dat[1]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[1]                                                ; |I_O_Control_Module|L_Dat[1]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[0]~output                                         ; |I_O_Control_Module|L_Dat[0]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[0]                                                ; |I_O_Control_Module|L_Dat[0]                                                ; padout           ;
+; |I_O_Control_Module|Addr[15]~input                                          ; |I_O_Control_Module|Addr[15]~input                                          ; o                ;
+; |I_O_Control_Module|Addr[15]                                                ; |I_O_Control_Module|Addr[15]                                                ; padout           ;
+; |I_O_Control_Module|Addr[14]~input                                          ; |I_O_Control_Module|Addr[14]~input                                          ; o                ;
+; |I_O_Control_Module|Addr[14]                                                ; |I_O_Control_Module|Addr[14]                                                ; padout           ;
+; |I_O_Control_Module|In_Dat[7]~input                                         ; |I_O_Control_Module|In_Dat[7]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[7]                                               ; |I_O_Control_Module|In_Dat[7]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[6]~input                                         ; |I_O_Control_Module|In_Dat[6]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[6]                                               ; |I_O_Control_Module|In_Dat[6]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[5]~input                                         ; |I_O_Control_Module|In_Dat[5]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[5]                                               ; |I_O_Control_Module|In_Dat[5]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[4]~input                                         ; |I_O_Control_Module|In_Dat[4]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[4]                                               ; |I_O_Control_Module|In_Dat[4]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[3]~input                                         ; |I_O_Control_Module|In_Dat[3]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[3]                                               ; |I_O_Control_Module|In_Dat[3]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[2]~input                                         ; |I_O_Control_Module|In_Dat[2]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[2]                                               ; |I_O_Control_Module|In_Dat[2]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[1]~input                                         ; |I_O_Control_Module|In_Dat[1]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[1]                                               ; |I_O_Control_Module|In_Dat[1]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[0]~input                                         ; |I_O_Control_Module|In_Dat[0]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[0]                                               ; |I_O_Control_Module|In_Dat[0]                                               ; padout           ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]~feeder  ; combout          ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                     ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; Node Name                                                                   ; Output Port Name                                                            ; Output Port Type ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[7]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[7]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[5]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[5]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[0]        ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[0]        ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[7]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[7]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[5]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[5]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]         ; q                ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[0]         ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[0]         ; q                ;
+; |I_O_Control_Module|Control[7]~output                                       ; |I_O_Control_Module|Control[7]~output                                       ; o                ;
+; |I_O_Control_Module|Control[7]                                              ; |I_O_Control_Module|Control[7]                                              ; padout           ;
+; |I_O_Control_Module|Control[6]~output                                       ; |I_O_Control_Module|Control[6]~output                                       ; o                ;
+; |I_O_Control_Module|Control[6]                                              ; |I_O_Control_Module|Control[6]                                              ; padout           ;
+; |I_O_Control_Module|Control[5]~output                                       ; |I_O_Control_Module|Control[5]~output                                       ; o                ;
+; |I_O_Control_Module|Control[5]                                              ; |I_O_Control_Module|Control[5]                                              ; padout           ;
+; |I_O_Control_Module|Control[4]~output                                       ; |I_O_Control_Module|Control[4]~output                                       ; o                ;
+; |I_O_Control_Module|Control[4]                                              ; |I_O_Control_Module|Control[4]                                              ; padout           ;
+; |I_O_Control_Module|Control[3]~output                                       ; |I_O_Control_Module|Control[3]~output                                       ; o                ;
+; |I_O_Control_Module|Control[3]                                              ; |I_O_Control_Module|Control[3]                                              ; padout           ;
+; |I_O_Control_Module|Control[2]~output                                       ; |I_O_Control_Module|Control[2]~output                                       ; o                ;
+; |I_O_Control_Module|Control[2]                                              ; |I_O_Control_Module|Control[2]                                              ; padout           ;
+; |I_O_Control_Module|Control[1]~output                                       ; |I_O_Control_Module|Control[1]~output                                       ; o                ;
+; |I_O_Control_Module|Control[1]                                              ; |I_O_Control_Module|Control[1]                                              ; padout           ;
+; |I_O_Control_Module|Control[0]~output                                       ; |I_O_Control_Module|Control[0]~output                                       ; o                ;
+; |I_O_Control_Module|Control[0]                                              ; |I_O_Control_Module|Control[0]                                              ; padout           ;
+; |I_O_Control_Module|L_Dat[15]~output                                        ; |I_O_Control_Module|L_Dat[15]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[15]                                               ; |I_O_Control_Module|L_Dat[15]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[14]~output                                        ; |I_O_Control_Module|L_Dat[14]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[14]                                               ; |I_O_Control_Module|L_Dat[14]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[13]~output                                        ; |I_O_Control_Module|L_Dat[13]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[13]                                               ; |I_O_Control_Module|L_Dat[13]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[12]~output                                        ; |I_O_Control_Module|L_Dat[12]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[12]                                               ; |I_O_Control_Module|L_Dat[12]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[11]~output                                        ; |I_O_Control_Module|L_Dat[11]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[11]                                               ; |I_O_Control_Module|L_Dat[11]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[10]~output                                        ; |I_O_Control_Module|L_Dat[10]~output                                        ; o                ;
+; |I_O_Control_Module|L_Dat[10]                                               ; |I_O_Control_Module|L_Dat[10]                                               ; padout           ;
+; |I_O_Control_Module|L_Dat[9]~output                                         ; |I_O_Control_Module|L_Dat[9]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[9]                                                ; |I_O_Control_Module|L_Dat[9]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[8]~output                                         ; |I_O_Control_Module|L_Dat[8]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[8]                                                ; |I_O_Control_Module|L_Dat[8]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[7]~output                                         ; |I_O_Control_Module|L_Dat[7]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[7]                                                ; |I_O_Control_Module|L_Dat[7]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[6]~output                                         ; |I_O_Control_Module|L_Dat[6]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[6]                                                ; |I_O_Control_Module|L_Dat[6]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[5]~output                                         ; |I_O_Control_Module|L_Dat[5]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[5]                                                ; |I_O_Control_Module|L_Dat[5]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[4]~output                                         ; |I_O_Control_Module|L_Dat[4]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[4]                                                ; |I_O_Control_Module|L_Dat[4]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[3]~output                                         ; |I_O_Control_Module|L_Dat[3]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[3]                                                ; |I_O_Control_Module|L_Dat[3]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[2]~output                                         ; |I_O_Control_Module|L_Dat[2]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[2]                                                ; |I_O_Control_Module|L_Dat[2]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[1]~output                                         ; |I_O_Control_Module|L_Dat[1]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[1]                                                ; |I_O_Control_Module|L_Dat[1]                                                ; padout           ;
+; |I_O_Control_Module|L_Dat[0]~output                                         ; |I_O_Control_Module|L_Dat[0]~output                                         ; o                ;
+; |I_O_Control_Module|L_Dat[0]                                                ; |I_O_Control_Module|L_Dat[0]                                                ; padout           ;
+; |I_O_Control_Module|Addr[15]~input                                          ; |I_O_Control_Module|Addr[15]~input                                          ; o                ;
+; |I_O_Control_Module|Addr[15]                                                ; |I_O_Control_Module|Addr[15]                                                ; padout           ;
+; |I_O_Control_Module|Addr[14]~input                                          ; |I_O_Control_Module|Addr[14]~input                                          ; o                ;
+; |I_O_Control_Module|Addr[14]                                                ; |I_O_Control_Module|Addr[14]                                                ; padout           ;
+; |I_O_Control_Module|In_Dat[7]~input                                         ; |I_O_Control_Module|In_Dat[7]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[7]                                               ; |I_O_Control_Module|In_Dat[7]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[6]~input                                         ; |I_O_Control_Module|In_Dat[6]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[6]                                               ; |I_O_Control_Module|In_Dat[6]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[5]~input                                         ; |I_O_Control_Module|In_Dat[5]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[5]                                               ; |I_O_Control_Module|In_Dat[5]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[4]~input                                         ; |I_O_Control_Module|In_Dat[4]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[4]                                               ; |I_O_Control_Module|In_Dat[4]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[3]~input                                         ; |I_O_Control_Module|In_Dat[3]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[3]                                               ; |I_O_Control_Module|In_Dat[3]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[2]~input                                         ; |I_O_Control_Module|In_Dat[2]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[2]                                               ; |I_O_Control_Module|In_Dat[2]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[1]~input                                         ; |I_O_Control_Module|In_Dat[1]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[1]                                               ; |I_O_Control_Module|In_Dat[1]                                               ; padout           ;
+; |I_O_Control_Module|In_Dat[0]~input                                         ; |I_O_Control_Module|In_Dat[0]~input                                         ; o                ;
+; |I_O_Control_Module|In_Dat[0]                                               ; |I_O_Control_Module|In_Dat[0]                                               ; padout           ;
+; |I_O_Control_Module|Reset_n~input                                           ; |I_O_Control_Module|Reset_n~input                                           ; o                ;
+; |I_O_Control_Module|Reset_n                                                 ; |I_O_Control_Module|Reset_n                                                 ; padout           ;
+; |I_O_Control_Module|Reset_n~inputclkctrl                                    ; |I_O_Control_Module|Reset_n~inputclkctrl                                    ; outclk           ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[6]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[6]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[4]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[4]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[3]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[3]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[2]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[2]~feeder  ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]~feeder ; |I_O_Control_Module|lpm_dff14:inst11|lpm_ff:lpm_ff_component|dffs[1]~feeder ; combout          ;
+; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]~feeder  ; |I_O_Control_Module|lpm_dff14:inst3|lpm_ff:lpm_ff_component|dffs[1]~feeder  ; combout          ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 8.1 Build 163 10/28/2008 SJ Full Version
+    Info: Processing started: Wed May 20 20:06:16 2009
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off I_O_Control_Module -c I_O_Control_Module
+Info: Using vector source file "C:/altera/81/qdesigns/Main_05_20/Main/I_O_Control_Module.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of I_O_Control_Module.vwf called I_O_Control_Module.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      46.11 %
+Info: Number of transitions in simulation is 1790
+Info: Vector file I_O_Control_Module.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 160 megabytes
+    Info: Processing ended: Wed May 20 20:06:17 2009
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

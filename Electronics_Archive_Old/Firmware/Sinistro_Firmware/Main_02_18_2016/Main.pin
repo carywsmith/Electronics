@@ -1,0 +1,330 @@
+ -- Copyright (C) 1991-2009 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		3.3V
+ --					Bank 2:		3.3V
+ --					Bank 3:		3.3V
+ --					Bank 4:		3.3V
+ --					Bank 5:		3.3V
+ --					Bank 6:		3.3V
+ --					Bank 7:		3.3V
+ --					Bank 8:		3.3V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   For transceiver I/O banks (Bank 13, 14, 15, 16 and 17),
+ --           	    connect each pin marked GND* either individually through a 10k Ohm resistor
+ --           	    to GND or tie all pins together and connect through a single 10k Ohm resistor
+ --           	    to GND.
+ --           	    For non-transceiver I/O banks, connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+CHIP  "Main"  ASSIGNED TO AN: EP3C16F256C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A1        : power  :                   : 3.3V    : 8         :                
+CDat[6]                      : A2        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+FLAG_B                       : A3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+CDat[4]                      : A4        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+CDat[1]                      : A5        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+Addr[7]                      : A6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+Addr[4]                      : A7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+IFClk                        : A8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+Wr_n                         : A9        : input  : 3.3-V LVCMOS      :         : 7         : Y              
+Clk_24_Out                   : A10       : output : 3.3-V LVCMOS      :         : 7         : Y              
+Slave_Write_n                : A11       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FP_Sel_1_n                   : A12       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A13       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7         :                
+O_FIFO_RClk                  : A15       : output : 3.3-V LVCMOS      :         : 7         : Y              
+VCCIO7                       : A16       : power  :                   : 3.3V    : 7         :                
+O_FIFO_AE_L_n                : B1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+GND                          : B2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 8         :                
+CDat[5]                      : B4        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+CDat[2]                      : B5        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+Addr[14]                     : B6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+Addr[5]                      : B7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+Rd_n                         : B8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+Clk_48                       : B9        : input  : 3.3-V LVCMOS      :         : 7         : Y              
+MSP_Irq_0                    : B10       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+B2_SIMO                      : B11       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B12       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B13       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B14       :        :                   :         : 7         :                
+GND                          : B15       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 6         :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 3.3-V LVCMOS      :         : 1         : N              
+FIFO_Dat[0]                  : C2        : output : 3.3-V LVCMOS      :         : 1         : Y              
+MSP_Ack                      : C3        : output : 3.3-V LVCMOS      :         : 8         : Y              
+VCCIO8                       : C4        : power  :                   : 3.3V    : 8         :                
+GND                          : C5        : gnd    :                   :         :           :                
+Addr[6]                      : C6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+VCCIO8                       : C7        : power  :                   : 3.3V    : 8         :                
+Addr[0]                      : C8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+MSP_Irq_1                    : C9        : input  : 3.3-V LVCMOS      :         : 7         : Y              
+VCCIO7                       : C10       : power  :                   : 3.3V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C11       :        :                   :         : 7         :                
+GND                          : C12       : gnd    :                   :         :           :                
+VCCIO7                       : C13       : power  :                   : 3.3V    : 7         :                
+FIFO_WClk                    : C14       : output : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 6         :                
+O_FIFO_Read_n                : C16       : output : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[1]                  : D1        : output : 3.3-V LVCMOS      :         : 1         : Y              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D2        : input  : 3.3-V LVCMOS      :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D3        :        :                   :         : 8         :                
+VCCD_PLL3                    : D4        : power  :                   : 1.2V    :           :                
+CDat[7]                      : D5        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+CDat[3]                      : D6        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+GND                          : D7        : gnd    :                   :         :           :                
+Addr[1]                      : D8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 7         :                
+GND                          : D10       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D11       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D12       :        :                   :         : 7         :                
+VCCD_PLL2                    : D13       : power  :                   : 1.2V    :           :                
+O_FIFO_OR_H_n                : D14       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+FIFO_Wr_Enbl_n               : D15       : output : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[8]                  : D16       : output : 3.3-V LVCMOS      :         : 6         : Y              
+O_FIFO_IR_L_n                : E1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+O_FIFO_AF_L_n                : E2        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+VCCIO1                       : E3        : power  :                   : 3.3V    : 1         :                
+GND                          : E4        : gnd    :                   :         :           :                
+GNDA3                        : E5        : gnd    :                   :         :           :                
+CDat[0]                      : E6        : bidir  : 3.3-V LVCMOS      :         : 8         : Y              
+Addr[15]                     : E7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+Addr[2]                      : E8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+PP1                          : E9        : output : 3.3-V LVCMOS      :         : 7         : N              
+FIFO_Trans_Clk               : E10       : output : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 7         :                
+GNDA2                        : E12       : gnd    :                   :         :           :                
+GND                          : E13       : gnd    :                   :         :           :                
+VCCIO6                       : E14       : power  :                   : 3.3V    : 6         :                
+Exposure_Start               : E15       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+O_FIFO_IR_H_n                : E16       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[3]                  : F1        : output : 3.3-V LVCMOS      :         : 1         : Y              
+FIFO_Dat[2]                  : F2        : output : 3.3-V LVCMOS      :         : 1         : Y              
+FIFO_Dat[4]                  : F3        : output : 3.3-V LVCMOS      :         : 1         : Y              
+nSTATUS                      : F4        :        :                   :         : 1         :                
+VCCA3                        : F5        : power  :                   : 2.5V    :           :                
+GND                          : F6        : gnd    :                   :         :           :                
+VCCINT                       : F7        : power  :                   : 1.2V    :           :                
+Addr[3]                      : F8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 7         :                
+GND                          : F10       : gnd    :                   :         :           :                
+VCCINT                       : F11       : power  :                   : 1.2V    :           :                
+VCCA2                        : F12       : power  :                   : 2.5V    :           :                
+O_FIFO_AE_H_n                : F13       : input  : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[10]                 : F14       : output : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[9]                  : F15       : output : 3.3-V LVCMOS      :         : 6         : Y              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : F16       : output : 3.3-V LVCMOS      :         : 6         : N              
+FIFO_Dat[6]                  : G1        : output : 3.3-V LVCMOS      :         : 1         : Y              
+FIFO_Dat[5]                  : G2        : output : 3.3-V LVCMOS      :         : 1         : Y              
+VCCIO1                       : G3        : power  :                   : 3.3V    : 1         :                
+GND                          : G4        : gnd    :                   :         :           :                
+FIFO_Dat[7]                  : G5        : output : 3.3-V LVCMOS      :         : 1         : Y              
+VCCINT                       : G6        : power  :                   : 1.2V    :           :                
+VCCINT                       : G7        : power  :                   : 1.2V    :           :                
+VCCINT                       : G8        : power  :                   : 1.2V    :           :                
+VCCINT                       : G9        : power  :                   : 1.2V    :           :                
+VCCINT                       : G10       : power  :                   : 1.2V    :           :                
+FIFO_Dat[13]                 : G11       : output : 3.3-V LVCMOS      :         : 6         : Y              
+MSEL2                        : G12       :        :                   :         : 6         :                
+GND                          : G13       : gnd    :                   :         :           :                
+VCCIO6                       : G14       : power  :                   : 3.3V    : 6         :                
+FIFO_Dat[12]                 : G15       : output : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[11]                 : G16       : output : 3.3-V LVCMOS      :         : 6         : Y              
+~ALTERA_DCLK~                : H1        : output : 3.3-V LVCMOS      :         : 1         : N              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : H2        : input  : 3.3-V LVCMOS      :         : 1         : N              
+TCK                          : H3        : input  :                   :         : 1         :                
+TDI                          : H4        : input  :                   :         : 1         :                
+nCONFIG                      : H5        :        :                   :         : 1         :                
+VCCINT                       : H6        : power  :                   : 1.2V    :           :                
+GND                          : H7        : gnd    :                   :         :           :                
+GND                          : H8        : gnd    :                   :         :           :                
+GND                          : H9        : gnd    :                   :         :           :                
+GND                          : H10       : gnd    :                   :         :           :                
+VCCINT                       : H11       : power  :                   : 1.2V    :           :                
+MSEL1                        : H12       :        :                   :         : 6         :                
+MSEL0                        : H13       :        :                   :         : 6         :                
+CONF_DONE                    : H14       :        :                   :         : 6         :                
+FIFO_Dat[14]                 : H15       : output : 3.3-V LVCMOS      :         : 6         : Y              
+FIFO_Dat[15]                 : H16       : output : 3.3-V LVCMOS      :         : 6         : Y              
+MI_Dat[1]                    : J1        : output : 3.3-V LVCMOS      :         : 2         : Y              
+MI_Dat[0]                    : J2        : output : 3.3-V LVCMOS      :         : 2         : Y              
+nCE                          : J3        :        :                   :         : 1         :                
+TDO                          : J4        : output :                   :         : 1         :                
+TMS                          : J5        : input  :                   :         : 1         :                
+VCCINT                       : J6        : power  :                   : 1.2V    :           :                
+GND                          : J7        : gnd    :                   :         :           :                
+GND                          : J8        : gnd    :                   :         :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+GND                          : J10       : gnd    :                   :         :           :                
+GND                          : J11       : gnd    :                   :         :           :                
+Gain_4X                      : J12       : output : 3.3-V LVCMOS      :         : 5         : Y              
+DC_Hold                      : J13       : output : 3.3-V LVCMOS      :         : 5         : Y              
+Reset_Blank                  : J14       : output : 3.3-V LVCMOS      :         : 5         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J15       :        :                   :         : 5         :                
+CONVST                       : J16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+MI_Dat[5]                    : K1        : output : 3.3-V LVCMOS      :         : 2         : Y              
+MO_Dat[0]                    : K2        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+VCCIO2                       : K3        : power  :                   : 3.3V    : 2         :                
+GND                          : K4        : gnd    :                   :         :           :                
+MO_Dat[3]                    : K5        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+MI_Dat[2]                    : K6        : output : 3.3-V LVCMOS      :         : 2         : Y              
+VCCINT                       : K7        : power  :                   : 1.2V    :           :                
+GND                          : K8        : gnd    :                   :         :           :                
+TST_11                       : K9        : output : 3.3-V LVCMOS      :         : 4         : Y              
+TST_14                       : K10       : output : 3.3-V LVCMOS      :         : 4         : Y              
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+RG                           : K12       : output : 3.3-V LVCMOS      :         : 5         : Y              
+GND                          : K13       : gnd    :                   :         :           :                
+VCCIO5                       : K14       : power  :                   : 3.3V    : 5         :                
+MPP                          : K15       : output : 3.3-V LVCMOS      :         : 5         : Y              
+O_FIFO_AF_H_n                : K16       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+MI_Dat[7]                    : L1        : output : 3.3-V LVCMOS      :         : 2         : Y              
+MI_Dat[6]                    : L2        : output : 3.3-V LVCMOS      :         : 2         : Y              
+MI_Dat[4]                    : L3        : output : 3.3-V LVCMOS      :         : 2         : Y              
+MO_Dat[4]                    : L4        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+VCCA1                        : L5        : power  :                   : 2.5V    :           :                
+MI_Dat[3]                    : L6        : output : 3.3-V LVCMOS      :         : 2         : Y              
+TST_5                        : L7        : output : 3.3-V LVCMOS      :         : 3         : Y              
+TST_6                        : L8        : output : 3.3-V LVCMOS      :         : 3         : Y              
+TST_12                       : L9        : output : 3.3-V LVCMOS      :         : 4         : Y              
+TST_15                       : L10       : output : 3.3-V LVCMOS      :         : 4         : Y              
+Shutter_Status               : L11       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+VCCA4                        : L12       : power  :                   : 2.5V    :           :                
+SG                           : L13       : output : 3.3-V LVCMOS      :         : 5         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L14       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L15       :        :                   :         : 5         :                
+TG                           : L16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+O_FIFO_OR_L_n                : M1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+Reset_n                      : M2        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+VCCIO2                       : M3        : power  :                   : 3.3V    : 2         :                
+GND                          : M4        : gnd    :                   :         :           :                
+GNDA1                        : M5        : gnd    :                   :         :           :                
+TST_2                        : M6        : output : 3.3-V LVCMOS      :         : 3         : Y              
+TST_4                        : M7        : output : 3.3-V LVCMOS      :         : 3         : Y              
+Output_Format_Sel            : M8        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+TST_13                       : M9        : output : 3.3-V LVCMOS      :         : 4         : Y              
+TST_17                       : M10       : output : 3.3-V LVCMOS      :         : 4         : Y              
+Shutter_On_n                 : M11       : output : 3.3-V LVCMOS      :         : 4         : Y              
+GNDA4                        : M12       : gnd    :                   :         :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCIO5                       : M14       : power  :                   : 3.3V    : 5         :                
+Clk_100_A                    : M15       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+O_FIFO_Reset_n               : M16       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+MO_Dat[2]                    : N1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+MO_Dat[1]                    : N2        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+ADC_4_Dat[4]                 : N3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCCD_PLL1                    : N4        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 3         :                
+GND                          : N7        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N9        :        :                   :         : 4         :                
+GND                          : N10       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N11       :        :                   :         : 4         :                
+TST_16                       : N12       : output : 3.3-V LVCMOS      :         : 4         : Y              
+VCCD_PLL4                    : N13       : power  :                   : 1.2V    :           :                
+S3                           : N14       : output : 3.3-V LVCMOS      :         : 5         : Y              
+S2                           : N15       : output : 3.3-V LVCMOS      :         : 5         : Y              
+P3                           : N16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+MO_Dat[7]                    : P1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+MO_Dat[6]                    : P2        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+ADC_4_Dat[5]                 : P3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCCIO3                       : P4        : power  :                   : 3.3V    : 3         :                
+GND                          : P5        : gnd    :                   :         :           :                
+TST_3                        : P6        : output : 3.3-V LVCMOS      :         : 3         : Y              
+VCCIO3                       : P7        : power  :                   : 3.3V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P8        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P9        :        :                   :         : 4         :                
+VCCIO4                       : P10       : power  :                   : 3.3V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P11       :        :                   :         : 4         :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCIO4                       : P13       : power  :                   : 3.3V    : 4         :                
+ADC_1_Dat[5]                 : P14       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+S1                           : P15       : output : 3.3-V LVCMOS      :         : 5         : Y              
+P2                           : P16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+MO_Dat[5]                    : R1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+GND                          : R2        : gnd    :                   :         :           :                
+ADC_4_Dat[6]                 : R3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+ADC_4_Dat[3]                 : R4        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+ADC_4_Dat[1]                 : R5        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 3         :                
+GND+                         : R8        :        :                   :         : 3         :                
+GND+                         : R9        :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R10       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R11       :        :                   :         : 4         :                
+ADC_1_Dat[7]                 : R12       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+ADC_1_Dat[6]                 : R13       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+ADC_1_Dat[4]                 : R14       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+GND                          : R15       : gnd    :                   :         :           :                
+P1                           : R16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+VCCIO3                       : T1        : power  :                   : 3.3V    : 3         :                
+ADC_4_Dat[7]                 : T2        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+TST_1                        : T3        : output : 3.3-V LVCMOS      :         : 3         : Y              
+ADC_4_Dat[2]                 : T4        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+ADC_4_Dat[0]                 : T5        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T6        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 3         :                
+Clk_100                      : T8        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+GND+                         : T9        :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T10       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T11       :        :                   :         : 4         :                
+ADC_1_Dat[3]                 : T12       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+ADC_1_Dat[2]                 : T13       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+ADC_1_Dat[1]                 : T14       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+ADC_1_Dat[0]                 : T15       : input  : 3.3-V LVCMOS      :         : 4         : Y              
+VCCIO4                       : T16       : power  :                   : 3.3V    : 4         :                

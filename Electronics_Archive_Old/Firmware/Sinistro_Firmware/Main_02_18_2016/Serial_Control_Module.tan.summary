@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.487 ns
+From           : Line_Start
+To             : inst31
+From Clock     : --
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.518 ns
+From           : lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a0~porta_re_reg
+To             : RAM_Out[0]
+From Clock     : Clk_100
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.081 ns
+From           : SRg_Flashing
+To             : Pix_Acquire
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.246 ns
+From           : Dat[2]
+To             : lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a2~porta_datain_reg0
+From Clock     : --
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_100'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 239.01 MHz ( period = 4.184 ns )
+From           : lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a1~porta_re_reg
+To             : inst72
+From Clock     : Clk_100
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

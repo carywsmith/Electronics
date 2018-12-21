@@ -1,0 +1,7 @@
+
+State Machine - |Main|FIFO_Control_Module:inst7|fifo_controller:inst|state
+Name state.Wr_Slave state.wi state.w0 state.idle0 
+state.idle0 0 0 0 0 
+state.w0 0 0 1 1 
+state.wi 0 1 0 1 
+state.Wr_Slave 1 0 0 1 

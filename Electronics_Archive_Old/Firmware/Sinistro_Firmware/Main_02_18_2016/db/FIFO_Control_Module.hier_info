@@ -1,0 +1,67 @@
+|FIFO_Control_Module
+IFClk_Out <= fifo_controller:inst.IFClk
+IFClk_In => fifo_controller:inst.clk
+O_FIFO_Reset_n => fifo_controller:inst.FIFO_Reset_n
+O_FIFO_OR_H_n => inst1.IN0
+O_FIFO_OR_L_n => inst1.IN1
+FLAG_B => fifo_controller:inst.FLAG_B
+Clk_24_Out <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Reset_n => inst5.ACLR
+Clk_48 => inst5.CLK
+O_FIFO_Read_n <= fifo_controller:inst.O_FIFO_Read_n
+O_FIFO_RClk <= fifo_controller:inst.O_FIFO_Rd_Clk
+Slave_FIFO_Write_n <= fifo_controller:inst.Slave_FIFO_Write_n
+O_FIFO_AF_n <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+O_FIFO_AF_L_n => inst16.IN0
+O_FIFO_AF_H_n => inst16.IN1
+O_FIFO_AE_n <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+O_FIFO_AE_L_n => inst17.IN0
+O_FIFO_AE_H_n => inst17.IN1
+O_FIFO_Full_n <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+O_FIFO_IR_H_n => inst2.IN0
+O_FIFO_IR_L_n => inst2.IN1
+
+
+|FIFO_Control_Module|fifo_controller:inst
+clk => counter[9].CLK
+clk => counter[8].CLK
+clk => counter[7].CLK
+clk => counter[6].CLK
+clk => counter[5].CLK
+clk => counter[4].CLK
+clk => counter[3].CLK
+clk => counter[2].CLK
+clk => counter[1].CLK
+clk => counter[0].CLK
+clk => wt[3].CLK
+clk => wt[2].CLK
+clk => wt[1].CLK
+clk => wt[0].CLK
+clk => Slave_FIFO_Write_n~reg0.CLK
+clk => O_FIFO_Rd_Clk.DATAIN
+clk => IFClk.DATAIN
+clk => state~5.IN1
+FIFO_Reset_n => Slave_FIFO_Write_n~reg0.PRESET
+FIFO_Reset_n => counter[9].ACLR
+FIFO_Reset_n => counter[8].ACLR
+FIFO_Reset_n => counter[7].ACLR
+FIFO_Reset_n => counter[6].ACLR
+FIFO_Reset_n => counter[5].ACLR
+FIFO_Reset_n => counter[4].ACLR
+FIFO_Reset_n => counter[3].ACLR
+FIFO_Reset_n => counter[2].ACLR
+FIFO_Reset_n => counter[1].ACLR
+FIFO_Reset_n => counter[0].ACLR
+FIFO_Reset_n => wt[3].ENA
+FIFO_Reset_n => wt[2].ENA
+FIFO_Reset_n => wt[1].ENA
+FIFO_Reset_n => wt[0].ENA
+FIFO_Reset_n => state~6.IN1
+O_FIFO_Empty_n => process_0~0.IN0
+FLAG_B => process_0~0.IN1
+Slave_FIFO_Write_n <= Slave_FIFO_Write_n~reg0.DB_MAX_OUTPUT_PORT_TYPE
+IFClk <= clk.DB_MAX_OUTPUT_PORT_TYPE
+O_FIFO_Rd_Clk <= clk.DB_MAX_OUTPUT_PORT_TYPE
+O_FIFO_Read_n <= state.Wr_Slave.DB_MAX_OUTPUT_PORT_TYPE
+
+

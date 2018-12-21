@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Mar 14 13:24:14 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Serial_Control_Module
+Top-level Entity Name : Serial_Control_Module
+Family : Cyclone III
+Total logic elements : 47
+    Total combinational functions : 33
+    Dedicated logic registers : 37
+Total registers : 37
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 32,768
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

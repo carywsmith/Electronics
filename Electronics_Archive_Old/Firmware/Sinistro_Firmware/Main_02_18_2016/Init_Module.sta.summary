@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk_1M'
+Slack : -2.952
+TNS   : -36.200
+
+Type  : Slow 1200mV 85C Model Setup 'Clk_50'
+Slack : -1.769
+TNS   : -39.589
+
+Type  : Slow 1200mV 85C Model Hold 'Clk_1M'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clk_50'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'Clk_1M'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'Clk_50'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Clk_1M'
+Slack : -0.048
+TNS   : -0.715
+
+Type  : Slow 1200mV 85C Model Removal 'Clk_50'
+Slack : -0.047
+TNS   : -0.369
+
+Type  : Slow 1200mV 0C Model Setup 'Clk_1M'
+Slack : -2.530
+TNS   : -30.813
+
+Type  : Slow 1200mV 0C Model Setup 'Clk_50'
+Slack : -1.480
+TNS   : -31.787
+
+Type  : Slow 1200mV 0C Model Hold 'Clk_1M'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk_50'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'Clk_1M'
+Slack : 0.100
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'Clk_50'
+Slack : 0.100
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Clk_1M'
+Slack : -0.047
+TNS   : -0.700
+
+Type  : Slow 1200mV 0C Model Removal 'Clk_50'
+Slack : -0.047
+TNS   : -0.369
+
+Type  : Fast 1200mV 0C Model Setup 'Clk_1M'
+Slack : -1.247
+TNS   : -14.650
+
+Type  : Fast 1200mV 0C Model Setup 'Clk_50'
+Slack : -0.332
+TNS   : -6.030
+
+Type  : Fast 1200mV 0C Model Hold 'Clk_1M'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk_50'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'Clk_1M'
+Slack : -0.054
+TNS   : -0.804
+
+Type  : Fast 1200mV 0C Model Recovery 'Clk_50'
+Slack : -0.053
+TNS   : -0.424
+
+Type  : Fast 1200mV 0C Model Removal 'Clk_1M'
+Slack : -0.033
+TNS   : -0.489
+
+Type  : Fast 1200mV 0C Model Removal 'Clk_50'
+Slack : -0.033
+TNS   : -0.263
+
+------------------------------------------------------------

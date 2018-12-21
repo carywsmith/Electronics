@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.499 ns
+From           : Meter_Enable
+To             : lpm_counter25:inst9|lpm_counter:lpm_counter_component|cntr_qsi:auto_generated|counter_reg_bit[10]
+From Clock     : --
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.059 ns
+From           : lpm_shiftreg9:inst11|lpm_shiftreg:lpm_shiftreg_component|dffs[28]
+To             : SRG[28]
+From Clock     : Clk_100
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.555 ns
+From           : SPI_CS_0_n
+To             : inst35
+From Clock     : --
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SPI_CS_0_n'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : lpm_shiftreg9:inst11|lpm_shiftreg:lpm_shiftreg_component|dffs[5]
+To             : lpm_shiftreg9:inst11|lpm_shiftreg:lpm_shiftreg_component|dffs[6]
+From Clock     : SPI_CS_0_n
+To Clock       : SPI_CS_0_n
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SPI_Clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : lpm_shiftreg9:inst11|lpm_shiftreg:lpm_shiftreg_component|dffs[5]
+To             : lpm_shiftreg9:inst11|lpm_shiftreg:lpm_shiftreg_component|dffs[6]
+From Clock     : SPI_Clk
+To Clock       : SPI_Clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_100'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : lpm_counter24:inst3|lpm_counter:lpm_counter_component|cntr_baj:auto_generated|counter_reg_bit[1]
+To             : lpm_counter25:inst9|lpm_counter:lpm_counter_component|cntr_qsi:auto_generated|counter_reg_bit[10]
+From Clock     : Clk_100
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

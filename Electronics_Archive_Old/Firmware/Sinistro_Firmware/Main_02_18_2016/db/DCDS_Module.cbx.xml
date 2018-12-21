@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DCDS_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DCDS_Module|lpm_add_sub0:inst9|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DCDS_Module|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_amk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DCDS_Module|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_bnk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DCDS_Module|lpm_constant0:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

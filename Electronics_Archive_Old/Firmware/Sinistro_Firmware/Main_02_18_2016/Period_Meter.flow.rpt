@@ -1,0 +1,144 @@
+Flow report for Period_Meter
+Thu Mar 05 13:42:05 2009
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Thu Mar 05 13:42:04 2009    ;
+; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Full Version ;
+; Revision Name                      ; Period_Meter                             ;
+; Top-level Entity Name              ; Period_Meter                             ;
+; Family                             ; Cyclone III                              ;
+; Device                             ; EP3C16F256C6                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; Yes                                      ;
+; Total logic elements               ; 105 / 15,408 ( < 1 % )                   ;
+;     Total combinational functions  ; 72 / 15,408 ( < 1 % )                    ;
+;     Dedicated logic registers      ; 67 / 15,408 ( < 1 % )                    ;
+; Total registers                    ; 67                                       ;
+; Total pins                         ; 70 / 169 ( 41 % )                        ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0 / 516,096 ( 0 % )                      ;
+; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/05/2009 13:41:49 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Period_Meter        ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                   ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 92725177504264.123628930903804 ; --            ; --          ; --             ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE   ; Area                           ; Balanced      ; --          ; --             ;
+; ENABLE_ADVANCED_IO_TIMING          ; On                             ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_SHIFTREG                   ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                   ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 8.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 8.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 8.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 8.1                            ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter24.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter24_bb.v             ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter24.inc              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter25.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter25_bb.v             ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter25.inc              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_shiftreg9.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_shiftreg9_bb.v             ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_shiftreg9.inc              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_constant7.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_constant7_bb.v             ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_constant7.inc              ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                           ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
+; USE_TIMEQUEST_TIMING_ANALYZER      ; Off                            ; On            ; --          ; --             ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 166 MB              ; 00:00:02                           ;
+; Fitter                  ; 00:00:08     ; 1.0                     ; 226 MB              ; 00:00:08                           ;
+; Assembler               ; 00:00:02     ; 1.0                     ; 173 MB              ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 122 MB              ; 00:00:01                           ;
+; Total                   ; 00:00:13     ; --                      ; --                  ; 00:00:13                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                       ;
++-------------------------+------------------+------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis    ; YRoll-svlt       ; Windows XP ; 5.1        ; i686           ;
+; Fitter                  ; YRoll-svlt       ; Windows XP ; 5.1        ; i686           ;
+; Assembler               ; YRoll-svlt       ; Windows XP ; 5.1        ; i686           ;
+; Classic Timing Analyzer ; YRoll-svlt       ; Windows XP ; 5.1        ; i686           ;
++-------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Period_Meter -c Period_Meter
+quartus_fit --read_settings_files=off --write_settings_files=off Period_Meter -c Period_Meter
+quartus_asm --read_settings_files=off --write_settings_files=off Period_Meter -c Period_Meter
+quartus_tan --read_settings_files=off --write_settings_files=off Period_Meter -c Period_Meter --timing_analysis_only
+
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Period_Meter">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Period_Meter|lpm_constant7:inst16|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Period_Meter|lpm_counter24:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_baj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Period_Meter|lpm_counter25:inst9|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qsi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

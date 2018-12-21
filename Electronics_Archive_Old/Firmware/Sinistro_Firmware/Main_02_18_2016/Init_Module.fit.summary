@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jun 19 11:36:06 2009
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : Init_Module
+Top-level Entity Name : Init_Module
+Family : Cyclone III
+Device : EP3C16F256C6
+Timing Models : Final
+Total logic elements : 91 / 15,408 ( < 1 % )
+    Total combinational functions : 86 / 15,408 ( < 1 % )
+    Dedicated logic registers : 40 / 15,408 ( < 1 % )
+Total registers : 40
+Total pins : 57 / 169 ( 34 % )
+Total virtual pins : 0
+Total memory bits : 1,024 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

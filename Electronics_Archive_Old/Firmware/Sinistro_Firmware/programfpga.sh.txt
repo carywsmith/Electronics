@@ -1,0 +1,54 @@
+#!/bin/sh
+URJTAG=urjtag-0.10.2052
+REPO=repos
+
+CURRENT_WORKING_DIR="$PWD"
+cd /tmp
+
+if ! which jtag >/dev/null; then
+  echo "Downloading UrJTAG..."
+  if ! tftp -g -l $URJTAG.md5 -r blackfin/$URJTAG.md5 $REPO; then
+    echo "File $URJTAG.md5 not found on $REPO!"
+    exit 1
+  fi
+  if ! tftp -g -l $URJTAG.tgz -r blackfin/$URJTAG.tgz $REPO; then
+    echo "File $URJTAG.tgz not found on $REPO!"
+    exit 1
+  fi
+  if ! md5sum -c $URJTAG.md5; then
+    echo "File $URJTAG.tgz is corrupt!"
+    exit 1
+  fi
+  echo "Installing UrJTAG..."
+  tar xvf $URJTAG.tgz -C /
+  rm -f $URJTAG.*
+fi
+
+SVF=`basename "$1" .svf`
+if [ ! -f "$SVF.svf" ]; then
+  echo "Downloading $SVF..."
+  if ! tftp -g -l "$SVF.md5" -r "blackfin/urjtag/svf/$SVF.md5" $REPO; then
+    echo "File $SVF.md5 not found on $REPO!"
+    exit 1
+  fi
+  if ! tftp -g -l "$SVF.svf" -r "blackfin/urjtag/svf/$SVF.svf" $REPO; then
+    echo "File $SVF.svf not found on $REPO!"
+    exit 1
+  fi
+  if ! md5sum -c "$SVF.md5"; then
+    echo "File $SVF.svf is corrupt!"
+    exit 1
+  fi
+fi
+
+echo "BEGINNING FPGA PROGRAMMING SEQUENCE"
+echo "PLEASE WAIT...THIS MAY TAKE UP TO TEN MINUTES TO COMPLETE"
+jtag <<END
+cable gpio tms=28 tck=29 tdi=30 tdo=31
+detect
+svf $SVF.svf
+END
+echo "FPGA PROGRAMMING COMPLETE."
+echo "You are advised to power-cycle the Blackfin now."
+
+cd "$CURRENT_WORKING_DIR"

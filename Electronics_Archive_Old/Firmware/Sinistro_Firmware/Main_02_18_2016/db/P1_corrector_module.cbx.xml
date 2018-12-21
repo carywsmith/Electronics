@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="P1_corrector_module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|P1_corrector_module|lpm_counter46:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_elk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|P1_corrector_module|lpm_counter47:inst16|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_blk.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

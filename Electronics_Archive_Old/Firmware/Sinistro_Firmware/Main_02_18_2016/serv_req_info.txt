@@ -1,0 +1,224 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>CUI</sub_system>
+	<file>/quartus/gcl/cui/cui_gdi_manager.cpp</file>
+	<line>2232</line>
+	<callstack>
+	0x01279358: GCL_CUI + 0x29358 (?GetThisMessageMap@CUI_FIND_SCINTILLA_DLG@@KGPBUAFX_MSGMAP@@XZ + 0xde8)
+	0x0127d758: GCL_CUI + 0x2d758 (??BCUI_IMAGELIST@@QAIPAVCImageList@@XZ + 0x128)
+	0x10dced23: edt_ged + 0x9ed23 (_DllMain@12 + 0x71f63)
+	</callstack>
+	<error>this-&gt;m_brush.GetLogBrush(&amp;logbrush)</error>
+	<date>Sat Jul 25 22:42:36 2009</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>this-&gt;m_brush.GetLogBrush(&amp;logbrush)
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>PGMW</sub_system>
+	<file>/quartus/pgm/pgmw/pgmw_view.cpp</file>
+	<line>3500</line>
+	<callstack>
+	0x0d3c9bc6: pgm_pgmw + 0x49bc6 (pgmw_show_hardware_dlg + 0x2b5b6)
+	0x100062ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x7863ba18: mfc90 + 0x5ba18
+	0x7863a60c: mfc90 + 0x5a60c
+	0x7863a898: mfc90 + 0x5a898
+	0x78638593: mfc90 + 0x58593
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e428e9f: USER32 + 0x18e9f (DefWindowProcW + 0x17f)
+	0x7e428eeb: USER32 + 0x18eeb (DefWindowProcW + 0x1cb)
+	0x7c90e472: ntdll + 0xe472 (KiUserCallbackDispatcher + 0x12)
+	0x7e42c227: USER32 + 0x1c227 (DefWindowProcA + 0xa9)
+	0x7e42c1d4: USER32 + 0x1c1d4 (DefWindowProcA + 0x56)
+	0x04a2af0c: GCL_SFTTREE + 0x2af0c (?SftTree_WndProc@@YGJPAUHWND__@@IIJ@Z + 0x6cc)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e42a012: USER32 + 0x1a012 (IsWindowUnicode + 0xa0)
+	0x7e42a997: USER32 + 0x1a997 (CallWindowProcA + 0x1a)
+	0x7863b117: mfc90 + 0x5b117
+	0x7863ba2f: mfc90 + 0x5ba2f
+	0x7863a60c: mfc90 + 0x5a60c
+	0x7863a898: mfc90 + 0x5a898
+	0x78638593: mfc90 + 0x58593
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e42bf14: USER32 + 0x1bf14 (UserLpkPSMTextOut + 0x2ef)
+	0x7e42c227: USER32 + 0x1c227 (DefWindowProcA + 0xa9)
+	0x7e42c1d4: USER32 + 0x1c1d4 (DefWindowProcA + 0x56)
+	0x04a2af0c: GCL_SFTTREE + 0x2af0c (?SftTree_WndProc@@YGJPAUHWND__@@IIJ@Z + 0x6cc)
+	0x012b13df: sys_tb2 + 0x13df (?tb2_copy_file@@YI_NABV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@ABVFIO_PATH@@@Z + 0x3f)
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x012b13df: sys_tb2 + 0x13df (?tb2_copy_file@@YI_NABV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@ABVFIO_PATH@@@Z + 0x3f)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e42a012: USER32 + 0x1a012 (IsWindowUnicode + 0xa0)
+	0x7e42a997: USER32 + 0x1a997 (CallWindowProcA + 0x1a)
+	0x7863b117: mfc90 + 0x5b117
+	0x7863ba2f: mfc90 + 0x5ba2f
+	0x7863a60c: mfc90 + 0x5a60c
+	0x7863a898: mfc90 + 0x5a898
+	0x78638593: mfc90 + 0x58593
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e4189cc: USER32 + 0x89cc (GetWindowLongW + 0x126)
+	0x7e4196c6: USER32 + 0x96c6 (DispatchMessageA + 0xe)
+	0x7867a75d: mfc90 + 0x9a75d
+	0x003d1968: ccl_thr + 0x1968 (thr_thread_var_destroy + 0x28)
+	0x78647201: mfc90 + 0x67201
+	0x0044f42e: quartus + 0x4f42e (Pjm_Uninit + 0x401ee)
+	0x7c817076: kernel32 + 0x17076 (RegisterWaitForInputIdle + 0x48)
+	0xffffffffffffffff:
+	</callstack>
+	<error>no popup menu</error>
+	<date>Wed Oct 07 13:54:18 2009</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>no popup menu
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x10046096: GCL_AFC + 0x46096 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x7b6)
+	</callstack>
+	<error>Current editor: SFW, GED, CFW</error>
+	<date>Tue Oct 13 12:41:46 2009</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X10046096
+Current editor: SFW, GED, CFW
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>AFC</sub_system>
+	<file>/quartus/gcl/afc/afc_child_frame.cpp</file>
+	<line>1940</line>
+	<callstack>
+	0x1000965c: GCL_AFC + 0x965c (?enable_docking@AFC_CHILD_FRAME@@QAIXK@Z + 0x7c)
+	0x1004c775: GCL_AFC + 0x4c775 (?OnCreate@AFC_CHILD_FRAME@@IAEHPAUtagCREATESTRUCTA@@@Z + 0x95)
+	0x7863bcd8: mfc90 + 0x5bcd8
+	0x7866801c: mfc90 + 0x8801c
+	0x78638593: mfc90 + 0x58593
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e428e9f: USER32 + 0x18e9f (DefWindowProcW + 0x17f)
+	0x7e42ce7b: USER32 + 0x1ce7b (SetLayeredWindowAttributes + 0x69)
+	0x7c90e472: ntdll + 0xe472 (KiUserCallbackDispatcher + 0x12)
+	0x7e42e441: USER32 + 0x1e441 (GetScrollInfo + 0x45f)
+	0x7e42e4db: USER32 + 0x1e4db (CreateWindowExA + 0x32)
+	0x7e430682: USER32 + 0x20682 (ChangeClipboardChain + 0x1fb)
+	0x7e44f9aa: USER32 + 0x3f9aa (DefFrameProcA + 0x45)
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e42a012: USER32 + 0x1a012 (IsWindowUnicode + 0xa0)
+	0x7e42a997: USER32 + 0x1a997 (CallWindowProcA + 0x1a)
+	0x7863b117: mfc90 + 0x5b117
+	0x7863ba2f: mfc90 + 0x5ba2f
+	0x7863a60c: mfc90 + 0x5a60c
+	0x7863a898: mfc90 + 0x5a898
+	0x78638593: mfc90 + 0x58593
+	0x7e418733: USER32 + 0x8733 (GetDC + 0x6c)
+	0x7e418815: USER32 + 0x8815 (GetDC + 0x14e)
+	0x7e42927a: USER32 + 0x1927a (GetParent + 0x16b)
+	0x7e42f40a: USER32 + 0x1f40a (SendMessageA + 0x48)
+	0x78645113: mfc90 + 0x65113
+	0x1004b969: GCL_AFC + 0x4b969 (?load_frame@AFC_CHILD_FRAME@@UAIHIKPAVCWnd@@PAUCCreateContext@@PAUHINSTANCE__@@_N@Z + 0x6f9)
+	0x7c91019a: ntdll + 0x1019a (RtlAllocateHeap + 0xd6)
+	0x7c9101da: ntdll + 0x101da (RtlAllocateHeap + 0x116)
+	0x7c91019a: ntdll + 0x1019a (RtlAllocateHeap + 0xd6)
+	0x7c9101da: ntdll + 0x101da (RtlAllocateHeap + 0x116)
+	0x0872e177:
+	0xffffffffffffffff:
+	</callstack>
+	<error>(bar != NULL) &amp;&amp; bar-&gt;Create(this, WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CHILD | WS_VISIBLE | m_s_dock_bar_map[i][1], 0, m_s_dock_bar_map[i][0])</error>
+	<date>Tue Oct 13 13:20:27 2009</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>(bar != NULL) &amp;&amp; bar-&gt;Create(this, WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CHILD | WS_VISIBLE | m_s_dock_bar_map[i][1], 0, m_s_dock_bar_map[i][0])
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x10046096: GCL_AFC + 0x46096 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x7b6)
+	</callstack>
+	<error>Current editor: SFW, CFW, GED</error>
+	<date>Tue Oct 13 13:25:10 2009</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X10046096
+Current editor: SFW, CFW, GED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0906d9b7: atm_amerge + 0x3d9b7 (amerge_mini_merge + 0x3a5d7)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x0906d152: atm_amerge + 0x3d152 (amerge_mini_merge + 0x39d72)
+	0x0907405d: atm_amerge + 0x4405d (amerge_mini_merge + 0x40c7d)
+	0x0903321d: atm_amerge + 0x321d
+	0x090333f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917c50: ntdll + 0x17c50 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Fri Feb 25 15:38:08 2011</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x091bd9b7: atm_amerge + 0x3d9b7 (amerge_mini_merge + 0x3a5d7)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x091bd152: atm_amerge + 0x3d152 (amerge_mini_merge + 0x39d72)
+	0x091c405d: atm_amerge + 0x4405d (amerge_mini_merge + 0x40c7d)
+	0x0918321d: atm_amerge + 0x321d
+	0x091833f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917c50: ntdll + 0x17c50 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Fri Feb 25 15:39:43 2011</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x091bd9b7: atm_amerge + 0x3d9b7 (amerge_mini_merge + 0x3a5d7)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x091bd152: atm_amerge + 0x3d152 (amerge_mini_merge + 0x39d72)
+	0x091c405d: atm_amerge + 0x4405d (amerge_mini_merge + 0x40c7d)
+	0x0918321d: atm_amerge + 0x321d
+	0x091833f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917c50: ntdll + 0x17c50 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Fri Feb 25 15:43:02 2011</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

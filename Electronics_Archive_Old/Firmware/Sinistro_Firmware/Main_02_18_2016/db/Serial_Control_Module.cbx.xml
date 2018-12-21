@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Serial_Control_Module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Control_Module|lpm_mux2:inst16|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_1qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_uaj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Control_Module|lpm_mux2:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_1qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Control_Module|lpm_mux2:inst15|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_1qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_c7j1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

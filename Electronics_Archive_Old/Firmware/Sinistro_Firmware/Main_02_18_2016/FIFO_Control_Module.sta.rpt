@@ -1,0 +1,986 @@
+TimeQuest Timing Analyzer report for FIFO_Control_Module
+Sat Feb 07 16:40:22 2009
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Clocks
+  4. Slow 1200mV 85C Model Fmax Summary
+  5. Slow 1200mV 85C Model Setup Summary
+  6. Slow 1200mV 85C Model Hold Summary
+  7. Slow 1200mV 85C Model Recovery Summary
+  8. Slow 1200mV 85C Model Removal Summary
+  9. Slow 1200mV 85C Model Minimum Pulse Width
+ 10. Setup Times
+ 11. Hold Times
+ 12. Clock to Output Times
+ 13. Minimum Clock to Output Times
+ 14. Propagation Delay
+ 15. Minimum Propagation Delay
+ 16. Slow 1200mV 0C Model Fmax Summary
+ 17. Slow 1200mV 0C Model Setup Summary
+ 18. Slow 1200mV 0C Model Hold Summary
+ 19. Slow 1200mV 0C Model Recovery Summary
+ 20. Slow 1200mV 0C Model Removal Summary
+ 21. Slow 1200mV 0C Model Minimum Pulse Width
+ 22. Setup Times
+ 23. Hold Times
+ 24. Clock to Output Times
+ 25. Minimum Clock to Output Times
+ 26. Propagation Delay
+ 27. Minimum Propagation Delay
+ 28. Fast 1200mV 0C Model Setup Summary
+ 29. Fast 1200mV 0C Model Hold Summary
+ 30. Fast 1200mV 0C Model Recovery Summary
+ 31. Fast 1200mV 0C Model Removal Summary
+ 32. Fast 1200mV 0C Model Minimum Pulse Width
+ 33. Setup Times
+ 34. Hold Times
+ 35. Clock to Output Times
+ 36. Minimum Clock to Output Times
+ 37. Propagation Delay
+ 38. Minimum Propagation Delay
+ 39. Multicorner Timing Analysis Summary
+ 40. Setup Times
+ 41. Hold Times
+ 42. Clock to Output Times
+ 43. Minimum Clock to Output Times
+ 44. Progagation Delay
+ 45. Minimum Progagation Delay
+ 46. Board Trace Model Assignments
+ 47. Input Transition Times
+ 48. Slow Corner Signal Integrity Metrics
+ 49. Fast Corner Signal Integrity Metrics
+ 50. Setup Transfers
+ 51. Hold Transfers
+ 52. Report TCCS
+ 53. Report RSKM
+ 54. Unconstrained Paths
+ 55. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 8.1 Build 163 10/28/2008 SJ Full Version ;
+; Revision Name      ; FIFO_Control_Module                              ;
+; Device Family      ; Cyclone III                                      ;
+; Device Name        ; EP3C16F256C6                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Enabled                                          ;
++--------------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                               ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets      ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+; Clk_48     ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Clk_48 }   ;
+; IFClk_In   ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { IFClk_In } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Fmax Summary                                                                         ;
++-------------+-----------------+------------+---------------------------------------------------------------+
+; Fmax        ; Restricted Fmax ; Clock Name ; Note                                                          ;
++-------------+-----------------+------------+---------------------------------------------------------------+
+; 322.16 MHz  ; 250.0 MHz       ; IFClk_In   ; limit due to minimum period restriction (max I/O toggle rate) ;
+; 1386.96 MHz ; 250.0 MHz       ; Clk_48     ; limit due to minimum period restriction (max I/O toggle rate) ;
++-------------+-----------------+------------+---------------------------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++-------------------------------------+
+; Slow 1200mV 85C Model Setup Summary ;
++----------+--------+-----------------+
+; Clock    ; Slack  ; End Point TNS   ;
++----------+--------+-----------------+
+; IFClk_In ; -2.104 ; -30.592         ;
+; Clk_48   ; 0.279  ; 0.000           ;
++----------+--------+-----------------+
+
+
++------------------------------------+
+; Slow 1200mV 85C Model Hold Summary ;
++----------+-------+-----------------+
+; Clock    ; Slack ; End Point TNS   ;
++----------+-------+-----------------+
+; Clk_48   ; 0.346 ; 0.000           ;
+; IFClk_In ; 0.359 ; 0.000           ;
++----------+-------+-----------------+
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width                                                                                           ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+; Slack  ; Actual Width ; Required Width ; CCPP  ; Type             ; Clock    ; Clock Edge ; Target                                  ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+; -3.000 ; 1.000        ; 4.000          ; 0.000 ; Port Rate        ; Clk_48   ; Rise       ; Clk_48                                  ;
+; -3.000 ; 1.000        ; 4.000          ; 0.000 ; Port Rate        ; IFClk_In ; Rise       ; IFClk_In                                ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; Clk_48   ; Rise       ; inst5                                   ;
+; 0.175  ; 0.282        ; 0.184          ; 0.077 ; Low Pulse Width  ; Clk_48   ; Rise       ; inst5                                   ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; 0.186  ; 0.287        ; 0.184          ; 0.083 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; 0.412  ; 0.545        ; 0.216          ; 0.083 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; 0.423  ; 0.562        ; 0.216          ; 0.077 ; High Pulse Width ; Clk_48   ; Rise       ; inst5                                   ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Setup Times                                                                ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; 3.896 ; 4.435 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; 4.176 ; 4.622 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; 4.259 ; 4.619 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; 0.482 ; 0.689 ; Rise       ; IFClk_In        ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++------------------------------------------------------------------------------+
+; Hold Times                                                                   ;
++----------------+------------+--------+--------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++----------------+------------+--------+--------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; -1.663 ; -2.148 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; -1.675 ; -2.160 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; -1.968 ; -2.348 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; -0.062 ; -0.281 ; Rise       ; IFClk_In        ;
++----------------+------------+--------+--------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Clock to Output Times                                                          ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 6.371 ; 6.439 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 3.711 ; 3.530 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.721 ; 3.540 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 6.490 ; 6.405 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 7.311 ; 7.344 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 3.711 ; 3.530 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.721 ; 3.540 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                  ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 6.218 ; 6.282 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 3.687 ; 3.507 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.697 ; 3.517 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 6.330 ; 6.250 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 7.128 ; 7.159 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 3.687 ; 3.507 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.697 ; 3.517 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 7.294 ;       ;       ; 7.820 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 7.251 ;       ;       ; 7.756 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 4.233 ;       ;       ; 4.397 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 4.012 ;       ;       ; 4.154 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 7.021 ; 7.508 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 7.135 ; 7.618 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 7.146 ;       ;       ; 7.649 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 7.116 ;       ;       ; 7.611 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 4.168 ;       ;       ; 4.315 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 3.970 ;       ;       ; 4.111 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 6.844 ; 7.320 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 6.897 ; 7.353 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Fmax Summary                                                                          ;
++-------------+-----------------+------------+---------------------------------------------------------------+
+; Fmax        ; Restricted Fmax ; Clock Name ; Note                                                          ;
++-------------+-----------------+------------+---------------------------------------------------------------+
+; 362.58 MHz  ; 250.0 MHz       ; IFClk_In   ; limit due to minimum period restriction (max I/O toggle rate) ;
+; 1569.86 MHz ; 250.0 MHz       ; Clk_48     ; limit due to minimum period restriction (max I/O toggle rate) ;
++-------------+-----------------+------------+---------------------------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++------------------------------------+
+; Slow 1200mV 0C Model Setup Summary ;
++----------+--------+----------------+
+; Clock    ; Slack  ; End Point TNS  ;
++----------+--------+----------------+
+; IFClk_In ; -1.758 ; -25.374        ;
+; Clk_48   ; 0.363  ; 0.000          ;
++----------+--------+----------------+
+
+
++-----------------------------------+
+; Slow 1200mV 0C Model Hold Summary ;
++----------+-------+----------------+
+; Clock    ; Slack ; End Point TNS  ;
++----------+-------+----------------+
+; Clk_48   ; 0.306 ; 0.000          ;
+; IFClk_In ; 0.313 ; 0.000          ;
++----------+-------+----------------+
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width                                                                                            ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+; Slack  ; Actual Width ; Required Width ; CCPP  ; Type             ; Clock    ; Clock Edge ; Target                                  ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+; -3.000 ; 1.000        ; 4.000          ; 0.000 ; Port Rate        ; Clk_48   ; Rise       ; Clk_48                                  ;
+; -3.000 ; 1.000        ; 4.000          ; 0.000 ; Port Rate        ; IFClk_In ; Rise       ; IFClk_In                                ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; Clk_48   ; Rise       ; inst5                                   ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; 0.182  ; 0.293        ; 0.184          ; 0.073 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; 0.204  ; 0.321        ; 0.184          ; 0.067 ; Low Pulse Width  ; Clk_48   ; Rise       ; inst5                                   ;
+; 0.394  ; 0.543        ; 0.216          ; 0.067 ; High Pulse Width ; Clk_48   ; Rise       ; inst5                                   ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; 0.418  ; 0.561        ; 0.216          ; 0.073 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Setup Times                                                                ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; 3.439 ; 3.840 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; 3.657 ; 4.064 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; 3.726 ; 4.052 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; 0.441 ; 0.664 ; Rise       ; IFClk_In        ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++------------------------------------------------------------------------------+
+; Hold Times                                                                   ;
++----------------+------------+--------+--------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++----------------+------------+--------+--------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; -1.413 ; -1.811 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; -1.435 ; -1.841 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; -1.717 ; -2.003 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; -0.070 ; -0.298 ; Rise       ; IFClk_In        ;
++----------------+------------+--------+--------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Clock to Output Times                                                          ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 6.103 ; 6.104 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 3.661 ; 3.477 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.671 ; 3.487 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 6.068 ; 6.059 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 6.832 ; 6.954 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 3.661 ; 3.477 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.671 ; 3.487 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                  ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 5.963 ; 5.963 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 3.639 ; 3.456 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.649 ; 3.466 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 5.927 ; 5.920 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 6.668 ; 6.786 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 3.639 ; 3.456 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.649 ; 3.466 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 6.867 ;       ;       ; 7.315 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 6.833 ;       ;       ; 7.256 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 4.109 ;       ;       ; 4.269 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 3.914 ;       ;       ; 4.052 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 6.532 ; 6.892 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 6.636 ; 6.991 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 6.739 ;       ;       ; 7.172 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 6.718 ;       ;       ; 7.136 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 4.048 ;       ;       ; 4.197 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 3.875 ;       ;       ; 4.014 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 6.380 ; 6.732 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 6.427 ; 6.760 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++------------------------------------+
+; Fast 1200mV 0C Model Setup Summary ;
++----------+--------+----------------+
+; Clock    ; Slack  ; End Point TNS  ;
++----------+--------+----------------+
+; IFClk_In ; -0.719 ; -8.862         ;
+; Clk_48   ; 0.604  ; 0.000          ;
++----------+--------+----------------+
+
+
++-----------------------------------+
+; Fast 1200mV 0C Model Hold Summary ;
++----------+-------+----------------+
+; Clock    ; Slack ; End Point TNS  ;
++----------+-------+----------------+
+; Clk_48   ; 0.186 ; 0.000          ;
+; IFClk_In ; 0.187 ; 0.000          ;
++----------+-------+----------------+
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width                                                                                            ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+; Slack  ; Actual Width ; Required Width ; CCPP  ; Type             ; Clock    ; Clock Edge ; Target                                  ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+; -3.000 ; 1.000        ; 4.000          ; 0.000 ; Port Rate        ; Clk_48   ; Rise       ; Clk_48                                  ;
+; -3.000 ; 1.000        ; 4.000          ; 0.000 ; Port Rate        ; IFClk_In ; Rise       ; IFClk_In                                ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; -1.000 ; 1.000        ; 2.000          ; 0.000 ; Min Period       ; Clk_48   ; Rise       ; inst5                                   ;
+; -0.105 ; 0.035        ; 0.184          ; 0.044 ; Low Pulse Width  ; Clk_48   ; Rise       ; inst5                                   ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; -0.058 ; 0.077        ; 0.184          ; 0.049 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; -0.057 ; 0.077        ; 0.184          ; 0.050 ; Low Pulse Width  ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|Slave_FIFO_Write_n ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[0]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[1]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[2]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[3]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[4]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[5]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[6]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[7]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[8]         ;
+; 0.656  ; 0.823        ; 0.216          ; 0.049 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|counter[9]         ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.Wr_Slave     ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.idle0        ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.w0           ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|state.wi           ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[0]              ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[1]              ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[2]              ;
+; 0.656  ; 0.822        ; 0.216          ; 0.050 ; High Pulse Width ; IFClk_In ; Rise       ; fifo_controller:inst|wt[3]              ;
+; 0.701  ; 0.873        ; 0.216          ; 0.044 ; High Pulse Width ; Clk_48   ; Rise       ; inst5                                   ;
++--------+--------------+----------------+-------+------------------+----------+------------+-----------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Setup Times                                                                ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; 2.124 ; 2.845 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; 2.376 ; 2.908 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; 2.379 ; 2.878 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; 0.228 ; 0.616 ; Rise       ; IFClk_In        ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++------------------------------------------------------------------------------+
+; Hold Times                                                                   ;
++----------------+------------+--------+--------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++----------------+------------+--------+--------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; -0.929 ; -1.567 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; -0.957 ; -1.591 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; -1.069 ; -1.672 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; 0.009  ; -0.388 ; Rise       ; IFClk_In        ;
++----------------+------------+--------+--------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Clock to Output Times                                                          ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 3.740 ; 3.883 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 2.557 ; 2.211 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 2.567 ; 2.221 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 3.921 ; 3.785 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 4.468 ; 4.336 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 2.557 ; 2.211 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 2.567 ; 2.221 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                  ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 3.655 ; 3.790 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 2.544 ; 2.197 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 2.554 ; 2.207 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 3.824 ; 3.694 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 4.356 ; 4.230 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 2.544 ; 2.197 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 2.554 ; 2.207 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 4.439 ;       ;       ; 5.148 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 4.430 ;       ;       ; 5.138 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 2.555 ;       ;       ; 2.946 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 2.427 ;       ;       ; 2.813 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 4.176 ; 4.829 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 4.222 ; 4.871 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 4.355 ;       ;       ; 5.049 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 4.354 ;       ;       ; 5.054 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 2.520 ;       ;       ; 2.898 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 2.404 ;       ;       ; 2.790 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 4.079 ; 4.720 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 4.086 ; 4.717 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++-------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                           ;
++------------------+---------+-------+----------+---------+---------------------+
+; Clock            ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+---------+-------+----------+---------+---------------------+
+; Worst-case Slack ; -2.104  ; 0.0   ; 0.0      ; 0.0     ; -3.000              ;
+;  Clk_48          ; 0.279   ; 0.186 ; N/A      ; N/A     ; N/A                 ;
+;  IFClk_In        ; -2.104  ; 0.187 ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; -30.592 ; 0.0   ; 0.0      ; 0.0     ; N/A                 ;
+;  Clk_48          ; 0.000   ; 0.000 ; N/A      ; N/A     ; N/A                 ;
+;  IFClk_In        ; -30.592 ; 0.000 ; N/A      ; N/A     ; N/A                 ;
++------------------+---------+-------+----------+---------+---------------------+
+
+
++----------------------------------------------------------------------------+
+; Setup Times                                                                ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; 3.896 ; 4.435 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; 4.176 ; 4.622 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; 4.259 ; 4.619 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; 0.482 ; 0.689 ; Rise       ; IFClk_In        ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++------------------------------------------------------------------------------+
+; Hold Times                                                                   ;
++----------------+------------+--------+--------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++----------------+------------+--------+--------+------------+-----------------+
+; FLAG_B         ; IFClk_In   ; -0.929 ; -1.567 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_H_n  ; IFClk_In   ; -0.957 ; -1.591 ; Rise       ; IFClk_In        ;
+; O_FIFO_OR_L_n  ; IFClk_In   ; -1.069 ; -1.672 ; Rise       ; IFClk_In        ;
+; O_FIFO_Reset_n ; IFClk_In   ; 0.009  ; -0.281 ; Rise       ; IFClk_In        ;
++----------------+------------+--------+--------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Clock to Output Times                                                          ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 6.371 ; 6.439 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 3.711 ; 3.530 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.721 ; 3.540 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 6.490 ; 6.405 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 7.311 ; 7.344 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 3.711 ; 3.530 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 3.721 ; 3.540 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                  ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Data Port          ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------------+------------+-------+-------+------------+-----------------+
+; Clk_24_Out         ; Clk_48     ; 3.655 ; 3.790 ; Rise       ; Clk_48          ;
+; IFClk_Out          ; IFClk_In   ; 2.544 ; 2.197 ; Rise       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 2.554 ; 2.207 ; Rise       ; IFClk_In        ;
+; O_FIFO_Read_n      ; IFClk_In   ; 3.824 ; 3.694 ; Rise       ; IFClk_In        ;
+; Slave_FIFO_Write_n ; IFClk_In   ; 4.356 ; 4.230 ; Rise       ; IFClk_In        ;
+; IFClk_Out          ; IFClk_In   ; 2.544 ; 2.197 ; Fall       ; IFClk_In        ;
+; O_FIFO_RClk        ; IFClk_In   ; 2.554 ; 2.207 ; Fall       ; IFClk_In        ;
++--------------------+------------+-------+-------+------------+-----------------+
+
+
++---------------------------------------------------------------+
+; Progagation Delay                                             ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 7.294 ;       ;       ; 7.820 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 7.251 ;       ;       ; 7.756 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 4.233 ;       ;       ; 4.397 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 4.012 ;       ;       ; 4.154 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 7.021 ; 7.508 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 7.135 ; 7.618 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Progagation Delay                                     ;
++---------------+---------------+-------+-------+-------+-------+
+; Input Port    ; Output Port   ; RR    ; RF    ; FR    ; FF    ;
++---------------+---------------+-------+-------+-------+-------+
+; O_FIFO_AE_H_n ; O_FIFO_AE_n   ; 4.355 ;       ;       ; 5.049 ;
+; O_FIFO_AE_L_n ; O_FIFO_AE_n   ; 4.354 ;       ;       ; 5.054 ;
+; O_FIFO_AF_H_n ; O_FIFO_AF_n   ; 2.520 ;       ;       ; 2.898 ;
+; O_FIFO_AF_L_n ; O_FIFO_AF_n   ; 2.404 ;       ;       ; 2.790 ;
+; O_FIFO_IR_H_n ; O_FIFO_Full_n ;       ; 4.079 ; 4.720 ;       ;
+; O_FIFO_IR_L_n ; O_FIFO_Full_n ;       ; 4.086 ; 4.717 ;       ;
++---------------+---------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                         ;
++--------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Pin                ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ;
++--------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; IFClk_Out          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; Clk_24_Out         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_Read_n      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_RClk        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; Slave_FIFO_Write_n ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_AF_n        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_AE_n        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; O_FIFO_Full_n      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_DCLK~      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_nCEO~      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
++--------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; IFClk_In                ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_AF_L_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_AF_H_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_AE_L_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_AE_H_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_IR_H_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_IR_L_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Clk_48                  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Reset_n                 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; FLAG_B                  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_OR_L_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_OR_H_n           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; O_FIFO_Reset_n          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; IFClk_Out          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.036 V                              ; 7.76e-010 s                 ; 8.06e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.036 V                             ; 7.76e-010 s                ; 8.06e-010 s                ; Yes                       ; Yes                       ;
+; Clk_24_Out         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.036 V                              ; 7.76e-010 s                 ; 8.06e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.036 V                             ; 7.76e-010 s                ; 8.06e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_Read_n      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0112 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0112 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_RClk        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.036 V                              ; 7.76e-010 s                 ; 8.06e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.036 V                             ; 7.76e-010 s                ; 8.06e-010 s                ; Yes                       ; Yes                       ;
+; Slave_FIFO_Write_n ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.036 V                              ; 7.76e-010 s                 ; 8.06e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.036 V                             ; 7.76e-010 s                ; 8.06e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_AF_n        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.036 V                              ; 7.76e-010 s                 ; 8.06e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.036 V                             ; 7.76e-010 s                ; 8.06e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_AE_n        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.33 V              ; -0.00317 V          ; 0.162 V                              ; 0.063 V                              ; 3.54e-009 s                 ; 3.41e-009 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.33 V             ; -0.00317 V         ; 0.162 V                             ; 0.063 V                             ; 3.54e-009 s                ; 3.41e-009 s                ; Yes                       ; Yes                       ;
+; O_FIFO_Full_n      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-007 V                  ; 2.35 V              ; -0.011 V            ; 0.113 V                              ; 0.036 V                              ; 7.76e-010 s                 ; 8.06e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-007 V                 ; 2.35 V             ; -0.011 V           ; 0.113 V                             ; 0.036 V                             ; 7.76e-010 s                ; 8.06e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-007 V                  ; 2.35 V              ; -0.0132 V           ; 0.2 V                                ; 0.027 V                              ; 5.26e-010 s                 ; 4.81e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-007 V                 ; 2.35 V             ; -0.0132 V          ; 0.2 V                               ; 0.027 V                             ; 5.26e-010 s                ; 4.81e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-007 V                  ; 2.35 V              ; -0.0046 V           ; 0.18 V                               ; 0.019 V                              ; 7.23e-010 s                 ; 9.82e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-007 V                 ; 2.35 V             ; -0.0046 V          ; 0.18 V                              ; 0.019 V                             ; 7.23e-010 s                ; 9.82e-010 s                ; Yes                       ; Yes                       ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; IFClk_Out          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; Clk_24_Out         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; O_FIFO_Read_n      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; O_FIFO_RClk        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; Slave_FIFO_Write_n ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; O_FIFO_AF_n        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; O_FIFO_AE_n        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.64 V              ; -0.0109 V           ; 0.244 V                              ; 0.16 V                               ; 2.42e-009 s                 ; 2.37e-009 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.64 V             ; -0.0109 V          ; 0.244 V                             ; 0.16 V                              ; 2.42e-009 s                ; 2.37e-009 s                ; No                        ; Yes                       ;
+; O_FIFO_Full_n      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.253 V                              ; 0.068 V                              ; 4.96e-010 s                 ; 5.19e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.253 V                             ; 0.068 V                             ; 4.96e-010 s                ; 5.19e-010 s                ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.19e-008 V                  ; 2.72 V              ; -0.0748 V           ; 0.28 V                               ; 0.169 V                              ; 3.1e-010 s                  ; 3.01e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.19e-008 V                 ; 2.72 V             ; -0.0748 V          ; 0.28 V                              ; 0.169 V                             ; 3.1e-010 s                 ; 3.01e-010 s                ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.53e-008 V                  ; 2.7 V               ; -0.021 V            ; 0.204 V                              ; 0.05 V                               ; 4.85e-010 s                 ; 6.73e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 3.53e-008 V                 ; 2.7 V              ; -0.021 V           ; 0.204 V                             ; 0.05 V                              ; 4.85e-010 s                ; 6.73e-010 s                ; No                        ; Yes                       ;
++--------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; Clk_48     ; Clk_48   ; 1        ; 0        ; 0        ; 0        ;
+; IFClk_In   ; IFClk_In ; 340      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; Clk_48     ; Clk_48   ; 1        ; 0        ; 0        ; 0        ;
+; IFClk_In   ; IFClk_In ; 340      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design.
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design.
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 12    ; 12   ;
+; Unconstrained Input Port Paths  ; 79    ; 79   ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 11    ; 11   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 8.1 Build 163 10/28/2008 SJ Full Version
+    Info: Processing started: Sat Feb 07 16:40:12 2009
+Info: Command: quartus_sta FIFO_Control_Module -c FIFO_Control_Module
+Info: qsta_default_script.tcl version: #2
+Info: Only one processor detected - disabling parallel compilation
+Critical Warning: Synopsys Design Constraints File file not found: 'FIFO_Control_Module.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: Deriving Clocks
+    Info: create_clock -period 1.000 -name IFClk_In IFClk_In
+    Info: create_clock -period 1.000 -name Clk_48 Clk_48
+Warning: The following clock transfers have no clock uncertainty assignment
+    Warning: From IFClk_In (Rise) to IFClk_In (Rise) (setup and hold)
+    Warning: From Clk_48 (Rise) to Clk_48 (Rise) (setup and hold)
+Info: Analyzing Slow 1200mV 85C Model
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -2.104
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    -2.104       -30.592 IFClk_In 
+    Info:     0.279         0.000 Clk_48 
+Info: Worst-case hold slack is 0.346
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:     0.346         0.000 Clk_48 
+    Info:     0.359         0.000 IFClk_In 
+Info: No recovery paths to report
+Info: No removal paths to report
+Critical Warning: Found minimum pulse width or period violations. See Report Minimum Pulse Width for details.
+Info: Analyzing Slow 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Warning: The following clock transfers have no clock uncertainty assignment
+    Warning: From IFClk_In (Rise) to IFClk_In (Rise) (setup and hold)
+    Warning: From Clk_48 (Rise) to Clk_48 (Rise) (setup and hold)
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -1.758
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    -1.758       -25.374 IFClk_In 
+    Info:     0.363         0.000 Clk_48 
+Info: Worst-case hold slack is 0.306
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:     0.306         0.000 Clk_48 
+    Info:     0.313         0.000 IFClk_In 
+Info: No recovery paths to report
+Info: No removal paths to report
+Critical Warning: Found minimum pulse width or period violations. See Report Minimum Pulse Width for details.
+Info: Analyzing Fast 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Warning: The following clock transfers have no clock uncertainty assignment
+    Warning: From IFClk_In (Rise) to IFClk_In (Rise) (setup and hold)
+    Warning: From Clk_48 (Rise) to Clk_48 (Rise) (setup and hold)
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -0.719
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    -0.719        -8.862 IFClk_In 
+    Info:     0.604         0.000 Clk_48 
+Info: Worst-case hold slack is 0.186
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:     0.186         0.000 Clk_48 
+    Info:     0.187         0.000 IFClk_In 
+Info: No recovery paths to report
+Info: No removal paths to report
+Critical Warning: Found minimum pulse width or period violations. See Report Minimum Pulse Width for details.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 16 warnings
+    Info: Peak virtual memory: 181 megabytes
+    Info: Processing ended: Sat Feb 07 16:40:22 2009
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:07
+
+

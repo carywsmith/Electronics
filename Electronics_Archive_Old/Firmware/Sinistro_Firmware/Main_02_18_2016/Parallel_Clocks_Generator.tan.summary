@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.186 ns
+From           : Addr[3]
+To             : lpm_dff4:inst64|lpm_ff:lpm_ff_component|dffs[11]
+From Clock     : --
+To Clock       : Wr_n
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 13.011 ns
+From           : lpm_ram_dq1:inst56|altsyncram:altsyncram_component|altsyncram_ggi1:auto_generated|q_a[3]
+To             : P_Cycle_Start
+From Clock     : Clk_100
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.282 ns
+From           : Exposure_Start
+To             : P_Cycle_Start
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.631 ns
+From           : DC_Hold
+To             : inst50
+From Clock     : --
+To Clock       : Clk_10K
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_100'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 235.18 MHz ( period = 4.252 ns )
+From           : lpm_ram_dq1:inst56|altsyncram:altsyncram_component|altsyncram_ggi1:auto_generated|q_a[3]
+To             : lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[12]
+From Clock     : Clk_100
+To Clock       : Clk_100
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_50K'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : inst148
+To             : inst149
+From Clock     : Clk_50K
+To Clock       : Clk_50K
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_10K'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : lpm_counter34:inst121|lpm_counter:lpm_counter_component|cntr_3nl:auto_generated|counter_reg_bit[0]
+To             : inst123
+From Clock     : Clk_10K
+To Clock       : Clk_10K
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clk_10'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : inst116
+To             : inst30
+From Clock     : Clk_10
+To Clock       : Clk_10
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

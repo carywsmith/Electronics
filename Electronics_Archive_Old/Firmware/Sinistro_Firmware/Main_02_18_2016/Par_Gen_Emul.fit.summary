@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Sep 25 11:58:29 2009
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : Par_Gen_Emul
+Top-level Entity Name : Par_Gen_Emul
+Family : Cyclone III
+Device : EP3C16F256C6
+Timing Models : Final
+Total logic elements : 24 / 15,408 ( < 1 % )
+    Total combinational functions : 24 / 15,408 ( < 1 % )
+    Dedicated logic registers : 11 / 15,408 ( < 1 % )
+Total registers : 11
+Total pins : 13 / 169 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

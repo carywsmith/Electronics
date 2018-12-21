@@ -1,0 +1,337 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 280 560)
+	(text "Acuisition_Control_Module" (rect 5 0 154 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 528 25 540)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Data[15..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "Data[15..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Wr_n" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "Wr_n" (rect 21 43 51 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Addr[3..0]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Addr[3..0]" (rect 21 59 77 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Acq_Control_Cs_n" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "Acq_Control_Cs_n" (rect 21 75 128 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Conversion_on" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "Conversion_on" (rect 21 91 107 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "Clk_100" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "Clk_100" (rect 21 107 65 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "Reset_n" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "Reset_n" (rect 21 123 68 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "CONVST" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "CONVST" (rect 21 139 71 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "ADC_Dat[7..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "ADC_Dat[7..0]" (rect 21 155 101 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "Clk_50_MHz" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "Clk_50_MHz" (rect 21 171 90 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "SRg_Flashing" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "SRg_Flashing" (rect 21 187 98 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "Enbl_Extra_FIFO_Wr" (rect 0 0 116 14)(font "Arial" (font_size 8)))
+		(text "Enbl_Extra_FIFO_Wr" (rect 21 203 137 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "Output_Format_Sel" (rect 0 0 108 14)(font "Arial" (font_size 8)))
+		(text "Output_Format_Sel" (rect 21 219 129 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 264 32)
+		(output)
+		(text "ZS[23..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "ZS[23..0]" (rect 192 27 243 41)(font "Arial" (font_size 8)))
+		(line (pt 264 32)(pt 248 32)(line_width 3))
+	)
+	(port
+		(pt 264 48)
+		(output)
+		(text "Result0[23..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "Result0[23..0]" (rect 166 43 243 57)(font "Arial" (font_size 8)))
+		(line (pt 264 48)(pt 248 48)(line_width 3))
+	)
+	(port
+		(pt 264 64)
+		(output)
+		(text "F_Mux" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "F_Mux" (rect 206 59 243 73)(font "Arial" (font_size 8)))
+		(line (pt 264 64)(pt 248 64)(line_width 1))
+	)
+	(port
+		(pt 264 80)
+		(output)
+		(text "DS[23..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "DS[23..0]" (rect 192 75 243 89)(font "Arial" (font_size 8)))
+		(line (pt 264 80)(pt 248 80)(line_width 3))
+	)
+	(port
+		(pt 264 96)
+		(output)
+		(text "DCE[3..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "DCE[3..0]" (rect 192 91 243 105)(font "Arial" (font_size 8)))
+		(line (pt 264 96)(pt 248 96)(line_width 3))
+	)
+	(port
+		(pt 264 112)
+		(output)
+		(text "Se[1..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "Se[1..0]" (rect 200 107 243 121)(font "Arial" (font_size 8)))
+		(line (pt 264 112)(pt 248 112)(line_width 3))
+	)
+	(port
+		(pt 264 128)
+		(output)
+		(text "ZCE[3..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "ZCE[3..0]" (rect 192 123 243 137)(font "Arial" (font_size 8)))
+		(line (pt 264 128)(pt 248 128)(line_width 3))
+	)
+	(port
+		(pt 264 144)
+		(output)
+		(text "Result1[23..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "Result1[23..0]" (rect 166 139 243 153)(font "Arial" (font_size 8)))
+		(line (pt 264 144)(pt 248 144)(line_width 3))
+	)
+	(port
+		(pt 264 160)
+		(output)
+		(text "Result2[23..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "Result2[23..0]" (rect 166 155 243 169)(font "Arial" (font_size 8)))
+		(line (pt 264 160)(pt 248 160)(line_width 3))
+	)
+	(port
+		(pt 264 176)
+		(output)
+		(text "F_Count_Cout" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "F_Count_Cout" (rect 163 171 243 185)(font "Arial" (font_size 8)))
+		(line (pt 264 176)(pt 248 176)(line_width 1))
+	)
+	(port
+		(pt 264 192)
+		(output)
+		(text "Result3[23..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "Result3[23..0]" (rect 166 187 243 201)(font "Arial" (font_size 8)))
+		(line (pt 264 192)(pt 248 192)(line_width 3))
+	)
+	(port
+		(pt 264 208)
+		(output)
+		(text "DS3[23..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "DS3[23..0]" (rect 184 203 243 217)(font "Arial" (font_size 8)))
+		(line (pt 264 208)(pt 248 208)(line_width 3))
+	)
+	(port
+		(pt 264 224)
+		(output)
+		(text "Z_Enable" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "Z_Enable" (rect 190 219 243 233)(font "Arial" (font_size 8)))
+		(line (pt 264 224)(pt 248 224)(line_width 1))
+	)
+	(port
+		(pt 264 240)
+		(output)
+		(text "Mux[23..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "Mux[23..0]" (rect 184 235 243 249)(font "Arial" (font_size 8)))
+		(line (pt 264 240)(pt 248 240)(line_width 3))
+	)
+	(port
+		(pt 264 256)
+		(output)
+		(text "Out[23..0]" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "Out[23..0]" (rect 188 251 243 265)(font "Arial" (font_size 8)))
+		(line (pt 264 256)(pt 248 256)(line_width 3))
+	)
+	(port
+		(pt 264 272)
+		(output)
+		(text "D_Enable" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "D_Enable" (rect 190 267 243 281)(font "Arial" (font_size 8)))
+		(line (pt 264 272)(pt 248 272)(line_width 1))
+	)
+	(port
+		(pt 264 288)
+		(output)
+		(text "FIFO_Dat[15..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "FIFO_Dat[15..0]" (rect 156 283 243 297)(font "Arial" (font_size 8)))
+		(line (pt 264 288)(pt 248 288)(line_width 3))
+	)
+	(port
+		(pt 264 304)
+		(output)
+		(text "S_Enable" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "S_Enable" (rect 190 299 243 313)(font "Arial" (font_size 8)))
+		(line (pt 264 304)(pt 248 304)(line_width 1))
+	)
+	(port
+		(pt 264 320)
+		(output)
+		(text "MSTB" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "MSTB" (rect 210 315 243 329)(font "Arial" (font_size 8)))
+		(line (pt 264 320)(pt 248 320)(line_width 1))
+	)
+	(port
+		(pt 264 336)
+		(output)
+		(text "M_Count[1..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "M_Count[1..0]" (rect 166 331 243 345)(font "Arial" (font_size 8)))
+		(line (pt 264 336)(pt 248 336)(line_width 3))
+	)
+	(port
+		(pt 264 352)
+		(output)
+		(text "FIFO_Wr_Enbl_n" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "FIFO_Wr_Enbl_n" (rect 149 347 243 361)(font "Arial" (font_size 8)))
+		(line (pt 264 352)(pt 248 352)(line_width 1))
+	)
+	(port
+		(pt 264 368)
+		(output)
+		(text "FIFO_WClk" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "FIFO_WClk" (rect 182 363 243 377)(font "Arial" (font_size 8)))
+		(line (pt 264 368)(pt 248 368)(line_width 1))
+	)
+	(port
+		(pt 264 384)
+		(output)
+		(text "FIFO_Trans_Clk" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "FIFO_Trans_Clk" (rect 154 379 243 393)(font "Arial" (font_size 8)))
+		(line (pt 264 384)(pt 248 384)(line_width 1))
+	)
+	(port
+		(pt 264 400)
+		(output)
+		(text "Start_Acquisition" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "Start_Acquisition" (rect 147 395 243 409)(font "Arial" (font_size 8)))
+		(line (pt 264 400)(pt 248 400)(line_width 1))
+	)
+	(port
+		(pt 264 416)
+		(output)
+		(text "SCE[10..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "SCE[10..0]" (rect 184 411 243 425)(font "Arial" (font_size 8)))
+		(line (pt 264 416)(pt 248 416)(line_width 3))
+	)
+	(port
+		(pt 264 432)
+		(output)
+		(text "SC_Dec[3..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "SC_Dec[3..0]" (rect 169 427 243 441)(font "Arial" (font_size 8)))
+		(line (pt 264 432)(pt 248 432)(line_width 3))
+	)
+	(port
+		(pt 264 448)
+		(output)
+		(text "DFF_Enbl" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "DFF_Enbl" (rect 190 443 243 457)(font "Arial" (font_size 8)))
+		(line (pt 264 448)(pt 248 448)(line_width 1))
+	)
+	(port
+		(pt 264 464)
+		(output)
+		(text "Dat_Stb" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "Dat_Stb" (rect 199 459 243 473)(font "Arial" (font_size 8)))
+		(line (pt 264 464)(pt 248 464)(line_width 1))
+	)
+	(port
+		(pt 264 480)
+		(output)
+		(text "ADC_Data[15..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "ADC_Data[15..0]" (rect 149 475 243 489)(font "Arial" (font_size 8)))
+		(line (pt 264 480)(pt 248 480)(line_width 3))
+	)
+	(port
+		(pt 264 496)
+		(output)
+		(text "16_bit_Stb" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "16_bit_Stb" (rect 183 491 243 505)(font "Arial" (font_size 8)))
+		(line (pt 264 496)(pt 248 496)(line_width 1))
+	)
+	(port
+		(pt 264 512)
+		(output)
+		(text "Data_Sel_Control" (rect 0 0 97 14)(font "Arial" (font_size 8)))
+		(text "Data_Sel_Control" (rect 146 507 243 521)(font "Arial" (font_size 8)))
+		(line (pt 264 512)(pt 248 512)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 248 528)(line_width 1))
+	)
+)

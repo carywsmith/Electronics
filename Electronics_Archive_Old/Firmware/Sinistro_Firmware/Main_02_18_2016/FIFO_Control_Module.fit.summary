@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Feb 07 16:39:52 2009
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Full Version
+Revision Name : FIFO_Control_Module
+Top-level Entity Name : FIFO_Control_Module
+Family : Cyclone III
+Device : EP3C16F256C6
+Timing Models : Final
+Total logic elements : 38 / 15,408 ( < 1 % )
+    Total combinational functions : 37 / 15,408 ( < 1 % )
+    Dedicated logic registers : 20 / 15,408 ( < 1 % )
+Total registers : 20
+Total pins : 21 / 169 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

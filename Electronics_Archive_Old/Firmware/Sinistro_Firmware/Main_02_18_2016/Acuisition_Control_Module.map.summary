@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jul 28 21:21:01 2009
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : Acuisition_Control_Module
+Top-level Entity Name : Acuisition_Control_Module
+Family : Cyclone III
+Total logic elements : 1,047
+    Total combinational functions : 904
+    Dedicated logic registers : 565
+Total registers : 565
+Total pins : 325
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

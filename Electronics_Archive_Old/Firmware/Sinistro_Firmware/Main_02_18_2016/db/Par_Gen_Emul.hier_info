@@ -1,0 +1,137 @@
+|Par_Gen_Emul
+Start_Act_L <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+Clk_10 => lpm_counter45:inst.clock
+Clk_10 => inst31.CLK
+Clk_10 => inst32.CLK
+Clk_10 => inst35.CLK
+Reset_n => lpm_counter45:inst.aload
+Reset_n => inst31.ACLR
+Reset_n => inst32.ACLR
+EOF_Act_Line => inst2.IN0
+CCD_Read_Start => inst31.DATAIN
+Em_Del[0] <= lpm_counter45:inst.q[0]
+Em_Del[1] <= lpm_counter45:inst.q[1]
+Em_Del[2] <= lpm_counter45:inst.q[2]
+Em_Del[3] <= lpm_counter45:inst.q[3]
+Em_Del[4] <= lpm_counter45:inst.q[4]
+Em_Del[5] <= lpm_counter45:inst.q[5]
+Em_Del[6] <= lpm_counter45:inst.q[6]
+Em_Del[7] <= lpm_counter45:inst.q[7]
+
+
+|Par_Gen_Emul|lpm_counter45:inst
+aload => aload~0.IN1
+clock => clock~0.IN1
+cnt_en => cnt_en~0.IN1
+data[0] => data[0]~7.IN1
+data[1] => data[1]~6.IN1
+data[2] => data[2]~5.IN1
+data[3] => data[3]~4.IN1
+data[4] => data[4]~3.IN1
+data[5] => data[5]~2.IN1
+data[6] => data[6]~1.IN1
+data[7] => data[7]~0.IN1
+sload => sload~0.IN1
+cout <= lpm_counter:lpm_counter_component.cout
+q[0] <= lpm_counter:lpm_counter_component.q
+q[1] <= lpm_counter:lpm_counter_component.q
+q[2] <= lpm_counter:lpm_counter_component.q
+q[3] <= lpm_counter:lpm_counter_component.q
+q[4] <= lpm_counter:lpm_counter_component.q
+q[5] <= lpm_counter:lpm_counter_component.q
+q[6] <= lpm_counter:lpm_counter_component.q
+q[7] <= lpm_counter:lpm_counter_component.q
+
+
+|Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component
+clock => cntr_oik:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => cntr_oik:auto_generated.cnt_en
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => cntr_oik:auto_generated.aload
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => cntr_oik:auto_generated.sload
+data[0] => cntr_oik:auto_generated.data[0]
+data[1] => cntr_oik:auto_generated.data[1]
+data[2] => cntr_oik:auto_generated.data[2]
+data[3] => cntr_oik:auto_generated.data[3]
+data[4] => cntr_oik:auto_generated.data[4]
+data[5] => cntr_oik:auto_generated.data[5]
+data[6] => cntr_oik:auto_generated.data[6]
+data[7] => cntr_oik:auto_generated.data[7]
+cin => ~NO_FANOUT~
+q[0] <= cntr_oik:auto_generated.q[0]
+q[1] <= cntr_oik:auto_generated.q[1]
+q[2] <= cntr_oik:auto_generated.q[2]
+q[3] <= cntr_oik:auto_generated.q[3]
+q[4] <= cntr_oik:auto_generated.q[4]
+q[5] <= cntr_oik:auto_generated.q[5]
+q[6] <= cntr_oik:auto_generated.q[6]
+q[7] <= cntr_oik:auto_generated.q[7]
+cout <= cntr_oik:auto_generated.cout
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component|cntr_oik:auto_generated
+aload => aclr_actual.IN1
+clock => counter_reg_bit[7].CLK
+clock => counter_reg_bit[6].CLK
+clock => counter_reg_bit[5].CLK
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+cout <= cout_actual.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= safe_q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= safe_q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= safe_q[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= safe_q[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= safe_q[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= safe_q[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= safe_q[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= safe_q[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Par_Gen_Emul|lpm_constant22:inst1
+result[0] <= lpm_constant:lpm_constant_component.result
+result[1] <= lpm_constant:lpm_constant_component.result
+result[2] <= lpm_constant:lpm_constant_component.result
+result[3] <= lpm_constant:lpm_constant_component.result
+result[4] <= lpm_constant:lpm_constant_component.result
+result[5] <= lpm_constant:lpm_constant_component.result
+result[6] <= lpm_constant:lpm_constant_component.result
+result[7] <= lpm_constant:lpm_constant_component.result
+
+
+|Par_Gen_Emul|lpm_constant22:inst1|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <VCC>
+result[3] <= <GND>
+result[4] <= <VCC>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+

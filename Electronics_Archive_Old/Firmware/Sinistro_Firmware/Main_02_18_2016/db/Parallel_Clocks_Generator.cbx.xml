@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Parallel_Clocks_Generator">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst43|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_ram_dq1:inst56|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ggi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst10|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst18|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst23|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst45|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_counter4:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_9bj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst15|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst6|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_counter5:inst36|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_uaj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_mux9:inst69|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_upc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst12|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_compare3:inst21|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_counter34:inst121|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_3nl.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Parallel_Clocks_Generator|lpm_decode0:inst16|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_svf.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

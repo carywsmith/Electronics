@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Par_Gen_Emul">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Par_Gen_Emul|lpm_constant22:inst1|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Par_Gen_Emul|lpm_counter45:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_oik.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

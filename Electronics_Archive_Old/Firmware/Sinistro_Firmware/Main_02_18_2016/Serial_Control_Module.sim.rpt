@@ -1,0 +1,398 @@
+Simulator report for Serial_Control_Module
+Mon Mar 14 13:24:43 2011
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 10.0 us      ;
+; Simulation Netlist Size     ; 170 nodes    ;
+; Simulation Coverage         ;      72.93 % ;
+; Total Number of Transitions ; 6852         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C5F256C6  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ALTSYNCRAM ;
++---------------------------------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      72.93 % ;
+; Total nodes checked                                 ; 170          ;
+; Total output ports checked                          ; 181          ;
+; Total output ports with complete 1/0-value coverage ; 132          ;
+; Total output ports with no 1/0-value coverage       ; 44           ;
+; Total output ports with no 1-value coverage         ; 46           ;
+; Total output ports with no 0-value coverage         ; 47           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                               ;
++-------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                               ; Output Port Name                                                                                                             ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a3   ; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|q_a[3]              ; portadataout0    ;
+; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a2   ; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|q_a[2]              ; portadataout0    ;
+; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a1   ; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|q_a[1]              ; portadataout0    ;
+; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|ram_block1a0   ; |Serial_Control_Module|lpm_ram_dq0:inst53|altsyncram:altsyncram_component|altsyncram_c7j1:auto_generated|q_a[0]              ; portadataout0    ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[4] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[4]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[3] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[3]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[2] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[2]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[1] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[1]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[0] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[0]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita0 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita0      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita0 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita1 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita1      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita1 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita2 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita2      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita2 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita3 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita3      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita3 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita3~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita4 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita4      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita4 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita4~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita5 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita5      ; combout          ;
+; |Serial_Control_Module|inst50                                                                                           ; |Serial_Control_Module|inst50                                                                                                ; q                ;
+; |Serial_Control_Module|inst46                                                                                           ; |Serial_Control_Module|inst46                                                                                                ; q                ;
+; |Serial_Control_Module|inst48                                                                                           ; |Serial_Control_Module|inst48                                                                                                ; q                ;
+; |Serial_Control_Module|inst59                                                                                           ; |Serial_Control_Module|inst59                                                                                                ; q                ;
+; |Serial_Control_Module|inst73                                                                                           ; |Serial_Control_Module|inst73                                                                                                ; combout          ;
+; |Serial_Control_Module|inst70                                                                                           ; |Serial_Control_Module|inst70                                                                                                ; q                ;
+; |Serial_Control_Module|inst75                                                                                           ; |Serial_Control_Module|inst75                                                                                                ; q                ;
+; |Serial_Control_Module|inst55                                                                                           ; |Serial_Control_Module|inst55                                                                                                ; combout          ;
+; |Serial_Control_Module|inst31                                                                                           ; |Serial_Control_Module|inst31                                                                                                ; q                ;
+; |Serial_Control_Module|inst32                                                                                           ; |Serial_Control_Module|inst32                                                                                                ; q                ;
+; |Serial_Control_Module|inst34                                                                                           ; |Serial_Control_Module|inst34                                                                                                ; combout          ;
+; |Serial_Control_Module|inst38                                                                                           ; |Serial_Control_Module|inst38                                                                                                ; combout          ;
+; |Serial_Control_Module|lpm_mux2:inst11|lpm_mux:lpm_mux_component|mux_1qc:auto_generated|result_node[0]~0                ; |Serial_Control_Module|lpm_mux2:inst11|lpm_mux:lpm_mux_component|mux_1qc:auto_generated|result_node[0]~0                     ; combout          ;
+; |Serial_Control_Module|lpm_mux2:inst15|lpm_mux:lpm_mux_component|mux_1qc:auto_generated|result_node[0]~0                ; |Serial_Control_Module|lpm_mux2:inst15|lpm_mux:lpm_mux_component|mux_1qc:auto_generated|result_node[0]~0                     ; combout          ;
+; |Serial_Control_Module|lpm_mux2:inst16|lpm_mux:lpm_mux_component|mux_1qc:auto_generated|result_node[0]~0                ; |Serial_Control_Module|lpm_mux2:inst16|lpm_mux:lpm_mux_component|mux_1qc:auto_generated|result_node[0]~0                     ; combout          ;
+; |Serial_Control_Module|inst4                                                                                            ; |Serial_Control_Module|inst4                                                                                                 ; q                ;
+; |Serial_Control_Module|inst9                                                                                            ; |Serial_Control_Module|inst9                                                                                                 ; q                ;
+; |Serial_Control_Module|inst61                                                                                           ; |Serial_Control_Module|inst61                                                                                                ; combout          ;
+; |Serial_Control_Module|inst60                                                                                           ; |Serial_Control_Module|inst60                                                                                                ; combout          ;
+; |Serial_Control_Module|inst6                                                                                            ; |Serial_Control_Module|inst6                                                                                                 ; q                ;
+; |Serial_Control_Module|inst71                                                                                           ; |Serial_Control_Module|inst71                                                                                                ; combout          ;
+; |Serial_Control_Module|inst72                                                                                           ; |Serial_Control_Module|inst72                                                                                                ; q                ;
+; |Serial_Control_Module|inst7                                                                                            ; |Serial_Control_Module|inst7                                                                                                 ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[11]                                 ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[11]                                      ; q                ;
+; |Serial_Control_Module|inst4~0                                                                                          ; |Serial_Control_Module|inst4~0                                                                                               ; combout          ;
+; |Serial_Control_Module|inst9~0                                                                                          ; |Serial_Control_Module|inst9~0                                                                                               ; combout          ;
+; |Serial_Control_Module|inst6~0                                                                                          ; |Serial_Control_Module|inst6~0                                                                                               ; combout          ;
+; |Serial_Control_Module|inst35~0                                                                                         ; |Serial_Control_Module|inst35~0                                                                                              ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[10]                                 ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[10]                                      ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[9]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[9]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[8]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[8]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[7]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[7]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[6]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[6]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[5]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[5]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[4]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[4]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[3]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[3]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[2]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[1]                                       ; q                ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                  ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[0]                                       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|_~2                ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|_~2                     ; combout          ;
+; |Serial_Control_Module|inst48~0                                                                                         ; |Serial_Control_Module|inst48~0                                                                                              ; combout          ;
+; |Serial_Control_Module|inst59~0                                                                                         ; |Serial_Control_Module|inst59~0                                                                                              ; combout          ;
+; |Serial_Control_Module|inst32~0                                                                                         ; |Serial_Control_Module|inst32~0                                                                                              ; combout          ;
+; |Serial_Control_Module|Addr_Cnt_Enbl~output                                                                             ; |Serial_Control_Module|Addr_Cnt_Enbl~output                                                                                  ; o                ;
+; |Serial_Control_Module|Addr_Cnt_Enbl                                                                                    ; |Serial_Control_Module|Addr_Cnt_Enbl                                                                                         ; padout           ;
+; |Serial_Control_Module|Ram_Rd~output                                                                                    ; |Serial_Control_Module|Ram_Rd~output                                                                                         ; o                ;
+; |Serial_Control_Module|Ram_Rd                                                                                           ; |Serial_Control_Module|Ram_Rd                                                                                                ; padout           ;
+; |Serial_Control_Module|Pixel_Started~output                                                                             ; |Serial_Control_Module|Pixel_Started~output                                                                                  ; o                ;
+; |Serial_Control_Module|Pixel_Started                                                                                    ; |Serial_Control_Module|Pixel_Started                                                                                         ; padout           ;
+; |Serial_Control_Module|RAM_Out[3]~output                                                                                ; |Serial_Control_Module|RAM_Out[3]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Out[3]                                                                                       ; |Serial_Control_Module|RAM_Out[3]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Out[2]~output                                                                                ; |Serial_Control_Module|RAM_Out[2]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Out[2]                                                                                       ; |Serial_Control_Module|RAM_Out[2]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Out[1]~output                                                                                ; |Serial_Control_Module|RAM_Out[1]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Out[1]                                                                                       ; |Serial_Control_Module|RAM_Out[1]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Out[0]~output                                                                                ; |Serial_Control_Module|RAM_Out[0]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Out[0]                                                                                       ; |Serial_Control_Module|RAM_Out[0]                                                                                            ; padout           ;
+; |Serial_Control_Module|Ram_Wr~output                                                                                    ; |Serial_Control_Module|Ram_Wr~output                                                                                         ; o                ;
+; |Serial_Control_Module|Ram_Wr                                                                                           ; |Serial_Control_Module|Ram_Wr                                                                                                ; padout           ;
+; |Serial_Control_Module|RAM_Addr[4]~output                                                                               ; |Serial_Control_Module|RAM_Addr[4]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[4]                                                                                      ; |Serial_Control_Module|RAM_Addr[4]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[3]~output                                                                               ; |Serial_Control_Module|RAM_Addr[3]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[3]                                                                                      ; |Serial_Control_Module|RAM_Addr[3]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[2]~output                                                                               ; |Serial_Control_Module|RAM_Addr[2]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[2]                                                                                      ; |Serial_Control_Module|RAM_Addr[2]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[1]~output                                                                               ; |Serial_Control_Module|RAM_Addr[1]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[1]                                                                                      ; |Serial_Control_Module|RAM_Addr[1]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[0]~output                                                                               ; |Serial_Control_Module|RAM_Addr[0]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[0]                                                                                      ; |Serial_Control_Module|RAM_Addr[0]                                                                                           ; padout           ;
+; |Serial_Control_Module|S_Clear~output                                                                                   ; |Serial_Control_Module|S_Clear~output                                                                                        ; o                ;
+; |Serial_Control_Module|S_Clear                                                                                          ; |Serial_Control_Module|S_Clear                                                                                               ; padout           ;
+; |Serial_Control_Module|Cnt_Pause~output                                                                                 ; |Serial_Control_Module|Cnt_Pause~output                                                                                      ; o                ;
+; |Serial_Control_Module|Cnt_Pause                                                                                        ; |Serial_Control_Module|Cnt_Pause                                                                                             ; padout           ;
+; |Serial_Control_Module|Pix_Bin~output                                                                                   ; |Serial_Control_Module|Pix_Bin~output                                                                                        ; o                ;
+; |Serial_Control_Module|Pix_Bin                                                                                          ; |Serial_Control_Module|Pix_Bin                                                                                               ; padout           ;
+; |Serial_Control_Module|Pix_Skip~output                                                                                  ; |Serial_Control_Module|Pix_Skip~output                                                                                       ; o                ;
+; |Serial_Control_Module|Pix_Skip                                                                                         ; |Serial_Control_Module|Pix_Skip                                                                                              ; padout           ;
+; |Serial_Control_Module|Pix_Acquire~output                                                                               ; |Serial_Control_Module|Pix_Acquire~output                                                                                    ; o                ;
+; |Serial_Control_Module|Pix_Acquire                                                                                      ; |Serial_Control_Module|Pix_Acquire                                                                                           ; padout           ;
+; |Serial_Control_Module|End_of_Line~output                                                                               ; |Serial_Control_Module|End_of_Line~output                                                                                    ; o                ;
+; |Serial_Control_Module|End_of_Line                                                                                      ; |Serial_Control_Module|End_of_Line                                                                                           ; padout           ;
+; |Serial_Control_Module|Clk_100~input                                                                                    ; |Serial_Control_Module|Clk_100~input                                                                                         ; o                ;
+; |Serial_Control_Module|Clk_100                                                                                          ; |Serial_Control_Module|Clk_100                                                                                               ; padout           ;
+; |Serial_Control_Module|Wr_n~input                                                                                       ; |Serial_Control_Module|Wr_n~input                                                                                            ; o                ;
+; |Serial_Control_Module|Wr_n                                                                                             ; |Serial_Control_Module|Wr_n                                                                                                  ; padout           ;
+; |Serial_Control_Module|RAM_Cs_n~input                                                                                   ; |Serial_Control_Module|RAM_Cs_n~input                                                                                        ; o                ;
+; |Serial_Control_Module|RAM_Cs_n                                                                                         ; |Serial_Control_Module|RAM_Cs_n                                                                                              ; padout           ;
+; |Serial_Control_Module|Dat[3]~input                                                                                     ; |Serial_Control_Module|Dat[3]~input                                                                                          ; o                ;
+; |Serial_Control_Module|Dat[3]                                                                                           ; |Serial_Control_Module|Dat[3]                                                                                                ; padout           ;
+; |Serial_Control_Module|Dat[2]~input                                                                                     ; |Serial_Control_Module|Dat[2]~input                                                                                          ; o                ;
+; |Serial_Control_Module|Dat[2]                                                                                           ; |Serial_Control_Module|Dat[2]                                                                                                ; padout           ;
+; |Serial_Control_Module|Dat[1]~input                                                                                     ; |Serial_Control_Module|Dat[1]~input                                                                                          ; o                ;
+; |Serial_Control_Module|Dat[1]                                                                                           ; |Serial_Control_Module|Dat[1]                                                                                                ; padout           ;
+; |Serial_Control_Module|Dat[0]~input                                                                                     ; |Serial_Control_Module|Dat[0]~input                                                                                          ; o                ;
+; |Serial_Control_Module|Dat[0]                                                                                           ; |Serial_Control_Module|Dat[0]                                                                                                ; padout           ;
+; |Serial_Control_Module|Block_n~input                                                                                    ; |Serial_Control_Module|Block_n~input                                                                                         ; o                ;
+; |Serial_Control_Module|Block_n                                                                                          ; |Serial_Control_Module|Block_n                                                                                               ; padout           ;
+; |Serial_Control_Module|Line_Start~input                                                                                 ; |Serial_Control_Module|Line_Start~input                                                                                      ; o                ;
+; |Serial_Control_Module|Line_Start                                                                                       ; |Serial_Control_Module|Line_Start                                                                                            ; padout           ;
+; |Serial_Control_Module|Pixel_End~input                                                                                  ; |Serial_Control_Module|Pixel_End~input                                                                                       ; o                ;
+; |Serial_Control_Module|Pixel_End                                                                                        ; |Serial_Control_Module|Pixel_End                                                                                             ; padout           ;
+; |Serial_Control_Module|inst7~clkctrl                                                                                    ; |Serial_Control_Module|inst7~clkctrl                                                                                         ; outclk           ;
+; |Serial_Control_Module|Clk_100~inputclkctrl                                                                             ; |Serial_Control_Module|Clk_100~inputclkctrl                                                                                  ; outclk           ;
+; |Serial_Control_Module|inst75~feeder                                                                                    ; |Serial_Control_Module|inst75~feeder                                                                                         ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[10]~feeder                          ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[10]~feeder                               ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[7]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[7]~feeder                                ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[6]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[6]~feeder                                ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[5]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[5]~feeder                                ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[4]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[4]~feeder                                ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[3]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[3]~feeder                                ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[2]~feeder                                ; combout          ;
+; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[1]~feeder                           ; |Serial_Control_Module|lpm_shiftreg15:inst|lpm_shiftreg:lpm_shiftreg_component|dffs[1]~feeder                                ; combout          ;
++-------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                                    ;
++--------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                ; Output Port Name                                                                                                              ; Output Port Type ;
++--------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[12] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[12]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[11] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[11]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[10] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[10]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[9]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[9]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[8]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[8]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[7]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[7]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[6]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[6]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[5]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[5]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita5  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita5~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita12 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita12      ; combout          ;
+; |Serial_Control_Module|~GND                                                                                              ; |Serial_Control_Module|~GND                                                                                                   ; combout          ;
+; |Serial_Control_Module|RAM_Addr[12]~output                                                                               ; |Serial_Control_Module|RAM_Addr[12]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[12]                                                                                      ; |Serial_Control_Module|RAM_Addr[12]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[11]~output                                                                               ; |Serial_Control_Module|RAM_Addr[11]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[11]                                                                                      ; |Serial_Control_Module|RAM_Addr[11]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[10]~output                                                                               ; |Serial_Control_Module|RAM_Addr[10]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[10]                                                                                      ; |Serial_Control_Module|RAM_Addr[10]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[9]~output                                                                                ; |Serial_Control_Module|RAM_Addr[9]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[9]                                                                                       ; |Serial_Control_Module|RAM_Addr[9]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[8]~output                                                                                ; |Serial_Control_Module|RAM_Addr[8]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[8]                                                                                       ; |Serial_Control_Module|RAM_Addr[8]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[7]~output                                                                                ; |Serial_Control_Module|RAM_Addr[7]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[7]                                                                                       ; |Serial_Control_Module|RAM_Addr[7]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[6]~output                                                                                ; |Serial_Control_Module|RAM_Addr[6]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[6]                                                                                       ; |Serial_Control_Module|RAM_Addr[6]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[5]~output                                                                                ; |Serial_Control_Module|RAM_Addr[5]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[5]                                                                                       ; |Serial_Control_Module|RAM_Addr[5]                                                                                            ; padout           ;
+; |Serial_Control_Module|Rd_n                                                                                              ; |Serial_Control_Module|Rd_n                                                                                                   ; padout           ;
+; |Serial_Control_Module|Cleaning~input                                                                                    ; |Serial_Control_Module|Cleaning~input                                                                                         ; o                ;
+; |Serial_Control_Module|Cleaning                                                                                          ; |Serial_Control_Module|Cleaning                                                                                               ; padout           ;
+; |Serial_Control_Module|SRg_Flashing~input                                                                                ; |Serial_Control_Module|SRg_Flashing~input                                                                                     ; o                ;
+; |Serial_Control_Module|SRg_Flashing                                                                                      ; |Serial_Control_Module|SRg_Flashing                                                                                           ; padout           ;
+; |Serial_Control_Module|Addr_Cnt_Reset~input                                                                              ; |Serial_Control_Module|Addr_Cnt_Reset~input                                                                                   ; o                ;
+; |Serial_Control_Module|Addr_Cnt_Reset                                                                                    ; |Serial_Control_Module|Addr_Cnt_Reset                                                                                         ; padout           ;
++--------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                                                    ;
++--------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                ; Output Port Name                                                                                                              ; Output Port Type ;
++--------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[12] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[12]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[11] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[11]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[10] ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[10]      ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[9]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[9]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[8]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[8]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[7]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[7]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[6]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[6]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[5]  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_reg_bit[5]       ; q                ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita5  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita5~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita6~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita7~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita8~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9       ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9  ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita9~COUT  ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita10~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11      ; combout          ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita11~COUT ; cout             ;
+; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita12 ; |Serial_Control_Module|lpm_counter5:inst36|lpm_counter:lpm_counter_component|cntr_uaj:auto_generated|counter_comb_bita12      ; combout          ;
+; |Serial_Control_Module|~GND                                                                                              ; |Serial_Control_Module|~GND                                                                                                   ; combout          ;
+; |Serial_Control_Module|RAM_Addr[12]~output                                                                               ; |Serial_Control_Module|RAM_Addr[12]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[12]                                                                                      ; |Serial_Control_Module|RAM_Addr[12]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[11]~output                                                                               ; |Serial_Control_Module|RAM_Addr[11]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[11]                                                                                      ; |Serial_Control_Module|RAM_Addr[11]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[10]~output                                                                               ; |Serial_Control_Module|RAM_Addr[10]~output                                                                                    ; o                ;
+; |Serial_Control_Module|RAM_Addr[10]                                                                                      ; |Serial_Control_Module|RAM_Addr[10]                                                                                           ; padout           ;
+; |Serial_Control_Module|RAM_Addr[9]~output                                                                                ; |Serial_Control_Module|RAM_Addr[9]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[9]                                                                                       ; |Serial_Control_Module|RAM_Addr[9]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[8]~output                                                                                ; |Serial_Control_Module|RAM_Addr[8]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[8]                                                                                       ; |Serial_Control_Module|RAM_Addr[8]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[7]~output                                                                                ; |Serial_Control_Module|RAM_Addr[7]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[7]                                                                                       ; |Serial_Control_Module|RAM_Addr[7]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[6]~output                                                                                ; |Serial_Control_Module|RAM_Addr[6]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[6]                                                                                       ; |Serial_Control_Module|RAM_Addr[6]                                                                                            ; padout           ;
+; |Serial_Control_Module|RAM_Addr[5]~output                                                                                ; |Serial_Control_Module|RAM_Addr[5]~output                                                                                     ; o                ;
+; |Serial_Control_Module|RAM_Addr[5]                                                                                       ; |Serial_Control_Module|RAM_Addr[5]                                                                                            ; padout           ;
+; |Serial_Control_Module|Rd_n                                                                                              ; |Serial_Control_Module|Rd_n                                                                                                   ; padout           ;
+; |Serial_Control_Module|Cleaning~input                                                                                    ; |Serial_Control_Module|Cleaning~input                                                                                         ; o                ;
+; |Serial_Control_Module|Cleaning                                                                                          ; |Serial_Control_Module|Cleaning                                                                                               ; padout           ;
+; |Serial_Control_Module|SRg_Flashing~input                                                                                ; |Serial_Control_Module|SRg_Flashing~input                                                                                     ; o                ;
+; |Serial_Control_Module|SRg_Flashing                                                                                      ; |Serial_Control_Module|SRg_Flashing                                                                                           ; padout           ;
+; |Serial_Control_Module|Reset_n~input                                                                                     ; |Serial_Control_Module|Reset_n~input                                                                                          ; o                ;
+; |Serial_Control_Module|Reset_n                                                                                           ; |Serial_Control_Module|Reset_n                                                                                                ; padout           ;
+; |Serial_Control_Module|Reset_n~inputclkctrl                                                                              ; |Serial_Control_Module|Reset_n~inputclkctrl                                                                                   ; outclk           ;
++--------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
+    Info: Processing started: Mon Mar 14 13:24:41 2011
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Serial_Control_Module -c Serial_Control_Module
+Info: Using vector source file "C:/altera/91/qdesigns/Main_03_11_2011_A/Serial_Control_Module.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of Serial_Control_Module.vwf called Serial_Control_Module.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      72.93 %
+Info: Number of transitions in simulation is 6852
+Info: Vector file Serial_Control_Module.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 117 megabytes
+    Info: Processing ended: Mon Mar 14 13:24:43 2011
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
